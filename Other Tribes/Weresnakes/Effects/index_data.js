@@ -1,0 +1,1 @@
+window.PAGE={"root":"../../../","title":"Weresnakes | Effects","crumbs":[["Home","index.html"],["Other Tribes","Other Tribes/index.html"],["Weresnakes","Other Tribes/Weresnakes/index.html"],["Effects",""]],"rows":[],"cols":["DISPLAY_NAME","SUBCATEGORY","BMD","PALETTE","FRAMES","STATUS"],"filters":["STATUS"],"prev":null,"next":null};

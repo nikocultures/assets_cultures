@@ -1,0 +1,880 @@
+{
+  "nativeName": "byzantine tower",
+  "tribe": "Byzantines",
+  "nativeTribeId": 3,
+  "gfxHouseId": 60,
+  "logicDefinitions": {
+    "40": {
+      "section": "logichousetype",
+      "commands": [
+        {
+          "name": "debugname",
+          "arguments": [
+            "tower 00"
+          ]
+        },
+        {
+          "name": "logictype",
+          "arguments": [
+            40
+          ]
+        },
+        {
+          "name": "logicmaintype",
+          "arguments": [
+            5
+          ]
+        },
+        {
+          "name": "logicworker",
+          "arguments": [
+            40,
+            3
+          ]
+        },
+        {
+          "name": "logicworker",
+          "arguments": [
+            41,
+            3
+          ]
+        },
+        {
+          "name": "logicworker",
+          "arguments": [
+            24,
+            3
+          ]
+        },
+        {
+          "name": "logicstock",
+          "arguments": [
+            39,
+            25,
+            0
+          ]
+        },
+        {
+          "name": "logicstock",
+          "arguments": [
+            40,
+            25,
+            0
+          ]
+        },
+        {
+          "name": "logicstock",
+          "arguments": [
+            41,
+            25,
+            0
+          ]
+        },
+        {
+          "name": "logicstock",
+          "arguments": [
+            42,
+            25,
+            0
+          ]
+        },
+        {
+          "name": "logicstock",
+          "arguments": [
+            37,
+            25,
+            0
+          ]
+        },
+        {
+          "name": "logicstock",
+          "arguments": [
+            38,
+            25,
+            0
+          ]
+        },
+        {
+          "name": "debugcolor",
+          "arguments": [
+            0,
+            0,
+            100
+          ]
+        },
+        {
+          "name": "logiccanenabledefencemode",
+          "arguments": [
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "definition": {
+    "section": "gfxhouse",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "byzantine tower"
+        ]
+      },
+      {
+        "name": "editgroups",
+        "arguments": [
+          "byzantine"
+        ]
+      },
+      {
+        "name": "logicmaximumsize",
+        "arguments": [
+          1
+        ]
+      },
+      {
+        "name": "logictype",
+        "arguments": [
+          0,
+          40
+        ]
+      },
+      {
+        "name": "logictribetype",
+        "arguments": [
+          3
+        ]
+      },
+      {
+        "name": "logichitpoints",
+        "arguments": [
+          0,
+          14000
+        ]
+      },
+      {
+        "name": "logicconstructiongoods",
+        "arguments": [
+          0,
+          4,
+          5,
+          5,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -1,
+          -8,
+          3
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -2,
+          -7,
+          4
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -2,
+          -6,
+          5
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -2,
+          -5,
+          5
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -2,
+          -4,
+          5
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -2,
+          -3,
+          5
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -2,
+          -2,
+          5
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -3,
+          -1,
+          6
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -2,
+          0,
+          6
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -2,
+          1,
+          5
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "logicdoorpoint",
+        "arguments": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -1,
+          -7,
+          2
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -1,
+          -6,
+          3
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -1,
+          -5,
+          3
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -1,
+          -4,
+          3
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -1,
+          -3,
+          3
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -1,
+          -2,
+          3
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -2,
+          -1,
+          4
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -1,
+          0,
+          2
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          -1,
+          -8,
+          3
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          -2,
+          -7,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          1,
+          -7,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          2,
+          -6,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          -2,
+          -5,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          2,
+          -4,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          -2,
+          -3,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          -2,
+          -2,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          2,
+          -2,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          2,
+          -1,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          -2,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          -2,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          0,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "gfxboblibs",
+        "arguments": [
+          "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+          "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2_s.bmd"
+        ]
+      },
+      {
+        "name": "gfxpalette",
+        "arguments": [
+          "house_byzantine01",
+          "house_byzantine02"
+        ]
+      },
+      {
+        "name": "gfxbobid",
+        "arguments": [
+          0,
+          44
+        ]
+      },
+      {
+        "name": "gfxshadingfactor",
+        "arguments": [
+          0.1
+        ]
+      },
+      {
+        "name": "gfxbobconstructionlayer",
+        "arguments": [
+          0,
+          0,
+          45,
+          -1,
+          0,
+          100
+        ]
+      },
+      {
+        "name": "gfxbobconstructionlayer",
+        "arguments": [
+          0,
+          0,
+          46,
+          -1,
+          0,
+          100
+        ]
+      },
+      {
+        "name": "gfxbobconstructionlayer",
+        "arguments": [
+          0,
+          0,
+          44,
+          47,
+          6,
+          100
+        ]
+      },
+      {
+        "name": "gfxdoorbobid",
+        "arguments": [
+          0,
+          1,
+          66
+        ]
+      },
+      {
+        "name": "gfxflagpoint",
+        "arguments": [
+          0,
+          12,
+          24
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          19,
+          -213
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -25,
+          -205
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          11,
+          -181
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -33,
+          -119
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          47,
+          -91
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          27,
+          -51
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -39,
+          -1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -37,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          53,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -29,
+          6,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -19,
+          8,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          33,
+          8,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -13,
+          10,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          25,
+          12,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          5,
+          14,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          17,
+          14,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          1,
+          -44,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          11,
+          -44,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -7,
+          -42,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -15,
+          -40,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          21,
+          -40,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -23,
+          -38,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          27,
+          -38,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          37,
+          -36,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          39,
+          -34,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -29,
+          -32,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          47,
+          -26,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -41,
+          -24,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          49,
+          -20,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          49,
+          -10,
+          0
+        ]
+      },
+      {
+        "name": "arrowslotdata",
+        "arguments": [
+          23,
+          218
+        ]
+      },
+      {
+        "name": "arrowslotdata",
+        "arguments": [
+          0,
+          202
+        ]
+      },
+      {
+        "name": "arrowslotdata",
+        "arguments": [
+          50,
+          202
+        ]
+      }
+    ]
+  },
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1024,
+    "entryName": "data\\engine2d\\inis\\houses\\houses.cif",
+    "offset": 192918316,
+    "size": 551993,
+    "sha256": "f3f31ed43411c3a48c2636506aef93fa4312ed130f50de0a1061c19bb90e606d"
+  },
+  "levels": [
+    "Byzantines/Buildings/Tower_gfx60/level_0/metadata.json"
+  ],
+  "overall": "PARTIAL",
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "folder": "Byzantines/Buildings/Tower_gfx60",
+  "sourceAssetExport": "PARTIAL"
+}

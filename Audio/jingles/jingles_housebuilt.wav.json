@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 902,
+  "entryName": "data\\engine2d\\bin\\sounds\\jingles\\jingles_housebuilt.wav",
+  "offset": 175901700,
+  "size": 202118,
+  "sha256": "ffefafe533be1c5c622a55e4d07252c24ffb862dcd91b36a4917f4112d8496a4"
+ },
+ "output": "Audio/jingles/jingles_housebuilt.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 202060,
+  "durationSeconds": 4.582,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxjingle",
+   "sectionOrdinal": 20,
+   "name": "",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": 26
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxjingle",
+   "sectionOrdinal": 20,
+   "name": "",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": 26
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Music jingles",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

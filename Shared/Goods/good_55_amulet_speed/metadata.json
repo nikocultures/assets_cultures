@@ -1,0 +1,1113 @@
+{
+ "goodId": 55,
+ "nativeName": "amulet_speed",
+ "english": "Wind Amulet",
+ "englishPlural": "Wind Amulets",
+ "definition": {
+  "section": "goodtype",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "amulet_speed"
+    ]
+   },
+   {
+    "name": "type",
+    "arguments": [
+     55
+    ]
+   },
+   {
+    "name": "landscapetype",
+    "arguments": [
+     78
+    ]
+   }
+  ]
+ },
+ "landscapeType": 78,
+ "resolvedGfxLandscape": 234,
+ "resolvedGfxLandscapeName": "amulett speed",
+ "resolutionRule": "Game 0x00415565: first pileable GfxLandscape with logictype == landscapetype (Goods 0..55 only)",
+ "pileMetadata": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/metadata.json",
+ "pileValencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "bobId": 154,
+     "path": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000154.png",
+     "shadowMask": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000154__shadow_mask.png",
+     "width": 47,
+     "height": 32,
+     "pivot": [
+      23,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "bobId": 153,
+     "path": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000153.png",
+     "shadowMask": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000153__shadow_mask.png",
+     "width": 47,
+     "height": 32,
+     "pivot": [
+      23,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "bobId": 152,
+     "path": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000152.png",
+     "shadowMask": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000152__shadow_mask.png",
+     "width": 35,
+     "height": 25,
+     "pivot": [
+      11,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "bobId": 151,
+     "path": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000151.png",
+     "shadowMask": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000151__shadow_mask.png",
+     "width": 34,
+     "height": 25,
+     "pivot": [
+      11,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "bobId": 150,
+     "path": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000150.png",
+     "shadowMask": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000150__shadow_mask.png",
+     "width": 28,
+     "height": 22,
+     "pivot": [
+      5,
+      11
+     ]
+    }
+   ]
+  }
+ ],
+ "icon": {
+  "sequenceIndex": 0,
+  "bobId": 150,
+  "width": 28,
+  "height": 22,
+  "pivot": [
+   5,
+   11
+  ],
+  "pixelKind": 4,
+  "path": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000150.png",
+  "kind4Secondary": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000150__kind4_secondary.png",
+  "shadowMask": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000150__shadow_mask.png",
+  "shadowPivot": [
+   5,
+   6
+  ],
+  "valency": 1,
+  "presentation": "UI: BOB bounds centred then +(12,8) (0x004E2661/0x00496D32); first frame of group (loop phase 0)"
+ },
+ "iconNote": "No separate icon sprite: native UI draws the pile landscape frame (see icon.presentation)",
+ "palette": [
+  "goods_longsword"
+ ],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "harvest": {},
+ "production": {
+  "productionInputGoods": [],
+  "atomicForProduction": null,
+  "isProducedInHouse": null,
+  "isProducedOnMap": null
+ },
+ "weaponType": null,
+ "armorType": null,
+ "carriedVisual": {
+  "rule": "GfxWalkAtomic logicgoodtype == Good id; carried good is baked into the Human body frames (no separate overlay sprite)",
+  "humanRandomPalette": null,
+  "humanRandomPaletteRule": null,
+  "animations": [
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "6",
+    "NATIVE_NAME": "civilist",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "6",
+    "NATIVE_NAME": "civilist",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "7",
+    "NATIVE_NAME": "builder",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "7",
+    "NATIVE_NAME": "builder",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "8",
+    "NATIVE_NAME": "collector",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "8",
+    "NATIVE_NAME": "collector",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "9",
+    "NATIVE_NAME": "joiner",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "9",
+    "NATIVE_NAME": "joiner",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "10",
+    "NATIVE_NAME": "armorer",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "10",
+    "NATIVE_NAME": "armorer",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "11",
+    "NATIVE_NAME": "potter",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "11",
+    "NATIVE_NAME": "potter",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "12",
+    "NATIVE_NAME": "mason",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "12",
+    "NATIVE_NAME": "mason",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "13",
+    "NATIVE_NAME": "smith",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "13",
+    "NATIVE_NAME": "smith",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "14",
+    "NATIVE_NAME": "coin maker",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "14",
+    "NATIVE_NAME": "coin maker",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "15",
+    "NATIVE_NAME": "hunter",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "15",
+    "NATIVE_NAME": "hunter",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "16",
+    "NATIVE_NAME": "breeder",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "16",
+    "NATIVE_NAME": "breeder",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "17",
+    "NATIVE_NAME": "sewer",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "17",
+    "NATIVE_NAME": "sewer",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "18",
+    "NATIVE_NAME": "farmer",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "18",
+    "NATIVE_NAME": "farmer",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "19",
+    "NATIVE_NAME": "miller",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "19",
+    "NATIVE_NAME": "miller",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "20",
+    "NATIVE_NAME": "baker",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "20",
+    "NATIVE_NAME": "baker",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "21",
+    "NATIVE_NAME": "brewer",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "21",
+    "NATIVE_NAME": "brewer",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "22",
+    "NATIVE_NAME": "fisher",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "22",
+    "NATIVE_NAME": "fisher",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "23",
+    "NATIVE_NAME": "fisher_sea",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "23",
+    "NATIVE_NAME": "fisher_sea",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "24",
+    "NATIVE_NAME": "carrier",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "24",
+    "NATIVE_NAME": "carrier",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "25",
+    "NATIVE_NAME": "trader",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "25",
+    "NATIVE_NAME": "trader",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "26",
+    "NATIVE_NAME": "trader_sea",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "26",
+    "NATIVE_NAME": "trader_sea",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "27",
+    "NATIVE_NAME": "scout",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_80__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "27",
+    "NATIVE_NAME": "scout",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_80__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "28",
+    "NATIVE_NAME": "jester",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "28",
+    "NATIVE_NAME": "jester",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "29",
+    "NATIVE_NAME": "herb & mush guy",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "29",
+    "NATIVE_NAME": "herb & mush guy",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "30",
+    "NATIVE_NAME": "druid",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_90__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "30",
+    "NATIVE_NAME": "druid",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1245",
+    "BODY_SEQUENCE": "human_man_generic_walk_tile",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_90__test_human_00/j06_W055_human_man_generic_walk_tile_s1245.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "31",
+    "NATIVE_NAME": "soldier_unarmed",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "31",
+    "NATIVE_NAME": "soldier_unarmed",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "32",
+    "NATIVE_NAME": "soldier_spear_wooden",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1197",
+    "BODY_SEQUENCE": "human_man_Warrior_spear_walk_agressive",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j32_W055_human_man_Warrior_spear_walk_agressive_s1197.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "32",
+    "NATIVE_NAME": "soldier_spear_wooden",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1197",
+    "BODY_SEQUENCE": "human_man_Warrior_spear_walk_agressive",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j32_W055_human_man_Warrior_spear_walk_agressive_s1197.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "33",
+    "NATIVE_NAME": "soldier_spear_iron",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1337",
+    "BODY_SEQUENCE": "human_man_Warrior_spear_walk_agressive",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j33_W055_human_man_Warrior_spear_walk_agressive_s1337.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "33",
+    "NATIVE_NAME": "soldier_spear_iron",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1337",
+    "BODY_SEQUENCE": "human_man_Warrior_spear_walk_agressive",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j33_W055_human_man_Warrior_spear_walk_agressive_s1337.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "34",
+    "NATIVE_NAME": "soldier_sword_short",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1312",
+    "BODY_SEQUENCE": "human_man_Warrior_Sword_Walk_agressive",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j34_W055_human_man_Warrior_Sword_Walk_agressive_s1312.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "34",
+    "NATIVE_NAME": "soldier_sword_short",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1312",
+    "BODY_SEQUENCE": "human_man_Warrior_Sword_Walk_agressive",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j34_W055_human_man_Warrior_Sword_Walk_agressive_s1312.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "35",
+    "NATIVE_NAME": "soldier_sword_long",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1287",
+    "BODY_SEQUENCE": "human_man_Warrior_Broadsword_walk_agressive",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j35_W055_human_man_Warrior_Broadsword_walk_agressive_s1287.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "35",
+    "NATIVE_NAME": "soldier_sword_long",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1287",
+    "BODY_SEQUENCE": "human_man_Warrior_Broadsword_walk_agressive",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j35_W055_human_man_Warrior_Broadsword_walk_agressive_s1287.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "36",
+    "NATIVE_NAME": "soldier_saber_short",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "36",
+    "NATIVE_NAME": "soldier_saber_short",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "37",
+    "NATIVE_NAME": "soldier_saber_long",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "37",
+    "NATIVE_NAME": "soldier_saber_long",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "38",
+    "NATIVE_NAME": "soldier_axe_small",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "38",
+    "NATIVE_NAME": "soldier_axe_small",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "39",
+    "NATIVE_NAME": "soldier_axe_big",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "39",
+    "NATIVE_NAME": "soldier_axe_big",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "40",
+    "NATIVE_NAME": "soldier_bow_short",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1387",
+    "BODY_SEQUENCE": "human_man_Warrior_Shortbow_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j40_W055_human_man_Warrior_Shortbow_walk_s1387.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "40",
+    "NATIVE_NAME": "soldier_bow_short",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1387",
+    "BODY_SEQUENCE": "human_man_Warrior_Shortbow_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j40_W055_human_man_Warrior_Shortbow_walk_s1387.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "41",
+    "NATIVE_NAME": "soldier_bow_long",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1362",
+    "BODY_SEQUENCE": "human_man_Warrior_Longbow_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j41_W055_human_man_Warrior_Longbow_walk_s1362.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "41",
+    "NATIVE_NAME": "soldier_bow_long",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1362",
+    "BODY_SEQUENCE": "human_man_Warrior_Longbow_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j41_W055_human_man_Warrior_Longbow_walk_s1362.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "42",
+    "NATIVE_NAME": "hero_unarmed_???",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "42",
+    "NATIVE_NAME": "hero_unarmed_???",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "43",
+    "NATIVE_NAME": "hero_spear_SIEGFRIED",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1337",
+    "BODY_SEQUENCE": "human_man_Warrior_spear_walk_agressive",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j33_W055_human_man_Warrior_spear_walk_agressive_s1337.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "43",
+    "NATIVE_NAME": "hero_spear_SIEGFRIED",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1337",
+    "BODY_SEQUENCE": "human_man_Warrior_spear_walk_agressive",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j33_W055_human_man_Warrior_spear_walk_agressive_s1337.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "44",
+    "NATIVE_NAME": "hero_sword_BJARNI",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1312",
+    "BODY_SEQUENCE": "human_man_Warrior_Sword_Walk_agressive",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "44",
+    "NATIVE_NAME": "hero_sword_BJARNI",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1312",
+    "BODY_SEQUENCE": "human_man_Warrior_Sword_Walk_agressive",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j34_W055_human_man_Warrior_Sword_Walk_agressive_s1312.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "45",
+    "NATIVE_NAME": "hero_saber_HATSCHI",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1287",
+    "BODY_SEQUENCE": "human_man_Warrior_Broadsword_walk_agressive",
+    "SHEET": "",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "45",
+    "NATIVE_NAME": "hero_saber_HATSCHI",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1287",
+    "BODY_SEQUENCE": "human_man_Warrior_Broadsword_walk_agressive",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j35_W055_human_man_Warrior_Broadsword_walk_agressive_s1287.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "46",
+    "NATIVE_NAME": "hero_axe_???",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "46",
+    "NATIVE_NAME": "hero_axe_???",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1172",
+    "BODY_SEQUENCE": "human_man_warrior_empty_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j31_W055_human_man_warrior_empty_walk_s1172.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "47",
+    "NATIVE_NAME": "heroine_bow_XENA",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1362",
+    "BODY_SEQUENCE": "human_man_Warrior_Longbow_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j41_W055_human_man_Warrior_Longbow_walk_s1362.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "47",
+    "NATIVE_NAME": "heroine_bow_XENA",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1362",
+    "BODY_SEQUENCE": "human_man_Warrior_Longbow_walk",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_05+cr_hum_head_05__test_human_00/j41_W055_human_man_Warrior_Longbow_walk_s1362.png",
+    "STATUS": "RENDERED"
+   }
+  ]
+ },
+ "consumers": {
+  "productionInputOf": [],
+  "houseConstruction": [],
+  "source": "goodtypes.cif productioninputgoods; tribetypes.cif tobuildhouseneedgood (house, goods...)"
+ },
+ "nativeJobRelations": [],
+ "tribeOwnership": [],
+ "ownership": "SHARED (Good table is global; per-tribe availability in tribeOwnership)",
+ "confidence": {
+  "nativeTable": "SOURCE_COMPLETE",
+  "pile": "PIXEL_CONFIRMED frames",
+  "icon": "SOURCE_COMPLETE (production rule)",
+  "carried": "SOURCE_COMPLETE (walk records)"
+ },
+ "source": {
+  "goodtypes": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 1724,
+   "entryName": "data\\logic\\goodtypes.cif",
+   "offset": 202500688,
+   "size": 13316,
+   "sha256": "817d4e5abffb1c868f5acab09ce48b44a296b9841c7cc1cc9a71077eacf3458c"
+  },
+  "goodgraphics": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 914,
+   "entryName": "data\\engine2d\\inis\\goods\\goodgraphics.cif",
+   "offset": 192915250,
+   "size": 3066,
+   "sha256": "af62963c314891c2aab24e4e51ad2bb61e28e03c0fa15ae68b640d82e3e0f6a3"
+  }
+ }
+}

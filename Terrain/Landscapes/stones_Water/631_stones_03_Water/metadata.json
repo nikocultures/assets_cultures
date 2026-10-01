@@ -1,0 +1,470 @@
+{
+ "gfxLandscapeId": 631,
+ "nativeName": "stones 03 Water",
+ "editGroups": [
+  [
+   "stones Water"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeName": "void",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "void"
+    ]
+   },
+   {
+    "name": "allowedoneverything",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     117,
+     117,
+     117
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_ground.bmd",
+ "shadowLibrary": null,
+ "palettes": [
+  "rockWater"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [],
+ "maximumValency": 4,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "stones 03 Water"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "stones Water"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     4,
+     -1,
+     -1,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     4,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     4,
+     -1,
+     1,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     3,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     3,
+     -1,
+     1,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     2,
+     0,
+     0,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     4,
+     -1,
+     -2,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     4,
+     -2,
+     -1,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     4,
+     -2,
+     0,
+     5
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     4,
+     -2,
+     1,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     4,
+     -1,
+     2,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -2,
+     -1,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -2,
+     0,
+     5
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -2,
+     1,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -1,
+     2,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     2,
+     -1,
+     -1,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     2,
+     -1,
+     0,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     2,
+     -1,
+     1,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     0,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_ground.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "rockWater"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     12
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     27
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     28
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     29
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 12,
+     "width": 101,
+     "height": 57,
+     "pivot": [
+      47,
+      29
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/stones_Water/631_stones_03_Water/bob_000012.png"
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 27,
+     "width": 101,
+     "height": 49,
+     "pivot": [
+      47,
+      21
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/stones_Water/631_stones_03_Water/bob_000027.png"
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 28,
+     "width": 101,
+     "height": 49,
+     "pivot": [
+      47,
+      21
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/stones_Water/631_stones_03_Water/bob_000028.png"
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 29,
+     "width": 101,
+     "height": 42,
+     "pivot": [
+      47,
+      14
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/stones_Water/631_stones_03_Water/bob_000029.png"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/stones_Water/631_stones_03_Water",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

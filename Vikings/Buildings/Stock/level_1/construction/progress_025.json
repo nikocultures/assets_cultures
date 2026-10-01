@@ -1,0 +1,57 @@
+{
+  "progressPercent": 25,
+  "path": "Vikings/Buildings/Stock/level_1/construction/progress_025.png",
+  "pivot": [
+    96,
+    137
+  ],
+  "dimensions": [
+    242,
+    206
+  ],
+  "palette": "house02",
+  "contributingLayers": [
+    {
+      "tuple": [
+        1,
+        0,
+        113,
+        -1,
+        10,
+        70
+      ],
+      "threshold": 63,
+      "bodyPixels": 4552,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    },
+    {
+      "tuple": [
+        1,
+        0,
+        112,
+        -1,
+        0,
+        50
+      ],
+      "threshold": 127,
+      "bodyPixels": 5422,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    },
+    {
+      "tuple": [
+        1,
+        0,
+        111,
+        114,
+        20,
+        100
+      ],
+      "threshold": 15,
+      "bodyPixels": 1005,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    }
+  ],
+  "destinationDarkeningCounts": "Vikings/Buildings/Stock/level_1/construction/progress_025_destination_darken_counts.png",
+  "confidence": "PARTIAL",
+  "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+}

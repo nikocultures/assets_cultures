@@ -1,0 +1,37 @@
+{
+  "asset": {
+    "bobId": 4,
+    "descriptor": {
+      "bobId": 4,
+      "frameIndex": 4,
+      "kind": 2,
+      "x": -123,
+      "y": -59,
+      "width": 275,
+      "height": 143,
+      "firstScanline": 146
+    },
+    "pivot": [
+      123,
+      59
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1836,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_beduines_s.bmd",
+      "offset": 90236503,
+      "size": 5886,
+      "sha256": "c7db74984699cb1a283c72fa1d1722ff211c2837725bfce2a1833ed403253f10"
+    },
+    "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_beduines_s.bmd/source.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Arabs/Buildings/Tent02_gfx77/level_0/shadow/coverage_000004.png",
+    "pixelSha256": "687a463fe9d8080eb913884110062f59a73aa77488d90bc88f2742405f640df0"
+  },
+  "rule": "Native destination darkening, not alpha blend",
+  "Game.exe": "0x0049B930",
+  "drawOrder": "before finished body; extension keeps existing shadow; new construction uses auxiliary threshold maps",
+  "confidence": "AUTOMATED_CONFIRMED (source coverage); PARTIAL (live composition)"
+}

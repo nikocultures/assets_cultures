@@ -1,0 +1,458 @@
+{
+ "goodId": 61,
+ "nativeName": "ship_small",
+ "english": "Ship",
+ "englishPlural": "Ships",
+ "definition": {
+  "section": "goodtype",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "ship_small"
+    ]
+   },
+   {
+    "name": "type",
+    "arguments": [
+     61
+    ]
+   },
+   {
+    "name": "landscapetype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "isinputgoodflag",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "isproducedinhouseflag",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "isproducedonmapflag",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "atomicforproduction",
+    "arguments": [
+     39
+    ]
+   }
+  ]
+ },
+ "landscapeType": 1,
+ "resolvedGfxLandscape": null,
+ "resolvedGfxLandscapeName": null,
+ "resolutionRule": "Game 0x00415565: first pileable GfxLandscape with logictype == landscapetype (Goods 0..55 only)",
+ "pileMetadata": null,
+ "pileValencies": [],
+ "icon": null,
+ "iconNote": "No resolvable pile landscape -> no native UI visual (UNKNOWN)",
+ "palette": null,
+ "bodyLibrary": null,
+ "harvest": {},
+ "production": {
+  "productionInputGoods": [],
+  "atomicForProduction": 39,
+  "isProducedInHouse": 0,
+  "isProducedOnMap": 1
+ },
+ "weaponType": null,
+ "armorType": null,
+ "carriedVisual": {
+  "rule": "GfxWalkAtomic logicgoodtype == Good id; carried good is baked into the Human body frames (no separate overlay sprite)",
+  "humanRandomPalette": null,
+  "humanRandomPaletteRule": null,
+  "animations": []
+ },
+ "consumers": {
+  "productionInputOf": [],
+  "houseConstruction": [
+   {
+    "tribe": 1,
+    "houseType": 26,
+    "houseName": null,
+    "english": "Carpenter's Shop 4",
+    "raw": [
+     26,
+     4,
+     5,
+     2,
+     3,
+     26,
+     24,
+     25,
+     61
+    ]
+   },
+   {
+    "tribe": 2,
+    "houseType": 26,
+    "houseName": null,
+    "english": "Carpenter's Shop 4",
+    "raw": [
+     26,
+     4,
+     5,
+     2,
+     3,
+     26,
+     24,
+     25,
+     61
+    ]
+   },
+   {
+    "tribe": 4,
+    "houseType": 26,
+    "houseName": null,
+    "english": "Carpenter's Shop 4",
+    "raw": [
+     26,
+     4,
+     5,
+     2,
+     3,
+     26,
+     24,
+     25,
+     61
+    ]
+   },
+   {
+    "tribe": 3,
+    "houseType": 26,
+    "houseName": null,
+    "english": "Carpenter's Shop 4",
+    "raw": [
+     26,
+     4,
+     5,
+     2,
+     3,
+     26,
+     24,
+     25,
+     61
+    ]
+   },
+   {
+    "tribe": 7,
+    "houseType": 26,
+    "houseName": null,
+    "english": "Carpenter's Shop 4",
+    "raw": [
+     26,
+     4,
+     5,
+     2,
+     3,
+     26,
+     24,
+     25,
+     61
+    ]
+   }
+  ],
+  "source": "goodtypes.cif productioninputgoods; tribetypes.cif tobuildhouseneedgood (house, goods...)"
+ },
+ "nativeJobRelations": [
+  {
+   "tribe": 1,
+   "relation": "jobenablesgood",
+   "jobId": 9,
+   "jobName": "joiner",
+   "jobEnglish": "Carpenter"
+  },
+  {
+   "tribe": 2,
+   "relation": "jobenablesgood",
+   "jobId": 9,
+   "jobName": "joiner",
+   "jobEnglish": "Carpenter"
+  },
+  {
+   "tribe": 4,
+   "relation": "jobenablesgood",
+   "jobId": 9,
+   "jobName": "joiner",
+   "jobEnglish": "Carpenter"
+  },
+  {
+   "tribe": 3,
+   "relation": "jobenablesgood",
+   "jobId": 9,
+   "jobName": "joiner",
+   "jobEnglish": "Carpenter"
+  },
+  {
+   "tribe": 7,
+   "relation": "jobenablesgood",
+   "jobId": 9,
+   "jobName": "joiner",
+   "jobEnglish": "Carpenter"
+  }
+ ],
+ "tribeOwnership": [
+  {
+   "tribe": 1,
+   "tribeName": "viking",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 26,
+     "houseName": null,
+     "english": "Carpenter's Shop 4"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      61
+     ]
+    ],
+    "jobenablesgood": [
+     [
+      9,
+      61
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      61,
+      26
+     ]
+    ],
+    "needforgood": [
+     [
+      61,
+      30,
+      9
+     ]
+    ],
+    "trainforgood": [
+     [
+      61,
+      30,
+      77
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 2,
+   "tribeName": "frank",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 26,
+     "houseName": null,
+     "english": "Carpenter's Shop 4"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      61
+     ]
+    ],
+    "jobenablesgood": [
+     [
+      9,
+      61
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      61,
+      26
+     ]
+    ],
+    "needforgood": [
+     [
+      61,
+      30,
+      9
+     ]
+    ],
+    "trainforgood": [
+     [
+      61,
+      30,
+      77
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 4,
+   "tribeName": "saracen",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 26,
+     "houseName": null,
+     "english": "Carpenter's Shop 4"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      61
+     ]
+    ],
+    "jobenablesgood": [
+     [
+      9,
+      61
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      61,
+      26
+     ]
+    ],
+    "needforgood": [
+     [
+      61,
+      30,
+      9
+     ]
+    ],
+    "trainforgood": [
+     [
+      61,
+      30,
+      77
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 3,
+   "tribeName": "byzantine",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 26,
+     "houseName": null,
+     "english": "Carpenter's Shop 4"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      61
+     ]
+    ],
+    "jobenablesgood": [
+     [
+      9,
+      61
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      61,
+      26
+     ]
+    ],
+    "needforgood": [
+     [
+      61,
+      30,
+      9
+     ]
+    ],
+    "trainforgood": [
+     [
+      61,
+      30,
+      77
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 7,
+   "tribeName": "egypt",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 26,
+     "houseName": null,
+     "english": "Carpenter's Shop 4"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      61
+     ]
+    ],
+    "jobenablesgood": [
+     [
+      9,
+      61
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      61,
+      26
+     ]
+    ],
+    "needforgood": [
+     [
+      61,
+      30,
+      9
+     ]
+    ],
+    "trainforgood": [
+     [
+      61,
+      30,
+      77
+     ]
+    ]
+   }
+  }
+ ],
+ "ownership": "SHARED (Good table is global; per-tribe availability in tribeOwnership)",
+ "confidence": {
+  "nativeTable": "SOURCE_COMPLETE",
+  "pile": "UNKNOWN",
+  "icon": "UNKNOWN",
+  "carried": "NONE_DECLARED"
+ },
+ "source": {
+  "goodtypes": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 1724,
+   "entryName": "data\\logic\\goodtypes.cif",
+   "offset": 202500688,
+   "size": 13316,
+   "sha256": "817d4e5abffb1c868f5acab09ce48b44a296b9841c7cc1cc9a71077eacf3458c"
+  },
+  "goodgraphics": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 914,
+   "entryName": "data\\engine2d\\inis\\goods\\goodgraphics.cif",
+   "offset": 192915250,
+   "size": 3066,
+   "sha256": "af62963c314891c2aab24e4e51ad2bb61e28e03c0fa15ae68b640d82e3e0f6a3"
+  }
+ }
+}

@@ -1,0 +1,1176 @@
+{
+ "ownerKind": "vehicle",
+ "tribeId": 1,
+ "nativeTribe": "viking",
+ "tribeEnglish": "Vikings",
+ "typeId": 1,
+ "animationJobId": 50,
+ "nativeName": "handcart",
+ "englishName": "Handcart",
+ "nativeAllowed": true,
+ "parentChain": [
+  50
+ ],
+ "sexAge": null,
+ "bindings": [
+  {
+   "phase": "initial",
+   "sectionOrdinal": 0,
+   "section": "jobgraphics",
+   "definedForType": 1,
+   "inheritedFrom": null,
+   "bodyVariants": [
+    {
+     "selector": 0,
+     "body": "Data\\Engine2D\\Bin\\Bobs\\CR_Veh_Body_00.bmd",
+     "shadow": "Data\\Engine2D\\Bin\\Bobs\\CR_Veh_Body_00_s.bmd"
+    }
+   ],
+   "headVariants": [],
+   "bodyPalettes": [
+    "goods01"
+   ],
+   "headPalettes": [],
+   "paletteRemaps": [],
+   "variantSelection": "single binding"
+  }
+ ],
+ "animations": [
+  {
+   "animationSection": 411,
+   "definedForJob": 50,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 2,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "viking_cart_hand_idle_short_a",
+   "atomicLength": 12,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "vehicles_handcart_wait",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      305
+     ],
+     "headBobs": [
+      305
+     ],
+     "bodySequence": {
+      "name": "vehicles_handcart_wait",
+      "firstBob": 305,
+      "count": 1,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      305
+     ],
+     "headBobs": [
+      305
+     ],
+     "bodySequence": {
+      "name": "vehicles_handcart_wait",
+      "firstBob": 305,
+      "count": 1,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      305
+     ],
+     "headBobs": [
+      305
+     ],
+     "bodySequence": {
+      "name": "vehicles_handcart_wait",
+      "firstBob": 305,
+      "count": 1,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      305
+     ],
+     "headBobs": [
+      305
+     ],
+     "bodySequence": {
+      "name": "vehicles_handcart_wait",
+      "firstBob": 305,
+      "count": 1,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      305
+     ],
+     "headBobs": [
+      305
+     ],
+     "bodySequence": {
+      "name": "vehicles_handcart_wait",
+      "firstBob": 305,
+      "count": 1,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      305
+     ],
+     "headBobs": [
+      305
+     ],
+     "bodySequence": {
+      "name": "vehicles_handcart_wait",
+      "firstBob": 305,
+      "count": 1,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      305
+     ],
+     "headBobs": [
+      305
+     ],
+     "bodySequence": {
+      "name": "vehicles_handcart_wait",
+      "firstBob": 305,
+      "count": 1,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      305
+     ],
+     "headBobs": [
+      305
+     ],
+     "bodySequence": {
+      "name": "vehicles_handcart_wait",
+      "firstBob": 305,
+      "count": 1,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Veh_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Veh_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "goods01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Vikings/Vehicles/Sheets/cr_veh_body_00__goods01/j50_A002_vehicles_handcart_wait_s411.png",
+     "shadowMask": "Vikings/Vehicles/Sheets/cr_veh_body_00__goods01/j50_A002_vehicles_handcart_wait_s411__shadow_mask.png",
+     "cellWidth": 50,
+     "cellHeight": 55,
+     "anchorInCell": [
+      19,
+      24
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 1391,
+   "definedForJob": 50,
+   "inherited": false,
+   "kind": "walk",
+   "atomicActionSelector": null,
+   "carriedGoodType": 0,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": null,
+   "walkSpeedThreshold": 100000,
+   "mode": 0,
+   "atomicName": null,
+   "atomicLength": null,
+   "atomicEvents": [],
+   "interruptable": null,
+   "bodySequence": "vehicles_bullcart_walk",
+   "headSequence": "",
+   "timing": "frame = frameTick % count (walk; caller frame tick)",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107
+     ],
+     "headBobs": [
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107
+     ],
+     "bodySequence": {
+      "name": "vehicles_bullcart_walk",
+      "firstBob": 48,
+      "count": 96,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+     ],
+     "headBobs": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+     ],
+     "bodySequence": {
+      "name": "vehicles_bullcart_walk",
+      "firstBob": 48,
+      "count": 96,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+     ],
+     "headBobs": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+     ],
+     "bodySequence": {
+      "name": "vehicles_bullcart_walk",
+      "firstBob": 48,
+      "count": 96,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+     ],
+     "headBobs": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+     ],
+     "bodySequence": {
+      "name": "vehicles_bullcart_walk",
+      "firstBob": 48,
+      "count": 96,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+     ],
+     "headBobs": [
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+     ],
+     "bodySequence": {
+      "name": "vehicles_bullcart_walk",
+      "firstBob": 48,
+      "count": 96,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+     ],
+     "headBobs": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+     ],
+     "bodySequence": {
+      "name": "vehicles_bullcart_walk",
+      "firstBob": 48,
+      "count": 96,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143
+     ],
+     "headBobs": [
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143
+     ],
+     "bodySequence": {
+      "name": "vehicles_bullcart_walk",
+      "firstBob": 48,
+      "count": 96,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131
+     ],
+     "headBobs": [
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131
+     ],
+     "bodySequence": {
+      "name": "vehicles_bullcart_walk",
+      "firstBob": 48,
+      "count": 96,
+      "imageLibrary": "CR_Veh_Body_00.bmd",
+      "shadowLibrary": "CR_Veh_Body_00_S.bmd",
+      "sectionOrdinal": 14
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Veh_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Veh_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "goods01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "96/96",
+     "status": "RENDERED",
+     "sheet": "Vikings/Vehicles/Sheets/cr_veh_body_00__goods01/j50_W000_vehicles_bullcart_walk_s1391.png",
+     "shadowMask": "Vikings/Vehicles/Sheets/cr_veh_body_00__goods01/j50_W000_vehicles_bullcart_walk_s1391__shadow_mask.png",
+     "cellWidth": 95,
+     "cellHeight": 88,
+     "anchorInCell": [
+      51,
+      48
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "jobgraphics": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 160,
+   "entryName": "data\\engine2d\\inis\\vehicles\\jobgraphics.cif",
+   "offset": 195718657,
+   "size": 1240,
+   "sha256": "0e172ef7f712b467bd0c7b302a3c4d63f1441e224b78cae2d3a61a668b2a3b05"
+  },
+  "animations": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 279,
+   "entryName": "data\\engine2d\\inis\\mapmoveableanimations\\animations.cif",
+   "offset": 194231595,
+   "size": 981323,
+   "sha256": "c81ba2adfa0e57255b8edd179bd8cb753810cf3485f10acb42890ba358afa94f"
+  }
+ },
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0048BD66 GraphicsAnimationRegistry_LoadFromCif",
+   "0x0048CEA1 BobSeq global lookup",
+   "0x00494AE6 frame selection",
+   "0x004803D5 creation binding/palette",
+   "0x00480576 job-change rebinding",
+   "0x0048B258 random palette patches",
+   "0x0049B930 shadow destination darkening"
+  ],
+  "cpp": "MobileSpriteRegistry / MobileSpriteRuntimeOwner / ProductionWorldCompositor"
+ },
+ "folder": "Vikings/Vehicles/type_1_handcart",
+ "vehicleDefinition": {
+  "section": "vehicletype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "handcart"
+    ]
+   },
+   {
+    "name": "logicsize",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "stockslots",
+    "arguments": [
+     10
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     16
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     17
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     43
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     2
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     9
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     10
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     6
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     7
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     8
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     11
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     12
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     13
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     14
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     15
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     24
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     25
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     26
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     27
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     28
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     29
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     30
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     31
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     32
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     33
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     34
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     35
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     36
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     37
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     38
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     39
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     40
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     41
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     42
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     44
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     45
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     46
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     47
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     48
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     49
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     50
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     51
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     52
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     53
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     54
+    ]
+   },
+   {
+    "name": "logicgood",
+    "arguments": [
+     55
+    ]
+   },
+   {
+    "name": "passengerslots",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicpassenger",
+    "arguments": [
+     25
+    ]
+   },
+   {
+    "name": "logicpassenger",
+    "arguments": [
+     24
+    ]
+   },
+   {
+    "name": "logiccommander",
+    "arguments": [
+     25
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     0,
+     100,
+     100
+    ]
+   },
+   {
+    "name": "debugradius",
+    "arguments": [
+     10
+    ]
+   }
+  ]
+ },
+ "animationJobEvidence": "animation job = vehicle type + 49; job types 50..55 are vehicle_* with English names Handcart/Ox Cart/Ship/Ship/Catapult/Ox Cart Framework; Vehicle+0x1EC holds 0x32..0x37",
+ "atomicsWithoutGraphicsRecord": [],
+ "summary": {
+  "animations": 2,
+  "renderStatus": {
+   "RENDERED": 2
+  },
+  "bindings": 1
+ },
+ "confidence": {
+  "sourceMapping": "SOURCE_COMPLETE",
+  "framePixels": "PIXEL_CONFIRMED (per frame; see Catalogs/pixel_validation.csv)",
+  "palette": "SOURCE_BODY_PALETTE",
+  "shadow": "Coverage mask only; native destination darkening -> PRESENTATION_APPROXIMATION",
+  "timing": "Native frame order and selection rules recorded; tick-to-seconds rate UNKNOWN"
+ }
+}

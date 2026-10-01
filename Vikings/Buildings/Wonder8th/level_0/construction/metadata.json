@@ -1,0 +1,114 @@
+{
+  "tuples": [
+    [
+      0,
+      0,
+      28,
+      -1,
+      0,
+      100
+    ]
+  ],
+  "parts": [
+    {
+      "bobId": 28,
+      "descriptor": {
+        "bobId": 28,
+        "frameIndex": 28,
+        "kind": 1,
+        "x": -325,
+        "y": -485,
+        "width": 654,
+        "height": 737,
+        "firstScanline": 12687
+      },
+      "pivot": [
+        325,
+        485
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "wonders_8th",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 286,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_8th.pcx",
+        "offset": 132841532,
+        "size": 901,
+        "sha256": "5d88e46a0f5b4b37c6a009e3d9d25b64ffb048e7a2c087b2b564d3091b70c4ad"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "wonders_8th"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\wonders_8th.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Wonder8th/level_0/main/frame_000028.png",
+      "pixelSha256": "35af37fedd510a80357cd5214ce3a052ba5e9c70317f934a66740f2e39ad48d5"
+    },
+    {
+      "bobId": 28,
+      "descriptor": {
+        "bobId": 28,
+        "frameIndex": 28,
+        "kind": 1,
+        "x": -325,
+        "y": -485,
+        "width": 654,
+        "height": 737,
+        "firstScanline": 12687
+      },
+      "pivot": [
+        325,
+        485
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "notApplicable": true,
+      "path": null,
+      "representation": "No kind4 second-byte reveal plane in this descriptor"
+    }
+  ],
+  "extensionTuples": [],
+  "rule": "Auxiliary index <= reveal threshold darkens destination in pass 1; main kind4 second-byte <= threshold copies palette pixel in pass 2; source order preserved; after end use full body",
+  "confidence": "PARTIAL",
+  "paletteAlternatives": [
+    "wonders_8th"
+  ]
+}

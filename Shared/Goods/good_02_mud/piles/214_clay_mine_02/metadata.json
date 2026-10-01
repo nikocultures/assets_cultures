@@ -1,0 +1,541 @@
+{
+ "gfxLandscapeId": 214,
+ "nativeName": "clay mine 02",
+ "editGroups": [
+  [
+   "goods all",
+   "good mines all"
+  ]
+ ],
+ "logicType": 12,
+ "logicTypeName": "mud_mine",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     12
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "mud_mine"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     6
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     5,
+     12,
+     2,
+     -1,
+     0
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     12,
+     13
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     2,
+     1,
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     185,
+     185,
+     185
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 2,
+   "goodName": "mud",
+   "english": "Clay",
+   "field": "landscapetoharvest"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_ground.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_ground_s.bmd",
+ "palettes": [
+  "clay01"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "clay mine 02"
+  ],
+  [
+   5,
+   "clay mine 02"
+  ],
+  [
+   12,
+   "clay ore 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "clay mine 02"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all",
+     "good mines all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     12
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     5,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     5,
+     -1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     5,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     5,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     4,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     4,
+     -1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     4,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     4,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     2,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     2,
+     -1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     2,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_ground.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_ground_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "clay01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     69
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     68
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     67
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     66
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     65
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "clay mine 02"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     5,
+     "clay mine 02"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     12,
+     "clay ore 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 69,
+     "width": 74,
+     "height": 58,
+     "pivot": [
+      36,
+      23
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000069.png",
+     "kind4Secondary": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000069__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000069__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 68,
+     "width": 60,
+     "height": 58,
+     "pivot": [
+      36,
+      23
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000068.png",
+     "kind4Secondary": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000068__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000068__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 67,
+     "width": 60,
+     "height": 49,
+     "pivot": [
+      36,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000067.png",
+     "kind4Secondary": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000067__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000067__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 66,
+     "width": 60,
+     "height": 26,
+     "pivot": [
+      36,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000066.png",
+     "kind4Secondary": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000066__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000066__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 65,
+     "width": 32,
+     "height": 19,
+     "pivot": [
+      36,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000065.png",
+     "kind4Secondary": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000065__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_02_mud/piles/214_clay_mine_02/bob_000065__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      6
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_02_mud/piles/214_clay_mine_02",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

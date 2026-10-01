@@ -1,0 +1,412 @@
+{
+ "gfxLandscapeId": 466,
+ "nativeName": "snow pine 02 falling",
+ "editGroups": [
+  [
+   "xMissionCD trees all",
+   "trees snow pine",
+   "trees falling"
+  ]
+ ],
+ "logicType": 5,
+ "logicTypeName": "tree falling",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "tree falling"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     13,
+     6,
+     2,
+     0,
+     9
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     2,
+     115,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd",
+ "palettes": [
+  "treeSnow01"
+ ],
+ "static": 0,
+ "loopAnimation": 0,
+ "shadingFactor": 0.8,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   13,
+   "tree trunk 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "snow pine 02 falling"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "xMissionCD trees all",
+     "trees snow pine",
+     "trees falling"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "treeSnow01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.8
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     13,
+     "tree trunk 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 9,
+     "width": 78,
+     "height": 105,
+     "pivot": [
+      50,
+      102
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/465_snow_pine_01_falling/bob_000009.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/310_pine_01_falling/bob_000009__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 10,
+     "width": 78,
+     "height": 105,
+     "pivot": [
+      50,
+      102
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/465_snow_pine_01_falling/bob_000010.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/310_pine_01_falling/bob_000010__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 11,
+     "width": 79,
+     "height": 105,
+     "pivot": [
+      51,
+      102
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/465_snow_pine_01_falling/bob_000011.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/310_pine_01_falling/bob_000011__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      19
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 12,
+     "width": 77,
+     "height": 106,
+     "pivot": [
+      51,
+      103
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/465_snow_pine_01_falling/bob_000012.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/310_pine_01_falling/bob_000012__shadow_mask.png",
+     "shadowPivot": [
+      46,
+      21
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 13,
+     "width": 75,
+     "height": 107,
+     "pivot": [
+      52,
+      104
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/465_snow_pine_01_falling/bob_000013.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/310_pine_01_falling/bob_000013__shadow_mask.png",
+     "shadowPivot": [
+      47,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 14,
+     "width": 74,
+     "height": 106,
+     "pivot": [
+      55,
+      103
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/465_snow_pine_01_falling/bob_000014.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/310_pine_01_falling/bob_000014__shadow_mask.png",
+     "shadowPivot": [
+      49,
+      30
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 15,
+     "width": 74,
+     "height": 97,
+     "pivot": [
+      56,
+      94
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/465_snow_pine_01_falling/bob_000015.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/310_pine_01_falling/bob_000015__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 16,
+     "width": 73,
+     "height": 85,
+     "pivot": [
+      56,
+      82
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/465_snow_pine_01_falling/bob_000016.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/310_pine_01_falling/bob_000016__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      36
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 17,
+     "width": 72,
+     "height": 68,
+     "pivot": [
+      56,
+      65
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/465_snow_pine_01_falling/bob_000017.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/310_pine_01_falling/bob_000017__shadow_mask.png",
+     "shadowPivot": [
+      52,
+      39
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/xMissionCD_trees_all/466_snow_pine_02_falling",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

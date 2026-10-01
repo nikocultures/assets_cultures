@@ -1,0 +1,207 @@
+{
+ "gfxLandscapeId": 1,
+ "nativeName": "player01 sign 02",
+ "editGroups": [
+  [
+   "misc_signs"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeName": "void",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "void"
+    ]
+   },
+   {
+    "name": "allowedoneverything",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     117,
+     117,
+     117
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_temp.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_temp_s.bmd",
+ "palettes": [
+  "human_Player01"
+ ],
+ "static": 0,
+ "loopAnimation": 0,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [],
+ "maximumValency": 1,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "player01 sign 02"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "misc_signs"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_temp.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_temp_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "human_Player01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     33
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 33,
+     "width": 25,
+     "height": 33,
+     "pivot": [
+      13,
+      26
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_signs/000_player01_sign_01/bob_000033.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_signs/000_player01_sign_01/bob_000033__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/misc_signs/000_player01_sign_01/bob_000033__shadow_mask.png",
+     "shadowPivot": [
+      5,
+      9
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/misc_signs/001_player01_sign_02",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

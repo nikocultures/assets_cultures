@@ -1,0 +1,388 @@
+{
+ "gfxLandscapeId": 181,
+ "nativeName": "furniture pile 01",
+ "editGroups": [
+  [
+   "goods all",
+   "good piles all"
+  ]
+ ],
+ "logicType": 55,
+ "logicTypeName": "furniture",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     55
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "furniture"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     55,
+     2,
+     -1,
+     29
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     55,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 29,
+   "goodName": "furniture",
+   "english": "Furniture",
+   "field": "landscapetype"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd",
+ "palettes": [
+  "goods_furniture"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "furniture pile 01"
+  ],
+  [
+   4,
+   "furniture pile 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "furniture pile 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all",
+     "good piles all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     55
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_furniture"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     34
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     33
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     32
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     31
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     30
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "furniture pile 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "furniture pile 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 34,
+     "width": 45,
+     "height": 46,
+     "pivot": [
+      23,
+      24
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000034.png",
+     "kind4Secondary": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000034__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000034__shadow_mask.png",
+     "shadowPivot": [
+      20,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 33,
+     "width": 45,
+     "height": 41,
+     "pivot": [
+      23,
+      19
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000033.png",
+     "kind4Secondary": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000033__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000033__shadow_mask.png",
+     "shadowPivot": [
+      20,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 32,
+     "width": 45,
+     "height": 36,
+     "pivot": [
+      23,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000032.png",
+     "kind4Secondary": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000032__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000032__shadow_mask.png",
+     "shadowPivot": [
+      20,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 31,
+     "width": 35,
+     "height": 33,
+     "pivot": [
+      13,
+      11
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000031.png",
+     "kind4Secondary": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000031__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000031__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      -3
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 30,
+     "width": 22,
+     "height": 24,
+     "pivot": [
+      0,
+      11
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000030.png",
+     "kind4Secondary": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000030__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000030__shadow_mask.png",
+     "shadowPivot": [
+      -1,
+      -3
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

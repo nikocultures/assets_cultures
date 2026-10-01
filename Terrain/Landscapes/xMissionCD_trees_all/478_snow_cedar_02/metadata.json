@@ -1,0 +1,1630 @@
+{
+ "gfxLandscapeId": 478,
+ "nativeName": "snow cedar 02",
+ "editGroups": [
+  [
+   "xMissionCD trees all",
+   "trees snow cedar"
+  ]
+ ],
+ "logicType": 4,
+ "logicTypeName": "tree",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "tree"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     7,
+     4,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     11,
+     5,
+     2,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     2,
+     115,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 5,
+   "goodName": "wood",
+   "english": "Wood",
+   "field": "landscapetoharvest"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd",
+ "palettes": [
+  "treeSnow01"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 0.8,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   11,
+   "snow cedar 01 falling"
+  ],
+  [
+   7,
+   "snow cedar 02"
+  ]
+ ],
+ "maximumValency": 3,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "snow cedar 02"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "xMissionCD trees all",
+     "trees snow cedar"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     3,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "treeSnow01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     438,
+     438,
+     438,
+     439,
+     439,
+     439,
+     440,
+     440,
+     440,
+     441,
+     441,
+     441,
+     442,
+     442,
+     442,
+     443,
+     443,
+     443,
+     444,
+     444,
+     444,
+     445,
+     445,
+     445
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     446,
+     446,
+     446,
+     447,
+     447,
+     447,
+     448,
+     448,
+     448,
+     449,
+     449,
+     449,
+     450,
+     450,
+     450,
+     451,
+     451,
+     451,
+     452,
+     452,
+     452,
+     453,
+     453,
+     453
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     430,
+     430,
+     430,
+     431,
+     431,
+     431,
+     432,
+     432,
+     432,
+     433,
+     433,
+     433,
+     434,
+     434,
+     434,
+     435,
+     435,
+     435,
+     436,
+     436,
+     436,
+     437,
+     437,
+     437
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.8
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     11,
+     "snow cedar 01 falling"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     7,
+     "snow cedar 02"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 438,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      53,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000438.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000438__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      33
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 438,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      53,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000438.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000438__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      33
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 438,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      53,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000438.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000438__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      33
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 439,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      53,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000439.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000439__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      33
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 439,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      53,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000439.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000439__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      33
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 439,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      53,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000439.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000439__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      33
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 440,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      53,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000440.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000440__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      33
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 440,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      53,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000440.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000440__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      33
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 440,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      53,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000440.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000440__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      33
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 441,
+     "width": 126,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000441.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000441__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 441,
+     "width": 126,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000441.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000441__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 441,
+     "width": 126,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000441.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000441__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 442,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000442.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000442__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 442,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000442.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000442__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 442,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000442.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000442__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 443,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000443.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000443__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 443,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000443.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000443__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 443,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000443.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000443__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 444,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000444.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000444__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 444,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000444.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000444__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 444,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000444.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000444__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 445,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000445.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000445__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 445,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000445.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000445__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 445,
+     "width": 125,
+     "height": 116,
+     "pivot": [
+      54,
+      112
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000445.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000445__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 446,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000446.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000446__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 446,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000446.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000446__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 446,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000446.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000446__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 447,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000447.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000447__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 447,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000447.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000447__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 447,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000447.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000447__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 448,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000448.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000448__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 448,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000448.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000448__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 448,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000448.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000448__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 449,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000449.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000449__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 449,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000449.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000449__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 449,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000449.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000449__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 450,
+     "width": 80,
+     "height": 78,
+     "pivot": [
+      31,
+      74
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000450.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000450__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 450,
+     "width": 80,
+     "height": 78,
+     "pivot": [
+      31,
+      74
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000450.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000450__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 450,
+     "width": 80,
+     "height": 78,
+     "pivot": [
+      31,
+      74
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000450.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000450__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 451,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000451.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000451__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 451,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000451.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000451__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 451,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000451.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000451__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 452,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000452.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000452__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 452,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000452.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000452__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 452,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000452.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000452__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 453,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000453.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000453__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 453,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000453.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000453__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 453,
+     "width": 80,
+     "height": 77,
+     "pivot": [
+      31,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02/bob_000453.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/328_cedar_02/bob_000453__shadow_mask.png",
+     "shadowPivot": [
+      26,
+      27
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 430,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      15,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000430.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000430__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 430,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      15,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000430.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000430__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 430,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      15,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000430.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000430__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 431,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      15,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000431.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000431__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 431,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      15,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000431.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000431__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 431,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      15,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000431.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000431__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 432,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      16,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000432.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000432__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 432,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      16,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000432.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000432__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 432,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      16,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000432.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000432__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 433,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      16,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000433.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000433__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 433,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      16,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000433.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000433__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 433,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      16,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000433.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000433__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 434,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      16,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000434.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000434__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 434,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      16,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000434.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000434__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 434,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      16,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000434.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000434__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 435,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      16,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000435.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000435__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 435,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      16,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000435.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000435__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 435,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      16,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000435.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000435__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 436,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      15,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000436.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000436__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 436,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      15,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000436.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000436__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 436,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      15,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000436.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000436__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 437,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      15,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000437.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000437__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 437,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      15,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000437.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000437__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 437,
+     "width": 51,
+     "height": 64,
+     "pivot": [
+      15,
+      57
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/477_snow_cedar_01/bob_000437.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/327_cedar_01/bob_000437__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      22
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/xMissionCD_trees_all/478_snow_cedar_02",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

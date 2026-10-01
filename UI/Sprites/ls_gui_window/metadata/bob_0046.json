@@ -1,0 +1,53 @@
+{
+ "LIBRARY": "data\\gui\\lang\\eng\\bobs\\ls_gui_window.bmd",
+ "BOB_ID": 46,
+ "KIND": 4,
+ "WIDTH": 40,
+ "HEIGHT": 34,
+ "PIVOT": [
+  0,
+  0
+ ],
+ "EVIDENCE": [
+  "production_gameplay_ui.hpp:184"
+ ],
+ "PALETTES": [
+  "data\\gui\\palettes\\IconsLeft.pcx"
+ ],
+ "OUTPUTS": [
+  "UI/Sprites/ls_gui_window/IconsLeft/bob_0046.png"
+ ],
+ "INDEX_DATA": "UI/Sprites/ls_gui_window/_index_data/bob_0046.png",
+ "STATUS": "PALETTE_EVIDENCED",
+ "CONFIDENCE": "PIXEL_CONFIRMED",
+ "evidenceDetail": [
+  {
+   "file": "production_gameplay_ui.hpp",
+   "line": 184,
+   "paletteMember": "iconPalette_",
+   "palette": "data\\gui\\palettes\\IconsLeft.pcx",
+   "code": "kOriginalLeftToolbar: sprite 0x2e command 0xf42 tooltip 3",
+   "tooltip": null,
+   "commandId": 3906
+  }
+ ],
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 161,
+  "entryName": "data\\gui\\lang\\eng\\bobs\\ls_gui_window.bmd",
+  "offset": 196270849,
+  "size": 937075,
+  "sha256": "1deb6437eb2fb2806cd5e43ef9508d65a06e187f507229368335c7bb8c579631"
+ },
+ "descriptor": {
+  "bobId": 46,
+  "frameIndex": 46,
+  "kind": 4,
+  "x": 0,
+  "y": 0,
+  "width": 40,
+  "height": 34,
+  "firstScanline": 1525,
+  "offset": 1042710
+ }
+}

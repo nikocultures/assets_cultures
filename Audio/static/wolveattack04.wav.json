@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1010,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\wolveattack04.wav",
+  "offset": 187271528,
+  "size": 79658,
+  "sha256": "fb86f478ea9de6c2d056aad306c62663099752a9c2cf8ce4c5ee08b5d10519bd"
+ },
+ "output": "Audio/static/wolveattack04.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 79600,
+  "durationSeconds": 1.805,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 120,
+   "name": "Werewolf Attack",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 119,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 120,
+   "name": "Werewolf Attack",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 119,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Production/actions (folder static)",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

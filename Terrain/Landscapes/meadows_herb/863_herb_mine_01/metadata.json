@@ -1,0 +1,1221 @@
+{
+ "gfxLandscapeId": 863,
+ "nativeName": "herb mine 01",
+ "editGroups": [
+  [
+   "meadows herb"
+  ]
+ ],
+ "logicType": 33,
+ "logicTypeName": "herbmine",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     33
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "herbmine"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     7,
+     33,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     11,
+     34,
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     255,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 13,
+   "goodName": "herb",
+   "english": "Herb",
+   "field": "landscapetoharvest"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_meadows.bmd",
+ "shadowLibrary": null,
+ "palettes": [
+  "herbs01"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   11,
+   "herb ore"
+  ],
+  [
+   7,
+   "herb mine 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "herb mine 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "meadows herb"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     33
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_meadows.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "herbs01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     97,
+     97,
+     98,
+     98,
+     99,
+     99,
+     100,
+     100,
+     101,
+     101,
+     102,
+     102,
+     103,
+     103,
+     104,
+     104
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     106,
+     106,
+     107,
+     107,
+     108,
+     108,
+     109,
+     109,
+     110,
+     110,
+     111,
+     111,
+     112,
+     112,
+     113,
+     113
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     115,
+     115,
+     116,
+     116,
+     117,
+     117,
+     118,
+     118,
+     119,
+     119,
+     120,
+     120,
+     121,
+     121,
+     122,
+     122
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     124,
+     124,
+     125,
+     125,
+     126,
+     126,
+     127,
+     127,
+     128,
+     128,
+     129,
+     129,
+     130,
+     130,
+     131,
+     131
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     4000
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     11,
+     "herb ore"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     7,
+     "herb mine 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 97,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000097.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000097__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 97,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000097.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000097__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 98,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000098.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000098__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 98,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000098.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000098__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 99,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000099.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000099__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 99,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000099.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000099__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 100,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000100.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000100__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 100,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000100.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000100__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 101,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000101.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000101__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 101,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000101.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000101__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 102,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000102.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000102__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 102,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000102.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000102__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 103,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000103.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000103__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 103,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000103.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000103__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 104,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000104.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000104__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 104,
+     "width": 36,
+     "height": 42,
+     "pivot": [
+      19,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000104.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_all/539_herb_01/bob_000104__kind4_secondary.png"
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 106,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000106.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000106__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 106,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000106.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000106__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 107,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000107.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000107__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 107,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000107.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000107__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 108,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000108.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000108__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 108,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000108.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000108__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 109,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000109.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000109__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 109,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000109.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000109__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 110,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000110.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000110__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 110,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000110.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000110__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 111,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000111.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000111__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 111,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000111.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000111__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 112,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000112.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000112__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 112,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000112.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000112__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 113,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000113.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000113__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 113,
+     "width": 28,
+     "height": 38,
+     "pivot": [
+      16,
+      25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000113.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000113__kind4_secondary.png"
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 115,
+     "width": 28,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000115.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000115__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 115,
+     "width": 28,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000115.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000115__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 116,
+     "width": 28,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000116.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000116__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 116,
+     "width": 28,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000116.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000116__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 117,
+     "width": 28,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000117.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000117__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 117,
+     "width": 28,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000117.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000117__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 118,
+     "width": 28,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000118.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000118__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 118,
+     "width": 28,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000118.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000118__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 119,
+     "width": 28,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000119.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000119__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 119,
+     "width": 28,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000119.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000119__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 120,
+     "width": 29,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000120.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000120__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 120,
+     "width": 29,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000120.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000120__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 121,
+     "width": 29,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000121.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000121__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 121,
+     "width": 29,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000121.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000121__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 122,
+     "width": 29,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000122.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000122__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 122,
+     "width": 29,
+     "height": 24,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000122.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000122__kind4_secondary.png"
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 124,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000124.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000124__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 124,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000124.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000124__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 125,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000125.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000125__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 125,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000125.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000125__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 126,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000126.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000126__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 126,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000126.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000126__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 127,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000127.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000127__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 127,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000127.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000127__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 128,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000128.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000128__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 128,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000128.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000128__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 129,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000129.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000129__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 129,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000129.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000129__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 130,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000130.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000130__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 130,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000130.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000130__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 131,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000131.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000131__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 131,
+     "width": 17,
+     "height": 15,
+     "pivot": [
+      11,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000131.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_herb/863_herb_mine_01/bob_000131__kind4_secondary.png"
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 4000,
+     "status": "BOB_ABSENT_IN_LIBRARY"
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "valency 1: BOB 4000 absent in data\\engine2d\\bin\\bobs\\ls_meadows.bmd"
+ ],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/meadows_herb/863_herb_mine_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "PARTIAL",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

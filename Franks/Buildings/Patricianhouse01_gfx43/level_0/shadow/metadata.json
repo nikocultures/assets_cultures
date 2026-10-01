@@ -1,0 +1,37 @@
+{
+  "asset": {
+    "bobId": 24,
+    "descriptor": {
+      "bobId": 24,
+      "frameIndex": 24,
+      "kind": 2,
+      "x": -81,
+      "y": -71,
+      "width": 249,
+      "height": 133,
+      "firstScanline": 1115
+    },
+    "pivot": [
+      81,
+      71
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1317,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank_s.bmd",
+      "offset": 99994618,
+      "size": 18265,
+      "sha256": "5458cec60fe2da990f26fd8cfa82025381c339d0e8eed084292ac658488780dd"
+    },
+    "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank_s.bmd/source.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Franks/Buildings/Patricianhouse01_gfx43/level_0/shadow/coverage_000024.png",
+    "pixelSha256": "a998c64738d83bd0da6204d5d7f5fcf476b5eda471505a16d09d680c1691aaeb"
+  },
+  "rule": "Native destination darkening, not alpha blend",
+  "Game.exe": "0x0049B930",
+  "drawOrder": "before finished body; extension keeps existing shadow; new construction uses auxiliary threshold maps",
+  "confidence": "AUTOMATED_CONFIRMED (source coverage); PARTIAL (live composition)"
+}

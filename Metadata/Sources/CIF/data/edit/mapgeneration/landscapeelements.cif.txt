@@ -1,0 +1,421 @@
+[LandscapeElement]
+name "Meadows_Grass"
+mask "meadow green"
+randomgroup "rgMeadows_GrassWithFewFlowers" 1
+outerSettings 16 1
+innerSettings 8 10
+smallGroupSettings 4 2 16
+[LandscapeElement]
+name "Meadows_Flowers"
+mask "meadow green"
+randomgroup "rgMeadows_Flowers" 1
+outerSettings 1000 1
+innerSettings 1000 1
+smallGroupSettings 2 2 500
+[LandscapeElement]
+name "Meadows_Snow"
+mask "ice all"
+randomgroup "rgMeadows_Snow" 1
+outerSettings 16 1
+innerSettings 8 10
+smallGroupSettings 4 2 16
+[LandscapeElement]
+name "Meadows_Dark"
+mask "meadow Dark"
+randomgroup "rgMeadows_Dark" 1
+outerSettings 16 1
+innerSettings 8 10
+smallGroupSettings 4 2 16
+[LandscapeElement]
+name "Meadows_MegaDark"
+mask "meadow MegaDark"
+randomgroup "rgMeadows_MegaDark" 1
+outerSettings 16 1
+innerSettings 8 10
+smallGroupSettings 4 2 36
+[LandscapeElement]
+name "Meadows_All_Mushroom"
+mask "meadow all" "desertBrown all" "snow all" "desertStone all" "sand all"
+randomgroup "rgMeadows_mushrooms" 1
+outerSettings 16 1
+innerSettings 8 10
+smallGroupSettings 4 2 36
+[LandscapeElement]
+name "Meadows_Dark_Mushroom"
+mask "meadow MegaDark" "meadow Dark"
+randomgroup "rgMeadows_mushrooms" 1
+outerSettings 16 1
+innerSettings 8 10
+smallGroupSettings 4 2 36
+[LandscapeElement]
+name "Labyrinth_floor"
+mask "plaster all"
+randomgroup "rgmeadows_megadark" 2
+randomgroup "rgDebris_khaki" 11
+randomgroup "rgDebris_grey misc" 6
+randomgroup "rgDebris_khaki misc" 3
+outerSettings 30 1
+innerSettings 15 1
+smallGroupSettings 4 2 4
+[LandscapeElement]
+name "Trees_Conifer"
+mask "meadow all"
+randomgroup "rgTrees_Pines" 1
+randomgroup "rgTrees_Firs" 1
+randomgroup "rgTrees_Firs" 1
+outerSettings 10 2
+innerSettings 0 0
+smallGroupSettings 2 2 36
+[LandscapeElement]
+name "Misc_Swamp"
+mask "swamp all"
+randomgroup "rgMisc_Swamp" 25
+randomgroup "rgMisc_WaterLilies" 1
+outerSettings 10 32
+innerSettings 0 0
+smallGroupSettings 0 0 0
+[LandscapeElement]
+name "Trees_FirsOnDark"
+mask "meadow dark" "meadow megadark"
+randomgroup "rgTrees_Firs" 1
+outerSettings 10 2
+innerSettings 0 0
+smallGroupSettings 2 2 36
+[LandscapeElement]
+name "Trees_FirsOnSnow"
+mask "snow all"
+randomgroup "rgTrees_FirsSnow" 1
+outerSettings 10 2
+innerSettings 0 0
+smallGroupSettings 2 2 36
+[LandscapeElement]
+name "Trees_Yews"
+mask "meadow all"
+randomgroup "rgTrees_Yews" 1
+outerSettings 18 2
+innerSettings 0 0
+smallGroupSettings 4 2 24
+[LandscapeElement]
+name "Stones_khaki"
+mask "meadow all" "desertStone all"
+randomgroup "rgGround_StonesKhaki" 1
+ignoreBlockBits 1
+outerSettings 4 2
+innerSettings 0 0
+smallGroupSettings 1 2 36
+[LandscapeElement]
+name "Stones_KhakiOnStone"
+mask "desertStone all"
+randomgroup "rgGround_StonesKhaki" 1
+ignoreBlockBits 1
+outerSettings 4 2
+innerSettings 0 0
+smallGroupSettings 1 2 36
+[LandscapeElement]
+name "Stones_grey"
+mask "mountain all" "meadow all"
+randomgroup "rgGround_Stonesgrey" 1
+ignoreBlockBits 1
+outerSettings 4 2
+innerSettings 0 0
+smallGroupSettings 1 2 36
+[LandscapeElement]
+name "Stones_Snow"
+mask "Snow all"
+randomgroup "rgGround_StonesSnow" 1
+ignoreBlockBits 1
+outerSettings 4 2
+innerSettings 0 0
+smallGroupSettings 1 2 36
+[LandscapeElement]
+name "mine_gold"
+mask "mountain all" "meadow all"
+randomgroup "rgGround_Goldmine" 1
+ignoreBlockBits 1
+outerSettings 4 2
+innerSettings 0 0
+smallGroupSettings 1 2 36
+[LandscapeElement]
+name "mine_Iron"
+mask "mountain all" "meadow all"
+randomgroup "rgGround_Ironmine" 1
+ignoreBlockBits 1
+outerSettings 4 2
+innerSettings 0 0
+smallGroupSettings 1 2 36
+[LandscapeElement]
+name "Trees_Cypress"
+mask "meadow all" "desertStone all" "desertBrown all"
+randomgroup "rgTrees_Cypress" 1
+outerSettings 18 2
+innerSettings 0 0
+smallGroupSettings 4 2 24
+[LandscapeElement]
+name "Trees_Walnuts"
+mask "meadow all"
+randomgroup "rgTrees_Walnuts" 1
+outerSettings 18 2
+innerSettings 0 0
+smallGroupSettings 4 2 24
+[LandscapeElement]
+name "Trees_WalnutsSnow"
+mask "snow all"
+randomgroup "rgTrees_WalnutsSnow" 1
+outerSettings 18 2
+innerSettings 0 0
+smallGroupSettings 4 2 24
+[LandscapeElement]
+name "Trees_Pines"
+mask "meadow all"
+randomgroup "rgTrees_Pines" 1
+outerSettings 18 2
+innerSettings 0 0
+smallGroupSettings 4 2 24
+[LandscapeElement]
+name "Trees_OrangeTrees"
+mask "meadow all"
+randomgroup "rgTrees_OrangeTrees" 1
+outerSettings 18 2
+innerSettings 0 0
+smallGroupSettings 4 2 24
+[LandscapeElement]
+name "Misc_Fern"
+mask "meadow dark" "meadow megadark" "mud all"
+randomgroup "rgMisc_Fern" 1
+outerSettings 50 1
+innerSettings 0 0
+smallGroupSettings 3 3 3
+[LandscapeElement]
+name "Trees_Bushes"
+mask "meadow dark" "meadow megadark"
+randomgroup "rgTrees_Bushes" 1
+outerSettings 18 2
+innerSettings 0 0
+smallGroupSettings 4 2 24
+[LandscapeElement]
+name "Clay_Mine"
+mask "mud all"
+randomgroup "rgClay_Mine" 1
+outerSettings 40 1
+innerSettings 5 8
+smallGroupSettings 5 5 5
+[LandscapeElement]
+name "mine_gold_mountain_only"
+mask "mountain all"
+randomgroup "rgGround_Goldmine" 1
+ignoreBlockBits 1
+outerSettings 50 1
+innerSettings 0 0
+smallGroupSettings 8 8 1
+[LandscapeElement]
+name "mine_Iron_mountain_only"
+mask "mountain all"
+randomgroup "rgGround_Ironmine" 1
+ignoreBlockBits 1
+outerSettings 35 1
+innerSettings 0 0
+smallGroupSettings 8 8 1
+[LandscapeElement]
+name "Stones_grey_mountain_only"
+mask "mountain all"
+randomgroup "rgGround_Stonesgrey" 1
+ignoreBlockBits 1
+outerSettings 50 2
+innerSettings 0 0
+smallGroupSettings 5 5 9
+[LandscapeElement]
+name "Stones_Water"
+mask "water all"
+randomgroup "rgGround_StonesWater" 1
+outerSettings 1000 1
+innerSettings 0 0
+smallGroupSettings 5 5 9
+[LandscapeElement]
+name "Trees_Pines_Forest"
+mask "meadow dark" "meadow megadark"
+randomgroup "rgTrees_Pines" 1
+outerSettings 18 2
+innerSettings 0 0
+smallGroupSettings 4 2 24
+[LandscapeElement]
+name "Trees_Cypress_Forest"
+mask "meadow dark" "meadow megadark" "desertStone all" "desertBrown all"
+randomgroup "rgTrees_Cypress" 1
+outerSettings 18 2
+innerSettings 0 0
+smallGroupSettings 4 2 24
+[LandscapeElement]
+name "Trees_Walnuts_Forest"
+mask "meadow dark" "meadow megadark"
+randomgroup "rgTrees_Walnuts" 1
+outerSettings 18 2
+innerSettings 0 0
+smallGroupSettings 4 2 24
+[LandscapeElement]
+name "Trees_OrangeTrees_Forest"
+mask "meadow dark" "meadow megadark"
+randomgroup "rgTrees_OrangeTrees" 1
+outerSettings 18 2
+innerSettings 0 0
+smallGroupSettings 4 2 24
+[LandscapeElement]
+name "Trees_Yews_Forest"
+mask "meadow dark" "meadow megadark"
+randomgroup "rgTrees_Yews" 1
+outerSettings 18 2
+innerSettings 0 0
+smallGroupSettings 4 2 24
+[LandscapeElement]
+name "Trees_Underwood"
+mask "meadow dark" "meadow megadark"
+randomgroup "rgMeadows_mushrooms" 1
+randomgroup "rgGround_StonesKhaki" 1
+randomgroup "rgBushes" 1
+outerSettings 10 2
+innerSettings 0 0
+smallGroupSettings 2 2 36
+[LandscapeElement]
+name "Trees_Conifer_Forest"
+mask "meadow dark" "meadow megadark"
+randomgroup "rgTrees_Pines" 1
+randomgroup "rgTrees_Firs" 1
+randomgroup "rgTrees_Firs" 1
+outerSettings 10 2
+innerSettings 0 0
+smallGroupSettings 2 2 36
+[LandscapeElement]
+name "Misc_schilf"
+mask "meadow all" "mud all" "swamp all"
+randomgroup "rgMisc_schilf" 1
+outerSettings 1 50
+innerSettings 0 0
+smallGroupSettings 0 0 0
+[LandscapeElement]
+name "Misc_Wrecks"
+mask "water all"
+randomgroup "rgWrecks" 1
+outerSettings 2 50
+innerSettings 10 5
+smallGroupSettings 4 2 100
+[LandscapeElement]
+name "Bush_Meadow"
+mask "meadow all"
+randomgroup "rgBushes" 1
+outerSettings 50 0
+innerSettings 0 0
+smallGroupSettings 2 2 40
+[LandscapeElement]
+name "Lava_Effects"
+mask "lava all"
+randomgroup "rgFireSmoke" 1
+ignoreBlockBits 1
+outerSettings 30 2
+innerSettings 0 0
+smallGroupSettings 5 5 9
+[LandscapeElement]
+name "Dirt_Debris"
+mask "desertStone all"
+randomgroup "rgDebris_grey" 1
+randomgroup "rgDebris_khaki" 1
+randomgroup "rgGround_StonesKhaki" 1
+ignoreBlockBits 1
+outerSettings 30 2
+innerSettings 0 0
+smallGroupSettings 5 5 9
+[LandscapeElement]
+name "Mount_Block"
+mask "mountain all"
+randomgroup "rgBlock" 1
+ignoreBlockBits 1
+outerSettings 10 100
+innerSettings 1 100
+smallGroupSettings 1 1 100
+[LandscapeElement]
+name "T_Bush_Dark"
+mask "meadow Dark"
+randomgroup "rgBushes" 1
+outerSettings 30 0
+innerSettings 1 0
+smallGroupSettings 1 1 1
+[LandscapeElement]
+name "T_Forest_mdark"
+mask "meadow megadark"
+randomgroup "rgTrees_Pines" 1
+randomgroup "rgTrees_Firs" 1
+randomgroup "rgTrees_Firs" 1
+outerSettings 10 2
+innerSettings 0 0
+smallGroupSettings 2 2 36
+[LandscapeElement]
+name "T_Underwood_mdark"
+mask "meadow megadark"
+randomgroup "rgMeadows_mushrooms" 1
+randomgroup "rgGround_StonesKhaki" 1
+randomgroup "rgBushes" 1
+outerSettings 10 2
+innerSettings 0 0
+smallGroupSettings 2 2 36
+[LandscapeElement]
+name "T_Desert_DeadTrees"
+mask "desertBrown all"
+randomgroup "rgDebris_grey" 5
+randomgroup "rgDebris_khaki" 10
+randomgroup "rgGround_StonesKhaki" 1
+randomgroup "rgDead_trees" 1
+ignoreBlockBits 1
+outerSettings 30 2
+innerSettings 0 0
+smallGroupSettings 5 5 9
+[LandscapeElement]
+name "T_Desert"
+mask "desertBrown all"
+randomgroup "rgDebris_grey" 5
+randomgroup "rgDebris_khaki" 10
+randomgroup "rgGround_StonesKhaki" 1
+ignoreBlockBits 1
+outerSettings 30 2
+innerSettings 0 0
+smallGroupSettings 5 5 9
+[LandscapeElement]
+name "T_DesertSand"
+mask "sand all"
+randomgroup "rgDebris_khaki" 5
+randomgroup "rgGround_StonesKhaki" 1
+ignoreBlockBits 1
+outerSettings 30 2
+innerSettings 0 0
+smallGroupSettings 5 5 1
+[LandscapeElement]
+name "Chests_All"
+mask "meadow all" "desertBrown all" "desertStone all" "sand all" "ice all"
+randomgroup "rgVar_Chests_Potion" 1
+randomgroup "rgVar_Chests_Amuletts" 1
+randomgroup "rgVar_Chests_Armor" 1
+randomgroup "rgVar_Chests_Soldaten" 1
+randomgroup "rgVar_Chests_Zivil" 1
+outerSettings 10 1
+innerSettings 1 5
+smallGroupSettings 2 2 2
+[LandscapeElement]
+name "Chests_Po_Am"
+mask "meadow all" "desertBrown all" "desertStone all" "sand all" "ice all"
+randomgroup "rgVar_Chests_Potion" 1
+randomgroup "rgVar_Chests_Amuletts" 1
+outerSettings 10 1
+innerSettings 1 5
+smallGroupSettings 2 2 2
+[LandscapeElement]
+name "Chests_Zivil"
+mask "meadow all" "desertBrown all" "desertStone all" "sand all" "ice all"
+randomgroup "rgVar_Chests_Zivil" 1
+outerSettings 10 1
+innerSettings 1 5
+smallGroupSettings 2 2 2
+[LandscapeElement]
+name "Chests_War"
+mask "meadow all" "desertBrown all" "desertStone all" "sand all" "ice all"
+randomgroup "rgVar_Chests_Armor" 1
+randomgroup "rgVar_Chests_Soldaten" 1
+outerSettings 10 1
+innerSettings 1 5
+smallGroupSettings 2 2 2

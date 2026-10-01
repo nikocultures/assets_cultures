@@ -1,0 +1,37 @@
+{
+  "asset": {
+    "bobId": 0,
+    "descriptor": {
+      "bobId": 0,
+      "frameIndex": 0,
+      "kind": 2,
+      "x": -15,
+      "y": -5,
+      "width": 50,
+      "height": 37,
+      "firstScanline": 0
+    },
+    "pivot": [
+      15,
+      5
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1863,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_vehicles_s.bmd",
+      "offset": 102588589,
+      "size": 2153,
+      "sha256": "a8dc52b0adaddad52030d68a9d7f69dd613a52e934d0c709e7618d20b2e07a69"
+    },
+    "rawLibrary": "Metadata/Sources/ls_houses_vehicles_s.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Vikings/Buildings/Handcart/level_0/shadow/coverage_000000.png",
+    "pixelSha256": "dcb3b041c1997f85e1d21f9e65f23ddb40df8c07cb3067631150ff3cd5a2e379"
+  },
+  "rule": "Native destination darkening, not alpha blend",
+  "Game.exe": "0x0049B930",
+  "drawOrder": "before finished body; extension keeps existing shadow; new construction uses auxiliary threshold maps",
+  "confidence": "AUTOMATED_CONFIRMED (source coverage); PARTIAL (live composition)"
+}

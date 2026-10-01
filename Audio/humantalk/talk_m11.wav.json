@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1146,
+  "entryName": "data\\engine2d\\bin\\sounds\\humantalk\\talk_m11.wav",
+  "offset": 172904636,
+  "size": 106190,
+  "sha256": "5a9019e7d7f4c061711ce38e203929578e4a4e941779897677a213caa28f41b7"
+ },
+ "output": "Audio/humantalk/talk_m11.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 106132,
+  "durationSeconds": 2.407,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 135,
+   "name": "SocialTalk Male",
+   "parameters": [
+    100
+   ],
+   "logicSoundType": 61,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 135,
+   "name": "SocialTalk Male",
+   "parameters": [
+    100
+   ],
+   "logicSoundType": 61,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

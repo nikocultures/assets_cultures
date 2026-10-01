@@ -1,0 +1,110 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 768,
+  "entryName": "data\\engine2d\\bin\\sounds\\generic\\human_laugh c 05.wav",
+  "offset": 151736914,
+  "size": 28632,
+  "sha256": "a1581868857bca9c86c96edcf6dfc47942c527ec6d159e4db5a099d1c4db531b"
+ },
+ "output": "Audio/generic/human_laugh c 05.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 28574,
+  "durationSeconds": 0.648,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 62,
+   "name": "Laugh Child",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 50,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 172,
+   "name": "Generic Viking Children",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 45,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 62,
+   "name": "Laugh Child",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 50,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 172,
+   "name": "Generic Viking Children",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 45,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [
+  {
+   "tribe": 1,
+   "use": "generic",
+   "arguments": [
+    0
+   ]
+  },
+  {
+   "tribe": 2,
+   "use": "generic",
+   "arguments": [
+    0
+   ]
+  },
+  {
+   "tribe": 3,
+   "use": "generic",
+   "arguments": [
+    0
+   ]
+  },
+  {
+   "tribe": 4,
+   "use": "generic",
+   "arguments": [
+    0
+   ]
+  }
+ ],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

@@ -1,0 +1,63 @@
+{
+  "bobId": 4,
+  "descriptor": {
+    "bobId": 4,
+    "frameIndex": 4,
+    "kind": 4,
+    "x": -343,
+    "y": -236,
+    "width": 691,
+    "height": 422,
+    "firstScanline": 2407
+  },
+  "pivot": [
+    343,
+    236
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1652,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders.bmd",
+    "offset": 122577548,
+    "size": 2397747,
+    "sha256": "41df1851f1420bd059fc88e16ee263b3da34f19c6d2d4e77427e7a9075a90092"
+  },
+  "rawLibrary": "Metadata/Sources/ls_wonders.bmd",
+  "role": "body",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "wonders_pyramid",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 2645,
+    "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx",
+    "offset": 132842433,
+    "size": 901,
+    "sha256": "46545f90b30ac26b1a8ede00c961a12917d29066668d18cf55de9a75caf544ad"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "wonders_pyramid"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+  "path": "Vikings/Buildings/WonderSemiramisFront/level_2/main/frame_000004.png",
+  "pixelSha256": "d2b4ccac699c214666f95d91d4255c6218960b6e59b94356b84c9815f73d2eca"
+}

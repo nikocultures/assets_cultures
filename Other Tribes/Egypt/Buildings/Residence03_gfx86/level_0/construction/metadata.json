@@ -1,0 +1,145 @@
+{
+  "tuples": [
+    [
+      0,
+      0,
+      5,
+      14,
+      20,
+      100
+    ]
+  ],
+  "parts": [
+    {
+      "bobId": 5,
+      "descriptor": {
+        "bobId": 5,
+        "frameIndex": 5,
+        "kind": 4,
+        "x": -148,
+        "y": -159,
+        "width": 310,
+        "height": 218,
+        "firstScanline": 1667
+      },
+      "pivot": [
+        148,
+        159
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1883,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+        "offset": 95458132,
+        "size": 1181712,
+        "sha256": "aaa9bcceffb393d888c133387f9e022f6064b9c9b9a40876e961030f3140e4d2"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "caves",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1904,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\caves.pcx",
+        "offset": 132782956,
+        "size": 901,
+        "sha256": "e27c2a3eb01c271607490bec6b9d3c4703157e92231b4fc9e83b0b03b7da8a87"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "caves"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\caves.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Other Tribes/Egypt/Buildings/Residence03_gfx86/level_0/main/frame_000005.png",
+      "pixelSha256": "91b9f38fbff78842eaca0cf5df88f7bccefa419989f09e8a421eea6dc54c6af5"
+    },
+    {
+      "bobId": 5,
+      "descriptor": {
+        "bobId": 5,
+        "frameIndex": 5,
+        "kind": 4,
+        "x": -148,
+        "y": -159,
+        "width": 310,
+        "height": 218,
+        "firstScanline": 1667
+      },
+      "pivot": [
+        148,
+        159
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1883,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+        "offset": 95458132,
+        "size": 1181712,
+        "sha256": "aaa9bcceffb393d888c133387f9e022f6064b9c9b9a40876e961030f3140e4d2"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Other Tribes/Egypt/Buildings/Residence03_gfx86/level_0/construction/layers/reveal_000005.png",
+      "pixelSha256": "f6df0675532fcec8145f6877fe325be2a85273f81b10a2e70eafd0b171048f02"
+    },
+    {
+      "bobId": 14,
+      "descriptor": {
+        "bobId": 14,
+        "frameIndex": 14,
+        "kind": 1,
+        "x": -139,
+        "y": -78,
+        "width": 317,
+        "height": 131,
+        "firstScanline": 3744
+      },
+      "pivot": [
+        139,
+        78
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1883,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+        "offset": 95458132,
+        "size": 1181712,
+        "sha256": "aaa9bcceffb393d888c133387f9e022f6064b9c9b9a40876e961030f3140e4d2"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt.bmd/source.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Other Tribes/Egypt/Buildings/Residence03_gfx86/level_0/construction/layers/auxiliary_threshold_000014.png",
+      "pixelSha256": "3d2c2b9961ca32647f40edc61585dfa673eb93baf54ce821a2c6c120b2ee32da"
+    }
+  ],
+  "extensionTuples": [],
+  "rule": "Auxiliary index <= reveal threshold darkens destination in pass 1; main kind4 second-byte <= threshold copies palette pixel in pass 2; source order preserved; after end use full body",
+  "confidence": "PARTIAL",
+  "paletteAlternatives": [
+    "caves"
+  ]
+}

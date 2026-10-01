@@ -1,0 +1,342 @@
+{
+ "gfxLandscapeId": 847,
+ "nativeName": "cadaver rabbit leather",
+ "editGroups": [
+  [
+   "animals"
+  ]
+ ],
+ "logicType": 79,
+ "logicTypeName": "cadaver_leather",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     79
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "cadaver_leather"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     80,
+     2,
+     -1,
+     9
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     2,
+     81,
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 9,
+   "goodName": "leather",
+   "english": "Leather",
+   "field": "landscapetoharvest"
+  },
+  {
+   "goodId": 9,
+   "goodName": "leather",
+   "english": "Leather",
+   "field": "landscapetopickup"
+  }
+ ],
+ "tribeLinks": [
+  {
+   "section": "tribelandscapelinkdata",
+   "tribe": 8,
+   "landscapeType": 79,
+   "houseType": null
+  },
+  {
+   "section": "tribelandscapelinkdata",
+   "tribe": 9,
+   "landscapeType": 79,
+   "houseType": null
+  },
+  {
+   "section": "tribelandscapelinkdata",
+   "tribe": 10,
+   "landscapeType": 79,
+   "houseType": null
+  },
+  {
+   "section": "tribelandscapelinkdata",
+   "tribe": 11,
+   "landscapeType": 79,
+   "houseType": null
+  },
+  {
+   "section": "tribelandscapelinkdata",
+   "tribe": 12,
+   "landscapeType": 79,
+   "houseType": null
+  },
+  {
+   "section": "tribelandscapelinkdata",
+   "tribe": 13,
+   "landscapeType": 79,
+   "houseType": null
+  },
+  {
+   "section": "tribelandscapelinkdata",
+   "tribe": 17,
+   "landscapeType": 79,
+   "houseType": null
+  },
+  {
+   "section": "tribelandscapelinkdata",
+   "tribe": 16,
+   "landscapeType": 79,
+   "houseType": null
+  },
+  {
+   "section": "tribelandscapelinkdata",
+   "tribe": 18,
+   "landscapeType": 79,
+   "houseType": null
+  },
+  {
+   "section": "tribelandscapelinkdata",
+   "tribe": 19,
+   "landscapeType": 79,
+   "houseType": null
+  },
+  {
+   "section": "tribelandscapelinkdata",
+   "tribe": 20,
+   "landscapeType": 79,
+   "houseType": null
+  }
+ ],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": null,
+ "palettes": [
+  "goods_bread"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "cadaver rabbit meat"
+  ],
+  [
+   2,
+   "cadaver rabbit bones"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "cadaver rabbit leather"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "animals"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     79
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_bread"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     15
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "cadaver rabbit meat"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     2,
+     "cadaver rabbit bones"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 15,
+     "width": 19,
+     "height": 20,
+     "pivot": [
+      2,
+      8
+     ],
+     "pixelKind": 4,
+     "path": "Animals/Landscape/847_cadaver_rabbit_leather/bob_000015.png",
+     "kind4Secondary": "Animals/Landscape/847_cadaver_rabbit_leather/bob_000015__kind4_secondary.png"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Animals",
+ "folder": "Animals/Landscape/847_cadaver_rabbit_leather",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

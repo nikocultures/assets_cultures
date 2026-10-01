@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2512,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\woodenchest.wav",
+  "offset": 187770294,
+  "size": 14346,
+  "sha256": "a7b59a0dd95135923a5a277698dd0e1d9206d6503a0f200bc03bfc015ec1150d"
+ },
+ "output": "Audio/static/woodenchest.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 14288,
+  "durationSeconds": 0.324,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 106,
+   "name": "Open Wooden Chest",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 56,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 106,
+   "name": "Open Wooden Chest",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 56,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Production/actions (folder static)",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

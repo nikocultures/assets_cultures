@@ -1,0 +1,59 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1233,
+  "entryName": "data\\engine2d\\bin\\sounds\\ambient\\forest2.wav",
+  "offset": 138458096,
+  "size": 626646,
+  "sha256": "0cb76fe910fdd46d6042a3ac633e342930b0c1774bff17e4cdc03e62f585ef13"
+ },
+ "output": "Audio/ambient/forest2.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 626588,
+  "durationSeconds": 14.208,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 3,
+   "name": "Forest",
+   "parameters": [
+    0,
+    0,
+    0
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": "meadow MegaDark",
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 3,
+   "name": "Forest",
+   "parameters": [
+    0,
+    0,
+    0
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": "meadow MegaDark",
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Ambient",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

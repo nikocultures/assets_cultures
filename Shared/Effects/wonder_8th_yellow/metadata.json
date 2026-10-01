@@ -1,0 +1,180 @@
+{
+  "nativeName": "wonder 8th yellow",
+  "definition": {
+    "section": "gfxlandscape",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "wonder 8th yellow"
+        ]
+      },
+      {
+        "name": "editgroups",
+        "arguments": [
+          "xMissionCD_effects"
+        ]
+      },
+      {
+        "name": "logictype",
+        "arguments": [
+          1
+        ]
+      },
+      {
+        "name": "logicmaximumvalency",
+        "arguments": [
+          1
+        ]
+      },
+      {
+        "name": "logicisworkable",
+        "arguments": [
+          0
+        ]
+      },
+      {
+        "name": "logicispileableonmap",
+        "arguments": [
+          0
+        ]
+      },
+      {
+        "name": "gfxboblibs",
+        "arguments": [
+          "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+          "data\\engine2d\\bin\\bobs\\ls_wonders3_s.bmd"
+        ]
+      },
+      {
+        "name": "gfxpalette",
+        "arguments": [
+          "wonders_8th"
+        ]
+      },
+      {
+        "name": "gfxframes",
+        "arguments": [
+          1,
+          35
+        ]
+      },
+      {
+        "name": "gfxstatic",
+        "arguments": [
+          0
+        ]
+      },
+      {
+        "name": "gfxloopanimation",
+        "arguments": [
+          0
+        ]
+      },
+      {
+        "name": "gfxshadingfactor",
+        "arguments": [
+          1.0
+        ]
+      },
+      {
+        "name": "gfxuserfxmatrix",
+        "arguments": [
+          0
+        ]
+      },
+      {
+        "name": "gfxdynamicbackground",
+        "arguments": [
+          0
+        ]
+      },
+      {
+        "name": "gfxdrawvoidever",
+        "arguments": [
+          0
+        ]
+      }
+    ]
+  },
+  "sequences": [
+    {
+      "nativeValency": 1,
+      "frames": [
+        {
+          "bobId": 35,
+          "descriptor": {
+            "bobId": 35,
+            "frameIndex": 35,
+            "kind": 1,
+            "x": -87,
+            "y": -77,
+            "width": 33,
+            "height": 35,
+            "firstScanline": 13625
+          },
+          "pivot": [
+            87,
+            77
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 2009,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+            "offset": 127653421,
+            "size": 3621890,
+            "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+          },
+          "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "wonders_8th",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 286,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_8th.pcx",
+            "offset": 132841532,
+            "size": 901,
+            "sha256": "5d88e46a0f5b4b37c6a009e3d9d25b64ffb048e7a2c087b2b564d3091b70c4ad"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "wonders_8th"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\wonders_8th.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_wonders3.bmd/wonders_8th/effect/frame_000035.png",
+          "pixelSha256": "c560b5cf5c4db48de44704b1b0f3082b00a8f8431f038eae0802d606e159dee1"
+        }
+      ]
+    }
+  ],
+  "timing": "UNKNOWN until runtime owner/rate validated",
+  "confidence": "PARTIAL",
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1195,
+    "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+    "offset": 193548446,
+    "size": 683149,
+    "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+  }
+}

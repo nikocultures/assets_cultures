@@ -1,0 +1,37 @@
+{
+  "asset": {
+    "bobId": 0,
+    "descriptor": {
+      "bobId": 0,
+      "frameIndex": 0,
+      "kind": 2,
+      "x": -190,
+      "y": -105,
+      "width": 458,
+      "height": 228,
+      "firstScanline": 0
+    },
+    "pivot": [
+      190,
+      105
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1516,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt_s.bmd",
+      "offset": 96639844,
+      "size": 12074,
+      "sha256": "5414a072a6a2952834e6b5771ed7bc815206cdb44f96ddf742e435c0293d3e55"
+    },
+    "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt_s.bmd/source.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Other Tribes/Egypt/Buildings/Mainhouse_gfx81/level_0/shadow/coverage_000000.png",
+    "pixelSha256": "59f937fbe57ebe5da9e52b8c8086db5e459e6b3b53a72ffe955a84d7757f81a6"
+  },
+  "rule": "Native destination darkening, not alpha blend",
+  "Game.exe": "0x0049B930",
+  "drawOrder": "before finished body; extension keeps existing shadow; new construction uses auxiliary threshold maps",
+  "confidence": "AUTOMATED_CONFIRMED (source coverage); PARTIAL (live composition)"
+}

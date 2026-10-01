@@ -1,0 +1,456 @@
+{
+ "particleId": 8,
+ "nativeName": "SnowSteps",
+ "library": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+ "palette": "wave03",
+ "definition": {
+  "section": "particel",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "SnowSteps"
+    ]
+   },
+   {
+    "name": "palette",
+    "arguments": [
+     "wave03"
+    ]
+   },
+   {
+    "name": "bobmanager",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_smoke.bmd"
+    ]
+   },
+   {
+    "name": "maxvalency",
+    "arguments": [
+     14
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     0,
+     227
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     223
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     223
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     224
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     224
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     225
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     6,
+     225
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     7,
+     226
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     8,
+     220
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     9,
+     220
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     10,
+     221
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     11,
+     221
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     12,
+     222
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     13,
+     222
+    ]
+   },
+   {
+    "name": "animloop",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "bobtype",
+    "arguments": [
+     1
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2238,
+  "entryName": "data\\engine2d\\inis\\particel\\particel.cif",
+  "offset": 195245533,
+  "size": 6354,
+  "sha256": "3a0829ad1b452cec93cac5aa93adeb0aa73d920bb015124dffbbc3edde3a5b74"
+ },
+ "generators": [],
+ "particleEffects": [
+  {
+   "section": "particeleffect",
+   "commands": [
+    {
+     "name": "logictype",
+     "arguments": [
+      2
+     ]
+    },
+    {
+     "name": "particelname",
+     "arguments": [
+      "SnowSteps"
+     ]
+    },
+    {
+     "name": "lifetime",
+     "arguments": [
+      160
+     ]
+    },
+    {
+     "name": "startlifetime",
+     "arguments": [
+      120
+     ]
+    },
+    {
+     "name": "movement",
+     "arguments": [
+      0
+     ]
+    },
+    {
+     "name": "usemapheights",
+     "arguments": [
+      1
+     ]
+    },
+    {
+     "name": "pixeloffset",
+     "arguments": [
+      20,
+      0
+     ]
+    },
+    {
+     "name": "drawbottom",
+     "arguments": [
+      1
+     ]
+    }
+   ]
+  }
+ ],
+ "valencies": [
+  {
+   "valency": 0,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0227__wave03.png",
+     "kind": 1,
+     "width": 14,
+     "height": 21,
+     "pivot": [
+      6,
+      9
+     ],
+     "bobId": 227,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0223__wave03.png",
+     "kind": 1,
+     "width": 9,
+     "height": 17,
+     "pivot": [
+      3,
+      5
+     ],
+     "bobId": 223,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0223__wave03.png",
+     "kind": 1,
+     "width": 9,
+     "height": 17,
+     "pivot": [
+      3,
+      5
+     ],
+     "bobId": 223,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0224__wave03.png",
+     "kind": 1,
+     "width": 30,
+     "height": 9,
+     "pivot": [
+      17,
+      3
+     ],
+     "bobId": 224,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0224__wave03.png",
+     "kind": 1,
+     "width": 30,
+     "height": 9,
+     "pivot": [
+      17,
+      3
+     ],
+     "bobId": 224,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0225__wave03.png",
+     "kind": 1,
+     "width": 25,
+     "height": 15,
+     "pivot": [
+      12,
+      6
+     ],
+     "bobId": 225,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 6,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0225__wave03.png",
+     "kind": 1,
+     "width": 25,
+     "height": 15,
+     "pivot": [
+      12,
+      6
+     ],
+     "bobId": 225,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 7,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0226__wave03.png",
+     "kind": 1,
+     "width": 11,
+     "height": 24,
+     "pivot": [
+      5,
+      12
+     ],
+     "bobId": 226,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 8,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0220__wave03.png",
+     "kind": 1,
+     "width": 9,
+     "height": 17,
+     "pivot": [
+      6,
+      6
+     ],
+     "bobId": 220,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 9,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0220__wave03.png",
+     "kind": 1,
+     "width": 9,
+     "height": 17,
+     "pivot": [
+      6,
+      6
+     ],
+     "bobId": 220,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 10,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0221__wave03.png",
+     "kind": 1,
+     "width": 30,
+     "height": 9,
+     "pivot": [
+      14,
+      3
+     ],
+     "bobId": 221,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 11,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0221__wave03.png",
+     "kind": 1,
+     "width": 30,
+     "height": 9,
+     "pivot": [
+      14,
+      3
+     ],
+     "bobId": 221,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 12,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0222__wave03.png",
+     "kind": 1,
+     "width": 24,
+     "height": 13,
+     "pivot": [
+      11,
+      5
+     ],
+     "bobId": 222,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 13,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/08_SnowSteps/bob_0222__wave03.png",
+     "kind": 1,
+     "width": 24,
+     "height": 13,
+     "pivot": [
+      11,
+      5
+     ],
+     "bobId": 222,
+     "status": "RENDERED"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: bobtype 1 blending, movement, lifetime and wind are runtime"
+ }
+}

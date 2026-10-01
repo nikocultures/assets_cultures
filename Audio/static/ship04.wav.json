@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1166,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\ship04.wav",
+  "offset": 182899934,
+  "size": 102108,
+  "sha256": "f526419aa88c6429ca05b5850106e726fd76c457c47b6edeea2b9464ce24c28b"
+ },
+ "output": "Audio/static/ship04.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 102050,
+  "durationSeconds": 2.314,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 64,
+   "name": "Ship Group2 Creak",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 52,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 64,
+   "name": "Ship Group2 Creak",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 52,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Ships (name-derived)",
+ "categoryConfidence": "NAME_DERIVED",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

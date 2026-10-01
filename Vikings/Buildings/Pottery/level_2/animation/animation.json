@@ -1,0 +1,48 @@
+{
+  "body": "static base plus declared overlays",
+  "sequences": [
+    {
+      "nativeTuple": [
+        2,
+        3,
+        1,
+        16,
+        -131,
+        0
+      ],
+      "level": 2,
+      "stateLane": 3,
+      "requiredLaneState": 1,
+      "offset": [
+        16,
+        -131
+      ],
+      "ticksPerFrame": 0,
+      "sequence": [],
+      "rule": "index=(native tick / ticksPerFrame) modulo count; 0x004341C0 state lane gating; rate in seconds UNKNOWN",
+      "evidence": "0x00495B57"
+    },
+    {
+      "nativeTuple": [
+        2,
+        3,
+        1,
+        120,
+        -99,
+        0
+      ],
+      "level": 2,
+      "stateLane": 3,
+      "requiredLaneState": 1,
+      "offset": [
+        120,
+        -99
+      ],
+      "ticksPerFrame": 0,
+      "sequence": [],
+      "rule": "index=(native tick / ticksPerFrame) modulo count; 0x004341C0 state lane gating; rate in seconds UNKNOWN",
+      "evidence": "0x00495B57"
+    }
+  ],
+  "confidence": "AUTOMATED_CONFIRMED (native frame order); PARTIAL (runtime triggers/timing)"
+}

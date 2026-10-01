@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 585,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\hammer07.wav",
+  "offset": 181139948,
+  "size": 38838,
+  "sha256": "6b80471cac9c4484764d17d2e2aa65e48f56ba08f93c9ff389ee41a7490f88b2"
+ },
+ "output": "Audio/static/hammer07.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 38780,
+  "durationSeconds": 0.879,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 27,
+   "name": "Stone Ore",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 5,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 27,
+   "name": "Stone Ore",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 5,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Production/actions (folder static)",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

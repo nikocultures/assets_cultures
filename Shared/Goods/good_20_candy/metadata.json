@@ -1,0 +1,1757 @@
+{
+ "goodId": 20,
+ "nativeName": "candy",
+ "english": "Cake",
+ "englishPlural": "Cakes",
+ "definition": {
+  "section": "goodtype",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "candy"
+    ]
+   },
+   {
+    "name": "type",
+    "arguments": [
+     20
+    ]
+   },
+   {
+    "name": "landscapetype",
+    "arguments": [
+     43
+    ]
+   },
+   {
+    "name": "isinputgoodflag",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "isproducedinhouseflag",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "isproducedonmapflag",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "productioninputgoods",
+    "arguments": [
+     11,
+     1,
+     12
+    ]
+   },
+   {
+    "name": "atomicforproduction",
+    "arguments": [
+     48
+    ]
+   }
+  ]
+ },
+ "landscapeType": 43,
+ "resolvedGfxLandscape": 193,
+ "resolvedGfxLandscapeName": "candy pile 01",
+ "resolutionRule": "Game 0x00415565: first pileable GfxLandscape with logictype == landscapetype (Goods 0..55 only)",
+ "pileMetadata": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/metadata.json",
+ "pileValencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "bobId": 124,
+     "path": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000124.png",
+     "shadowMask": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000124__shadow_mask.png",
+     "width": 36,
+     "height": 23,
+     "pivot": [
+      19,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "bobId": 123,
+     "path": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000123.png",
+     "shadowMask": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000123__shadow_mask.png",
+     "width": 36,
+     "height": 23,
+     "pivot": [
+      19,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "bobId": 122,
+     "path": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000122.png",
+     "shadowMask": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000122__shadow_mask.png",
+     "width": 24,
+     "height": 22,
+     "pivot": [
+      19,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "bobId": 121,
+     "path": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000121.png",
+     "shadowMask": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000121__shadow_mask.png",
+     "width": 24,
+     "height": 14,
+     "pivot": [
+      19,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "bobId": 120,
+     "path": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000120.png",
+     "shadowMask": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000120__shadow_mask.png",
+     "width": 12,
+     "height": 10,
+     "pivot": [
+      7,
+      10
+     ]
+    }
+   ]
+  }
+ ],
+ "icon": {
+  "sequenceIndex": 0,
+  "bobId": 120,
+  "width": 12,
+  "height": 10,
+  "pivot": [
+   7,
+   10
+  ],
+  "pixelKind": 4,
+  "path": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000120.png",
+  "kind4Secondary": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000120__kind4_secondary.png",
+  "shadowMask": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000120__shadow_mask.png",
+  "shadowPivot": [
+   7,
+   6
+  ],
+  "valency": 1,
+  "presentation": "UI: BOB bounds centred then +(12,8) (0x004E2661/0x00496D32); first frame of group (loop phase 0)"
+ },
+ "iconNote": "No separate icon sprite: native UI draws the pile landscape frame (see icon.presentation)",
+ "palette": [
+  "goods_bow"
+ ],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "harvest": {},
+ "production": {
+  "productionInputGoods": [
+   [
+    11,
+    1,
+    12
+   ]
+  ],
+  "atomicForProduction": 48,
+  "isProducedInHouse": 1,
+  "isProducedOnMap": 0
+ },
+ "weaponType": null,
+ "armorType": null,
+ "carriedVisual": {
+  "rule": "GfxWalkAtomic logicgoodtype == Good id; carried good is baked into the Human body frames (no separate overlay sprite)",
+  "humanRandomPalette": "good_tile",
+  "humanRandomPaletteRule": "goodgraphics.cif palette patch definition linked to the Good; runtime application site not re-derived here -> PARTIAL",
+  "animations": [
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "5",
+    "NATIVE_NAME": "woman",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1260",
+    "BODY_SEQUENCE": "human_woman_generic_walk_food",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_10+cr_hum_head_10__test_human_00/j05_W020_human_woman_generic_walk_food_s1260.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "5",
+    "NATIVE_NAME": "woman",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1260",
+    "BODY_SEQUENCE": "human_woman_generic_walk_food",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_10+cr_hum_head_10__test_human_00/j05_W020_human_woman_generic_walk_food_s1260.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "6",
+    "NATIVE_NAME": "civilist",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "6",
+    "NATIVE_NAME": "civilist",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "7",
+    "NATIVE_NAME": "builder",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "7",
+    "NATIVE_NAME": "builder",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "8",
+    "NATIVE_NAME": "collector",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "8",
+    "NATIVE_NAME": "collector",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "9",
+    "NATIVE_NAME": "joiner",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "9",
+    "NATIVE_NAME": "joiner",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "10",
+    "NATIVE_NAME": "armorer",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "10",
+    "NATIVE_NAME": "armorer",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "11",
+    "NATIVE_NAME": "potter",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "11",
+    "NATIVE_NAME": "potter",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "12",
+    "NATIVE_NAME": "mason",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "12",
+    "NATIVE_NAME": "mason",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "13",
+    "NATIVE_NAME": "smith",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "13",
+    "NATIVE_NAME": "smith",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "14",
+    "NATIVE_NAME": "coin maker",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "14",
+    "NATIVE_NAME": "coin maker",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "15",
+    "NATIVE_NAME": "hunter",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "15",
+    "NATIVE_NAME": "hunter",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "16",
+    "NATIVE_NAME": "breeder",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "16",
+    "NATIVE_NAME": "breeder",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "17",
+    "NATIVE_NAME": "sewer",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "17",
+    "NATIVE_NAME": "sewer",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "18",
+    "NATIVE_NAME": "farmer",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "18",
+    "NATIVE_NAME": "farmer",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "19",
+    "NATIVE_NAME": "miller",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "19",
+    "NATIVE_NAME": "miller",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "20",
+    "NATIVE_NAME": "baker",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "20",
+    "NATIVE_NAME": "baker",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "21",
+    "NATIVE_NAME": "brewer",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "21",
+    "NATIVE_NAME": "brewer",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "22",
+    "NATIVE_NAME": "fisher",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "22",
+    "NATIVE_NAME": "fisher",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "23",
+    "NATIVE_NAME": "fisher_sea",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "23",
+    "NATIVE_NAME": "fisher_sea",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "24",
+    "NATIVE_NAME": "carrier",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "24",
+    "NATIVE_NAME": "carrier",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "25",
+    "NATIVE_NAME": "trader",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "25",
+    "NATIVE_NAME": "trader",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "26",
+    "NATIVE_NAME": "trader_sea",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "26",
+    "NATIVE_NAME": "trader_sea",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "27",
+    "NATIVE_NAME": "scout",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_80__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "27",
+    "NATIVE_NAME": "scout",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_80__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "28",
+    "NATIVE_NAME": "jester",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "28",
+    "NATIVE_NAME": "jester",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "29",
+    "NATIVE_NAME": "herb & mush guy",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "29",
+    "NATIVE_NAME": "herb & mush guy",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "30",
+    "NATIVE_NAME": "druid",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_90__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "30",
+    "NATIVE_NAME": "druid",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_90__test_human_00/j06_W020_human_man_generic_walk_mushroom_s1252.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "31",
+    "NATIVE_NAME": "soldier_unarmed",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "31",
+    "NATIVE_NAME": "soldier_unarmed",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "32",
+    "NATIVE_NAME": "soldier_spear_wooden",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "32",
+    "NATIVE_NAME": "soldier_spear_wooden",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "33",
+    "NATIVE_NAME": "soldier_spear_iron",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "33",
+    "NATIVE_NAME": "soldier_spear_iron",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "34",
+    "NATIVE_NAME": "soldier_sword_short",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "34",
+    "NATIVE_NAME": "soldier_sword_short",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "35",
+    "NATIVE_NAME": "soldier_sword_long",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "35",
+    "NATIVE_NAME": "soldier_sword_long",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "36",
+    "NATIVE_NAME": "soldier_saber_short",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "36",
+    "NATIVE_NAME": "soldier_saber_short",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "37",
+    "NATIVE_NAME": "soldier_saber_long",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "37",
+    "NATIVE_NAME": "soldier_saber_long",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "38",
+    "NATIVE_NAME": "soldier_axe_small",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "38",
+    "NATIVE_NAME": "soldier_axe_small",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "39",
+    "NATIVE_NAME": "soldier_axe_big",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "39",
+    "NATIVE_NAME": "soldier_axe_big",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "40",
+    "NATIVE_NAME": "soldier_bow_short",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "40",
+    "NATIVE_NAME": "soldier_bow_short",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "41",
+    "NATIVE_NAME": "soldier_bow_long",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "41",
+    "NATIVE_NAME": "soldier_bow_long",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "42",
+    "NATIVE_NAME": "hero_unarmed_???",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "42",
+    "NATIVE_NAME": "hero_unarmed_???",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "43",
+    "NATIVE_NAME": "hero_spear_SIEGFRIED",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "43",
+    "NATIVE_NAME": "hero_spear_SIEGFRIED",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "44",
+    "NATIVE_NAME": "hero_sword_BJARNI",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "44",
+    "NATIVE_NAME": "hero_sword_BJARNI",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "45",
+    "NATIVE_NAME": "hero_saber_HATSCHI",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "45",
+    "NATIVE_NAME": "hero_saber_HATSCHI",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "46",
+    "NATIVE_NAME": "hero_axe_???",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "46",
+    "NATIVE_NAME": "hero_axe_???",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "47",
+    "NATIVE_NAME": "heroine_bow_XENA",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "47",
+    "NATIVE_NAME": "heroine_bow_XENA",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1252",
+    "BODY_SEQUENCE": "human_man_generic_walk_mushroom",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   }
+  ]
+ },
+ "consumers": {
+  "productionInputOf": [],
+  "houseConstruction": [
+   {
+    "tribe": 1,
+    "houseType": 11,
+    "houseName": null,
+    "english": "Beehive",
+    "raw": [
+     11,
+     5,
+     3,
+     24,
+     20
+    ]
+   },
+   {
+    "tribe": 1,
+    "houseType": 15,
+    "houseName": null,
+    "english": "Bakery 2",
+    "raw": [
+     15,
+     5,
+     3,
+     4,
+     26,
+     24,
+     25,
+     27,
+     20
+    ]
+   },
+   {
+    "tribe": 2,
+    "houseType": 11,
+    "houseName": null,
+    "english": "Beehive",
+    "raw": [
+     11,
+     5,
+     3,
+     24,
+     20
+    ]
+   },
+   {
+    "tribe": 2,
+    "houseType": 15,
+    "houseName": null,
+    "english": "Bakery 2",
+    "raw": [
+     15,
+     5,
+     3,
+     4,
+     26,
+     24,
+     25,
+     27,
+     20
+    ]
+   },
+   {
+    "tribe": 4,
+    "houseType": 11,
+    "houseName": null,
+    "english": "Beehive",
+    "raw": [
+     11,
+     5,
+     3,
+     24,
+     20
+    ]
+   },
+   {
+    "tribe": 4,
+    "houseType": 15,
+    "houseName": null,
+    "english": "Bakery 2",
+    "raw": [
+     15,
+     5,
+     3,
+     4,
+     26,
+     24,
+     25,
+     27,
+     20
+    ]
+   },
+   {
+    "tribe": 3,
+    "houseType": 11,
+    "houseName": null,
+    "english": "Beehive",
+    "raw": [
+     11,
+     5,
+     3,
+     24,
+     20
+    ]
+   },
+   {
+    "tribe": 3,
+    "houseType": 15,
+    "houseName": null,
+    "english": "Bakery 2",
+    "raw": [
+     15,
+     5,
+     3,
+     4,
+     26,
+     24,
+     25,
+     27,
+     20
+    ]
+   },
+   {
+    "tribe": 7,
+    "houseType": 11,
+    "houseName": null,
+    "english": "Beehive",
+    "raw": [
+     11,
+     5,
+     3,
+     24,
+     20
+    ]
+   },
+   {
+    "tribe": 7,
+    "houseType": 15,
+    "houseName": null,
+    "english": "Bakery 2",
+    "raw": [
+     15,
+     5,
+     3,
+     4,
+     26,
+     24,
+     25,
+     27,
+     20
+    ]
+   }
+  ],
+  "source": "goodtypes.cif productioninputgoods; tribetypes.cif tobuildhouseneedgood (house, goods...)"
+ },
+ "nativeJobRelations": [
+  {
+   "tribe": 1,
+   "relation": "jobenablesgood",
+   "jobId": 20,
+   "jobName": "baker",
+   "jobEnglish": "Baker"
+  },
+  {
+   "tribe": 2,
+   "relation": "jobenablesgood",
+   "jobId": 20,
+   "jobName": "baker",
+   "jobEnglish": "Baker"
+  },
+  {
+   "tribe": 4,
+   "relation": "jobenablesgood",
+   "jobId": 20,
+   "jobName": "baker",
+   "jobEnglish": "Baker"
+  },
+  {
+   "tribe": 3,
+   "relation": "jobenablesgood",
+   "jobId": 20,
+   "jobName": "baker",
+   "jobEnglish": "Baker"
+  },
+  {
+   "tribe": 7,
+   "relation": "jobenablesgood",
+   "jobId": 20,
+   "jobName": "baker",
+   "jobEnglish": "Baker"
+  }
+ ],
+ "tribeOwnership": [
+  {
+   "tribe": 1,
+   "tribeName": "viking",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 15,
+     "houseName": null,
+     "english": "Bakery 2"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      20
+     ]
+    ],
+    "jobenablesgood": [
+     [
+      20,
+      19
+     ],
+     [
+      20,
+      20
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      24,
+      20
+     ],
+     [
+      20,
+      15
+     ]
+    ],
+    "needforgood": [
+     [
+      20,
+      10,
+      49
+     ],
+     [
+      59,
+      20,
+      9
+     ],
+     [
+      35,
+      20,
+      28
+     ]
+    ],
+    "trainforgood": [
+     [
+      20,
+      10,
+      77
+     ],
+     [
+      59,
+      20,
+      77
+     ]
+    ],
+    "jobdefaultgood": [
+     [
+      20,
+      19
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 2,
+   "tribeName": "frank",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 15,
+     "houseName": null,
+     "english": "Bakery 2"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      20
+     ]
+    ],
+    "jobenablesgood": [
+     [
+      20,
+      19
+     ],
+     [
+      20,
+      20
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      24,
+      20
+     ],
+     [
+      20,
+      15
+     ]
+    ],
+    "needforgood": [
+     [
+      20,
+      10,
+      49
+     ],
+     [
+      59,
+      20,
+      9
+     ],
+     [
+      35,
+      20,
+      28
+     ]
+    ],
+    "trainforgood": [
+     [
+      20,
+      10,
+      77
+     ],
+     [
+      59,
+      20,
+      77
+     ]
+    ],
+    "jobdefaultgood": [
+     [
+      20,
+      19
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 4,
+   "tribeName": "saracen",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 15,
+     "houseName": null,
+     "english": "Bakery 2"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      20
+     ]
+    ],
+    "jobenablesgood": [
+     [
+      20,
+      19
+     ],
+     [
+      20,
+      20
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      24,
+      20
+     ],
+     [
+      20,
+      15
+     ]
+    ],
+    "needforgood": [
+     [
+      20,
+      10,
+      49
+     ],
+     [
+      59,
+      20,
+      9
+     ],
+     [
+      35,
+      20,
+      28
+     ]
+    ],
+    "trainforgood": [
+     [
+      20,
+      10,
+      77
+     ],
+     [
+      59,
+      20,
+      77
+     ]
+    ],
+    "jobdefaultgood": [
+     [
+      20,
+      19
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 3,
+   "tribeName": "byzantine",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 15,
+     "houseName": null,
+     "english": "Bakery 2"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      20
+     ]
+    ],
+    "jobenablesgood": [
+     [
+      20,
+      19
+     ],
+     [
+      20,
+      20
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      24,
+      20
+     ],
+     [
+      20,
+      15
+     ]
+    ],
+    "needforgood": [
+     [
+      20,
+      10,
+      49
+     ],
+     [
+      59,
+      20,
+      9
+     ],
+     [
+      35,
+      20,
+      28
+     ]
+    ],
+    "trainforgood": [
+     [
+      20,
+      10,
+      77
+     ],
+     [
+      59,
+      20,
+      77
+     ]
+    ],
+    "jobdefaultgood": [
+     [
+      20,
+      19
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 7,
+   "tribeName": "egypt",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 15,
+     "houseName": null,
+     "english": "Bakery 2"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      20
+     ]
+    ],
+    "jobenablesgood": [
+     [
+      20,
+      19
+     ],
+     [
+      20,
+      20
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      24,
+      20
+     ],
+     [
+      20,
+      15
+     ]
+    ],
+    "needforgood": [
+     [
+      20,
+      10,
+      49
+     ],
+     [
+      59,
+      20,
+      9
+     ],
+     [
+      35,
+      20,
+      28
+     ]
+    ],
+    "trainforgood": [
+     [
+      20,
+      10,
+      77
+     ],
+     [
+      59,
+      20,
+      77
+     ]
+    ],
+    "jobdefaultgood": [
+     [
+      20,
+      19
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 5,
+   "tribeName": "weresnake",
+   "allowgood": true,
+   "producedInHouseTypes": [],
+   "relations": {
+    "allowgood": [
+     [
+      20
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 6,
+   "tribeName": "werewolf",
+   "allowgood": true,
+   "producedInHouseTypes": [],
+   "relations": {
+    "allowgood": [
+     [
+      20
+     ]
+    ]
+   }
+  }
+ ],
+ "ownership": "SHARED (Good table is global; per-tribe availability in tribeOwnership)",
+ "confidence": {
+  "nativeTable": "SOURCE_COMPLETE",
+  "pile": "PIXEL_CONFIRMED frames",
+  "icon": "SOURCE_COMPLETE (production rule)",
+  "carried": "SOURCE_COMPLETE (walk records)"
+ },
+ "source": {
+  "goodtypes": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 1724,
+   "entryName": "data\\logic\\goodtypes.cif",
+   "offset": 202500688,
+   "size": 13316,
+   "sha256": "817d4e5abffb1c868f5acab09ce48b44a296b9841c7cc1cc9a71077eacf3458c"
+  },
+  "goodgraphics": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 914,
+   "entryName": "data\\engine2d\\inis\\goods\\goodgraphics.cif",
+   "offset": 192915250,
+   "size": 3066,
+   "sha256": "af62963c314891c2aab24e4e51ad2bb61e28e03c0fa15ae68b640d82e3e0f6a3"
+  }
+ }
+}

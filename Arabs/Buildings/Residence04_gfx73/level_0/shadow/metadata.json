@@ -1,0 +1,37 @@
+{
+  "asset": {
+    "bobId": 80,
+    "descriptor": {
+      "bobId": 80,
+      "frameIndex": 80,
+      "kind": 2,
+      "x": -51,
+      "y": -110,
+      "width": 250,
+      "height": 175,
+      "firstScanline": 1366
+    },
+    "pivot": [
+      51,
+      110
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 868,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen_s.bmd",
+      "offset": 102501478,
+      "size": 16840,
+      "sha256": "48362982468b9333bcf12aed27a474c51c295137a80df12dda4505f61d9dfaa3"
+    },
+    "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen_s.bmd/source.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Arabs/Buildings/Residence04_gfx73/level_0/shadow/coverage_000080.png",
+    "pixelSha256": "3a22f5925ea98932218d635e0ec62b9c903a283158029dd75c4df20e1a575bba"
+  },
+  "rule": "Native destination darkening, not alpha blend",
+  "Game.exe": "0x0049B930",
+  "drawOrder": "before finished body; extension keeps existing shadow; new construction uses auxiliary threshold maps",
+  "confidence": "AUTOMATED_CONFIRMED (source coverage); PARTIAL (live composition)"
+}

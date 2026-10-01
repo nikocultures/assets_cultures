@@ -1,0 +1,53 @@
+{
+ "LIBRARY": "data\\gui\\lang\\eng\\bobs\\ls_gui_window.bmd",
+ "BOB_ID": 108,
+ "KIND": 4,
+ "WIDTH": 33,
+ "HEIGHT": 33,
+ "PIVOT": [
+  16,
+  16
+ ],
+ "EVIDENCE": [
+  "selection_action_panel.hpp:96"
+ ],
+ "PALETTES": [
+  "data\\gui\\palettes\\Context.pcx"
+ ],
+ "OUTPUTS": [
+  "UI/Sprites/ls_gui_window/Context/bob_0108.png"
+ ],
+ "INDEX_DATA": "UI/Sprites/ls_gui_window/_index_data/bob_0108.png",
+ "STATUS": "PALETTE_EVIDENCED",
+ "CONFIDENCE": "PIXEL_CONFIRMED",
+ "evidenceDetail": [
+  {
+   "file": "selection_action_panel.hpp",
+   "line": 96,
+   "paletteMember": "contextPalette_",
+   "palette": "data\\gui\\palettes\\Context.pcx",
+   "code": "humanActionSprite(action 4) -> 0x6C; drawn at production_gameplay_ui.hpp widget.spriteId, contextPalette_",
+   "humanActionId": 4,
+   "commandId": 3004
+  }
+ ],
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 161,
+  "entryName": "data\\gui\\lang\\eng\\bobs\\ls_gui_window.bmd",
+  "offset": 196270849,
+  "size": 937075,
+  "sha256": "1deb6437eb2fb2806cd5e43ef9508d65a06e187f507229368335c7bb8c579631"
+ },
+ "descriptor": {
+  "bobId": 108,
+  "frameIndex": 108,
+  "kind": 4,
+  "x": -16,
+  "y": -16,
+  "width": 33,
+  "height": 33,
+  "firstScanline": 4474,
+  "offset": 1955049
+ }
+}

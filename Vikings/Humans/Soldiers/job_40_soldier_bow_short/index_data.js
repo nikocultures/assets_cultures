@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../../../", "crumbs": [["Home", "index.html"], ["Vikings", "Vikings/index.html"], ["Humans", "Vikings/Humans/index.html"], ["Soldiers", ""], ["job_40_soldier_bow_short", ""]], "prev": ["Big Axe Fighter", "Vikings/Humans/Soldiers/job_39_soldier_axe_big/index.html"], "next": ["Longbow Archer", "Vikings/Humans/Soldiers/job_41_soldier_bow_long/index.html"]};

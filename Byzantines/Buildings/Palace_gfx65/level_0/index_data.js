@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../../../", "crumbs": [["Home", "index.html"], ["Byzantines", "Byzantines/index.html"], ["Buildings", "Byzantines/Buildings/index.html"], ["Palace_gfx65", ""], ["level_0", ""]], "prev": ["byzantine kaserne L0", "Byzantines/Buildings/Kaserne_gfx64/level_0/index.html"], "next": null};

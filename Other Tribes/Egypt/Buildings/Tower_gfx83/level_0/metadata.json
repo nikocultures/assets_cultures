@@ -1,0 +1,1133 @@
+{
+  "nativeName": "Egypt Tower",
+  "tribe": "Other Tribes/Egypt",
+  "logicHouseType": 40,
+  "gfxHouseId": 83,
+  "level": 0,
+  "bodyBob": 2,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_egypt_s.bmd",
+  "shadowBob": 2,
+  "paletteAlternatives": [
+    "caves"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 2,
+      "descriptor": {
+        "bobId": 2,
+        "frameIndex": 2,
+        "kind": 4,
+        "x": -83,
+        "y": -255,
+        "width": 173,
+        "height": 326,
+        "firstScanline": 802
+      },
+      "pivot": [
+        83,
+        255
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1883,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+        "offset": 95458132,
+        "size": 1181712,
+        "sha256": "aaa9bcceffb393d888c133387f9e022f6064b9c9b9a40876e961030f3140e4d2"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "caves",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1904,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\caves.pcx",
+        "offset": 132782956,
+        "size": 901,
+        "sha256": "e27c2a3eb01c271607490bec6b9d3c4703157e92231b4fc9e83b0b03b7da8a87"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "caves"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\caves.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/main/frame_000002.png",
+      "pixelSha256": "fc14c39eee0c1c0cd486331d0d65cf396aa1d6eb7419f2dd7ca111e27db8830c"
+    }
+  ],
+  "constructionLayers": [
+    [
+      0,
+      0,
+      2,
+      11,
+      20,
+      100
+    ]
+  ],
+  "doors": [],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [
+      [
+        0,
+        70,
+        -206
+      ],
+      [
+        0,
+        67,
+        -202
+      ],
+      [
+        0,
+        62,
+        -198
+      ],
+      [
+        0,
+        -53,
+        -193
+      ],
+      [
+        0,
+        -36,
+        -193
+      ],
+      [
+        0,
+        -35,
+        -190
+      ],
+      [
+        0,
+        56,
+        -190
+      ],
+      [
+        0,
+        -8,
+        -189
+      ],
+      [
+        0,
+        -22,
+        -189
+      ],
+      [
+        0,
+        51,
+        -187
+      ],
+      [
+        0,
+        -28,
+        -186
+      ],
+      [
+        0,
+        7,
+        -185
+      ],
+      [
+        0,
+        -54,
+        -185
+      ],
+      [
+        0,
+        -32,
+        -185
+      ],
+      [
+        0,
+        -44,
+        -185
+      ],
+      [
+        0,
+        59,
+        -184
+      ],
+      [
+        0,
+        -14,
+        -183
+      ],
+      [
+        0,
+        -20,
+        -181
+      ],
+      [
+        0,
+        -1,
+        -181
+      ],
+      [
+        0,
+        -22,
+        -181
+      ],
+      [
+        0,
+        25,
+        -181
+      ],
+      [
+        0,
+        -38,
+        -181
+      ],
+      [
+        0,
+        4,
+        -179
+      ],
+      [
+        0,
+        25,
+        -179
+      ],
+      [
+        0,
+        39,
+        -178
+      ],
+      [
+        0,
+        -9,
+        -177
+      ],
+      [
+        0,
+        22,
+        -177
+      ],
+      [
+        0,
+        51,
+        -177
+      ],
+      [
+        0,
+        27,
+        -175
+      ],
+      [
+        0,
+        50,
+        -174
+      ],
+      [
+        0,
+        20,
+        -173
+      ],
+      [
+        0,
+        11,
+        -171
+      ],
+      [
+        0,
+        34,
+        -171
+      ],
+      [
+        0,
+        39,
+        -163
+      ],
+      [
+        0,
+        -31,
+        -51
+      ],
+      [
+        0,
+        -28,
+        -50
+      ],
+      [
+        0,
+        -24,
+        -50
+      ],
+      [
+        0,
+        -23,
+        -49
+      ],
+      [
+        0,
+        -10,
+        -47
+      ],
+      [
+        0,
+        -14,
+        -47
+      ],
+      [
+        0,
+        -1,
+        -46
+      ],
+      [
+        0,
+        1,
+        -45
+      ],
+      [
+        0,
+        -31,
+        -44
+      ],
+      [
+        0,
+        -25,
+        -43
+      ],
+      [
+        0,
+        -21,
+        -39
+      ],
+      [
+        0,
+        1,
+        -36
+      ],
+      [
+        0,
+        -31,
+        -35
+      ],
+      [
+        0,
+        -21,
+        -34
+      ],
+      [
+        0,
+        -1,
+        -30
+      ],
+      [
+        0,
+        -31,
+        -29
+      ],
+      [
+        0,
+        -30,
+        -20
+      ],
+      [
+        0,
+        -2,
+        -20
+      ],
+      [
+        0,
+        -2,
+        -16
+      ],
+      [
+        0,
+        -29,
+        -11
+      ],
+      [
+        0,
+        -2,
+        -10
+      ],
+      [
+        0,
+        -29,
+        -7
+      ],
+      [
+        0,
+        -3,
+        -5
+      ],
+      [
+        0,
+        -27,
+        1
+      ],
+      [
+        0,
+        -4,
+        3
+      ],
+      [
+        0,
+        -4,
+        7
+      ],
+      [
+        0,
+        -26,
+        9
+      ],
+      [
+        0,
+        -25,
+        15
+      ],
+      [
+        0,
+        -24,
+        22
+      ],
+      [
+        0,
+        -22,
+        27
+      ]
+    ],
+    "gfxsmokepoint": [
+      [
+        0,
+        90,
+        3,
+        1
+      ],
+      [
+        0,
+        83,
+        13,
+        1
+      ],
+      [
+        0,
+        78,
+        14,
+        1
+      ],
+      [
+        0,
+        73,
+        21,
+        1
+      ],
+      [
+        0,
+        67,
+        26,
+        1
+      ],
+      [
+        0,
+        66,
+        31,
+        1
+      ],
+      [
+        0,
+        63,
+        34,
+        1
+      ],
+      [
+        0,
+        -16,
+        36,
+        1
+      ],
+      [
+        0,
+        -21,
+        36,
+        1
+      ],
+      [
+        0,
+        -14,
+        39,
+        1
+      ],
+      [
+        0,
+        -27,
+        40,
+        1
+      ],
+      [
+        0,
+        58,
+        42,
+        1
+      ],
+      [
+        0,
+        -12,
+        42,
+        1
+      ],
+      [
+        0,
+        -32,
+        45,
+        1
+      ],
+      [
+        0,
+        -77,
+        46,
+        1
+      ],
+      [
+        0,
+        -68,
+        47,
+        1
+      ],
+      [
+        0,
+        -34,
+        48,
+        1
+      ],
+      [
+        0,
+        -64,
+        49,
+        1
+      ],
+      [
+        0,
+        -61,
+        50,
+        1
+      ],
+      [
+        0,
+        54,
+        51,
+        1
+      ],
+      [
+        0,
+        -56,
+        51,
+        1
+      ],
+      [
+        0,
+        -12,
+        53,
+        1
+      ],
+      [
+        0,
+        -51,
+        53,
+        1
+      ],
+      [
+        0,
+        -40,
+        54,
+        1
+      ],
+      [
+        0,
+        -43,
+        55,
+        1
+      ],
+      [
+        0,
+        52,
+        58,
+        1
+      ],
+      [
+        0,
+        -7,
+        59,
+        1
+      ],
+      [
+        0,
+        50,
+        61,
+        1
+      ],
+      [
+        0,
+        6,
+        64,
+        1
+      ],
+      [
+        0,
+        18,
+        66,
+        1
+      ],
+      [
+        0,
+        13,
+        67,
+        1
+      ],
+      [
+        0,
+        46,
+        70,
+        1
+      ],
+      [
+        0,
+        24,
+        71,
+        1
+      ],
+      [
+        0,
+        44,
+        73,
+        1
+      ],
+      [
+        0,
+        42,
+        74,
+        1
+      ],
+      [
+        0,
+        -24,
+        -33,
+        0
+      ],
+      [
+        0,
+        -1,
+        -31,
+        0
+      ],
+      [
+        0,
+        -11,
+        -31,
+        0
+      ],
+      [
+        0,
+        -17,
+        -31,
+        0
+      ],
+      [
+        0,
+        5,
+        -29,
+        0
+      ],
+      [
+        0,
+        -35,
+        -27,
+        0
+      ],
+      [
+        0,
+        15,
+        -25,
+        0
+      ],
+      [
+        0,
+        27,
+        -21,
+        0
+      ],
+      [
+        0,
+        -45,
+        -20,
+        0
+      ],
+      [
+        0,
+        36,
+        -19,
+        0
+      ],
+      [
+        0,
+        44,
+        -18,
+        0
+      ],
+      [
+        0,
+        52,
+        -18,
+        0
+      ],
+      [
+        0,
+        62,
+        -18,
+        0
+      ],
+      [
+        0,
+        69,
+        -18,
+        0
+      ],
+      [
+        0,
+        80,
+        -12,
+        0
+      ],
+      [
+        0,
+        -51,
+        -11,
+        0
+      ],
+      [
+        0,
+        87,
+        -7,
+        0
+      ],
+      [
+        0,
+        -61,
+        -1,
+        0
+      ],
+      [
+        0,
+        -69,
+        8,
+        0
+      ],
+      [
+        0,
+        -73,
+        16,
+        0
+      ],
+      [
+        0,
+        -75,
+        23,
+        0
+      ],
+      [
+        0,
+        -78,
+        29,
+        0
+      ],
+      [
+        0,
+        -81,
+        33,
+        0
+      ]
+    ],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [],
+    "sharedEffects": {
+      "fx fire house 0": "Shared/Effects/fx_fire_house_0/metadata.json",
+      "fx fire house 1": "Shared/Effects/fx_fire_house_1/metadata.json",
+      "fx fire house 2": "Shared/Effects/fx_fire_house_2/metadata.json",
+      "fx smoke": "Shared/Effects/fx_smoke/metadata.json"
+    },
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 173,
+  "height": 326,
+  "pivot": [
+    83,
+    255
+  ],
+  "shadow": {
+    "bobId": 2,
+    "descriptor": {
+      "bobId": 2,
+      "frameIndex": 2,
+      "kind": 2,
+      "x": -79,
+      "y": -65,
+      "width": 288,
+      "height": 137,
+      "firstScanline": 494
+    },
+    "pivot": [
+      79,
+      65
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1516,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt_s.bmd",
+      "offset": 96639844,
+      "size": 12074,
+      "sha256": "5414a072a6a2952834e6b5771ed7bc815206cdb44f96ddf742e435c0293d3e55"
+    },
+    "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt_s.bmd/source.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/shadow/coverage_000002.png",
+    "pixelSha256": "11e40e9abb97431469ece3d2a56695012c01bd37b629793aa5e3e137fe1d0022"
+  },
+  "constructionParts": [
+    {
+      "bobId": 2,
+      "descriptor": {
+        "bobId": 2,
+        "frameIndex": 2,
+        "kind": 4,
+        "x": -83,
+        "y": -255,
+        "width": 173,
+        "height": 326,
+        "firstScanline": 802
+      },
+      "pivot": [
+        83,
+        255
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1883,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+        "offset": 95458132,
+        "size": 1181712,
+        "sha256": "aaa9bcceffb393d888c133387f9e022f6064b9c9b9a40876e961030f3140e4d2"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "caves",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1904,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\caves.pcx",
+        "offset": 132782956,
+        "size": 901,
+        "sha256": "e27c2a3eb01c271607490bec6b9d3c4703157e92231b4fc9e83b0b03b7da8a87"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "caves"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\caves.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/main/frame_000002.png",
+      "pixelSha256": "fc14c39eee0c1c0cd486331d0d65cf396aa1d6eb7419f2dd7ca111e27db8830c"
+    },
+    {
+      "bobId": 2,
+      "descriptor": {
+        "bobId": 2,
+        "frameIndex": 2,
+        "kind": 4,
+        "x": -83,
+        "y": -255,
+        "width": 173,
+        "height": 326,
+        "firstScanline": 802
+      },
+      "pivot": [
+        83,
+        255
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1883,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+        "offset": 95458132,
+        "size": 1181712,
+        "sha256": "aaa9bcceffb393d888c133387f9e022f6064b9c9b9a40876e961030f3140e4d2"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/layers/reveal_000002.png",
+      "pixelSha256": "0ed96ab073bed963543096f4ce4eacc37eae2d1c406f9a236443a2376c9a6959"
+    },
+    {
+      "bobId": 11,
+      "descriptor": {
+        "bobId": 11,
+        "frameIndex": 11,
+        "kind": 1,
+        "x": -80,
+        "y": -212,
+        "width": 434,
+        "height": 285,
+        "firstScanline": 3163
+      },
+      "pivot": [
+        80,
+        212
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1883,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+        "offset": 95458132,
+        "size": 1181712,
+        "sha256": "aaa9bcceffb393d888c133387f9e022f6064b9c9b9a40876e961030f3140e4d2"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt.bmd/source.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/layers/auxiliary_threshold_000011.png",
+      "pixelSha256": "ab73e3bf30d3e5f774445fdf87c98425a4f5fbe174f7b3295d85f4e501b08b40"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/progress_000.png",
+      "pivot": [
+        83,
+        255
+      ],
+      "dimensions": [
+        437,
+        328
+      ],
+      "palette": "caves",
+      "contributingLayers": [],
+      "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/progress_010.png",
+      "pivot": [
+        83,
+        255
+      ],
+      "dimensions": [
+        437,
+        328
+      ],
+      "palette": "caves",
+      "contributingLayers": [],
+      "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/progress_025.png",
+      "pivot": [
+        83,
+        255
+      ],
+      "dimensions": [
+        437,
+        328
+      ],
+      "palette": "caves",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            2,
+            11,
+            20,
+            100
+          ],
+          "threshold": 15,
+          "bodyPixels": 2064,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/progress_050.png",
+      "pivot": [
+        83,
+        255
+      ],
+      "dimensions": [
+        437,
+        328
+      ],
+      "palette": "caves",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            2,
+            11,
+            20,
+            100
+          ],
+          "threshold": 94,
+          "bodyPixels": 14950,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/progress_075.png",
+      "pivot": [
+        83,
+        255
+      ],
+      "dimensions": [
+        437,
+        328
+      ],
+      "palette": "caves",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            2,
+            11,
+            20,
+            100
+          ],
+          "threshold": 173,
+          "bodyPixels": 26226,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/progress_100.png",
+      "pivot": [
+        83,
+        255
+      ],
+      "dimensions": [
+        437,
+        328
+      ],
+      "palette": "caves",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            2,
+            11,
+            20,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 43615,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Tower_gfx83/level_0/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [],
+  "sourceAssetExport": "COMPLETE"
+}

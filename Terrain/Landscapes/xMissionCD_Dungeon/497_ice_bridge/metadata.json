@@ -1,0 +1,683 @@
+{
+ "gfxLandscapeId": 497,
+ "nativeName": "ice bridge",
+ "editGroups": [
+  [
+   "xMissionCD_Dungeon",
+   "xMissionCD_ice wall"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeName": "void",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "void"
+    ]
+   },
+   {
+    "name": "allowedoneverything",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     117,
+     117,
+     117
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goetter.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_dungeon_s.bmd",
+ "palettes": [
+  "ice_statues"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 1,
+ "transitions": [],
+ "maximumValency": 1,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "ice bridge"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "xMissionCD_Dungeon",
+     "xMissionCD_ice wall"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -3,
+     -10,
+     8
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -6,
+     -9,
+     3
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     3,
+     -9,
+     4
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -7,
+     -8,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     7,
+     -8,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -9,
+     -7,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -3,
+     -7,
+     6
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     8,
+     -7,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -10,
+     -6,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -5,
+     -6,
+     12
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     10,
+     -6,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -11,
+     -5,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -7,
+     -5,
+     4
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     2,
+     -5,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     4,
+     -5,
+     4
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -8,
+     -4,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -4,
+     -4,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     2,
+     -4,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     6,
+     -4,
+     4
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -10,
+     -3,
+     3
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -4,
+     -3,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     2,
+     -3,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     6,
+     -3,
+     5
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -11,
+     -2,
+     3
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -7,
+     -2,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     2,
+     -2,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     7,
+     -2,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -4,
+     -11,
+     9
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -6,
+     -10,
+     14
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -8,
+     -9,
+     17
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -9,
+     -8,
+     20
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -11,
+     -7,
+     22
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -11,
+     -6,
+     23
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -12,
+     -5,
+     23
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -11,
+     -4,
+     9
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     1,
+     -4,
+     11
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -12,
+     -3,
+     6
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -5,
+     -3,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     1,
+     -3,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     5,
+     -3,
+     7
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -12,
+     -2,
+     7
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -4,
+     -2,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     1,
+     -2,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     6,
+     -2,
+     6
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -12,
+     -1,
+     6
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -4,
+     -1,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     1,
+     -1,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     6,
+     -1,
+     3
+    ]
+   },
+   {
+    "name": "logicadditionalattachpointarea",
+    "arguments": [
+     -3,
+     -10,
+     1
+    ]
+   },
+   {
+    "name": "logicadditionalattachpointarea",
+    "arguments": [
+     4,
+     -10,
+     1
+    ]
+   },
+   {
+    "name": "logicadditionalattachpointarea",
+    "arguments": [
+     -4,
+     -3,
+     1
+    ]
+   },
+   {
+    "name": "logicadditionalattachpointarea",
+    "arguments": [
+     10,
+     -3,
+     1
+    ]
+   },
+   {
+    "name": "logicadditionalattachpointarea",
+    "arguments": [
+     -11,
+     -2,
+     1
+    ]
+   },
+   {
+    "name": "logicadditionalattachpointarea",
+    "arguments": [
+     2,
+     -2,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goetter.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_dungeon_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "ice_statues"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     257
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     1
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 257,
+     "width": 768,
+     "height": 166,
+     "pivot": [
+      384,
+      200
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_Dungeon/497_ice_bridge/bob_000257.png"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/xMissionCD_Dungeon/497_ice_bridge",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

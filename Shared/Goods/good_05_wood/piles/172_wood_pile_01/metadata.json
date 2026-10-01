@@ -1,0 +1,396 @@
+{
+ "gfxLandscapeId": 172,
+ "nativeName": "wood pile 01",
+ "editGroups": [
+  [
+   "goods all",
+   "good piles all",
+   "good piles build"
+  ]
+ ],
+ "logicType": 7,
+ "logicTypeName": "wood",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     7
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "wood"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     7,
+     2,
+     -1,
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     7,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     112,
+     74,
+     43
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 5,
+   "goodName": "wood",
+   "english": "Wood",
+   "field": "landscapetype"
+  },
+  {
+   "goodId": 5,
+   "goodName": "wood",
+   "english": "Wood",
+   "field": "landscapetostore"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd",
+ "palettes": [
+  "goods_wood"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   4,
+   "wood pile 01"
+  ],
+  [
+   3,
+   "wood pile 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "wood pile 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all",
+     "good piles all",
+     "good piles build"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     7
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_wood"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     4
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     3
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     2
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     1
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     0
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "wood pile 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "wood pile 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 4,
+     "width": 58,
+     "height": 36,
+     "pivot": [
+      33,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000004.png",
+     "kind4Secondary": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000004__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000004__shadow_mask.png",
+     "shadowPivot": [
+      33,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 3,
+     "width": 40,
+     "height": 36,
+     "pivot": [
+      15,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000003.png",
+     "kind4Secondary": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000003__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000003__shadow_mask.png",
+     "shadowPivot": [
+      14,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 2,
+     "width": 40,
+     "height": 36,
+     "pivot": [
+      15,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000002.png",
+     "kind4Secondary": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000002__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000002__shadow_mask.png",
+     "shadowPivot": [
+      14,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 1,
+     "width": 40,
+     "height": 28,
+     "pivot": [
+      15,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000001.png",
+     "kind4Secondary": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000001__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000001__shadow_mask.png",
+     "shadowPivot": [
+      14,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 0,
+     "width": 26,
+     "height": 26,
+     "pivot": [
+      15,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000000.png",
+     "kind4Secondary": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000000__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000000__shadow_mask.png",
+     "shadowPivot": [
+      14,
+      7
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_05_wood/piles/172_wood_pile_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

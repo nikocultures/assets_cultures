@@ -1,0 +1,232 @@
+{
+ "gfxLandscapeId": 426,
+ "nativeName": "debris stones 04",
+ "editGroups": [
+  [
+   "ruins_debris"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeName": "void",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "void"
+    ]
+   },
+   {
+    "name": "allowedoneverything",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     117,
+     117,
+     117
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [
+  {
+   "section": "tribehouselinkdata",
+   "tribe": 1,
+   "landscapeType": null,
+   "houseType": 0
+  },
+  {
+   "section": "tribehouselinkdata",
+   "tribe": 1,
+   "landscapeType": null,
+   "houseType": 0
+  },
+  {
+   "section": "tribehouselinkdata",
+   "tribe": 1,
+   "landscapeType": null,
+   "houseType": 2
+  },
+  {
+   "section": "tribehouselinkdata",
+   "tribe": 1,
+   "landscapeType": null,
+   "houseType": 2
+  }
+ ],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_ground.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_ground_s.bmd",
+ "palettes": [
+  "debris01"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [],
+ "maximumValency": 1,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "debris stones 04"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "ruins_debris"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_ground.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_ground_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "debris01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     88
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 88,
+     "width": 16,
+     "height": 14,
+     "pivot": [
+      6,
+      8
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/ruins_debris/426_debris_stones_04/bob_000088.png",
+     "kind4Secondary": "Terrain/Landscapes/ruins_debris/426_debris_stones_04/bob_000088__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/ruins_debris/426_debris_stones_04/bob_000088__shadow_mask.png",
+     "shadowPivot": [
+      -2,
+      1
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/ruins_debris/426_debris_stones_04",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

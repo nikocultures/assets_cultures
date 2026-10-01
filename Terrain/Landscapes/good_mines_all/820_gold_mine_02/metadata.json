@@ -1,0 +1,1034 @@
+{
+ "gfxLandscapeId": 820,
+ "nativeName": "gold mine 02",
+ "editGroups": [
+  [
+   "good mines all"
+  ]
+ ],
+ "logicType": 21,
+ "logicTypeName": "gold_mine",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     21
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "gold_mine"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     6
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     5,
+     21,
+     2,
+     -1,
+     0
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     12,
+     22
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     2,
+     1,
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     185,
+     185,
+     185
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 7,
+   "goodName": "gold",
+   "english": "Gold",
+   "field": "landscapetoharvest"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_ground.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_ground_s.bmd",
+ "palettes": [
+  "gold01"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "gold mine 01"
+  ],
+  [
+   5,
+   "gold mine 01"
+  ],
+  [
+   12,
+   "gold ore 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "gold mine 02"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "good mines all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     21
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     5,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     5,
+     -1,
+     0,
+     4
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     5,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     4,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     4,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     4,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     3,
+     0,
+     -1,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     3,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     3,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     2,
+     -1,
+     0,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     2,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     5,
+     -1,
+     -2,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     5,
+     -2,
+     -1,
+     5
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     5,
+     -2,
+     0,
+     6
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     5,
+     -2,
+     1,
+     5
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     5,
+     -1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     4,
+     -1,
+     -2,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     4,
+     -2,
+     -1,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     4,
+     -2,
+     0,
+     5
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     4,
+     -2,
+     1,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     4,
+     -1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     0,
+     -2,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -2,
+     -1,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -2,
+     0,
+     5
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -2,
+     1,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     2,
+     -2,
+     -1,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     2,
+     -2,
+     0,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     2,
+     -2,
+     1,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     2,
+     -1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -2,
+     1,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     5,
+     -1,
+     -2,
+     3
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     5,
+     -2,
+     -1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     5,
+     1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     5,
+     -2,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     5,
+     3,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     5,
+     -2,
+     1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     5,
+     1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     5,
+     -1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     4,
+     -1,
+     -2,
+     3
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     4,
+     -2,
+     -1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     4,
+     1,
+     -1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     4,
+     -2,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     4,
+     2,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     4,
+     -2,
+     1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     4,
+     1,
+     1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     4,
+     -1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     0,
+     -2,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -2,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     1,
+     -1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -2,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -2,
+     1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     1,
+     1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     2,
+     -2,
+     -1,
+     3
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     2,
+     -2,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     2,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     2,
+     -2,
+     1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     2,
+     1,
+     1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     2,
+     -1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -2,
+     1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_ground.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_ground_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "gold01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     9
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     8
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     7
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     6
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     5
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "gold mine 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     5,
+     "gold mine 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     12,
+     "gold ore 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 9,
+     "width": 131,
+     "height": 71,
+     "pivot": [
+      54,
+      38
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000009.png",
+     "kind4Secondary": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000009__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000009__shadow_mask.png",
+     "shadowPivot": [
+      53,
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 8,
+     "width": 94,
+     "height": 71,
+     "pivot": [
+      54,
+      38
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000008.png",
+     "kind4Secondary": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000008__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000008__shadow_mask.png",
+     "shadowPivot": [
+      53,
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 7,
+     "width": 89,
+     "height": 69,
+     "pivot": [
+      49,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000007.png",
+     "kind4Secondary": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000007__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000007__shadow_mask.png",
+     "shadowPivot": [
+      48,
+      31
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 6,
+     "width": 89,
+     "height": 47,
+     "pivot": [
+      49,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000006.png",
+     "kind4Secondary": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000006__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000006__shadow_mask.png",
+     "shadowPivot": [
+      48,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 5,
+     "width": 85,
+     "height": 47,
+     "pivot": [
+      45,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000005.png",
+     "kind4Secondary": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000005__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/good_mines_all/820_gold_mine_02/bob_000005__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      14
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/good_mines_all/820_gold_mine_02",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

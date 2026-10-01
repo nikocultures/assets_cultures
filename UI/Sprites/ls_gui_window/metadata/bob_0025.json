@@ -1,0 +1,52 @@
+{
+ "LIBRARY": "data\\gui\\lang\\eng\\bobs\\ls_gui_window.bmd",
+ "BOB_ID": 25,
+ "KIND": 1,
+ "WIDTH": 610,
+ "HEIGHT": 549,
+ "PIVOT": [
+  48,
+  69
+ ],
+ "EVIDENCE": [
+  "production_gameplay_ui.hpp:3260"
+ ],
+ "PALETTES": [
+  "data\\gui\\palettes\\papyrus.pcx"
+ ],
+ "OUTPUTS": [
+  "UI/Sprites/ls_gui_window/papyrus/bob_0025.png"
+ ],
+ "INDEX_DATA": "UI/Sprites/ls_gui_window/_index_data/bob_0025.png",
+ "STATUS": "PALETTE_EVIDENCED",
+ "CONFIDENCE": "PIXEL_CONFIRMED",
+ "evidenceDetail": [
+  {
+   "file": "production_gameplay_ui.hpp",
+   "line": 3260,
+   "paletteMember": "papyrusPalette_",
+   "palette": "data\\gui\\palettes\\papyrus.pcx",
+   "code": "drawSpriteClipped(surface, 0x19, owner.x, owner.y, papyrusPalette_",
+   "nearestComment": "multi-line call"
+  }
+ ],
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 161,
+  "entryName": "data\\gui\\lang\\eng\\bobs\\ls_gui_window.bmd",
+  "offset": 196270849,
+  "size": 937075,
+  "sha256": "1deb6437eb2fb2806cd5e43ef9508d65a06e187f507229368335c7bb8c579631"
+ },
+ "descriptor": {
+  "bobId": 25,
+  "frameIndex": 25,
+  "kind": 1,
+  "x": -48,
+  "y": -69,
+  "width": 610,
+  "height": 549,
+  "firstScanline": 672,
+  "offset": 15720
+ }
+}

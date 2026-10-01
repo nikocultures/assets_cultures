@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../../../", "crumbs": [["Home", "index.html"], ["Arabs", "Arabs/index.html"], ["Buildings", "Arabs/Buildings/index.html"], ["Tent03_gfx78", ""], ["level_0", ""]], "prev": ["saracen tent 02 L0", "Arabs/Buildings/Tent02_gfx77/level_0/index.html"], "next": ["saracen tent 04 L0", "Arabs/Buildings/Tent04_gfx79/level_0/index.html"]};

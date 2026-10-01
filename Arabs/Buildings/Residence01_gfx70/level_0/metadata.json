@@ -1,0 +1,1096 @@
+{
+  "nativeName": "saracen residence 01",
+  "tribe": "Arabs",
+  "logicHouseType": 2,
+  "gfxHouseId": 70,
+  "level": 0,
+  "bodyBob": 50,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_saracen_s.bmd",
+  "shadowBob": 50,
+  "paletteAlternatives": [
+    "house_saracen01"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 50,
+      "descriptor": {
+        "bobId": 50,
+        "frameIndex": 50,
+        "kind": 4,
+        "x": -27,
+        "y": -184,
+        "width": 131,
+        "height": 223,
+        "firstScanline": 4890
+      },
+      "pivot": [
+        27,
+        184
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_saracen01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2530,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx",
+        "offset": 132805489,
+        "size": 901,
+        "sha256": "2c25bdda4ce0014b3abad5757b75504d674af43d4ecd19b709a1ff331861f184"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_saracen01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Arabs/Buildings/Market_gfx67/level_0/main/frame_000050.png",
+      "pixelSha256": "499c6c3172e0c7c4411fa19153ac5003a77214e1649cd0782f26f8b81b45fbfc"
+    }
+  ],
+  "constructionLayers": [
+    [
+      0,
+      0,
+      52,
+      -1,
+      22,
+      87
+    ],
+    [
+      0,
+      0,
+      51,
+      -1,
+      0,
+      60
+    ],
+    [
+      0,
+      0,
+      50,
+      53,
+      39,
+      100
+    ]
+  ],
+  "doors": [],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [
+      [
+        0,
+        41,
+        -174
+      ],
+      [
+        0,
+        -2,
+        -168
+      ],
+      [
+        0,
+        29,
+        -161
+      ],
+      [
+        0,
+        76,
+        -157
+      ],
+      [
+        0,
+        33,
+        -142
+      ],
+      [
+        0,
+        66,
+        -116
+      ],
+      [
+        0,
+        41,
+        -102
+      ],
+      [
+        0,
+        22,
+        -91
+      ],
+      [
+        0,
+        82,
+        -89
+      ],
+      [
+        0,
+        60,
+        -57
+      ]
+    ],
+    "gfxsmokepoint": [
+      [
+        0,
+        -27,
+        -16,
+        1
+      ],
+      [
+        0,
+        -25,
+        -12,
+        1
+      ],
+      [
+        0,
+        -21,
+        -2,
+        1
+      ],
+      [
+        0,
+        -15,
+        4,
+        1
+      ],
+      [
+        0,
+        -11,
+        10,
+        1
+      ],
+      [
+        0,
+        -7,
+        18,
+        1
+      ],
+      [
+        0,
+        101,
+        20,
+        1
+      ],
+      [
+        0,
+        97,
+        20,
+        1
+      ],
+      [
+        0,
+        91,
+        20,
+        1
+      ],
+      [
+        0,
+        79,
+        20,
+        1
+      ],
+      [
+        0,
+        71,
+        24,
+        1
+      ],
+      [
+        0,
+        39,
+        28,
+        1
+      ],
+      [
+        0,
+        -1,
+        28,
+        1
+      ],
+      [
+        0,
+        45,
+        30,
+        1
+      ],
+      [
+        0,
+        55,
+        30,
+        1
+      ],
+      [
+        0,
+        65,
+        30,
+        1
+      ],
+      [
+        0,
+        71,
+        30,
+        1
+      ],
+      [
+        0,
+        29,
+        30,
+        1
+      ],
+      [
+        0,
+        17,
+        32,
+        1
+      ],
+      [
+        0,
+        5,
+        34,
+        1
+      ],
+      [
+        0,
+        63,
+        -42,
+        0
+      ],
+      [
+        0,
+        53,
+        -42,
+        0
+      ],
+      [
+        0,
+        45,
+        -40,
+        0
+      ],
+      [
+        0,
+        65,
+        -38,
+        0
+      ],
+      [
+        0,
+        41,
+        -36,
+        0
+      ],
+      [
+        0,
+        37,
+        -36,
+        0
+      ],
+      [
+        0,
+        27,
+        -36,
+        0
+      ],
+      [
+        0,
+        39,
+        -34,
+        0
+      ],
+      [
+        0,
+        19,
+        -32,
+        0
+      ],
+      [
+        0,
+        27,
+        -32,
+        0
+      ],
+      [
+        0,
+        69,
+        -32,
+        0
+      ],
+      [
+        0,
+        11,
+        -30,
+        0
+      ],
+      [
+        0,
+        5,
+        -28,
+        0
+      ],
+      [
+        0,
+        -1,
+        -26,
+        0
+      ],
+      [
+        0,
+        -7,
+        -26,
+        0
+      ],
+      [
+        0,
+        73,
+        -26,
+        0
+      ],
+      [
+        0,
+        -17,
+        -24,
+        0
+      ],
+      [
+        0,
+        -25,
+        -20,
+        0
+      ],
+      [
+        0,
+        79,
+        -18,
+        0
+      ],
+      [
+        0,
+        83,
+        -12,
+        0
+      ],
+      [
+        0,
+        87,
+        -6,
+        0
+      ],
+      [
+        0,
+        95,
+        4,
+        0
+      ],
+      [
+        0,
+        99,
+        10,
+        0
+      ]
+    ],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [],
+    "sharedEffects": {
+      "fx fire house 0": "Shared/Effects/fx_fire_house_0/metadata.json",
+      "fx fire house 1": "Shared/Effects/fx_fire_house_1/metadata.json",
+      "fx fire house 2": "Shared/Effects/fx_fire_house_2/metadata.json",
+      "fx smoke": "Shared/Effects/fx_smoke/metadata.json"
+    },
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 131,
+  "height": 223,
+  "pivot": [
+    27,
+    184
+  ],
+  "shadow": {
+    "bobId": 50,
+    "descriptor": {
+      "bobId": 50,
+      "frameIndex": 50,
+      "kind": 2,
+      "x": -25,
+      "y": -116,
+      "width": 172,
+      "height": 155,
+      "firstScanline": 972
+    },
+    "pivot": [
+      25,
+      116
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 868,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen_s.bmd",
+      "offset": 102501478,
+      "size": 16840,
+      "sha256": "48362982468b9333bcf12aed27a474c51c295137a80df12dda4505f61d9dfaa3"
+    },
+    "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen_s.bmd/source.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Arabs/Buildings/Market_gfx67/level_0/shadow/coverage_000050.png",
+    "pixelSha256": "5e43a8ef07e78319bae4412923a6f0bd1f7b57d2318e834483067e5c5c0df515"
+  },
+  "constructionParts": [
+    {
+      "bobId": 52,
+      "descriptor": {
+        "bobId": 52,
+        "frameIndex": 52,
+        "kind": 4,
+        "x": -27,
+        "y": -184,
+        "width": 99,
+        "height": 174,
+        "firstScanline": 5325
+      },
+      "pivot": [
+        27,
+        184
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_saracen01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2530,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx",
+        "offset": 132805489,
+        "size": 901,
+        "sha256": "2c25bdda4ce0014b3abad5757b75504d674af43d4ecd19b709a1ff331861f184"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_saracen01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Arabs/Buildings/Market_gfx67/level_0/construction/layers/house_saracen01/body_000052.png",
+      "pixelSha256": "014cd41fbb487171607cd52853848a69459d1c9edd4bac6c313a277445cb7e50"
+    },
+    {
+      "bobId": 52,
+      "descriptor": {
+        "bobId": 52,
+        "frameIndex": 52,
+        "kind": 4,
+        "x": -27,
+        "y": -184,
+        "width": 99,
+        "height": 174,
+        "firstScanline": 5325
+      },
+      "pivot": [
+        27,
+        184
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Arabs/Buildings/Market_gfx67/level_0/construction/layers/reveal_000052.png",
+      "pixelSha256": "51f9c8736365b089b56b18ef95e649e31131e3b83aeaf7d027fa78248a9bdb71"
+    },
+    {
+      "bobId": 51,
+      "descriptor": {
+        "bobId": 51,
+        "frameIndex": 51,
+        "kind": 4,
+        "x": -17,
+        "y": -183,
+        "width": 111,
+        "height": 212,
+        "firstScanline": 5113
+      },
+      "pivot": [
+        17,
+        183
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_saracen01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2530,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx",
+        "offset": 132805489,
+        "size": 901,
+        "sha256": "2c25bdda4ce0014b3abad5757b75504d674af43d4ecd19b709a1ff331861f184"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_saracen01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Arabs/Buildings/Market_gfx67/level_0/construction/layers/house_saracen01/body_000051.png",
+      "pixelSha256": "465bd6069a3d280fce192f53fdf4d4d5353bc2a48b937998a26fee6d19c97546"
+    },
+    {
+      "bobId": 51,
+      "descriptor": {
+        "bobId": 51,
+        "frameIndex": 51,
+        "kind": 4,
+        "x": -17,
+        "y": -183,
+        "width": 111,
+        "height": 212,
+        "firstScanline": 5113
+      },
+      "pivot": [
+        17,
+        183
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Arabs/Buildings/Market_gfx67/level_0/construction/layers/reveal_000051.png",
+      "pixelSha256": "ac696e59623b192875a362f786d60f652077f3d7f8d666c99b8716f2120324b7"
+    },
+    {
+      "bobId": 50,
+      "descriptor": {
+        "bobId": 50,
+        "frameIndex": 50,
+        "kind": 4,
+        "x": -27,
+        "y": -184,
+        "width": 131,
+        "height": 223,
+        "firstScanline": 4890
+      },
+      "pivot": [
+        27,
+        184
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_saracen01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2530,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx",
+        "offset": 132805489,
+        "size": 901,
+        "sha256": "2c25bdda4ce0014b3abad5757b75504d674af43d4ecd19b709a1ff331861f184"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_saracen01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Arabs/Buildings/Market_gfx67/level_0/main/frame_000050.png",
+      "pixelSha256": "499c6c3172e0c7c4411fa19153ac5003a77214e1649cd0782f26f8b81b45fbfc"
+    },
+    {
+      "bobId": 50,
+      "descriptor": {
+        "bobId": 50,
+        "frameIndex": 50,
+        "kind": 4,
+        "x": -27,
+        "y": -184,
+        "width": 131,
+        "height": 223,
+        "firstScanline": 4890
+      },
+      "pivot": [
+        27,
+        184
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Arabs/Buildings/Market_gfx67/level_0/construction/layers/reveal_000050.png",
+      "pixelSha256": "f06e77079af85d987757733c33861fd27bdb1d2e5f159d5419d81fb9eebc9cc1"
+    },
+    {
+      "bobId": 53,
+      "descriptor": {
+        "bobId": 53,
+        "frameIndex": 53,
+        "kind": 1,
+        "x": -26,
+        "y": -115,
+        "width": 173,
+        "height": 154,
+        "firstScanline": 5499
+      },
+      "pivot": [
+        26,
+        115
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Arabs/Buildings/Market_gfx67/level_0/construction/layers/auxiliary_threshold_000053.png",
+      "pixelSha256": "024b41c53a110a717a4270f9ec2b272616efaf2ebfaa6f482669fe07b7f116d4"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Arabs/Buildings/Residence01_gfx70/level_0/construction/progress_000.png",
+      "pivot": [
+        27,
+        184
+      ],
+      "dimensions": [
+        174,
+        223
+      ],
+      "palette": "house_saracen01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            51,
+            -1,
+            0,
+            60
+          ],
+          "threshold": 0,
+          "bodyPixels": 36,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Arabs/Buildings/Residence01_gfx70/level_0/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Arabs/Buildings/Residence01_gfx70/level_0/construction/progress_010.png",
+      "pivot": [
+        27,
+        184
+      ],
+      "dimensions": [
+        174,
+        223
+      ],
+      "palette": "house_saracen01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            51,
+            -1,
+            0,
+            60
+          ],
+          "threshold": 40,
+          "bodyPixels": 2024,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Arabs/Buildings/Residence01_gfx70/level_0/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Arabs/Buildings/Residence01_gfx70/level_0/construction/progress_025.png",
+      "pivot": [
+        27,
+        184
+      ],
+      "dimensions": [
+        174,
+        223
+      ],
+      "palette": "house_saracen01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            52,
+            -1,
+            22,
+            87
+          ],
+          "threshold": 10,
+          "bodyPixels": 556,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            51,
+            -1,
+            0,
+            60
+          ],
+          "threshold": 104,
+          "bodyPixels": 4175,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Arabs/Buildings/Residence01_gfx70/level_0/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Arabs/Buildings/Residence01_gfx70/level_0/construction/progress_050.png",
+      "pivot": [
+        27,
+        184
+      ],
+      "dimensions": [
+        174,
+        223
+      ],
+      "palette": "house_saracen01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            52,
+            -1,
+            22,
+            87
+          ],
+          "threshold": 109,
+          "bodyPixels": 6105,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            51,
+            -1,
+            0,
+            60
+          ],
+          "threshold": 211,
+          "bodyPixels": 10621,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            50,
+            53,
+            39,
+            100
+          ],
+          "threshold": 45,
+          "bodyPixels": 5288,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Arabs/Buildings/Residence01_gfx70/level_0/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Arabs/Buildings/Residence01_gfx70/level_0/construction/progress_075.png",
+      "pivot": [
+        27,
+        184
+      ],
+      "dimensions": [
+        174,
+        223
+      ],
+      "palette": "house_saracen01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            52,
+            -1,
+            22,
+            87
+          ],
+          "threshold": 206,
+          "bodyPixels": 11621,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            51,
+            -1,
+            0,
+            60
+          ],
+          "threshold": 256,
+          "bodyPixels": 14023,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            50,
+            53,
+            39,
+            100
+          ],
+          "threshold": 150,
+          "bodyPixels": 13920,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Arabs/Buildings/Residence01_gfx70/level_0/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Arabs/Buildings/Residence01_gfx70/level_0/construction/progress_100.png",
+      "pivot": [
+        27,
+        184
+      ],
+      "dimensions": [
+        174,
+        223
+      ],
+      "palette": "house_saracen01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            52,
+            -1,
+            22,
+            87
+          ],
+          "threshold": 256,
+          "bodyPixels": 14093,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            51,
+            -1,
+            0,
+            60
+          ],
+          "threshold": 256,
+          "bodyPixels": 14023,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            50,
+            53,
+            39,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 25195,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Arabs/Buildings/Residence01_gfx70/level_0/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [],
+  "sourceAssetExport": "COMPLETE"
+}

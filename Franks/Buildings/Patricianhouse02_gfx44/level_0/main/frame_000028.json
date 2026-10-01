@@ -1,0 +1,63 @@
+{
+  "bobId": 28,
+  "descriptor": {
+    "bobId": 28,
+    "frameIndex": 28,
+    "kind": 4,
+    "x": -89,
+    "y": -185,
+    "width": 180,
+    "height": 240,
+    "firstScanline": 6566
+  },
+  "pivot": [
+    89,
+    185
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1704,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+    "offset": 96651918,
+    "size": 3342700,
+    "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+  },
+  "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+  "role": "body",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "house01",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1905,
+    "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+    "offset": 132800083,
+    "size": 901,
+    "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "house01"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+  "path": "Franks/Buildings/Patricianhouse02_gfx44/level_0/main/frame_000028.png",
+  "pixelSha256": "f2189457ce33b6e7b807436d6165588e080a1e57c2efc593d6d391ac104a6f9a"
+}

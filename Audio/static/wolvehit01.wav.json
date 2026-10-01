@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 338,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\wolvehit01.wav",
+  "offset": 187716936,
+  "size": 12304,
+  "sha256": "209d29ed4c88ee8f00b927ded7b263dd3fafb14fba4053fd5919d4aad82d5412"
+ },
+ "output": "Audio/static/wolvehit01.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 12246,
+  "durationSeconds": 0.278,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 121,
+   "name": "Wolve Hit",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 105,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 121,
+   "name": "Wolve Hit",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 105,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Combat (name-derived)",
+ "categoryConfidence": "NAME_DERIVED",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

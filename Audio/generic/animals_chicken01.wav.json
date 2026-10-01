@@ -1,0 +1,61 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 296,
+  "entryName": "data\\engine2d\\bin\\sounds\\generic\\animals_chicken01.wav",
+  "offset": 147358794,
+  "size": 110272,
+  "sha256": "beae06943ba54ed7e29b9dea2cdfcccf22cc438744baaa8170ec3731402f2932"
+ },
+ "output": "Audio/generic/animals_chicken01.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 110214,
+  "durationSeconds": 2.499,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 158,
+   "name": "Chicken Sounds",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 158,
+   "name": "Chicken Sounds",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [
+  {
+   "tribe": 30,
+   "probability": 10,
+   "minCount": 1
+  }
+ ],
+ "category": "Animals",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

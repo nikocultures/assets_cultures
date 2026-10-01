@@ -1,0 +1,89 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2427,
+  "entryName": "data\\engine2d\\bin\\sounds\\humantalk\\oldenglish\\o24.wav",
+  "offset": 160637956,
+  "size": 63330,
+  "sha256": "0f8dec915345cd52032716b67ef9fd783f1d8896b42e1de0233a0384afeec302"
+ },
+ "output": "Audio/oldenglish/o24.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 63272,
+  "durationSeconds": 1.435,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 131,
+   "name": "Talk Franks Male",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 115,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 173,
+   "name": "Generic Frank Male",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 131,
+   "name": "Talk Franks Male",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 115,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 173,
+   "name": "Generic Frank Male",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [
+  {
+   "tribe": 2,
+   "use": "generic",
+   "arguments": [
+    2
+   ]
+  }
+ ],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

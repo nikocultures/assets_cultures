@@ -1,0 +1,563 @@
+{
+  "nativeName": "viking catapult",
+  "tribe": "Vikings",
+  "logicHouseType": 46,
+  "gfxHouseId": 25,
+  "level": 0,
+  "bodyBob": 32,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_vehicles.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_vehicles_s.bmd",
+  "shadowBob": 32,
+  "paletteAlternatives": [
+    "goods_bow"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 32,
+      "descriptor": {
+        "bobId": 32,
+        "frameIndex": 32,
+        "kind": 4,
+        "x": -64,
+        "y": -53,
+        "width": 112,
+        "height": 104,
+        "firstScanline": 7932
+      },
+      "pivot": [
+        64,
+        53
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2460,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_vehicles.bmd",
+        "offset": 119392542,
+        "size": 2592650,
+        "sha256": "105f4b82582a9feca5b11cd08966a03642def8b8c1068bf2bd541379c2eab400"
+      },
+      "rawLibrary": "Metadata/Sources/ls_vehicles.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "goods_bow",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1183,
+        "entryName": "data\\engine2d\\bin\\palettes\\goods\\goods_bow.pcx",
+        "offset": 132759529,
+        "size": 901,
+        "sha256": "7d19cbaec45a7343eeb8cb6b90abcc73e4b8d300353704c5bd9643ffceb241a1"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "goods_bow"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\goods\\goods_bow.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Catapult/level_0/main/frame_000032.png",
+      "pixelSha256": "71901b0e6c8d733fb2edc184b65c83e00f5bbfc24f1da1d06b13c6189c5576ef"
+    }
+  ],
+  "constructionLayers": [
+    [
+      0,
+      0,
+      32,
+      33,
+      0,
+      100
+    ]
+  ],
+  "doors": [
+    [
+      0,
+      1,
+      4
+    ]
+  ],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [],
+    "gfxsmokepoint": [],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [],
+    "sharedEffects": {},
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 112,
+  "height": 104,
+  "pivot": [
+    64,
+    53
+  ],
+  "shadow": {
+    "bobId": 32,
+    "descriptor": {
+      "bobId": 32,
+      "frameIndex": 32,
+      "kind": 2,
+      "x": -56,
+      "y": -13,
+      "width": 105,
+      "height": 70,
+      "firstScanline": 5848
+    },
+    "pivot": [
+      56,
+      13
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1925,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_vehicles_s.bmd",
+      "offset": 121985192,
+      "size": 123138,
+      "sha256": "a5b491bd3f820c66f27002b7e9730acba296310de00591546de38c39613cd4c7"
+    },
+    "rawLibrary": "Metadata/Sources/ls_vehicles_s.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Vikings/Buildings/Catapult/level_0/shadow/coverage_000032.png",
+    "pixelSha256": "08ca02164c4c47ad1383503abf8df25a6a97aef7a5e4a0bf250adafe96acfe14"
+  },
+  "constructionParts": [
+    {
+      "bobId": 32,
+      "descriptor": {
+        "bobId": 32,
+        "frameIndex": 32,
+        "kind": 4,
+        "x": -64,
+        "y": -53,
+        "width": 112,
+        "height": 104,
+        "firstScanline": 7932
+      },
+      "pivot": [
+        64,
+        53
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2460,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_vehicles.bmd",
+        "offset": 119392542,
+        "size": 2592650,
+        "sha256": "105f4b82582a9feca5b11cd08966a03642def8b8c1068bf2bd541379c2eab400"
+      },
+      "rawLibrary": "Metadata/Sources/ls_vehicles.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "goods_bow",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1183,
+        "entryName": "data\\engine2d\\bin\\palettes\\goods\\goods_bow.pcx",
+        "offset": 132759529,
+        "size": 901,
+        "sha256": "7d19cbaec45a7343eeb8cb6b90abcc73e4b8d300353704c5bd9643ffceb241a1"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "goods_bow"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\goods\\goods_bow.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Catapult/level_0/main/frame_000032.png",
+      "pixelSha256": "71901b0e6c8d733fb2edc184b65c83e00f5bbfc24f1da1d06b13c6189c5576ef"
+    },
+    {
+      "bobId": 32,
+      "descriptor": {
+        "bobId": 32,
+        "frameIndex": 32,
+        "kind": 4,
+        "x": -64,
+        "y": -53,
+        "width": 112,
+        "height": 104,
+        "firstScanline": 7932
+      },
+      "pivot": [
+        64,
+        53
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2460,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_vehicles.bmd",
+        "offset": 119392542,
+        "size": 2592650,
+        "sha256": "105f4b82582a9feca5b11cd08966a03642def8b8c1068bf2bd541379c2eab400"
+      },
+      "rawLibrary": "Metadata/Sources/ls_vehicles.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/Catapult/level_0/construction/layers/reveal_000032.png",
+      "pixelSha256": "450b4f038c03bc0442a5e3a695203eaf801c3a1c31952917bee0ddc3fd34e84c"
+    },
+    {
+      "bobId": 33,
+      "descriptor": {
+        "bobId": 33,
+        "frameIndex": 33,
+        "kind": 1,
+        "x": -58,
+        "y": -133,
+        "width": 174,
+        "height": 191,
+        "firstScanline": 8036
+      },
+      "pivot": [
+        58,
+        133
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2460,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_vehicles.bmd",
+        "offset": 119392542,
+        "size": 2592650,
+        "sha256": "105f4b82582a9feca5b11cd08966a03642def8b8c1068bf2bd541379c2eab400"
+      },
+      "rawLibrary": "Metadata/Sources/ls_vehicles.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Vikings/Buildings/Catapult/level_0/construction/layers/auxiliary_threshold_000033.png",
+      "pixelSha256": "1458763b6de0135766376732c90369e42d501330673ecd5281eeca06c73b9dea"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Vikings/Buildings/Catapult/level_0/construction/progress_000.png",
+      "pivot": [
+        64,
+        133
+      ],
+      "dimensions": [
+        180,
+        191
+      ],
+      "palette": "goods_bow",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            32,
+            33,
+            0,
+            100
+          ],
+          "threshold": 0,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Catapult/level_0/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Vikings/Buildings/Catapult/level_0/construction/progress_010.png",
+      "pivot": [
+        64,
+        133
+      ],
+      "dimensions": [
+        180,
+        191
+      ],
+      "palette": "goods_bow",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            32,
+            33,
+            0,
+            100
+          ],
+          "threshold": 25,
+          "bodyPixels": 71,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Catapult/level_0/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Vikings/Buildings/Catapult/level_0/construction/progress_025.png",
+      "pivot": [
+        64,
+        133
+      ],
+      "dimensions": [
+        180,
+        191
+      ],
+      "palette": "goods_bow",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            32,
+            33,
+            0,
+            100
+          ],
+          "threshold": 63,
+          "bodyPixels": 829,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Catapult/level_0/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Vikings/Buildings/Catapult/level_0/construction/progress_050.png",
+      "pivot": [
+        64,
+        133
+      ],
+      "dimensions": [
+        180,
+        191
+      ],
+      "palette": "goods_bow",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            32,
+            33,
+            0,
+            100
+          ],
+          "threshold": 127,
+          "bodyPixels": 3079,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Catapult/level_0/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Vikings/Buildings/Catapult/level_0/construction/progress_075.png",
+      "pivot": [
+        64,
+        133
+      ],
+      "dimensions": [
+        180,
+        191
+      ],
+      "palette": "goods_bow",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            32,
+            33,
+            0,
+            100
+          ],
+          "threshold": 191,
+          "bodyPixels": 3784,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Catapult/level_0/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Vikings/Buildings/Catapult/level_0/construction/progress_100.png",
+      "pivot": [
+        64,
+        133
+      ],
+      "dimensions": [
+        180,
+        191
+      ],
+      "palette": "goods_bow",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            32,
+            33,
+            0,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 5755,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Catapult/level_0/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [
+    {
+      "tuple": [
+        0,
+        1,
+        4
+      ],
+      "asset": {
+        "bobId": 4,
+        "descriptor": {
+          "bobId": 4,
+          "frameIndex": 4,
+          "kind": 1,
+          "x": -115,
+          "y": -178,
+          "width": 238,
+          "height": 249,
+          "firstScanline": 1066
+        },
+        "pivot": [
+          115,
+          178
+        ],
+        "source": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 2460,
+          "entryName": "data\\engine2d\\bin\\bobs\\ls_vehicles.bmd",
+          "offset": 119392542,
+          "size": 2592650,
+          "sha256": "105f4b82582a9feca5b11cd08966a03642def8b8c1068bf2bd541379c2eab400"
+        },
+        "rawLibrary": "Metadata/Sources/ls_vehicles.bmd",
+        "role": "body",
+        "confidence": "AUTOMATED_CONFIRMED",
+        "palette": "goods_bow",
+        "paletteSource": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 1183,
+          "entryName": "data\\engine2d\\bin\\palettes\\goods\\goods_bow.pcx",
+          "offset": 132759529,
+          "size": 901,
+          "sha256": "7d19cbaec45a7343eeb8cb6b90abcc73e4b8d300353704c5bd9643ffceb241a1"
+        },
+        "paletteDefinition": {
+          "section": "gfxpalette256",
+          "commands": [
+            {
+              "name": "editname",
+              "arguments": [
+                "goods_bow"
+              ]
+            },
+            {
+              "name": "gfxfile",
+              "arguments": [
+                "data\\engine2d\\bin\\palettes\\goods\\goods_bow.pcx"
+              ]
+            },
+            {
+              "name": "gfxpreshade",
+              "arguments": [
+                1
+              ]
+            }
+          ]
+        },
+        "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+        "path": "Vikings/Buildings/Catapult/level_0/states/door/goods_bow/frame_000004.png",
+        "pixelSha256": "1eb2b5cfdd6c5c42e39e68edd3182bf307602522cf7b97be49e737580cf237e1"
+      }
+    }
+  ],
+  "sourceAssetExport": "COMPLETE"
+}

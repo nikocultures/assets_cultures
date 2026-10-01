@@ -1,0 +1,90 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1136,
+  "entryName": "data\\engine2d\\bin\\sounds\\humantalk\\f3no04.wav",
+  "offset": 161643706,
+  "size": 47002,
+  "sha256": "cdc06018f3e9b7bcf41d4b68e9a29a644d0f4c308fbceb2071a712fd00eed3d0"
+ },
+ "output": "Audio/humantalk/f3no04.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 46944,
+  "durationSeconds": 1.064,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 130,
+   "name": "Talk Viking Female",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 114,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 243,
+   "name": "Viking female no 03",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 130,
+   "name": "Talk Viking Female",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 114,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 243,
+   "name": "Viking female no 03",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [
+  {
+   "tribe": 1,
+   "use": "respond",
+   "arguments": [
+    1,
+    1
+   ]
+  }
+ ],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../../../../", "crumbs": [["Home", "index.html"], ["Other Tribes", "Other Tribes/index.html"], ["Egypt", "Other Tribes/Egypt/index.html"], ["Humans", "Other Tribes/Egypt/Humans/index.html"], ["Heroes", ""], ["job_47_heroine_bow_XENA", ""]], "prev": ["Axe Hero", "Other Tribes/Egypt/Humans/Heroes/job_46_hero_axe/index.html"], "next": null};

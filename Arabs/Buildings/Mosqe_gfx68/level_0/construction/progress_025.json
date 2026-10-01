@@ -1,0 +1,44 @@
+{
+  "progressPercent": 25,
+  "path": "Arabs/Buildings/Mosqe_gfx68/level_0/construction/progress_025.png",
+  "pivot": [
+    105,
+    258
+  ],
+  "dimensions": [
+    293,
+    335
+  ],
+  "palette": "house_saracen01",
+  "contributingLayers": [
+    {
+      "tuple": [
+        0,
+        0,
+        32,
+        -1,
+        22,
+        87
+      ],
+      "threshold": 10,
+      "bodyPixels": 1380,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    },
+    {
+      "tuple": [
+        0,
+        0,
+        31,
+        -1,
+        0,
+        60
+      ],
+      "threshold": 104,
+      "bodyPixels": 4387,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    }
+  ],
+  "destinationDarkeningCounts": "Arabs/Buildings/Mosqe_gfx68/level_0/construction/progress_025_destination_darken_counts.png",
+  "confidence": "PARTIAL",
+  "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+}

@@ -1,0 +1,89 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2307,
+  "entryName": "data\\engine2d\\bin\\sounds\\ambient\\branchcrack_01.wav",
+  "offset": 135535842,
+  "size": 24550,
+  "sha256": "2998c87475ca26a30bdb73d74d8a34d79deebed1302423a63417ed4aa157c1f2"
+ },
+ "output": "Audio/ambient/branchcrack_01.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 24492,
+  "durationSeconds": 0.555,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 11,
+   "name": "All Trees",
+   "parameters": [
+    10,
+    60,
+    3
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": "trees yew",
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 12,
+   "name": "All Snow Trees",
+   "parameters": [
+    10,
+    60,
+    3
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": "trees snow yew",
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 11,
+   "name": "All Trees",
+   "parameters": [
+    10,
+    60,
+    3
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": "trees yew",
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 12,
+   "name": "All Snow Trees",
+   "parameters": [
+    10,
+    60,
+    3
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": "trees snow yew",
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Ambient",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

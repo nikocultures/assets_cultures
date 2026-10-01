@@ -1,0 +1,1371 @@
+{
+  "nativeName": "saracen tent 01",
+  "tribe": "Arabs",
+  "logicHouseType": 2,
+  "gfxHouseId": 76,
+  "level": 0,
+  "bodyBob": 0,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_beduines.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_beduines_s.bmd",
+  "shadowBob": 0,
+  "paletteAlternatives": [
+    "rock03"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 0,
+      "descriptor": {
+        "bobId": 0,
+        "frameIndex": 0,
+        "kind": 4,
+        "x": -130,
+        "y": -113,
+        "width": 254,
+        "height": 197,
+        "firstScanline": 0
+      },
+      "pivot": [
+        130,
+        113
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2349,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_beduines.bmd",
+        "offset": 89862152,
+        "size": 374351,
+        "sha256": "2380e1a538c5cbaa1fc161c7d8b80b00e19223ed9d6cb1d2be8cbaa9d5307c66"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_beduines.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "rock03",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1906,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\rock03.pcx",
+        "offset": 132816301,
+        "size": 901,
+        "sha256": "31aca1648465e7422d54b7e4503b5cec89702abf3d49c3ffab347491db073dcc"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "rock03"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\rock03.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/main/frame_000000.png",
+      "pixelSha256": "5b7c4be1c635d4605319149549248edc06ade8d410bdf5eae6745c6651190182"
+    }
+  ],
+  "constructionLayers": [
+    [
+      0,
+      0,
+      2,
+      -1,
+      6,
+      87
+    ],
+    [
+      0,
+      0,
+      1,
+      -1,
+      0,
+      60
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      10,
+      100
+    ]
+  ],
+  "doors": [],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [
+      [
+        0,
+        6,
+        -88
+      ],
+      [
+        0,
+        -29,
+        -87
+      ],
+      [
+        0,
+        -16,
+        -76
+      ],
+      [
+        0,
+        34,
+        -72
+      ],
+      [
+        0,
+        75,
+        -66
+      ],
+      [
+        0,
+        -86,
+        -42
+      ],
+      [
+        0,
+        80,
+        -21
+      ],
+      [
+        0,
+        -87,
+        -17
+      ],
+      [
+        0,
+        30,
+        -7
+      ],
+      [
+        0,
+        -109,
+        3
+      ],
+      [
+        0,
+        14,
+        6
+      ],
+      [
+        0,
+        -90,
+        9
+      ],
+      [
+        0,
+        -14,
+        14
+      ],
+      [
+        0,
+        61,
+        18
+      ],
+      [
+        0,
+        -96,
+        20
+      ],
+      [
+        0,
+        -54,
+        30
+      ],
+      [
+        0,
+        13,
+        36
+      ],
+      [
+        0,
+        47,
+        41
+      ],
+      [
+        0,
+        2,
+        42
+      ],
+      [
+        0,
+        16,
+        52
+      ]
+    ],
+    "gfxsmokepoint": [
+      [
+        0,
+        -126,
+        5,
+        1
+      ],
+      [
+        0,
+        -125,
+        7,
+        1
+      ],
+      [
+        0,
+        -123,
+        11,
+        1
+      ],
+      [
+        0,
+        110,
+        15,
+        1
+      ],
+      [
+        0,
+        -123,
+        15,
+        1
+      ],
+      [
+        0,
+        122,
+        18,
+        1
+      ],
+      [
+        0,
+        108,
+        22,
+        1
+      ],
+      [
+        0,
+        109,
+        24,
+        1
+      ],
+      [
+        0,
+        103,
+        25,
+        1
+      ],
+      [
+        0,
+        99,
+        27,
+        1
+      ],
+      [
+        0,
+        -122,
+        30,
+        1
+      ],
+      [
+        0,
+        99,
+        31,
+        1
+      ],
+      [
+        0,
+        -117,
+        32,
+        1
+      ],
+      [
+        0,
+        -92,
+        32,
+        1
+      ],
+      [
+        0,
+        -114,
+        33,
+        1
+      ],
+      [
+        0,
+        86,
+        38,
+        1
+      ],
+      [
+        0,
+        68,
+        39,
+        1
+      ],
+      [
+        0,
+        -115,
+        39,
+        1
+      ],
+      [
+        0,
+        -87,
+        41,
+        1
+      ],
+      [
+        0,
+        -68,
+        45,
+        1
+      ],
+      [
+        0,
+        -80,
+        45,
+        1
+      ],
+      [
+        0,
+        58,
+        46,
+        1
+      ],
+      [
+        0,
+        -36,
+        47,
+        1
+      ],
+      [
+        0,
+        -16,
+        50,
+        1
+      ],
+      [
+        0,
+        -42,
+        50,
+        1
+      ],
+      [
+        0,
+        -40,
+        50,
+        1
+      ],
+      [
+        0,
+        -66,
+        51,
+        1
+      ],
+      [
+        0,
+        50,
+        53,
+        1
+      ],
+      [
+        0,
+        -33,
+        55,
+        1
+      ],
+      [
+        0,
+        48,
+        57,
+        1
+      ],
+      [
+        0,
+        -21,
+        60,
+        1
+      ],
+      [
+        0,
+        42,
+        61,
+        1
+      ],
+      [
+        0,
+        39,
+        66,
+        1
+      ],
+      [
+        0,
+        34,
+        69,
+        1
+      ],
+      [
+        0,
+        24,
+        72,
+        1
+      ],
+      [
+        0,
+        -6,
+        74,
+        1
+      ],
+      [
+        0,
+        6,
+        78,
+        1
+      ],
+      [
+        0,
+        -3,
+        -46,
+        0
+      ],
+      [
+        0,
+        12,
+        -45,
+        0
+      ],
+      [
+        0,
+        -12,
+        -44,
+        0
+      ],
+      [
+        0,
+        19,
+        -42,
+        0
+      ],
+      [
+        0,
+        11,
+        -42,
+        0
+      ],
+      [
+        0,
+        -20,
+        -42,
+        0
+      ],
+      [
+        0,
+        -27,
+        -41,
+        0
+      ],
+      [
+        0,
+        26,
+        -40,
+        0
+      ],
+      [
+        0,
+        0,
+        -40,
+        0
+      ],
+      [
+        0,
+        -19,
+        -40,
+        0
+      ],
+      [
+        0,
+        -16,
+        -40,
+        0
+      ],
+      [
+        0,
+        -43,
+        -39,
+        0
+      ],
+      [
+        0,
+        -47,
+        -38,
+        0
+      ],
+      [
+        0,
+        -52,
+        -37,
+        0
+      ],
+      [
+        0,
+        25,
+        -37,
+        0
+      ],
+      [
+        0,
+        35,
+        -36,
+        0
+      ],
+      [
+        0,
+        24,
+        -36,
+        0
+      ],
+      [
+        0,
+        44,
+        -35,
+        0
+      ],
+      [
+        0,
+        43,
+        -35,
+        0
+      ],
+      [
+        0,
+        -59,
+        -34,
+        0
+      ],
+      [
+        0,
+        -66,
+        -32,
+        0
+      ],
+      [
+        0,
+        64,
+        -31,
+        0
+      ],
+      [
+        0,
+        51,
+        -30,
+        0
+      ],
+      [
+        0,
+        54,
+        -30,
+        0
+      ],
+      [
+        0,
+        69,
+        -27,
+        0
+      ],
+      [
+        0,
+        -81,
+        -26,
+        0
+      ],
+      [
+        0,
+        -71,
+        -25,
+        0
+      ],
+      [
+        0,
+        78,
+        -21,
+        0
+      ],
+      [
+        0,
+        -84,
+        -21,
+        0
+      ],
+      [
+        0,
+        -95,
+        -18,
+        0
+      ],
+      [
+        0,
+        -92,
+        -17,
+        0
+      ],
+      [
+        0,
+        -107,
+        -12,
+        0
+      ],
+      [
+        0,
+        -111,
+        -11,
+        0
+      ],
+      [
+        0,
+        86,
+        -9,
+        0
+      ],
+      [
+        0,
+        -115,
+        -4,
+        0
+      ],
+      [
+        0,
+        -118,
+        -2,
+        0
+      ],
+      [
+        0,
+        101,
+        9,
+        0
+      ]
+    ],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [],
+    "sharedEffects": {
+      "fx fire house 0": "Shared/Effects/fx_fire_house_0/metadata.json",
+      "fx fire house 1": "Shared/Effects/fx_fire_house_1/metadata.json",
+      "fx fire house 2": "Shared/Effects/fx_fire_house_2/metadata.json",
+      "fx smoke": "Shared/Effects/fx_smoke/metadata.json"
+    },
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 254,
+  "height": 197,
+  "pivot": [
+    130,
+    113
+  ],
+  "shadow": {
+    "bobId": 0,
+    "descriptor": {
+      "bobId": 0,
+      "frameIndex": 0,
+      "kind": 2,
+      "x": -128,
+      "y": -59,
+      "width": 270,
+      "height": 146,
+      "firstScanline": 0
+    },
+    "pivot": [
+      128,
+      59
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1836,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_beduines_s.bmd",
+      "offset": 90236503,
+      "size": 5886,
+      "sha256": "c7db74984699cb1a283c72fa1d1722ff211c2837725bfce2a1833ed403253f10"
+    },
+    "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_beduines_s.bmd/source.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Arabs/Buildings/Tent01_gfx76/level_0/shadow/coverage_000000.png",
+    "pixelSha256": "dd6261a0e11aab9aba1b4d3d7377eb6a321c87ddd1fe29bff943a94b43263f8a"
+  },
+  "constructionParts": [
+    {
+      "bobId": 2,
+      "descriptor": {
+        "bobId": 2,
+        "frameIndex": 2,
+        "kind": 4,
+        "x": -126,
+        "y": -113,
+        "width": 250,
+        "height": 184,
+        "firstScanline": 331
+      },
+      "pivot": [
+        126,
+        113
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2349,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_beduines.bmd",
+        "offset": 89862152,
+        "size": 374351,
+        "sha256": "2380e1a538c5cbaa1fc161c7d8b80b00e19223ed9d6cb1d2be8cbaa9d5307c66"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_beduines.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "rock03",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1906,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\rock03.pcx",
+        "offset": 132816301,
+        "size": 901,
+        "sha256": "31aca1648465e7422d54b7e4503b5cec89702abf3d49c3ffab347491db073dcc"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "rock03"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\rock03.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/construction/layers/rock03/body_000002.png",
+      "pixelSha256": "f0bd02d677b2206c14e0ab4dce6d38326a1cd70a8c65b5cab670749462a75e41"
+    },
+    {
+      "bobId": 2,
+      "descriptor": {
+        "bobId": 2,
+        "frameIndex": 2,
+        "kind": 4,
+        "x": -126,
+        "y": -113,
+        "width": 250,
+        "height": 184,
+        "firstScanline": 331
+      },
+      "pivot": [
+        126,
+        113
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2349,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_beduines.bmd",
+        "offset": 89862152,
+        "size": 374351,
+        "sha256": "2380e1a538c5cbaa1fc161c7d8b80b00e19223ed9d6cb1d2be8cbaa9d5307c66"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_beduines.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/construction/layers/reveal_000002.png",
+      "pixelSha256": "80fc8a4ab7717abe1ab58f1ced3081ccc6133a2e71683838857ab71d23501cd3"
+    },
+    {
+      "bobId": 1,
+      "descriptor": {
+        "bobId": 1,
+        "frameIndex": 1,
+        "kind": 4,
+        "x": -88,
+        "y": -113,
+        "width": 212,
+        "height": 134,
+        "firstScanline": 197
+      },
+      "pivot": [
+        88,
+        113
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2349,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_beduines.bmd",
+        "offset": 89862152,
+        "size": 374351,
+        "sha256": "2380e1a538c5cbaa1fc161c7d8b80b00e19223ed9d6cb1d2be8cbaa9d5307c66"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_beduines.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "rock03",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1906,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\rock03.pcx",
+        "offset": 132816301,
+        "size": 901,
+        "sha256": "31aca1648465e7422d54b7e4503b5cec89702abf3d49c3ffab347491db073dcc"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "rock03"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\rock03.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/construction/layers/rock03/body_000001.png",
+      "pixelSha256": "c4f47ee92ec088e19d3abd6006e584720993df001b41d6c0620ddebff92e5437"
+    },
+    {
+      "bobId": 1,
+      "descriptor": {
+        "bobId": 1,
+        "frameIndex": 1,
+        "kind": 4,
+        "x": -88,
+        "y": -113,
+        "width": 212,
+        "height": 134,
+        "firstScanline": 197
+      },
+      "pivot": [
+        88,
+        113
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2349,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_beduines.bmd",
+        "offset": 89862152,
+        "size": 374351,
+        "sha256": "2380e1a538c5cbaa1fc161c7d8b80b00e19223ed9d6cb1d2be8cbaa9d5307c66"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_beduines.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/construction/layers/reveal_000001.png",
+      "pixelSha256": "03f3d0f68c68f5bec6856225c595b369c45698f3b38556771c84887cbef46717"
+    },
+    {
+      "bobId": 0,
+      "descriptor": {
+        "bobId": 0,
+        "frameIndex": 0,
+        "kind": 4,
+        "x": -130,
+        "y": -113,
+        "width": 254,
+        "height": 197,
+        "firstScanline": 0
+      },
+      "pivot": [
+        130,
+        113
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2349,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_beduines.bmd",
+        "offset": 89862152,
+        "size": 374351,
+        "sha256": "2380e1a538c5cbaa1fc161c7d8b80b00e19223ed9d6cb1d2be8cbaa9d5307c66"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_beduines.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "rock03",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1906,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\rock03.pcx",
+        "offset": 132816301,
+        "size": 901,
+        "sha256": "31aca1648465e7422d54b7e4503b5cec89702abf3d49c3ffab347491db073dcc"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "rock03"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\rock03.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/main/frame_000000.png",
+      "pixelSha256": "5b7c4be1c635d4605319149549248edc06ade8d410bdf5eae6745c6651190182"
+    },
+    {
+      "bobId": 0,
+      "descriptor": {
+        "bobId": 0,
+        "frameIndex": 0,
+        "kind": 4,
+        "x": -130,
+        "y": -113,
+        "width": 254,
+        "height": 197,
+        "firstScanline": 0
+      },
+      "pivot": [
+        130,
+        113
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2349,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_beduines.bmd",
+        "offset": 89862152,
+        "size": 374351,
+        "sha256": "2380e1a538c5cbaa1fc161c7d8b80b00e19223ed9d6cb1d2be8cbaa9d5307c66"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_beduines.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/construction/layers/reveal_000000.png",
+      "pixelSha256": "b7154002d71fab5f0e31f3ed0b08f6860a79f3baa93116e804af5ea7428d946d"
+    },
+    {
+      "bobId": 3,
+      "descriptor": {
+        "bobId": 3,
+        "frameIndex": 3,
+        "kind": 1,
+        "x": -128,
+        "y": -60,
+        "width": 273,
+        "height": 147,
+        "firstScanline": 515
+      },
+      "pivot": [
+        128,
+        60
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2349,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_beduines.bmd",
+        "offset": 89862152,
+        "size": 374351,
+        "sha256": "2380e1a538c5cbaa1fc161c7d8b80b00e19223ed9d6cb1d2be8cbaa9d5307c66"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_beduines.bmd/source.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/construction/layers/auxiliary_threshold_000003.png",
+      "pixelSha256": "1f80c7b5c1d3efd3b2ff9f72b21b900f12786bfe499d75198701d1abfd9eb1f1"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/construction/progress_000.png",
+      "pivot": [
+        130,
+        113
+      ],
+      "dimensions": [
+        275,
+        200
+      ],
+      "palette": "rock03",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            1,
+            -1,
+            0,
+            60
+          ],
+          "threshold": 0,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Arabs/Buildings/Tent01_gfx76/level_0/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/construction/progress_010.png",
+      "pivot": [
+        130,
+        113
+      ],
+      "dimensions": [
+        275,
+        200
+      ],
+      "palette": "rock03",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            2,
+            -1,
+            6,
+            87
+          ],
+          "threshold": 10,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            1,
+            -1,
+            0,
+            60
+          ],
+          "threshold": 40,
+          "bodyPixels": 1967,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            0,
+            3,
+            10,
+            100
+          ],
+          "threshold": 0,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Arabs/Buildings/Tent01_gfx76/level_0/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/construction/progress_025.png",
+      "pivot": [
+        130,
+        113
+      ],
+      "dimensions": [
+        275,
+        200
+      ],
+      "palette": "rock03",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            2,
+            -1,
+            6,
+            87
+          ],
+          "threshold": 58,
+          "bodyPixels": 1706,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            1,
+            -1,
+            0,
+            60
+          ],
+          "threshold": 104,
+          "bodyPixels": 5092,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            0,
+            3,
+            10,
+            100
+          ],
+          "threshold": 40,
+          "bodyPixels": 6438,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Arabs/Buildings/Tent01_gfx76/level_0/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/construction/progress_050.png",
+      "pivot": [
+        130,
+        113
+      ],
+      "dimensions": [
+        275,
+        200
+      ],
+      "palette": "rock03",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            2,
+            -1,
+            6,
+            87
+          ],
+          "threshold": 137,
+          "bodyPixels": 4136,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            1,
+            -1,
+            0,
+            60
+          ],
+          "threshold": 211,
+          "bodyPixels": 9895,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            0,
+            3,
+            10,
+            100
+          ],
+          "threshold": 112,
+          "bodyPixels": 11367,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Arabs/Buildings/Tent01_gfx76/level_0/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/construction/progress_075.png",
+      "pivot": [
+        130,
+        113
+      ],
+      "dimensions": [
+        275,
+        200
+      ],
+      "palette": "rock03",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            2,
+            -1,
+            6,
+            87
+          ],
+          "threshold": 216,
+          "bodyPixels": 5632,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            1,
+            -1,
+            0,
+            60
+          ],
+          "threshold": 256,
+          "bodyPixels": 10014,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            0,
+            3,
+            10,
+            100
+          ],
+          "threshold": 183,
+          "bodyPixels": 24602,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Arabs/Buildings/Tent01_gfx76/level_0/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Arabs/Buildings/Tent01_gfx76/level_0/construction/progress_100.png",
+      "pivot": [
+        130,
+        113
+      ],
+      "dimensions": [
+        275,
+        200
+      ],
+      "palette": "rock03",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            2,
+            -1,
+            6,
+            87
+          ],
+          "threshold": 256,
+          "bodyPixels": 5745,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            1,
+            -1,
+            0,
+            60
+          ],
+          "threshold": 256,
+          "bodyPixels": 10014,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            0,
+            3,
+            10,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 26185,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Arabs/Buildings/Tent01_gfx76/level_0/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [],
+  "sourceAssetExport": "COMPLETE"
+}

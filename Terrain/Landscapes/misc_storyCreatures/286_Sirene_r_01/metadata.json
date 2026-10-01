@@ -1,0 +1,674 @@
+{
+ "gfxLandscapeId": 286,
+ "nativeName": "Sirene_r_01",
+ "editGroups": [
+  [
+   "misc_storyCreatures"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeName": "void",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "void"
+    ]
+   },
+   {
+    "name": "allowedoneverything",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     117,
+     117,
+     117
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_statues.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_statues_s.bmd",
+ "palettes": [
+  "informer01"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 0.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [],
+ "maximumValency": 1,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "Sirene_r_01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "misc_storyCreatures"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_statues.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_statues_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "informer01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 0,
+     "width": 118,
+     "height": 107,
+     "pivot": [
+      53,
+      110
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000000.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000000__shadow_mask.png",
+     "shadowPivot": [
+      56,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 1,
+     "width": 124,
+     "height": 98,
+     "pivot": [
+      67,
+      100
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000001.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000001__shadow_mask.png",
+     "shadowPivot": [
+      75,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 2,
+     "width": 121,
+     "height": 73,
+     "pivot": [
+      77,
+      75
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000002.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000002__shadow_mask.png",
+     "shadowPivot": [
+      78,
+      10
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 3,
+     "width": 118,
+     "height": 75,
+     "pivot": [
+      76,
+      77
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000003.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000003__shadow_mask.png",
+     "shadowPivot": [
+      82,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 4,
+     "width": 116,
+     "height": 76,
+     "pivot": [
+      72,
+      78
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000004.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000004__shadow_mask.png",
+     "shadowPivot": [
+      79,
+      12
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 5,
+     "width": 120,
+     "height": 75,
+     "pivot": [
+      74,
+      79
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000005.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000005__shadow_mask.png",
+     "shadowPivot": [
+      81,
+      13
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 6,
+     "width": 122,
+     "height": 79,
+     "pivot": [
+      73,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000006.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000006__shadow_mask.png",
+     "shadowPivot": [
+      84,
+      17
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 7,
+     "width": 122,
+     "height": 92,
+     "pivot": [
+      68,
+      95
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000007.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000007__shadow_mask.png",
+     "shadowPivot": [
+      79,
+      21
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 8,
+     "width": 123,
+     "height": 104,
+     "pivot": [
+      63,
+      105
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000008.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000008__shadow_mask.png",
+     "shadowPivot": [
+      66,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 9,
+     "width": 125,
+     "height": 110,
+     "pivot": [
+      56,
+      113
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000009.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000009__shadow_mask.png",
+     "shadowPivot": [
+      60,
+      26
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 10,
+     "width": 117,
+     "height": 117,
+     "pivot": [
+      44,
+      121
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000010.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000010__shadow_mask.png",
+     "shadowPivot": [
+      47,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 11,
+     "width": 94,
+     "height": 114,
+     "pivot": [
+      26,
+      117
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000011.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000011__shadow_mask.png",
+     "shadowPivot": [
+      24,
+      41
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 12,
+     "width": 108,
+     "height": 114,
+     "pivot": [
+      41,
+      117
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000012.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000012__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      31
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 13,
+     "width": 119,
+     "height": 115,
+     "pivot": [
+      54,
+      115
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000013.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000013__shadow_mask.png",
+     "shadowPivot": [
+      50,
+      25
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 14,
+     "width": 127,
+     "height": 100,
+     "pivot": [
+      68,
+      100
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000014.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000014__shadow_mask.png",
+     "shadowPivot": [
+      70,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 15,
+     "width": 121,
+     "height": 75,
+     "pivot": [
+      77,
+      76
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000015.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000015__shadow_mask.png",
+     "shadowPivot": [
+      86,
+      13
+     ]
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 16,
+     "width": 117,
+     "height": 76,
+     "pivot": [
+      74,
+      77
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000016.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000016__shadow_mask.png",
+     "shadowPivot": [
+      80,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 17,
+     "width": 119,
+     "height": 77,
+     "pivot": [
+      73,
+      79
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000017.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000017__shadow_mask.png",
+     "shadowPivot": [
+      78,
+      12
+     ]
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 18,
+     "width": 121,
+     "height": 76,
+     "pivot": [
+      72,
+      79
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000018.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000018__shadow_mask.png",
+     "shadowPivot": [
+      83,
+      14
+     ]
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 19,
+     "width": 125,
+     "height": 81,
+     "pivot": [
+      71,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000019.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000019__shadow_mask.png",
+     "shadowPivot": [
+      84,
+      17
+     ]
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 20,
+     "width": 129,
+     "height": 96,
+     "pivot": [
+      68,
+      97
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000020.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000020__shadow_mask.png",
+     "shadowPivot": [
+      77,
+      22
+     ]
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 21,
+     "width": 128,
+     "height": 110,
+     "pivot": [
+      59,
+      110
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000021.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000021__shadow_mask.png",
+     "shadowPivot": [
+      60,
+      25
+     ]
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 22,
+     "width": 116,
+     "height": 120,
+     "pivot": [
+      43,
+      121
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000022.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000022__shadow_mask.png",
+     "shadowPivot": [
+      38,
+      30
+     ]
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 23,
+     "width": 94,
+     "height": 116,
+     "pivot": [
+      26,
+      117
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000023.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000023__shadow_mask.png",
+     "shadowPivot": [
+      24,
+      46
+     ]
+    },
+    {
+     "sequenceIndex": 24,
+     "bobId": 24,
+     "width": 108,
+     "height": 116,
+     "pivot": [
+      41,
+      119
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01/bob_000024.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/235_statue_fly_01/bob_000024__shadow_mask.png",
+     "shadowPivot": [
+      44,
+      31
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/misc_storyCreatures/286_Sirene_r_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

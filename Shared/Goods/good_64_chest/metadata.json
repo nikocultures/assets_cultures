@@ -1,0 +1,170 @@
+{
+ "goodId": 64,
+ "nativeName": "chest",
+ "english": "Chest",
+ "englishPlural": "Chests",
+ "definition": {
+  "section": "goodtype",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "chest"
+    ]
+   },
+   {
+    "name": "type",
+    "arguments": [
+     64
+    ]
+   },
+   {
+    "name": "landscapetype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "isinputgoodflag",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "isproducedinhouseflag",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "isproducedonmapflag",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "landscapeType": 1,
+ "resolvedGfxLandscape": null,
+ "resolvedGfxLandscapeName": null,
+ "resolutionRule": "Game 0x00415565: first pileable GfxLandscape with logictype == landscapetype (Goods 0..55 only)",
+ "pileMetadata": null,
+ "pileValencies": [],
+ "icon": null,
+ "iconNote": "No resolvable pile landscape -> no native UI visual (UNKNOWN)",
+ "palette": null,
+ "bodyLibrary": null,
+ "harvest": {},
+ "production": {
+  "productionInputGoods": [],
+  "atomicForProduction": null,
+  "isProducedInHouse": 0,
+  "isProducedOnMap": 0
+ },
+ "weaponType": null,
+ "armorType": null,
+ "carriedVisual": {
+  "rule": "GfxWalkAtomic logicgoodtype == Good id; carried good is baked into the Human body frames (no separate overlay sprite)",
+  "humanRandomPalette": null,
+  "humanRandomPaletteRule": null,
+  "animations": []
+ },
+ "consumers": {
+  "productionInputOf": [],
+  "houseConstruction": [],
+  "source": "goodtypes.cif productioninputgoods; tribetypes.cif tobuildhouseneedgood (house, goods...)"
+ },
+ "nativeJobRelations": [],
+ "tribeOwnership": [
+  {
+   "tribe": 1,
+   "tribeName": "viking",
+   "allowgood": true,
+   "producedInHouseTypes": [],
+   "relations": {
+    "allowgood": [
+     [
+      64
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 2,
+   "tribeName": "frank",
+   "allowgood": true,
+   "producedInHouseTypes": [],
+   "relations": {
+    "allowgood": [
+     [
+      64
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 4,
+   "tribeName": "saracen",
+   "allowgood": true,
+   "producedInHouseTypes": [],
+   "relations": {
+    "allowgood": [
+     [
+      64
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 3,
+   "tribeName": "byzantine",
+   "allowgood": true,
+   "producedInHouseTypes": [],
+   "relations": {
+    "allowgood": [
+     [
+      64
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 7,
+   "tribeName": "egypt",
+   "allowgood": true,
+   "producedInHouseTypes": [],
+   "relations": {
+    "allowgood": [
+     [
+      64
+     ]
+    ]
+   }
+  }
+ ],
+ "ownership": "SHARED (Good table is global; per-tribe availability in tribeOwnership)",
+ "confidence": {
+  "nativeTable": "SOURCE_COMPLETE",
+  "pile": "UNKNOWN",
+  "icon": "UNKNOWN",
+  "carried": "NONE_DECLARED"
+ },
+ "source": {
+  "goodtypes": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 1724,
+   "entryName": "data\\logic\\goodtypes.cif",
+   "offset": 202500688,
+   "size": 13316,
+   "sha256": "817d4e5abffb1c868f5acab09ce48b44a296b9841c7cc1cc9a71077eacf3458c"
+  },
+  "goodgraphics": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 914,
+   "entryName": "data\\engine2d\\inis\\goods\\goodgraphics.cif",
+   "offset": 192915250,
+   "size": 3066,
+   "sha256": "af62963c314891c2aab24e4e51ad2bb61e28e03c0fa15ae68b640d82e3e0f6a3"
+  }
+ }
+}

@@ -1,0 +1,318 @@
+{
+  "tuples": [
+    [
+      2,
+      0,
+      8,
+      -1,
+      10,
+      70
+    ],
+    [
+      2,
+      0,
+      7,
+      -1,
+      0,
+      50
+    ],
+    [
+      2,
+      0,
+      6,
+      -1,
+      20,
+      100
+    ]
+  ],
+  "parts": [
+    {
+      "bobId": 8,
+      "descriptor": {
+        "bobId": 8,
+        "frameIndex": 8,
+        "kind": 4,
+        "x": -106,
+        "y": -104,
+        "width": 223,
+        "height": 245,
+        "firstScanline": 4132
+      },
+      "pivot": [
+        106,
+        104
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "wonders_pyramid",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2645,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx",
+        "offset": 132842433,
+        "size": 901,
+        "sha256": "46545f90b30ac26b1a8ede00c961a12917d29066668d18cf55de9a75caf544ad"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "wonders_pyramid"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/WonderZeus/level_0/main/frame_000008.png",
+      "pixelSha256": "56bdb6079397cf9c016f67a9ca462653a24ee5d3b3ecccf9b9d039425ba038f8"
+    },
+    {
+      "bobId": 8,
+      "descriptor": {
+        "bobId": 8,
+        "frameIndex": 8,
+        "kind": 4,
+        "x": -106,
+        "y": -104,
+        "width": 223,
+        "height": 245,
+        "firstScanline": 4132
+      },
+      "pivot": [
+        106,
+        104
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/WonderZeus/level_0/construction/layers/reveal_000008.png",
+      "pixelSha256": "08a3b9f3cf17a06c9bf4b6e0fa349340410cde414b2406054743bafc8067c9b1"
+    },
+    {
+      "bobId": 7,
+      "descriptor": {
+        "bobId": 7,
+        "frameIndex": 7,
+        "kind": 4,
+        "x": -111,
+        "y": -331,
+        "width": 239,
+        "height": 472,
+        "firstScanline": 3660
+      },
+      "pivot": [
+        111,
+        331
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "wonders_pyramid",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2645,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx",
+        "offset": 132842433,
+        "size": 901,
+        "sha256": "46545f90b30ac26b1a8ede00c961a12917d29066668d18cf55de9a75caf544ad"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "wonders_pyramid"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/WonderZeus/level_0/construction/layers/wonders_pyramid/body_000007.png",
+      "pixelSha256": "0fc33cc522548935f7bda5885b364be97eac8d0db70123efb9decf132a3adca0"
+    },
+    {
+      "bobId": 7,
+      "descriptor": {
+        "bobId": 7,
+        "frameIndex": 7,
+        "kind": 4,
+        "x": -111,
+        "y": -331,
+        "width": 239,
+        "height": 472,
+        "firstScanline": 3660
+      },
+      "pivot": [
+        111,
+        331
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/WonderZeus/level_0/construction/layers/reveal_000007.png",
+      "pixelSha256": "2777d537d506dca5ea6e47c7922ba2d80c5f621f558f20120eeba00a678902cd"
+    },
+    {
+      "bobId": 6,
+      "descriptor": {
+        "bobId": 6,
+        "frameIndex": 6,
+        "kind": 4,
+        "x": -170,
+        "y": -490,
+        "width": 362,
+        "height": 631,
+        "firstScanline": 3029
+      },
+      "pivot": [
+        170,
+        490
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "wonders_pyramid",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2645,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx",
+        "offset": 132842433,
+        "size": 901,
+        "sha256": "46545f90b30ac26b1a8ede00c961a12917d29066668d18cf55de9a75caf544ad"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "wonders_pyramid"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/WonderZeus/level_1/construction/layers/wonders_pyramid/body_000006.png",
+      "pixelSha256": "2bd4030e4c45a1563f536c4b7ec1ea3ffd548da9296a02e83a500b37cba1bd55"
+    },
+    {
+      "bobId": 6,
+      "descriptor": {
+        "bobId": 6,
+        "frameIndex": 6,
+        "kind": 4,
+        "x": -170,
+        "y": -490,
+        "width": 362,
+        "height": 631,
+        "firstScanline": 3029
+      },
+      "pivot": [
+        170,
+        490
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/WonderZeus/level_1/construction/layers/reveal_000006.png",
+      "pixelSha256": "a62f977984e7a08462f19d08b7abb12fecb255d8c501d80b706cd6fb976056a8"
+    }
+  ],
+  "extensionTuples": [],
+  "rule": "Auxiliary index <= reveal threshold darkens destination in pass 1; main kind4 second-byte <= threshold copies palette pixel in pass 2; source order preserved; after end use full body",
+  "confidence": "PARTIAL",
+  "paletteAlternatives": [
+    "wonders_pyramid"
+  ]
+}

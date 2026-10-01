@@ -1,0 +1,63 @@
+{
+  "bobId": 3,
+  "descriptor": {
+    "bobId": 3,
+    "frameIndex": 3,
+    "kind": 4,
+    "x": -92,
+    "y": -176,
+    "width": 255,
+    "height": 196,
+    "firstScanline": 654
+  },
+  "pivot": [
+    92,
+    176
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1704,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+    "offset": 96651918,
+    "size": 3342700,
+    "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+  },
+  "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+  "role": "body",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "house02",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1916,
+    "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+    "offset": 132800984,
+    "size": 901,
+    "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "house02"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+  "path": "Franks/Buildings/Farmhouse_gfx37/level_0/construction/layers/house02/body_000003.png",
+  "pixelSha256": "6724361116fe70ccde6af1fda8ae38545923bc6f68b6ffff8729665506f7abfc"
+}

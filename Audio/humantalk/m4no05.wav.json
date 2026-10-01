@@ -1,0 +1,90 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1288,
+  "entryName": "data\\engine2d\\bin\\sounds\\humantalk\\m4no05.wav",
+  "offset": 164724938,
+  "size": 42920,
+  "sha256": "f5ce6fe16bbebc7fa576d66b8ff6462b50aec16af0bb0a23f57911c21be77292"
+ },
+ "output": "Audio/humantalk/m4no05.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 42862,
+  "durationSeconds": 0.972,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 129,
+   "name": "Talk Viking Male",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 113,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 231,
+   "name": "Viking male no 04",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 129,
+   "name": "Talk Viking Male",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 113,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 231,
+   "name": "Viking male no 04",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [
+  {
+   "tribe": 1,
+   "use": "respond",
+   "arguments": [
+    2,
+    1
+   ]
+  }
+ ],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

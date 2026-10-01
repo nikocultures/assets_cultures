@@ -1,0 +1,349 @@
+{
+  "tuples": [
+    [
+      0,
+      0,
+      2,
+      -1,
+      22,
+      87
+    ],
+    [
+      0,
+      0,
+      1,
+      -1,
+      0,
+      60
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      39,
+      100
+    ]
+  ],
+  "parts": [
+    {
+      "bobId": 2,
+      "descriptor": {
+        "bobId": 2,
+        "frameIndex": 2,
+        "kind": 4,
+        "x": -116,
+        "y": -206,
+        "width": 226,
+        "height": 203,
+        "firstScanline": 627
+      },
+      "pivot": [
+        116,
+        206
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_saracen01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2530,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx",
+        "offset": 132805489,
+        "size": 901,
+        "sha256": "2c25bdda4ce0014b3abad5757b75504d674af43d4ecd19b709a1ff331861f184"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_saracen01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Arabs/Buildings/Fortress_gfx66/level_0/construction/layers/house_saracen01/body_000002.png",
+      "pixelSha256": "9ef374d94de0efb95e29488c236a46e7fc64a058e6fbb2ca07d02debbe4c55a1"
+    },
+    {
+      "bobId": 2,
+      "descriptor": {
+        "bobId": 2,
+        "frameIndex": 2,
+        "kind": 4,
+        "x": -116,
+        "y": -206,
+        "width": 226,
+        "height": 203,
+        "firstScanline": 627
+      },
+      "pivot": [
+        116,
+        206
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Arabs/Buildings/Fortress_gfx66/level_0/construction/layers/reveal_000002.png",
+      "pixelSha256": "c9e7de6feaec6efddf943285f6904c9fa4c01ba672cb995722d435211a209ada"
+    },
+    {
+      "bobId": 1,
+      "descriptor": {
+        "bobId": 1,
+        "frameIndex": 1,
+        "kind": 4,
+        "x": -46,
+        "y": -251,
+        "width": 109,
+        "height": 271,
+        "firstScanline": 356
+      },
+      "pivot": [
+        46,
+        251
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_saracen01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2530,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx",
+        "offset": 132805489,
+        "size": 901,
+        "sha256": "2c25bdda4ce0014b3abad5757b75504d674af43d4ecd19b709a1ff331861f184"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_saracen01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Arabs/Buildings/Fortress_gfx66/level_0/construction/layers/house_saracen01/body_000001.png",
+      "pixelSha256": "871a0e5f0691cb5fec65743bd19f300730b55429f9be1161f9c4df872eaf81af"
+    },
+    {
+      "bobId": 1,
+      "descriptor": {
+        "bobId": 1,
+        "frameIndex": 1,
+        "kind": 4,
+        "x": -46,
+        "y": -251,
+        "width": 109,
+        "height": 271,
+        "firstScanline": 356
+      },
+      "pivot": [
+        46,
+        251
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Arabs/Buildings/Fortress_gfx66/level_0/construction/layers/reveal_000001.png",
+      "pixelSha256": "a34e6ec09612be42ec228e42e22454bc611ab0abe9030336d7bd4997cc8418d3"
+    },
+    {
+      "bobId": 0,
+      "descriptor": {
+        "bobId": 0,
+        "frameIndex": 0,
+        "kind": 4,
+        "x": -132,
+        "y": -259,
+        "width": 320,
+        "height": 356,
+        "firstScanline": 0
+      },
+      "pivot": [
+        132,
+        259
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_saracen01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2530,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx",
+        "offset": 132805489,
+        "size": 901,
+        "sha256": "2c25bdda4ce0014b3abad5757b75504d674af43d4ecd19b709a1ff331861f184"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_saracen01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Arabs/Buildings/Fortress_gfx66/level_0/main/frame_000000.png",
+      "pixelSha256": "8c5c31cb1bd9b81d5eb351b1b518608691369b5da3c0c4bf87035bff575495e4"
+    },
+    {
+      "bobId": 0,
+      "descriptor": {
+        "bobId": 0,
+        "frameIndex": 0,
+        "kind": 4,
+        "x": -132,
+        "y": -259,
+        "width": 320,
+        "height": 356,
+        "firstScanline": 0
+      },
+      "pivot": [
+        132,
+        259
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Arabs/Buildings/Fortress_gfx66/level_0/construction/layers/reveal_000000.png",
+      "pixelSha256": "a986acb0c015933604868290caa68e8a0ca59d2c30d62d22e2799e195ac8bdcb"
+    },
+    {
+      "bobId": 3,
+      "descriptor": {
+        "bobId": 3,
+        "frameIndex": 3,
+        "kind": 1,
+        "x": -127,
+        "y": -147,
+        "width": 380,
+        "height": 244,
+        "firstScanline": 830
+      },
+      "pivot": [
+        127,
+        147
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1213,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+        "offset": 100012883,
+        "size": 2488595,
+        "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Arabs/Buildings/Fortress_gfx66/level_0/construction/layers/auxiliary_threshold_000003.png",
+      "pixelSha256": "35dc3827b937ca1b189c970e6d9bb452c3b1ee567995c5fffe27958d8ce6d82c"
+    }
+  ],
+  "extensionTuples": [],
+  "rule": "Auxiliary index <= reveal threshold darkens destination in pass 1; main kind4 second-byte <= threshold copies palette pixel in pass 2; source order preserved; after end use full body",
+  "confidence": "PARTIAL",
+  "paletteAlternatives": [
+    "house_saracen01"
+  ]
+}

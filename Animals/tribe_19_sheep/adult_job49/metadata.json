@@ -1,0 +1,2212 @@
+{
+ "ownerKind": "animal",
+ "tribeId": 19,
+ "nativeTribe": "sheep",
+ "tribeEnglish": "Sheep",
+ "typeId": 49,
+ "animationJobId": 49,
+ "nativeName": "adult_animal",
+ "englishName": "Animal",
+ "nativeAllowed": true,
+ "parentChain": [
+  49,
+  48
+ ],
+ "sexAge": "adult",
+ "bindings": [
+  {
+   "phase": "initial",
+   "sectionOrdinal": 21,
+   "section": "jobgraphics",
+   "definedForType": 49,
+   "inheritedFrom": null,
+   "bodyVariants": [
+    {
+     "selector": 0,
+     "body": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadow": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd"
+    }
+   ],
+   "headVariants": [],
+   "bodyPalettes": [
+    "house01"
+   ],
+   "headPalettes": [],
+   "paletteRemaps": [],
+   "variantSelection": "single binding"
+  }
+ ],
+ "animations": [
+  {
+   "animationSection": 387,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 2,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_sheep_adult_idle",
+   "atomicLength": 100,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_sheep_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      53
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2569
+     ],
+     "headBobs": [
+      2569
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      62
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2578
+     ],
+     "headBobs": [
+      2578
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      3
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2519
+     ],
+     "headBobs": [
+      2519
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      12
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2528
+     ],
+     "headBobs": [
+      2528
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2540
+     ],
+     "headBobs": [
+      2540
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      36
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2552
+     ],
+     "headBobs": [
+      2552
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      94
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2610
+     ],
+     "headBobs": [
+      2610
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      76
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2592
+     ],
+     "headBobs": [
+      2592
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A002_animal_sheep_walk_s387.png",
+     "shadowMask": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A002_animal_sheep_walk_s387__shadow_mask.png",
+     "cellWidth": 53,
+     "cellHeight": 49,
+     "anchorInCell": [
+      31,
+      35
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 382,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 3,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_sheep_adult_idle",
+   "atomicLength": 100,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_sheep_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      53
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2569
+     ],
+     "headBobs": [
+      2569
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      62
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2578
+     ],
+     "headBobs": [
+      2578
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      3
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2519
+     ],
+     "headBobs": [
+      2519
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      12
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2528
+     ],
+     "headBobs": [
+      2528
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2540
+     ],
+     "headBobs": [
+      2540
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      36
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2552
+     ],
+     "headBobs": [
+      2552
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      94
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2610
+     ],
+     "headBobs": [
+      2610
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      76
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2592
+     ],
+     "headBobs": [
+      2592
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A003_animal_sheep_walk_s382.png",
+     "shadowMask": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A003_animal_sheep_walk_s382__shadow_mask.png",
+     "cellWidth": 53,
+     "cellHeight": 49,
+     "anchorInCell": [
+      31,
+      35
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 383,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 4,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_sheep_adult_idle",
+   "atomicLength": 100,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_sheep_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      53
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2569
+     ],
+     "headBobs": [
+      2569
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      62
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2578
+     ],
+     "headBobs": [
+      2578
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      3
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2519
+     ],
+     "headBobs": [
+      2519
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      12
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2528
+     ],
+     "headBobs": [
+      2528
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2540
+     ],
+     "headBobs": [
+      2540
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      36
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2552
+     ],
+     "headBobs": [
+      2552
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      94
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2610
+     ],
+     "headBobs": [
+      2610
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      76
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2592
+     ],
+     "headBobs": [
+      2592
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A004_animal_sheep_walk_s383.png",
+     "shadowMask": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A004_animal_sheep_walk_s383__shadow_mask.png",
+     "cellWidth": 53,
+     "cellHeight": 49,
+     "anchorInCell": [
+      31,
+      35
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 384,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 5,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_sheep_adult_idle",
+   "atomicLength": 100,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_sheep_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      53
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2569
+     ],
+     "headBobs": [
+      2569
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      62
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2578
+     ],
+     "headBobs": [
+      2578
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      3
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2519
+     ],
+     "headBobs": [
+      2519
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      12
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2528
+     ],
+     "headBobs": [
+      2528
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2540
+     ],
+     "headBobs": [
+      2540
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      36
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2552
+     ],
+     "headBobs": [
+      2552
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      94
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2610
+     ],
+     "headBobs": [
+      2610
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      76
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2592
+     ],
+     "headBobs": [
+      2592
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A005_animal_sheep_walk_s384.png",
+     "shadowMask": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A005_animal_sheep_walk_s384__shadow_mask.png",
+     "cellWidth": 53,
+     "cellHeight": 49,
+     "anchorInCell": [
+      31,
+      35
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 385,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 6,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_sheep_adult_idle",
+   "atomicLength": 100,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_sheep_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      53
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2569
+     ],
+     "headBobs": [
+      2569
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      62
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2578
+     ],
+     "headBobs": [
+      2578
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      3
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2519
+     ],
+     "headBobs": [
+      2519
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      12
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2528
+     ],
+     "headBobs": [
+      2528
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2540
+     ],
+     "headBobs": [
+      2540
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      36
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2552
+     ],
+     "headBobs": [
+      2552
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      94
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2610
+     ],
+     "headBobs": [
+      2610
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      76
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2592
+     ],
+     "headBobs": [
+      2592
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A006_animal_sheep_walk_s385.png",
+     "shadowMask": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A006_animal_sheep_walk_s385__shadow_mask.png",
+     "cellWidth": 53,
+     "cellHeight": 49,
+     "anchorInCell": [
+      31,
+      35
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 386,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 7,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_sheep_adult_idle",
+   "atomicLength": 100,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_sheep_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      53
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2569
+     ],
+     "headBobs": [
+      2569
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      62
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2578
+     ],
+     "headBobs": [
+      2578
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      3
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2519
+     ],
+     "headBobs": [
+      2519
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      12
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2528
+     ],
+     "headBobs": [
+      2528
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2540
+     ],
+     "headBobs": [
+      2540
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      36
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2552
+     ],
+     "headBobs": [
+      2552
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      94
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2610
+     ],
+     "headBobs": [
+      2610
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      76
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2592
+     ],
+     "headBobs": [
+      2592
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A007_animal_sheep_walk_s386.png",
+     "shadowMask": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A007_animal_sheep_walk_s386__shadow_mask.png",
+     "cellWidth": 53,
+     "cellHeight": 49,
+     "anchorInCell": [
+      31,
+      35
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 388,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 9,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_bear_eat",
+   "atomicLength": 20,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_sheep_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      53
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2569
+     ],
+     "headBobs": [
+      2569
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      62
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2578
+     ],
+     "headBobs": [
+      2578
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      3
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2519
+     ],
+     "headBobs": [
+      2519
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      12
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2528
+     ],
+     "headBobs": [
+      2528
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2540
+     ],
+     "headBobs": [
+      2540
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      36
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2552
+     ],
+     "headBobs": [
+      2552
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      94
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2610
+     ],
+     "headBobs": [
+      2610
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      76
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2592
+     ],
+     "headBobs": [
+      2592
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A009_animal_sheep_walk_s388.png",
+     "shadowMask": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_A009_animal_sheep_walk_s388__shadow_mask.png",
+     "cellWidth": 53,
+     "cellHeight": 49,
+     "anchorInCell": [
+      31,
+      35
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 1140,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "walk",
+   "atomicActionSelector": null,
+   "carriedGoodType": 0,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": null,
+   "walkSpeedThreshold": 100000,
+   "mode": 0,
+   "atomicName": null,
+   "atomicLength": null,
+   "atomicEvents": [],
+   "interruptable": null,
+   "bodySequence": "animal_sheep_walk",
+   "headSequence": "",
+   "timing": "frame = frameTick % count (walk; caller frame tick)",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2564,
+      2565,
+      2566,
+      2567,
+      2568,
+      2569,
+      2570,
+      2571,
+      2572,
+      2573,
+      2574,
+      2575
+     ],
+     "headBobs": [
+      2564,
+      2565,
+      2566,
+      2567,
+      2568,
+      2569,
+      2570,
+      2571,
+      2572,
+      2573,
+      2574,
+      2575
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2576,
+      2577,
+      2578,
+      2579,
+      2580,
+      2581,
+      2582,
+      2583,
+      2584,
+      2585,
+      2586,
+      2587
+     ],
+     "headBobs": [
+      2576,
+      2577,
+      2578,
+      2579,
+      2580,
+      2581,
+      2582,
+      2583,
+      2584,
+      2585,
+      2586,
+      2587
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2516,
+      2517,
+      2518,
+      2519,
+      2520,
+      2521,
+      2522,
+      2523,
+      2524,
+      2525,
+      2526,
+      2527
+     ],
+     "headBobs": [
+      2516,
+      2517,
+      2518,
+      2519,
+      2520,
+      2521,
+      2522,
+      2523,
+      2524,
+      2525,
+      2526,
+      2527
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2528,
+      2529,
+      2530,
+      2531,
+      2532,
+      2533,
+      2534,
+      2535,
+      2536,
+      2537,
+      2538,
+      2539
+     ],
+     "headBobs": [
+      2528,
+      2529,
+      2530,
+      2531,
+      2532,
+      2533,
+      2534,
+      2535,
+      2536,
+      2537,
+      2538,
+      2539
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2540,
+      2541,
+      2542,
+      2543,
+      2544,
+      2545,
+      2546,
+      2547,
+      2548,
+      2549,
+      2550,
+      2551
+     ],
+     "headBobs": [
+      2540,
+      2541,
+      2542,
+      2543,
+      2544,
+      2545,
+      2546,
+      2547,
+      2548,
+      2549,
+      2550,
+      2551
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2552,
+      2553,
+      2554,
+      2555,
+      2556,
+      2557,
+      2558,
+      2559,
+      2560,
+      2561,
+      2562,
+      2563
+     ],
+     "headBobs": [
+      2552,
+      2553,
+      2554,
+      2555,
+      2556,
+      2557,
+      2558,
+      2559,
+      2560,
+      2561,
+      2562,
+      2563
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2600,
+      2601,
+      2602,
+      2603,
+      2604,
+      2605,
+      2606,
+      2607,
+      2608,
+      2609,
+      2610,
+      2611
+     ],
+     "headBobs": [
+      2600,
+      2601,
+      2602,
+      2603,
+      2604,
+      2605,
+      2606,
+      2607,
+      2608,
+      2609,
+      2610,
+      2611
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2588,
+      2589,
+      2590,
+      2591,
+      2592,
+      2593,
+      2594,
+      2595,
+      2596,
+      2597,
+      2598,
+      2599
+     ],
+     "headBobs": [
+      2588,
+      2589,
+      2590,
+      2591,
+      2592,
+      2593,
+      2594,
+      2595,
+      2596,
+      2597,
+      2598,
+      2599
+     ],
+     "bodySequence": {
+      "name": "animal_sheep_walk",
+      "firstBob": 2516,
+      "count": 96,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "96/96",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_W000_animal_sheep_walk_s1140.png",
+     "shadowMask": "Animals/tribe_19_sheep/Sheets/cr_ani_body_00__house01/j49_W000_animal_sheep_walk_s1140__shadow_mask.png",
+     "cellWidth": 54,
+     "cellHeight": 51,
+     "anchorInCell": [
+      31,
+      35
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "jobgraphics": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 1692,
+   "entryName": "data\\engine2d\\inis\\animals\\jobgraphics.cif",
+   "offset": 192902023,
+   "size": 9486,
+   "sha256": "b7411f9b38a9904ad92cc50df1d171919a0618ef3935a57ef9f26f16feec266a"
+  },
+  "animations": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 279,
+   "entryName": "data\\engine2d\\inis\\mapmoveableanimations\\animations.cif",
+   "offset": 194231595,
+   "size": 981323,
+   "sha256": "c81ba2adfa0e57255b8edd179bd8cb753810cf3485f10acb42890ba358afa94f"
+  }
+ },
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0048BD66 GraphicsAnimationRegistry_LoadFromCif",
+   "0x0048CEA1 BobSeq global lookup",
+   "0x00494AE6 frame selection",
+   "0x004803D5 creation binding/palette",
+   "0x00480576 job-change rebinding",
+   "0x0048B258 random palette patches",
+   "0x0049B930 shadow destination darkening"
+  ],
+  "cpp": "MobileSpriteRegistry / MobileSpriteRuntimeOwner / ProductionWorldCompositor"
+ },
+ "folder": "Animals/tribe_19_sheep/adult_job49",
+ "atomicsWithoutGraphicsRecord": [
+  {
+   "selector": 81,
+   "atomicName": "animal_bear_attack"
+  }
+ ],
+ "summary": {
+  "animations": 8,
+  "renderStatus": {
+   "RENDERED": 8
+  },
+  "bindings": 1
+ },
+ "confidence": {
+  "sourceMapping": "SOURCE_COMPLETE",
+  "framePixels": "PIXEL_CONFIRMED (per frame; see Catalogs/pixel_validation.csv)",
+  "palette": "SOURCE_BODY_PALETTE",
+  "shadow": "Coverage mask only; native destination darkening -> PRESENTATION_APPROXIMATION",
+  "timing": "Native frame order and selection rules recorded; tick-to-seconds rate UNKNOWN"
+ }
+}

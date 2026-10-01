@@ -1,0 +1,79 @@
+{
+ "LIBRARY": "data\\gui\\lang\\eng\\bobs\\ls_gui_window.bmd",
+ "BOB_ID": 178,
+ "KIND": 4,
+ "WIDTH": 24,
+ "HEIGHT": 39,
+ "PIVOT": [
+  12,
+  18
+ ],
+ "EVIDENCE": [
+  "production_gameplay_ui.hpp:5014",
+  "production_frontend.cpp:351",
+  "production_gameplay_ui.hpp:4655",
+  "production_gameplay_ui.hpp:5107"
+ ],
+ "PALETTES": [
+  "data\\gui\\palettes\\IconsLeft.pcx"
+ ],
+ "OUTPUTS": [
+  "UI/Sprites/ls_gui_window/IconsLeft/bob_0178.png"
+ ],
+ "INDEX_DATA": "UI/Sprites/ls_gui_window/_index_data/bob_0178.png",
+ "STATUS": "PALETTE_EVIDENCED",
+ "CONFIDENCE": "PIXEL_CONFIRMED",
+ "evidenceDetail": [
+  {
+   "file": "production_gameplay_ui.hpp",
+   "line": 5014,
+   "paletteMember": "iconPalette_",
+   "palette": "data\\gui\\palettes\\IconsLeft.pcx",
+   "code": "drawSpriteClipped(surface,0xB2,track.x+track.width/2,track.y+knob,iconPalette_,track);",
+   "nearestComment": ""
+  },
+  {
+   "file": "production_frontend.cpp",
+   "line": 351,
+   "paletteMember": "iconPalette_",
+   "palette": "data\\gui\\palettes\\IconsLeft.pcx",
+   "code": "sprite(gui_,0xB2,scrollbar_.x+scrollbar_.width/2,center,iconPalette_.paletteBgra,scrollbar_);",
+   "nearestComment": ""
+  },
+  {
+   "file": "production_gameplay_ui.hpp",
+   "line": 4655,
+   "paletteMember": "iconPalette_",
+   "palette": "data\\gui\\palettes\\IconsLeft.pcx",
+   "code": "drawSpriteClipped(surface,0xB2,scrollbarRect.x+scrollbarRect.width/2, scrollbarRect.y+knobY,iconPalette_",
+   "nearestComment": "multi-line call"
+  },
+  {
+   "file": "production_gameplay_ui.hpp",
+   "line": 5107,
+   "paletteMember": "iconPalette_",
+   "palette": "data\\gui\\palettes\\IconsLeft.pcx",
+   "code": "drawSpriteClipped(surface, 0xB2, resolutionScroll.x + resolutionScroll.width / 2, resolutionScroll.y + knob, iconPalette_",
+   "nearestComment": "multi-line call"
+  }
+ ],
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 161,
+  "entryName": "data\\gui\\lang\\eng\\bobs\\ls_gui_window.bmd",
+  "offset": 196270849,
+  "size": 937075,
+  "sha256": "1deb6437eb2fb2806cd5e43ef9508d65a06e187f507229368335c7bb8c579631"
+ },
+ "descriptor": {
+  "bobId": 178,
+  "frameIndex": 178,
+  "kind": 4,
+  "x": -12,
+  "y": -18,
+  "width": 24,
+  "height": 39,
+  "firstScanline": 6371,
+  "offset": 2172798
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2088,
+  "entryName": "data\\engine2d\\bin\\sounds\\humantalk\\latin\\l40.wav",
+  "offset": 157137986,
+  "size": 30672,
+  "sha256": "c58e28126155b894a663a12205c7101477e412840de97fc580ef2c222b73c617"
+ },
+ "output": "Audio/latin/l40.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 30614,
+  "durationSeconds": 0.694,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 132,
+   "name": "Talk Byzanz Male",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 116,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 175,
+   "name": "Generic Latin Male",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 132,
+   "name": "Talk Byzanz Male",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 116,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 175,
+   "name": "Generic Latin Male",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [
+  {
+   "tribe": 3,
+   "use": "generic",
+   "arguments": [
+    2
+   ]
+  }
+ ],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

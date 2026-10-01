@@ -1,0 +1,2354 @@
+{
+  "nativeName": "viking bakery",
+  "gfxHouseId": 6,
+  "tribe": 1,
+  "libraries": [
+    {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 245,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+      "offset": 102590742,
+      "size": 2236731,
+      "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+    },
+    {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 2442,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking_s.bmd",
+      "offset": 110985921,
+      "size": 16409,
+      "sha256": "694a9305ec16345cf0012694dae0821ba119294ed4b68b5009d2db236e5e5795"
+    }
+  ],
+  "definition": {
+    "section": "gfxhouse",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "viking bakery"
+        ]
+      },
+      {
+        "name": "editgroups",
+        "arguments": [
+          "viking"
+        ]
+      },
+      {
+        "name": "logicmaximumsize",
+        "arguments": [
+          2
+        ]
+      },
+      {
+        "name": "logictype",
+        "arguments": [
+          0,
+          14
+        ]
+      },
+      {
+        "name": "logictype",
+        "arguments": [
+          1,
+          15
+        ]
+      },
+      {
+        "name": "logictribetype",
+        "arguments": [
+          1
+        ]
+      },
+      {
+        "name": "logichitpoints",
+        "arguments": [
+          0,
+          16000
+        ]
+      },
+      {
+        "name": "logichitpoints",
+        "arguments": [
+          1,
+          22000
+        ]
+      },
+      {
+        "name": "logicconstructiongoods",
+        "arguments": [
+          0,
+          5,
+          5,
+          4,
+          4,
+          3,
+          26
+        ]
+      },
+      {
+        "name": "logicconstructiongoods",
+        "arguments": [
+          1,
+          24,
+          24,
+          24,
+          25,
+          27
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -3,
+          -7,
+          6
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -3,
+          -6,
+          7
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -4,
+          -5,
+          8
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -4,
+          -4,
+          9
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -5,
+          -3,
+          10
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -5,
+          -2,
+          11
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -5,
+          -1,
+          10
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -5,
+          0,
+          11
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -5,
+          1,
+          10
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          -4,
+          2,
+          9
+        ]
+      },
+      {
+        "name": "logicbuildblockarea",
+        "arguments": [
+          2,
+          3,
+          2
+        ]
+      },
+      {
+        "name": "logicdoorpoint",
+        "arguments": [
+          0,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "logicdoorpoint",
+        "arguments": [
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -1,
+          -3,
+          3
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -3,
+          -2,
+          8
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -4,
+          -1,
+          8
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -4,
+          0,
+          9
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -4,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          -1,
+          1,
+          3
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          3,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          0,
+          3,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          1,
+          -2,
+          -6,
+          2
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          1,
+          1,
+          -6,
+          2
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          1,
+          -3,
+          -5,
+          6
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          1,
+          -3,
+          -4,
+          7
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          1,
+          -4,
+          -3,
+          8
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          1,
+          -4,
+          -2,
+          9
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          1,
+          -4,
+          -1,
+          8
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          1,
+          -4,
+          0,
+          9
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          1,
+          -4,
+          1,
+          2
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          1,
+          -1,
+          1,
+          3
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          1,
+          3,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "logicwalkblockarea",
+        "arguments": [
+          1,
+          3,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          -1,
+          -4,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          1,
+          -4,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          -3,
+          -3,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          2,
+          -3,
+          2
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          5,
+          -2,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          -5,
+          -1,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          4,
+          -1,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          -5,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          4,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          -3,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          4,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          0,
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          -3,
+          -7,
+          6
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          -3,
+          -6,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          0,
+          -6,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          3,
+          -6,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          -4,
+          -5,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          3,
+          -5,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          -4,
+          -4,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          -5,
+          -3,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          4,
+          -3,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          5,
+          -2,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          -5,
+          -1,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          4,
+          -1,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          -5,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          4,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          -3,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          4,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "logicconstructionworkarea",
+        "arguments": [
+          1,
+          3,
+          3,
+          1
+        ]
+      },
+      {
+        "name": "gfxboblibs",
+        "arguments": [
+          "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+          "data\\engine2d\\bin\\bobs\\ls_houses_viking_s.bmd"
+        ]
+      },
+      {
+        "name": "gfxpalette",
+        "arguments": [
+          "house01",
+          "house02"
+        ]
+      },
+      {
+        "name": "gfxbobid",
+        "arguments": [
+          0,
+          101
+        ]
+      },
+      {
+        "name": "gfxbobid",
+        "arguments": [
+          1,
+          105
+        ]
+      },
+      {
+        "name": "gfxshadingfactor",
+        "arguments": [
+          0.1
+        ]
+      },
+      {
+        "name": "gfxbobconstructionlayer",
+        "arguments": [
+          0,
+          0,
+          103,
+          -1,
+          0,
+          50
+        ]
+      },
+      {
+        "name": "gfxbobconstructionlayer",
+        "arguments": [
+          0,
+          0,
+          102,
+          -1,
+          0,
+          64
+        ]
+      },
+      {
+        "name": "gfxbobconstructionlayer",
+        "arguments": [
+          0,
+          1,
+          105,
+          -1,
+          0,
+          100
+        ]
+      },
+      {
+        "name": "gfxbobconstructionlayer",
+        "arguments": [
+          0,
+          0,
+          101,
+          104,
+          6,
+          100
+        ]
+      },
+      {
+        "name": "gfxbobconstructionlayer",
+        "arguments": [
+          1,
+          0,
+          106,
+          -1,
+          0,
+          50
+        ]
+      },
+      {
+        "name": "gfxbobconstructionlayer",
+        "arguments": [
+          1,
+          0,
+          107,
+          -1,
+          0,
+          51
+        ]
+      },
+      {
+        "name": "gfxbobconstructionlayer",
+        "arguments": [
+          1,
+          0,
+          105,
+          108,
+          8,
+          100
+        ]
+      },
+      {
+        "name": "gfxdoorbobid",
+        "arguments": [
+          0,
+          1,
+          109
+        ]
+      },
+      {
+        "name": "gfxdoorbobid",
+        "arguments": [
+          1,
+          1,
+          110
+        ]
+      },
+      {
+        "name": "gfxoverlay",
+        "arguments": [
+          0,
+          3,
+          1,
+          3,
+          -103,
+          0
+        ]
+      },
+      {
+        "name": "gfxoverlay",
+        "arguments": [
+          1,
+          3,
+          1,
+          3,
+          -103,
+          0
+        ]
+      },
+      {
+        "name": "gfxflagpoint",
+        "arguments": [
+          0,
+          115,
+          37
+        ]
+      },
+      {
+        "name": "gfxflagpoint",
+        "arguments": [
+          1,
+          108,
+          37
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -15,
+          -103
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -5,
+          -97
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          17,
+          -85
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          49,
+          -83
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          49,
+          -81
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          27,
+          -77
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          107,
+          -73
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          65,
+          -67
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          63,
+          -67
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          25,
+          -63
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          91,
+          -59
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -99,
+          -57
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          41,
+          -57
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -111,
+          -53
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -99,
+          -51
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          115,
+          -51
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -105,
+          -47
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -119,
+          -43
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          47,
+          -41
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          19,
+          -39
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          99,
+          -37
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -123,
+          -37
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          139,
+          -33
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          129,
+          -23
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -29,
+          -11
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -21,
+          -5
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -69,
+          -5
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          25,
+          3
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          0,
+          -83,
+          7
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -67,
+          -159
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -69,
+          -155
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -89,
+          -149
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -57,
+          -149
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -75,
+          -147
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -63,
+          -147
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -59,
+          -145
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -83,
+          -141
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -107,
+          -139
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -89,
+          -135
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          45,
+          -135
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -55,
+          -131
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -61,
+          -127
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -75,
+          -127
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -59,
+          -119
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          61,
+          -119
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -67,
+          -107
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -59,
+          -105
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          93,
+          -91
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -41,
+          -91
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          117,
+          -87
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          99,
+          -81
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          81,
+          -81
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -113,
+          -75
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          111,
+          -73
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          109,
+          -73
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          29,
+          -73
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -45,
+          -71
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          31,
+          -71
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -45,
+          -65
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          99,
+          -65
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          79,
+          -65
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -117,
+          -61
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -107,
+          -59
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          91,
+          -57
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          99,
+          -57
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -111,
+          -55
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -97,
+          -55
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -119,
+          -51
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          147,
+          -51
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          135,
+          -39
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          67,
+          -31
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          69,
+          -29
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          137,
+          -13
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          -29,
+          -3
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          39,
+          -1
+        ]
+      },
+      {
+        "name": "gfxfirepoint",
+        "arguments": [
+          1,
+          123,
+          5
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -45,
+          7,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -55,
+          9,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          131,
+          11,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -31,
+          11,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -23,
+          13,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          127,
+          13,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -137,
+          15,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -139,
+          15,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          125,
+          15,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -1,
+          17,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -65,
+          19,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          21,
+          21,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -61,
+          21,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -113,
+          21,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          119,
+          21,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -111,
+          23,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -79,
+          23,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          49,
+          27,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          107,
+          27,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          65,
+          27,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          113,
+          27,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -95,
+          27,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -97,
+          27,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          81,
+          33,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          99,
+          33,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          87,
+          35,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -73,
+          -55,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -49,
+          -47,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -39,
+          -45,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -83,
+          -45,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -25,
+          -41,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -23,
+          -41,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -9,
+          -37,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          7,
+          -33,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -99,
+          -31,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          29,
+          -27,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          55,
+          -23,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          77,
+          -17,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          95,
+          -17,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -117,
+          -11,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          111,
+          -7,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          133,
+          -7,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          0,
+          -129,
+          3,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          157,
+          -15,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          151,
+          -1,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -53,
+          5,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -47,
+          5,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          147,
+          7,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -137,
+          11,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -69,
+          13,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -29,
+          15,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          9,
+          17,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          3,
+          19,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          39,
+          21,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -109,
+          21,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -103,
+          21,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          143,
+          23,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -95,
+          25,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          69,
+          27,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          51,
+          29,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -67,
+          29,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          125,
+          29,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          111,
+          29,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          85,
+          31,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          111,
+          35,
+          1
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -51,
+          -87,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -55,
+          -85,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -43,
+          -83,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -33,
+          -77,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -17,
+          -75,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -19,
+          -75,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          5,
+          -73,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -65,
+          -73,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          31,
+          -71,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          31,
+          -69,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          51,
+          -65,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          75,
+          -63,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          65,
+          -59,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          85,
+          -57,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -87,
+          -55,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -85,
+          -53,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          113,
+          -51,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          97,
+          -51,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -95,
+          -49,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          137,
+          -49,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          147,
+          -45,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -95,
+          -45,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -99,
+          -35,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          145,
+          -33,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -109,
+          -31,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          135,
+          -23,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -111,
+          -21,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          141,
+          -21,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          157,
+          -15,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -119,
+          -13,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -127,
+          -11,
+          0
+        ]
+      },
+      {
+        "name": "gfxsmokepoint",
+        "arguments": [
+          1,
+          -127,
+          -3,
+          0
+        ]
+      }
+    ]
+  },
+  "confidence": "PARTIAL",
+  "mappingEvidence": "Native CIF fields; Game registry order; original in-game comparison pending",
+  "levels": [
+    {
+      "NAME": "viking bakery",
+      "LOGIC_ID": 14,
+      "GFX_ID": 6,
+      "TRIBE": 1,
+      "LEVEL": 0,
+      "BOB_ID": 101,
+      "MAIN_LIBRARY": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+      "SHADOW_LIBRARY": "data\\engine2d\\bin\\bobs\\ls_houses_viking_s.bmd",
+      "SHADOW_BOB_ID": 101,
+      "WIDTH": 305,
+      "HEIGHT": 154,
+      "PIVOT_X": 147,
+      "PIVOT_Y": 116,
+      "PIXEL_KIND": 4,
+      "SHADOW_KIND": 2,
+      "CONSTRUCTION": "[[0, 0, 103, -1, 0, 50], [0, 0, 102, -1, 0, 64], [0, 1, 105, -1, 0, 100], [0, 0, 101, 104, 6, 100]]",
+      "CONFIDENCE": "PARTIAL"
+    },
+    {
+      "NAME": "viking bakery",
+      "LOGIC_ID": 15,
+      "GFX_ID": 6,
+      "TRIBE": 1,
+      "LEVEL": 1,
+      "BOB_ID": 105,
+      "MAIN_LIBRARY": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+      "SHADOW_LIBRARY": "data\\engine2d\\bin\\bobs\\ls_houses_viking_s.bmd",
+      "SHADOW_BOB_ID": 105,
+      "WIDTH": 315,
+      "HEIGHT": 234,
+      "PIVOT_X": 150,
+      "PIVOT_Y": 196,
+      "PIXEL_KIND": 4,
+      "SHADOW_KIND": 2,
+      "CONSTRUCTION": "[[1, 0, 106, -1, 0, 50], [1, 0, 107, -1, 0, 51], [1, 0, 105, 108, 8, 100]]",
+      "CONFIDENCE": "PARTIAL"
+    }
+  ]
+}

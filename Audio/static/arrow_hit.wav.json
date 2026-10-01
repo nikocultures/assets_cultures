@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 297,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\arrow_hit.wav",
+  "offset": 177912416,
+  "size": 10264,
+  "sha256": "a49519c50e5384bd13546c4db3757acd5648ab05eddac4c3aec30e2eec8967ff"
+ },
+ "output": "Audio/static/arrow_hit.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 10206,
+  "durationSeconds": 0.231,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 77,
+   "name": "Weapon Bow Hit",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 77,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 77,
+   "name": "Weapon Bow Hit",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 77,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Combat (name-derived)",
+ "categoryConfidence": "NAME_DERIVED",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

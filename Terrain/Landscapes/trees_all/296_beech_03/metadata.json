@@ -1,0 +1,766 @@
+{
+ "gfxLandscapeId": 296,
+ "nativeName": "beech 03",
+ "editGroups": [
+  [
+   "trees all",
+   "trees beech"
+  ]
+ ],
+ "logicType": 4,
+ "logicTypeName": "tree",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "tree"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     7,
+     4,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     11,
+     5,
+     2,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     2,
+     115,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 5,
+   "goodName": "wood",
+   "english": "Wood",
+   "field": "landscapetoharvest"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd",
+ "palettes": [
+  "tree03"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 0.8,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   11,
+   "beech 03 falling"
+  ],
+  [
+   7,
+   "beech 03"
+  ]
+ ],
+ "maximumValency": 3,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "beech 03"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "trees all",
+     "trees beech"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     3,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "tree03"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     116,
+     116,
+     116,
+     117,
+     117,
+     117,
+     118,
+     118
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     124,
+     124,
+     124,
+     125,
+     125,
+     125,
+     126,
+     126
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     132,
+     132,
+     132,
+     133,
+     133,
+     133,
+     134,
+     134
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.8
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     11,
+     "beech 03 falling"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     7,
+     "beech 03"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 116,
+     "width": 137,
+     "height": 227,
+     "pivot": [
+      69,
+      212
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000116.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000116__shadow_mask.png",
+     "shadowPivot": [
+      60,
+      48
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 116,
+     "width": 137,
+     "height": 227,
+     "pivot": [
+      69,
+      212
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000116.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000116__shadow_mask.png",
+     "shadowPivot": [
+      60,
+      48
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 116,
+     "width": 137,
+     "height": 227,
+     "pivot": [
+      69,
+      212
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000116.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000116__shadow_mask.png",
+     "shadowPivot": [
+      60,
+      48
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 117,
+     "width": 137,
+     "height": 227,
+     "pivot": [
+      69,
+      212
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000117.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000117__shadow_mask.png",
+     "shadowPivot": [
+      60,
+      48
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 117,
+     "width": 137,
+     "height": 227,
+     "pivot": [
+      69,
+      212
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000117.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000117__shadow_mask.png",
+     "shadowPivot": [
+      60,
+      48
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 117,
+     "width": 137,
+     "height": 227,
+     "pivot": [
+      69,
+      212
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000117.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000117__shadow_mask.png",
+     "shadowPivot": [
+      60,
+      48
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 118,
+     "width": 137,
+     "height": 227,
+     "pivot": [
+      69,
+      212
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000118.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000118__shadow_mask.png",
+     "shadowPivot": [
+      60,
+      48
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 118,
+     "width": 137,
+     "height": 227,
+     "pivot": [
+      69,
+      212
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000118.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000118__shadow_mask.png",
+     "shadowPivot": [
+      60,
+      48
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 124,
+     "width": 63,
+     "height": 100,
+     "pivot": [
+      34,
+      95
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000124.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000124__shadow_mask.png",
+     "shadowPivot": [
+      43,
+      41
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 124,
+     "width": 63,
+     "height": 100,
+     "pivot": [
+      34,
+      95
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000124.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000124__shadow_mask.png",
+     "shadowPivot": [
+      43,
+      41
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 124,
+     "width": 63,
+     "height": 100,
+     "pivot": [
+      34,
+      95
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000124.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000124__shadow_mask.png",
+     "shadowPivot": [
+      43,
+      41
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 125,
+     "width": 63,
+     "height": 100,
+     "pivot": [
+      34,
+      95
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000125.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000125__shadow_mask.png",
+     "shadowPivot": [
+      43,
+      41
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 125,
+     "width": 63,
+     "height": 100,
+     "pivot": [
+      34,
+      95
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000125.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000125__shadow_mask.png",
+     "shadowPivot": [
+      43,
+      41
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 125,
+     "width": 63,
+     "height": 100,
+     "pivot": [
+      34,
+      95
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000125.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000125__shadow_mask.png",
+     "shadowPivot": [
+      43,
+      41
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 126,
+     "width": 63,
+     "height": 100,
+     "pivot": [
+      34,
+      95
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000126.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000126__shadow_mask.png",
+     "shadowPivot": [
+      43,
+      41
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 126,
+     "width": 63,
+     "height": 100,
+     "pivot": [
+      34,
+      95
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000126.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000126__shadow_mask.png",
+     "shadowPivot": [
+      43,
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 132,
+     "width": 45,
+     "height": 78,
+     "pivot": [
+      25,
+      76
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000132.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000132__shadow_mask.png",
+     "shadowPivot": [
+      33,
+      39
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 132,
+     "width": 45,
+     "height": 78,
+     "pivot": [
+      25,
+      76
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000132.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000132__shadow_mask.png",
+     "shadowPivot": [
+      33,
+      39
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 132,
+     "width": 45,
+     "height": 78,
+     "pivot": [
+      25,
+      76
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000132.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000132__shadow_mask.png",
+     "shadowPivot": [
+      33,
+      39
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 133,
+     "width": 45,
+     "height": 78,
+     "pivot": [
+      25,
+      76
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000133.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000133__shadow_mask.png",
+     "shadowPivot": [
+      33,
+      39
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 133,
+     "width": 45,
+     "height": 78,
+     "pivot": [
+      25,
+      76
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000133.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000133__shadow_mask.png",
+     "shadowPivot": [
+      33,
+      39
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 133,
+     "width": 45,
+     "height": 78,
+     "pivot": [
+      25,
+      76
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000133.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000133__shadow_mask.png",
+     "shadowPivot": [
+      33,
+      39
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 134,
+     "width": 45,
+     "height": 78,
+     "pivot": [
+      25,
+      76
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000134.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000134__shadow_mask.png",
+     "shadowPivot": [
+      33,
+      39
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 134,
+     "width": 45,
+     "height": 78,
+     "pivot": [
+      25,
+      76
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/296_beech_03/bob_000134.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/293_beech_01/bob_000134__shadow_mask.png",
+     "shadowPivot": [
+      33,
+      39
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/trees_all/296_beech_03",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

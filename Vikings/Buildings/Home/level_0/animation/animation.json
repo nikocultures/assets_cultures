@@ -1,0 +1,27 @@
+{
+  "body": "static base plus declared overlays",
+  "sequences": [
+    {
+      "nativeTuple": [
+        0,
+        3,
+        1,
+        80,
+        -73,
+        0
+      ],
+      "level": 0,
+      "stateLane": 3,
+      "requiredLaneState": 1,
+      "offset": [
+        80,
+        -73
+      ],
+      "ticksPerFrame": 0,
+      "sequence": [],
+      "rule": "index=(native tick / ticksPerFrame) modulo count; 0x004341C0 state lane gating; rate in seconds UNKNOWN",
+      "evidence": "0x00495B57"
+    }
+  ],
+  "confidence": "AUTOMATED_CONFIRMED (native frame order); PARTIAL (runtime triggers/timing)"
+}

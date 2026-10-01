@@ -1,0 +1,144 @@
+{
+ "gfxPatternId": 788,
+ "nativeName": "block water shallow 01 03 01",
+ "editGroups": [
+  [
+   "water bright",
+   "water shallow",
+   "water all"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeDefinition": {
+  "section": "trianglepatterntype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "iswater",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "moveresistance",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "debugname",
+    "arguments": [
+     "water"
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     0,
+     98,
+     115
+    ]
+   }
+  ]
+ },
+ "texture": "data\\engine2d\\bin\\textures\\text_247.pcx",
+ "textureOutput": "Terrain/Textures/text_247.png",
+ "triangleA": [
+  192,
+  64,
+  255,
+  127,
+  192,
+  127
+ ],
+ "triangleB": [
+  192,
+  64,
+  255,
+  64,
+  255,
+  127
+ ],
+ "cropBox": [
+  192,
+  64,
+  255,
+  127
+ ],
+ "crop": "Terrain/Patterns/water_bright/788_block_water_shallow_01_03_01.png",
+ "triangleMask": "Terrain/Patterns/water_bright/788_block_water_shallow_01_03_01__triangles.png",
+ "maskValues": {
+  "85": "triangle A",
+  "170": "triangle B"
+ },
+ "definition": {
+  "section": "gfxpattern",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "block water shallow 01 03 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "water bright",
+     "water shallow",
+     "water all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxtexture",
+    "arguments": [
+     "data\\engine2d\\bin\\textures\\text_247.pcx"
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     192,
+     64,
+     255,
+     127,
+     192,
+     127
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     192,
+     64,
+     255,
+     64,
+     255,
+     127
+    ]
+   }
+  ]
+ },
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0048E24E pattern.cif loader (stride 0x70)",
+   "0x00491EA8 pattern texture resolve"
+  ],
+  "cpp": "GfxPatternRegistry"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED texture decode",
+  "presentation": "PRESENTATION_PARTIAL: texture-space crop; isometric triangle projection, lighting and transitions not applied"
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 970,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\potter01.wav",
+  "offset": 182401462,
+  "size": 138846,
+  "sha256": "5acb4e57a1ee3d9b81c6a4151a26cf5d1d394320d52f7694529808afef6dddbd"
+ },
+ "output": "Audio/static/potter01.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 138788,
+  "durationSeconds": 3.147,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 101,
+   "name": "Potter",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 40,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 101,
+   "name": "Potter",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 40,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Production/actions (folder static)",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

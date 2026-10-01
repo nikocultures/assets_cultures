@@ -1,0 +1,52 @@
+{
+ "LIBRARY": "data\\gui\\lang\\eng\\bobs\\ls_gui_window.bmd",
+ "BOB_ID": 21,
+ "KIND": 4,
+ "WIDTH": 12,
+ "HEIGHT": 9,
+ "PIVOT": [
+  3,
+  4
+ ],
+ "EVIDENCE": [
+  "skin_tiled_frame.hpp:52"
+ ],
+ "PALETTES": [
+  "data\\gui\\palettes\\frame.pcx"
+ ],
+ "OUTPUTS": [
+  "UI/Sprites/ls_gui_window/frame/bob_0021.png"
+ ],
+ "INDEX_DATA": "UI/Sprites/ls_gui_window/_index_data/bob_0021.png",
+ "STATUS": "PALETTE_EVIDENCED",
+ "CONFIDENCE": "PIXEL_CONFIRMED",
+ "evidenceDetail": [
+  {
+   "file": "skin_tiled_frame.hpp",
+   "line": 52,
+   "paletteMember": "framePalette_",
+   "palette": "data\\gui\\palettes\\frame.pcx",
+   "code": "frame style 5 corner 0",
+   "nearestComment": "UiSkin_DrawTiledFrame 0x004E2445 corners"
+  }
+ ],
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 161,
+  "entryName": "data\\gui\\lang\\eng\\bobs\\ls_gui_window.bmd",
+  "offset": 196270849,
+  "size": 937075,
+  "sha256": "1deb6437eb2fb2806cd5e43ef9508d65a06e187f507229368335c7bb8c579631"
+ },
+ "descriptor": {
+  "bobId": 21,
+  "frameIndex": 21,
+  "kind": 4,
+  "x": -3,
+  "y": -4,
+  "width": 12,
+  "height": 9,
+  "firstScanline": 642,
+  "offset": 14856
+ }
+}

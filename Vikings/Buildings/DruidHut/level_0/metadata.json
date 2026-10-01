@@ -1,0 +1,1897 @@
+{
+  "nativeName": "viking druid hut",
+  "tribe": "Vikings",
+  "logicHouseType": 35,
+  "gfxHouseId": 14,
+  "level": 0,
+  "bodyBob": 5,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_viking4_s.bmd",
+  "shadowBob": 5,
+  "paletteAlternatives": [
+    "house01",
+    "house02"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 5,
+      "descriptor": {
+        "bobId": 5,
+        "frameIndex": 5,
+        "kind": 4,
+        "x": -99,
+        "y": -158,
+        "width": 208,
+        "height": 228,
+        "firstScanline": 1085
+      },
+      "pivot": [
+        99,
+        158
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1905,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+        "offset": 132800083,
+        "size": 901,
+        "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/DruidHut/level_0/main/frame_000005.png",
+      "pixelSha256": "2a76d8e51596a4540a6ba5bb0f79b0ac1dd726cc5f9b4eb1be3e48b9b68156a1"
+    },
+    {
+      "bobId": 5,
+      "descriptor": {
+        "bobId": 5,
+        "frameIndex": 5,
+        "kind": 4,
+        "x": -99,
+        "y": -158,
+        "width": 208,
+        "height": 228,
+        "firstScanline": 1085
+      },
+      "pivot": [
+        99,
+        158
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/DruidHut/level_0/main/palette_house02/frame_000005.png",
+      "pixelSha256": "8430f723143e873c0eb4c306c4084226310d3cc4c354dcec6a28cec82cd88012"
+    }
+  ],
+  "constructionLayers": [
+    [
+      0,
+      1,
+      10,
+      -1,
+      0,
+      100
+    ],
+    [
+      0,
+      0,
+      7,
+      -1,
+      0,
+      100
+    ],
+    [
+      0,
+      0,
+      6,
+      -1,
+      0,
+      100
+    ],
+    [
+      0,
+      0,
+      5,
+      9,
+      0,
+      100
+    ]
+  ],
+  "doors": [
+    [
+      0,
+      1,
+      8
+    ]
+  ],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [
+      [
+        0,
+        -21,
+        -135
+      ],
+      [
+        0,
+        -49,
+        -115
+      ],
+      [
+        0,
+        -51,
+        -107
+      ],
+      [
+        0,
+        -15,
+        -101
+      ],
+      [
+        0,
+        -29,
+        -101
+      ],
+      [
+        0,
+        -29,
+        -87
+      ],
+      [
+        0,
+        -35,
+        -75
+      ],
+      [
+        0,
+        -5,
+        -75
+      ],
+      [
+        0,
+        -83,
+        -73
+      ],
+      [
+        0,
+        -51,
+        -73
+      ],
+      [
+        0,
+        65,
+        -67
+      ],
+      [
+        0,
+        37,
+        -67
+      ],
+      [
+        0,
+        -83,
+        -65
+      ],
+      [
+        0,
+        -65,
+        -63
+      ],
+      [
+        0,
+        -15,
+        -57
+      ],
+      [
+        0,
+        39,
+        -55
+      ],
+      [
+        0,
+        -81,
+        -53
+      ],
+      [
+        0,
+        55,
+        -51
+      ],
+      [
+        0,
+        -49,
+        -49
+      ],
+      [
+        0,
+        -67,
+        -49
+      ],
+      [
+        0,
+        9,
+        -45
+      ],
+      [
+        0,
+        -75,
+        -43
+      ],
+      [
+        0,
+        -31,
+        -35
+      ],
+      [
+        0,
+        -69,
+        -33
+      ],
+      [
+        0,
+        -15,
+        -27
+      ],
+      [
+        0,
+        1,
+        -23
+      ],
+      [
+        0,
+        -65,
+        -9
+      ],
+      [
+        0,
+        51,
+        -9
+      ],
+      [
+        0,
+        -65,
+        -1
+      ],
+      [
+        0,
+        13,
+        7
+      ],
+      [
+        0,
+        -71,
+        11
+      ],
+      [
+        0,
+        23,
+        23
+      ],
+      [
+        0,
+        23,
+        27
+      ],
+      [
+        0,
+        95,
+        37
+      ],
+      [
+        0,
+        49,
+        43
+      ],
+      [
+        0,
+        97,
+        57
+      ]
+    ],
+    "gfxsmokepoint": [
+      [
+        0,
+        67,
+        -27,
+        1
+      ],
+      [
+        0,
+        73,
+        -17,
+        1
+      ],
+      [
+        0,
+        79,
+        -11,
+        1
+      ],
+      [
+        0,
+        -87,
+        -1,
+        1
+      ],
+      [
+        0,
+        81,
+        -1,
+        1
+      ],
+      [
+        0,
+        -95,
+        3,
+        1
+      ],
+      [
+        0,
+        -89,
+        9,
+        1
+      ],
+      [
+        0,
+        73,
+        9,
+        1
+      ],
+      [
+        0,
+        -75,
+        19,
+        1
+      ],
+      [
+        0,
+        59,
+        23,
+        1
+      ],
+      [
+        0,
+        -59,
+        25,
+        1
+      ],
+      [
+        0,
+        53,
+        27,
+        1
+      ],
+      [
+        0,
+        -39,
+        33,
+        1
+      ],
+      [
+        0,
+        77,
+        35,
+        1
+      ],
+      [
+        0,
+        7,
+        37,
+        1
+      ],
+      [
+        0,
+        25,
+        37,
+        1
+      ],
+      [
+        0,
+        -17,
+        39,
+        1
+      ],
+      [
+        0,
+        95,
+        47,
+        1
+      ],
+      [
+        0,
+        43,
+        53,
+        1
+      ],
+      [
+        0,
+        65,
+        55,
+        1
+      ],
+      [
+        0,
+        107,
+        59,
+        1
+      ],
+      [
+        0,
+        115,
+        61,
+        1
+      ],
+      [
+        0,
+        85,
+        65,
+        1
+      ],
+      [
+        0,
+        101,
+        67,
+        1
+      ],
+      [
+        0,
+        103,
+        67,
+        1
+      ],
+      [
+        0,
+        -9,
+        -71,
+        0
+      ],
+      [
+        0,
+        11,
+        -71,
+        0
+      ],
+      [
+        0,
+        -7,
+        -69,
+        0
+      ],
+      [
+        0,
+        -21,
+        -67,
+        0
+      ],
+      [
+        0,
+        -29,
+        -67,
+        0
+      ],
+      [
+        0,
+        19,
+        -65,
+        0
+      ],
+      [
+        0,
+        29,
+        -65,
+        0
+      ],
+      [
+        0,
+        -41,
+        -59,
+        0
+      ],
+      [
+        0,
+        -49,
+        -55,
+        0
+      ],
+      [
+        0,
+        49,
+        -51,
+        0
+      ],
+      [
+        0,
+        -57,
+        -51,
+        0
+      ],
+      [
+        0,
+        61,
+        -39,
+        0
+      ],
+      [
+        0,
+        -67,
+        -39,
+        0
+      ],
+      [
+        0,
+        -71,
+        -37,
+        0
+      ],
+      [
+        0,
+        67,
+        -27,
+        0
+      ],
+      [
+        0,
+        -75,
+        -27,
+        0
+      ],
+      [
+        0,
+        -79,
+        -19,
+        0
+      ],
+      [
+        0,
+        73,
+        -17,
+        0
+      ],
+      [
+        0,
+        79,
+        -11,
+        0
+      ],
+      [
+        0,
+        81,
+        -1,
+        0
+      ],
+      [
+        0,
+        73,
+        9,
+        0
+      ],
+      [
+        0,
+        59,
+        23,
+        0
+      ],
+      [
+        0,
+        53,
+        27,
+        0
+      ],
+      [
+        0,
+        77,
+        35,
+        0
+      ],
+      [
+        0,
+        95,
+        47,
+        0
+      ]
+    ],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [],
+    "sharedEffects": {
+      "fx fire house 0": "Shared/Effects/fx_fire_house_0/metadata.json",
+      "fx fire house 1": "Shared/Effects/fx_fire_house_1/metadata.json",
+      "fx fire house 2": "Shared/Effects/fx_fire_house_2/metadata.json",
+      "fx smoke": "Shared/Effects/fx_smoke/metadata.json"
+    },
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 208,
+  "height": 228,
+  "pivot": [
+    99,
+    158
+  ],
+  "shadow": {
+    "bobId": 5,
+    "descriptor": {
+      "bobId": 5,
+      "frameIndex": 5,
+      "kind": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "firstScanline": 0
+    },
+    "pivot": [
+      0,
+      0
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 277,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4_s.bmd",
+      "offset": 110968149,
+      "size": 17772,
+      "sha256": "d991c4b3b0cec46eb4bbd20fab7523461345c8bd4b7447fa77eca861b8092df6"
+    },
+    "rawLibrary": "Metadata/Sources/ls_houses_viking4_s.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "empty": true,
+    "path": null
+  },
+  "constructionParts": [
+    {
+      "bobId": 10,
+      "descriptor": {
+        "bobId": 10,
+        "frameIndex": 10,
+        "kind": 4,
+        "x": -99,
+        "y": -282,
+        "width": 275,
+        "height": 352,
+        "firstScanline": 1992
+      },
+      "pivot": [
+        99,
+        282
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1905,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+        "offset": 132800083,
+        "size": 901,
+        "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/layers/house01/body_000010.png",
+      "pixelSha256": "71391c249028f81f6e0d6cdb1da3ec7c3148ad53886515f2fe53ad4adf0435b4"
+    },
+    {
+      "bobId": 10,
+      "descriptor": {
+        "bobId": 10,
+        "frameIndex": 10,
+        "kind": 4,
+        "x": -99,
+        "y": -282,
+        "width": 275,
+        "height": 352,
+        "firstScanline": 1992
+      },
+      "pivot": [
+        99,
+        282
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/layers/house02/body_000010.png",
+      "pixelSha256": "32f07595d46acc16536fc73436dd3f4cc68da521a8c8742393609ed49cb306d6"
+    },
+    {
+      "bobId": 10,
+      "descriptor": {
+        "bobId": 10,
+        "frameIndex": 10,
+        "kind": 4,
+        "x": -99,
+        "y": -282,
+        "width": 275,
+        "height": 352,
+        "firstScanline": 1992
+      },
+      "pivot": [
+        99,
+        282
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/layers/reveal_000010.png",
+      "pixelSha256": "1d45b1797d3b16092ed0d4ea1c3df75e735654b906de0319da8f1934f1c69605"
+    },
+    {
+      "bobId": 7,
+      "descriptor": {
+        "bobId": 7,
+        "frameIndex": 7,
+        "kind": 4,
+        "x": -99,
+        "y": -157,
+        "width": 185,
+        "height": 180,
+        "firstScanline": 1509
+      },
+      "pivot": [
+        99,
+        157
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1905,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+        "offset": 132800083,
+        "size": 901,
+        "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/layers/house01/body_000007.png",
+      "pixelSha256": "5d97cc289a98a2c462dc5831b8d6fb8a50d1294a0c0d5d43370eb2f43aafe810"
+    },
+    {
+      "bobId": 7,
+      "descriptor": {
+        "bobId": 7,
+        "frameIndex": 7,
+        "kind": 4,
+        "x": -99,
+        "y": -157,
+        "width": 185,
+        "height": 180,
+        "firstScanline": 1509
+      },
+      "pivot": [
+        99,
+        157
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/layers/house02/body_000007.png",
+      "pixelSha256": "2bcf81ffaa22f0521fc320b075aa090495aad48c87554afc5cc0c0e99ba94cc5"
+    },
+    {
+      "bobId": 7,
+      "descriptor": {
+        "bobId": 7,
+        "frameIndex": 7,
+        "kind": 4,
+        "x": -99,
+        "y": -157,
+        "width": 185,
+        "height": 180,
+        "firstScanline": 1509
+      },
+      "pivot": [
+        99,
+        157
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/layers/reveal_000007.png",
+      "pixelSha256": "de048339a198bac90828bdaaf7a9ac6825e1b843117983cde68167fe4db769c7"
+    },
+    {
+      "bobId": 6,
+      "descriptor": {
+        "bobId": 6,
+        "frameIndex": 6,
+        "kind": 4,
+        "x": -97,
+        "y": -150,
+        "width": 176,
+        "height": 196,
+        "firstScanline": 1313
+      },
+      "pivot": [
+        97,
+        150
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1905,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+        "offset": 132800083,
+        "size": 901,
+        "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/layers/house01/body_000006.png",
+      "pixelSha256": "8dbb236b40c52d8003d850c945456d5a311c9dea96d2379df7a0caffd6349af4"
+    },
+    {
+      "bobId": 6,
+      "descriptor": {
+        "bobId": 6,
+        "frameIndex": 6,
+        "kind": 4,
+        "x": -97,
+        "y": -150,
+        "width": 176,
+        "height": 196,
+        "firstScanline": 1313
+      },
+      "pivot": [
+        97,
+        150
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/layers/house02/body_000006.png",
+      "pixelSha256": "8dbb236b40c52d8003d850c945456d5a311c9dea96d2379df7a0caffd6349af4"
+    },
+    {
+      "bobId": 6,
+      "descriptor": {
+        "bobId": 6,
+        "frameIndex": 6,
+        "kind": 4,
+        "x": -97,
+        "y": -150,
+        "width": 176,
+        "height": 196,
+        "firstScanline": 1313
+      },
+      "pivot": [
+        97,
+        150
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/layers/reveal_000006.png",
+      "pixelSha256": "a2e4fc689dc8265fa3a5796fea73920cf2743618331cb6c30266eacc9493a717"
+    },
+    {
+      "bobId": 5,
+      "descriptor": {
+        "bobId": 5,
+        "frameIndex": 5,
+        "kind": 4,
+        "x": -99,
+        "y": -158,
+        "width": 208,
+        "height": 228,
+        "firstScanline": 1085
+      },
+      "pivot": [
+        99,
+        158
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1905,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+        "offset": 132800083,
+        "size": 901,
+        "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/DruidHut/level_0/main/frame_000005.png",
+      "pixelSha256": "2a76d8e51596a4540a6ba5bb0f79b0ac1dd726cc5f9b4eb1be3e48b9b68156a1"
+    },
+    {
+      "bobId": 5,
+      "descriptor": {
+        "bobId": 5,
+        "frameIndex": 5,
+        "kind": 4,
+        "x": -99,
+        "y": -158,
+        "width": 208,
+        "height": 228,
+        "firstScanline": 1085
+      },
+      "pivot": [
+        99,
+        158
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/DruidHut/level_0/main/palette_house02/frame_000005.png",
+      "pixelSha256": "8430f723143e873c0eb4c306c4084226310d3cc4c354dcec6a28cec82cd88012"
+    },
+    {
+      "bobId": 5,
+      "descriptor": {
+        "bobId": 5,
+        "frameIndex": 5,
+        "kind": 4,
+        "x": -99,
+        "y": -158,
+        "width": 208,
+        "height": 228,
+        "firstScanline": 1085
+      },
+      "pivot": [
+        99,
+        158
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/layers/reveal_000005.png",
+      "pixelSha256": "c9dcffad6dee8664aadd7223dbb6f8e4344328a216a0329a51ddc3678e51df8f"
+    },
+    {
+      "bobId": 9,
+      "descriptor": {
+        "bobId": 9,
+        "frameIndex": 9,
+        "kind": 1,
+        "x": -94,
+        "y": -72,
+        "width": 246,
+        "height": 144,
+        "firstScanline": 1848
+      },
+      "pivot": [
+        94,
+        72
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/layers/auxiliary_threshold_000009.png",
+      "pixelSha256": "f83e0ac5ff9a56ac28ed82640e7f9b59b6bdbd33f389c1812a2e20e93bd54618"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/progress_000.png",
+      "pivot": [
+        99,
+        282
+      ],
+      "dimensions": [
+        275,
+        354
+      ],
+      "palette": "house01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            7,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 0,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            6,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 0,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            5,
+            9,
+            0,
+            100
+          ],
+          "threshold": 0,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/DruidHut/level_0/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/progress_010.png",
+      "pivot": [
+        99,
+        282
+      ],
+      "dimensions": [
+        275,
+        354
+      ],
+      "palette": "house01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            7,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 25,
+          "bodyPixels": 1430,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            6,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 25,
+          "bodyPixels": 930,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            5,
+            9,
+            0,
+            100
+          ],
+          "threshold": 25,
+          "bodyPixels": 1838,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/DruidHut/level_0/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/progress_025.png",
+      "pivot": [
+        99,
+        282
+      ],
+      "dimensions": [
+        275,
+        354
+      ],
+      "palette": "house01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            7,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 63,
+          "bodyPixels": 4745,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            6,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 63,
+          "bodyPixels": 3192,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            5,
+            9,
+            0,
+            100
+          ],
+          "threshold": 63,
+          "bodyPixels": 7212,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/DruidHut/level_0/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/progress_050.png",
+      "pivot": [
+        99,
+        282
+      ],
+      "dimensions": [
+        275,
+        354
+      ],
+      "palette": "house01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            7,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 127,
+          "bodyPixels": 10125,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            6,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 127,
+          "bodyPixels": 9892,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            5,
+            9,
+            0,
+            100
+          ],
+          "threshold": 127,
+          "bodyPixels": 16348,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/DruidHut/level_0/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/progress_075.png",
+      "pivot": [
+        99,
+        282
+      ],
+      "dimensions": [
+        275,
+        354
+      ],
+      "palette": "house01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            7,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 191,
+          "bodyPixels": 13408,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            6,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 191,
+          "bodyPixels": 13787,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            5,
+            9,
+            0,
+            100
+          ],
+          "threshold": 191,
+          "bodyPixels": 23892,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/DruidHut/level_0/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Vikings/Buildings/DruidHut/level_0/construction/progress_100.png",
+      "pivot": [
+        99,
+        282
+      ],
+      "dimensions": [
+        275,
+        354
+      ],
+      "palette": "house01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            7,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 15050,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            6,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 14873,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            5,
+            9,
+            0,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 25896,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/DruidHut/level_0/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [
+    {
+      "tuple": [
+        0,
+        1,
+        8
+      ],
+      "asset": {
+        "bobId": 8,
+        "descriptor": {
+          "bobId": 8,
+          "frameIndex": 8,
+          "kind": 1,
+          "x": -73,
+          "y": -118,
+          "width": 67,
+          "height": 159,
+          "firstScanline": 1689
+        },
+        "pivot": [
+          73,
+          118
+        ],
+        "source": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 945,
+          "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+          "offset": 108381429,
+          "size": 2586720,
+          "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+        },
+        "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+        "role": "body",
+        "confidence": "AUTOMATED_CONFIRMED",
+        "palette": "house01",
+        "paletteSource": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 1905,
+          "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+          "offset": 132800083,
+          "size": 901,
+          "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+        },
+        "paletteDefinition": {
+          "section": "gfxpalette256",
+          "commands": [
+            {
+              "name": "editname",
+              "arguments": [
+                "house01"
+              ]
+            },
+            {
+              "name": "gfxfile",
+              "arguments": [
+                "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+              ]
+            },
+            {
+              "name": "gfxpreshade",
+              "arguments": [
+                1
+              ]
+            }
+          ]
+        },
+        "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+        "path": "Vikings/Buildings/DruidHut/level_0/states/door/house01/frame_000008.png",
+        "pixelSha256": "5410291bf58d74cd7cbb608e60812284fbc707479ba6d9adfa8f018940971ec3"
+      }
+    },
+    {
+      "tuple": [
+        0,
+        1,
+        8
+      ],
+      "asset": {
+        "bobId": 8,
+        "descriptor": {
+          "bobId": 8,
+          "frameIndex": 8,
+          "kind": 1,
+          "x": -73,
+          "y": -118,
+          "width": 67,
+          "height": 159,
+          "firstScanline": 1689
+        },
+        "pivot": [
+          73,
+          118
+        ],
+        "source": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 945,
+          "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+          "offset": 108381429,
+          "size": 2586720,
+          "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+        },
+        "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+        "role": "body",
+        "confidence": "AUTOMATED_CONFIRMED",
+        "palette": "house02",
+        "paletteSource": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 1916,
+          "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+          "offset": 132800984,
+          "size": 901,
+          "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+        },
+        "paletteDefinition": {
+          "section": "gfxpalette256",
+          "commands": [
+            {
+              "name": "editname",
+              "arguments": [
+                "house02"
+              ]
+            },
+            {
+              "name": "gfxfile",
+              "arguments": [
+                "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+              ]
+            },
+            {
+              "name": "gfxpreshade",
+              "arguments": [
+                1
+              ]
+            }
+          ]
+        },
+        "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+        "path": "Vikings/Buildings/DruidHut/level_0/states/door/house02/frame_000008.png",
+        "pixelSha256": "5259faef5407e4d3d2b4fbcc942996d4a9ba140b12c05e572ad20f6e37c7f8d7"
+      }
+    }
+  ],
+  "sourceAssetExport": "COMPLETE"
+}

@@ -1,0 +1,59 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2599,
+  "entryName": "data\\engine2d\\bin\\sounds\\ambient\\water2.wav",
+  "offset": 144959510,
+  "size": 591948,
+  "sha256": "de2285850c0685d2fa2bed849b680377e8fe029b3289984e8039e33219e73b7e"
+ },
+ "output": "Audio/ambient/water2.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 591890,
+  "durationSeconds": 13.422,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 4,
+   "name": "Water Standing",
+   "parameters": [
+    0,
+    0,
+    0
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": "swamp 1x1",
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 4,
+   "name": "Water Standing",
+   "parameters": [
+    0,
+    0,
+    0
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": "swamp 1x1",
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Ambient",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

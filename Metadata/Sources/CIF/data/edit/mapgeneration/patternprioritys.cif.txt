@@ -1,0 +1,157 @@
+[PatternPriority]
+PatternDesc "border" "misc"
+MacroMap "Data\Edit\MacroMaps\border000.ini"
+PaletteIndex 14
+Height 0 1
+Randomizer 1 1 0 0
+RandomizerPriority 1
+[PatternPriority]
+PatternDesc "block plaster 00 00 00" "plaster all"
+MacroMap "Data\Edit\MacroMaps\plaster000.ini"
+PaletteIndex 15
+Height 10 2
+Randomizer 1 1 0 0
+RandomizerPriority 1
+[PatternPriority]
+PatternDesc "block lava 00 00 00" "lava all"
+MacroMap "Data\Edit\MacroMaps\lava000.ini"
+PaletteIndex 22
+Height 10 2
+Randomizer 1 1 0 0
+RandomizerPriority 1
+[PatternPriority]
+PatternDesc "water 01" "water 2x2"
+MacroMap "Data\Edit\MacroMaps\water000.ini"
+PaletteIndex 0
+Height 0 1
+Randomizer 1 1 0 0
+RandomizerPriority 1
+[PatternPriority]
+PatternDesc "block water shallow 00 00 00" "water bright"
+CheckMasks "water all"
+MacroMap "Data\Edit\MacroMaps\waterShallow000.ini"
+Transitions "water bright 1" "water bright 2"
+PaletteIndex 1
+Height 2 0
+Randomizer 0 1 1 0
+RandomizerPriority 2
+[PatternPriority]
+PatternDesc "block beach 00 00 00" "sand 2x2"
+Transitions "sand 1" "sand 2"
+MacroMap "Data\Edit\MacroMaps\beach000.ini"
+PaletteIndex 2
+Height 3 2
+Randomizer 0 0 1 1
+RandomizerPriority 9
+[PatternPriority]
+PatternDesc "block beachNosound 00 00 00" "sandNosound 2x2"
+Transitions "sand 1" "sand 2"
+MacroMap "Data\Edit\MacroMaps\beachNosound000.ini"
+PaletteIndex 20
+Height 3 2
+Randomizer 0 0 1 1
+RandomizerPriority 9
+[PatternPriority]
+PatternDesc "block mud 00 00 00" "mud all"
+Transitions "mud 1" "mud 2"
+MacroMap "Data\Edit\MacroMaps\mud001.ini"
+PaletteIndex 3
+Height 3 2
+Randomizer 0 0 0 0
+RandomizerPriority 6
+[PatternPriority]
+PatternDesc "block desert a 00 00 00" "desertBrown a"
+Transitions "desertBrown 1a" "desertBrown 2a"
+MacroMap "Data\Edit\MacroMaps\deserta001.ini"
+PaletteIndex 16
+Height 2 4
+Randomizer 0 0 0 0
+RandomizerPriority 8
+[PatternPriority]
+PatternDesc "block desert b 00 00 00" "desertBrown b"
+Transitions "desertBrown 1b" "desertBrown 2b"
+MacroMap "Data\Edit\MacroMaps\desertb001.ini"
+PaletteIndex 17
+Height 4 4
+Randomizer 0 0 0 0
+RandomizerPriority 8
+[PatternPriority]
+PatternDesc "block desert c 00 00 00" "desertBrown c"
+Transitions "desertBrown 1c" "desertBrown 2c"
+MacroMap "Data\Edit\MacroMaps\desertc001.ini"
+PaletteIndex 18
+Height 6 4
+Randomizer 0 0 0 0
+RandomizerPriority 8
+[PatternPriority]
+PatternDesc "block desert d 00 00 00" "desertBrown d"
+Transitions "desertBrown 1d" "desertBrown 2d"
+MacroMap "Data\Edit\MacroMaps\desertd001.ini"
+PaletteIndex 19
+Height 8 4
+Randomizer 0 0 0 0
+RandomizerPriority 8
+[PatternPriority]
+PatternDesc "block desertStone 00 00 00" "desertStone all"
+Transitions "concrete 1" "concrete 2"
+MacroMap "Data\Edit\MacroMaps\desertStone001.ini"
+PaletteIndex 8
+Height 11 2
+Randomizer 0 0 0 0
+RandomizerPriority 8
+[PatternPriority]
+PatternDesc "block swamp 00 00 00" "swamp all"
+Transitions "swamp 1" "swamp 2"
+MacroMap "Data\Edit\MacroMaps\swamp001.ini"
+PaletteIndex 7
+Height 3 2
+Randomizer 0 0 0 0
+RandomizerPriority 7
+[PatternPriority]
+PatternDesc "mountain 01" "mountain all"
+Transitions "mountain 1" "mountain 2"
+MacroMap "Data\Edit\MacroMaps\Mountain000.ini"
+PaletteIndex 10
+Height 15 2
+Randomizer 0 0 0 0
+RandomizerPriority 10
+[PatternPriority]
+PatternDesc "meadow dark 01" "meadow dark"
+Transitions "meadow dark 1" "meadow dark 2"
+MacroMap "Data\Edit\MacroMaps\MeadowDark000.ini"
+PaletteIndex 6
+Height 9 2
+Randomizer 0 0 0 0
+RandomizerPriority 4
+[PatternPriority]
+PatternDesc "meadow 01" "meadow green"
+Transitions "meadow 1" "meadow 2"
+MacroMap "Data\Edit\MacroMaps\Meadow000.ini"
+PaletteIndex 4
+Height 11 2
+Randomizer 1 0 0 0
+RandomizerPriority 3
+[PatternPriority]
+PatternDesc "Meadow MegaDark 00 00 00" "meadow MegaDark"
+Transitions "meadow MegaDark 1" "meadow MegaDark 2"
+MacroMap "Data\Edit\MacroMaps\MeadowMegaDark000.ini"
+PaletteIndex 5
+Height 13 2
+Randomizer 0 0 0 0
+RandomizerPriority 5
+[PatternPriority]
+PatternDesc "block Snow 00 00 00" "snow all"
+Transitions "snow 1" "snow 2"
+MacroMap "Data\Edit\MacroMaps\snow000.ini"
+PaletteIndex 13
+Height 15 2
+Randomizer 0 0 0 0
+RandomizerPriority 5
+[PatternPriority]
+PatternDesc "block ice 00 00 00" "ice all"
+Transitions "ice 1" "ice 2"
+MacroMap "Data\Edit\MacroMaps\ice000.ini"
+PaletteIndex 21
+Height 15 2
+Randomizer 0 0 0 0
+RandomizerPriority 5

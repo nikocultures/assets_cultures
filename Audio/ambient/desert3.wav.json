@@ -1,0 +1,59 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1063,
+  "entryName": "data\\engine2d\\bin\\sounds\\ambient\\desert3.wav",
+  "offset": 137225216,
+  "size": 620522,
+  "sha256": "bd860f034dc6bbc1fbd9114d53d97e03457aa064b15e966fe646953b3f3b8e2c"
+ },
+ "output": "Audio/ambient/desert3.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 620464,
+  "durationSeconds": 14.069,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 6,
+   "name": "Desert Sand",
+   "parameters": [
+    0,
+    0,
+    0
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": "desertStone 3x3",
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 6,
+   "name": "Desert Sand",
+   "parameters": [
+    0,
+    0,
+    0
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": "desertStone 3x3",
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Ambient",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

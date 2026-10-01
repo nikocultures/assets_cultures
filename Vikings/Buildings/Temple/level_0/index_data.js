@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../../../", "crumbs": [["Home", "index.html"], ["Vikings", "Vikings/index.html"], ["Buildings", "Vikings/Buildings/index.html"], ["Temple", ""], ["level_0", ""]], "prev": ["viking tower L1", "Vikings/Buildings/Tower/level_1/index.html"], "next": ["viking handcart L0", "Vikings/Buildings/Handcart/level_0/index.html"]};

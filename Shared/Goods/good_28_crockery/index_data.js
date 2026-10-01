@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../../", "crumbs": [["Home", "index.html"], ["Shared", "Shared/index.html"], ["Goods", "Shared/Goods/index.html"], ["good_28_crockery", ""]], "prev": ["Good 27", "Shared/Goods/good_27_ornament/index.html"], "next": ["Good 29", "Shared/Goods/good_29_furniture/index.html"]};

@@ -1,0 +1,61 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2536,
+  "entryName": "data\\engine2d\\bin\\sounds\\generic\\animals_goat04.wav",
+  "offset": 147914938,
+  "size": 32714,
+  "sha256": "d1777437a82be1fae65f1a2cff740d4f3ad5f7784ba73781ab4b5a152e4683fc"
+ },
+ "output": "Audio/generic/animals_goat04.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 32656,
+  "durationSeconds": 0.74,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 143,
+   "name": "Goat Sounds",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 143,
+   "name": "Goat Sounds",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [
+  {
+   "tribe": 14,
+   "probability": 10,
+   "minCount": 1
+  }
+ ],
+ "category": "Animals",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

@@ -1,0 +1,2747 @@
+{
+ "library": "data\\engine2d\\bin\\bobs\\ls_guidepost.bmd",
+ "rule": "post BOB 0 + one arm BOB per destination: signpostArmFrame(angle) in 1..18; palette tree01 (unowned) or owner human_playerNN",
+ "evidence": "signpost_visual.hpp signpostArmFrame; production_world_compositor.hpp signpost pass (0x004956B7 outline)",
+ "frames": {
+  "tree01": [
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0000__tree01.png",
+    "kind": 4,
+    "width": 22,
+    "height": 72,
+    "pivot": [
+     12,
+     61
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0000__tree01__kind4_secondary.png",
+    "bobId": 0,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0001__tree01.png",
+    "kind": 4,
+    "width": 4,
+    "height": 14,
+    "pivot": [
+     0,
+     75
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0001__tree01__kind4_secondary.png",
+    "bobId": 1,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0002__tree01.png",
+    "kind": 4,
+    "width": 12,
+    "height": 23,
+    "pivot": [
+     -3,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0002__tree01__kind4_secondary.png",
+    "bobId": 2,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0003__tree01.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     -4,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0003__tree01__kind4_secondary.png",
+    "bobId": 3,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0004__tree01.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     -5,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0004__tree01__kind4_secondary.png",
+    "bobId": 4,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0005__tree01.png",
+    "kind": 4,
+    "width": 32,
+    "height": 14,
+    "pivot": [
+     -5,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0005__tree01__kind4_secondary.png",
+    "bobId": 5,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0006__tree01.png",
+    "kind": 4,
+    "width": 33,
+    "height": 13,
+    "pivot": [
+     -5,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0006__tree01__kind4_secondary.png",
+    "bobId": 6,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0007__tree01.png",
+    "kind": 4,
+    "width": 30,
+    "height": 19,
+    "pivot": [
+     -4,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0007__tree01__kind4_secondary.png",
+    "bobId": 7,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0008__tree01.png",
+    "kind": 4,
+    "width": 24,
+    "height": 24,
+    "pivot": [
+     -3,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0008__tree01__kind4_secondary.png",
+    "bobId": 8,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0009__tree01.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     -1,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0009__tree01__kind4_secondary.png",
+    "bobId": 9,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0010__tree01.png",
+    "kind": 4,
+    "width": 4,
+    "height": 27,
+    "pivot": [
+     0,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0010__tree01__kind4_secondary.png",
+    "bobId": 10,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0011__tree01.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     13,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0011__tree01__kind4_secondary.png",
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0012__tree01.png",
+    "kind": 4,
+    "width": 24,
+    "height": 23,
+    "pivot": [
+     23,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0012__tree01__kind4_secondary.png",
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0013__tree01.png",
+    "kind": 4,
+    "width": 31,
+    "height": 18,
+    "pivot": [
+     31,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0013__tree01__kind4_secondary.png",
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0014__tree01.png",
+    "kind": 4,
+    "width": 32,
+    "height": 13,
+    "pivot": [
+     34,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0014__tree01__kind4_secondary.png",
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0015__tree01.png",
+    "kind": 4,
+    "width": 31,
+    "height": 14,
+    "pivot": [
+     33,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0015__tree01__kind4_secondary.png",
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0016__tree01.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     29,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0016__tree01__kind4_secondary.png",
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0017__tree01.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     21,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0017__tree01__kind4_secondary.png",
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/tree01/bob_0018__tree01.png",
+    "kind": 4,
+    "width": 12,
+    "height": 21,
+    "pivot": [
+     11,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/tree01/bob_0018__tree01__kind4_secondary.png",
+    "bobId": 18,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player01": [
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0000__human_player01.png",
+    "kind": 4,
+    "width": 22,
+    "height": 72,
+    "pivot": [
+     12,
+     61
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0000__human_player01__kind4_secondary.png",
+    "bobId": 0,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0001__human_player01.png",
+    "kind": 4,
+    "width": 4,
+    "height": 14,
+    "pivot": [
+     0,
+     75
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0001__human_player01__kind4_secondary.png",
+    "bobId": 1,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0002__human_player01.png",
+    "kind": 4,
+    "width": 12,
+    "height": 23,
+    "pivot": [
+     -3,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0002__human_player01__kind4_secondary.png",
+    "bobId": 2,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0003__human_player01.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     -4,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0003__human_player01__kind4_secondary.png",
+    "bobId": 3,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0004__human_player01.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     -5,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0004__human_player01__kind4_secondary.png",
+    "bobId": 4,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0005__human_player01.png",
+    "kind": 4,
+    "width": 32,
+    "height": 14,
+    "pivot": [
+     -5,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0005__human_player01__kind4_secondary.png",
+    "bobId": 5,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0006__human_player01.png",
+    "kind": 4,
+    "width": 33,
+    "height": 13,
+    "pivot": [
+     -5,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0006__human_player01__kind4_secondary.png",
+    "bobId": 6,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0007__human_player01.png",
+    "kind": 4,
+    "width": 30,
+    "height": 19,
+    "pivot": [
+     -4,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0007__human_player01__kind4_secondary.png",
+    "bobId": 7,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0008__human_player01.png",
+    "kind": 4,
+    "width": 24,
+    "height": 24,
+    "pivot": [
+     -3,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0008__human_player01__kind4_secondary.png",
+    "bobId": 8,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0009__human_player01.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     -1,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0009__human_player01__kind4_secondary.png",
+    "bobId": 9,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0010__human_player01.png",
+    "kind": 4,
+    "width": 4,
+    "height": 27,
+    "pivot": [
+     0,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0010__human_player01__kind4_secondary.png",
+    "bobId": 10,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0011__human_player01.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     13,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0011__human_player01__kind4_secondary.png",
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0012__human_player01.png",
+    "kind": 4,
+    "width": 24,
+    "height": 23,
+    "pivot": [
+     23,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0012__human_player01__kind4_secondary.png",
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0013__human_player01.png",
+    "kind": 4,
+    "width": 31,
+    "height": 18,
+    "pivot": [
+     31,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0013__human_player01__kind4_secondary.png",
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0014__human_player01.png",
+    "kind": 4,
+    "width": 32,
+    "height": 13,
+    "pivot": [
+     34,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0014__human_player01__kind4_secondary.png",
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0015__human_player01.png",
+    "kind": 4,
+    "width": 31,
+    "height": 14,
+    "pivot": [
+     33,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0015__human_player01__kind4_secondary.png",
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0016__human_player01.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     29,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0016__human_player01__kind4_secondary.png",
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0017__human_player01.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     21,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0017__human_player01__kind4_secondary.png",
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player01/bob_0018__human_player01.png",
+    "kind": 4,
+    "width": 12,
+    "height": 21,
+    "pivot": [
+     11,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player01/bob_0018__human_player01__kind4_secondary.png",
+    "bobId": 18,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player02": [
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0000__human_player02.png",
+    "kind": 4,
+    "width": 22,
+    "height": 72,
+    "pivot": [
+     12,
+     61
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0000__human_player02__kind4_secondary.png",
+    "bobId": 0,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0001__human_player02.png",
+    "kind": 4,
+    "width": 4,
+    "height": 14,
+    "pivot": [
+     0,
+     75
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0001__human_player02__kind4_secondary.png",
+    "bobId": 1,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0002__human_player02.png",
+    "kind": 4,
+    "width": 12,
+    "height": 23,
+    "pivot": [
+     -3,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0002__human_player02__kind4_secondary.png",
+    "bobId": 2,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0003__human_player02.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     -4,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0003__human_player02__kind4_secondary.png",
+    "bobId": 3,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0004__human_player02.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     -5,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0004__human_player02__kind4_secondary.png",
+    "bobId": 4,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0005__human_player02.png",
+    "kind": 4,
+    "width": 32,
+    "height": 14,
+    "pivot": [
+     -5,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0005__human_player02__kind4_secondary.png",
+    "bobId": 5,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0006__human_player02.png",
+    "kind": 4,
+    "width": 33,
+    "height": 13,
+    "pivot": [
+     -5,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0006__human_player02__kind4_secondary.png",
+    "bobId": 6,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0007__human_player02.png",
+    "kind": 4,
+    "width": 30,
+    "height": 19,
+    "pivot": [
+     -4,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0007__human_player02__kind4_secondary.png",
+    "bobId": 7,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0008__human_player02.png",
+    "kind": 4,
+    "width": 24,
+    "height": 24,
+    "pivot": [
+     -3,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0008__human_player02__kind4_secondary.png",
+    "bobId": 8,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0009__human_player02.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     -1,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0009__human_player02__kind4_secondary.png",
+    "bobId": 9,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0010__human_player02.png",
+    "kind": 4,
+    "width": 4,
+    "height": 27,
+    "pivot": [
+     0,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0010__human_player02__kind4_secondary.png",
+    "bobId": 10,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0011__human_player02.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     13,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0011__human_player02__kind4_secondary.png",
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0012__human_player02.png",
+    "kind": 4,
+    "width": 24,
+    "height": 23,
+    "pivot": [
+     23,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0012__human_player02__kind4_secondary.png",
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0013__human_player02.png",
+    "kind": 4,
+    "width": 31,
+    "height": 18,
+    "pivot": [
+     31,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0013__human_player02__kind4_secondary.png",
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0014__human_player02.png",
+    "kind": 4,
+    "width": 32,
+    "height": 13,
+    "pivot": [
+     34,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0014__human_player02__kind4_secondary.png",
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0015__human_player02.png",
+    "kind": 4,
+    "width": 31,
+    "height": 14,
+    "pivot": [
+     33,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0015__human_player02__kind4_secondary.png",
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0016__human_player02.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     29,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0016__human_player02__kind4_secondary.png",
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0017__human_player02.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     21,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0017__human_player02__kind4_secondary.png",
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player02/bob_0018__human_player02.png",
+    "kind": 4,
+    "width": 12,
+    "height": 21,
+    "pivot": [
+     11,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player02/bob_0018__human_player02__kind4_secondary.png",
+    "bobId": 18,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player03": [
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0000__human_player03.png",
+    "kind": 4,
+    "width": 22,
+    "height": 72,
+    "pivot": [
+     12,
+     61
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0000__human_player03__kind4_secondary.png",
+    "bobId": 0,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0001__human_player03.png",
+    "kind": 4,
+    "width": 4,
+    "height": 14,
+    "pivot": [
+     0,
+     75
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0001__human_player03__kind4_secondary.png",
+    "bobId": 1,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0002__human_player03.png",
+    "kind": 4,
+    "width": 12,
+    "height": 23,
+    "pivot": [
+     -3,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0002__human_player03__kind4_secondary.png",
+    "bobId": 2,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0003__human_player03.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     -4,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0003__human_player03__kind4_secondary.png",
+    "bobId": 3,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0004__human_player03.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     -5,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0004__human_player03__kind4_secondary.png",
+    "bobId": 4,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0005__human_player03.png",
+    "kind": 4,
+    "width": 32,
+    "height": 14,
+    "pivot": [
+     -5,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0005__human_player03__kind4_secondary.png",
+    "bobId": 5,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0006__human_player03.png",
+    "kind": 4,
+    "width": 33,
+    "height": 13,
+    "pivot": [
+     -5,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0006__human_player03__kind4_secondary.png",
+    "bobId": 6,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0007__human_player03.png",
+    "kind": 4,
+    "width": 30,
+    "height": 19,
+    "pivot": [
+     -4,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0007__human_player03__kind4_secondary.png",
+    "bobId": 7,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0008__human_player03.png",
+    "kind": 4,
+    "width": 24,
+    "height": 24,
+    "pivot": [
+     -3,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0008__human_player03__kind4_secondary.png",
+    "bobId": 8,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0009__human_player03.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     -1,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0009__human_player03__kind4_secondary.png",
+    "bobId": 9,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0010__human_player03.png",
+    "kind": 4,
+    "width": 4,
+    "height": 27,
+    "pivot": [
+     0,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0010__human_player03__kind4_secondary.png",
+    "bobId": 10,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0011__human_player03.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     13,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0011__human_player03__kind4_secondary.png",
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0012__human_player03.png",
+    "kind": 4,
+    "width": 24,
+    "height": 23,
+    "pivot": [
+     23,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0012__human_player03__kind4_secondary.png",
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0013__human_player03.png",
+    "kind": 4,
+    "width": 31,
+    "height": 18,
+    "pivot": [
+     31,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0013__human_player03__kind4_secondary.png",
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0014__human_player03.png",
+    "kind": 4,
+    "width": 32,
+    "height": 13,
+    "pivot": [
+     34,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0014__human_player03__kind4_secondary.png",
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0015__human_player03.png",
+    "kind": 4,
+    "width": 31,
+    "height": 14,
+    "pivot": [
+     33,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0015__human_player03__kind4_secondary.png",
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0016__human_player03.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     29,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0016__human_player03__kind4_secondary.png",
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0017__human_player03.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     21,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0017__human_player03__kind4_secondary.png",
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player03/bob_0018__human_player03.png",
+    "kind": 4,
+    "width": 12,
+    "height": 21,
+    "pivot": [
+     11,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player03/bob_0018__human_player03__kind4_secondary.png",
+    "bobId": 18,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player04": [
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0000__human_player04.png",
+    "kind": 4,
+    "width": 22,
+    "height": 72,
+    "pivot": [
+     12,
+     61
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0000__human_player04__kind4_secondary.png",
+    "bobId": 0,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0001__human_player04.png",
+    "kind": 4,
+    "width": 4,
+    "height": 14,
+    "pivot": [
+     0,
+     75
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0001__human_player04__kind4_secondary.png",
+    "bobId": 1,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0002__human_player04.png",
+    "kind": 4,
+    "width": 12,
+    "height": 23,
+    "pivot": [
+     -3,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0002__human_player04__kind4_secondary.png",
+    "bobId": 2,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0003__human_player04.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     -4,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0003__human_player04__kind4_secondary.png",
+    "bobId": 3,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0004__human_player04.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     -5,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0004__human_player04__kind4_secondary.png",
+    "bobId": 4,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0005__human_player04.png",
+    "kind": 4,
+    "width": 32,
+    "height": 14,
+    "pivot": [
+     -5,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0005__human_player04__kind4_secondary.png",
+    "bobId": 5,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0006__human_player04.png",
+    "kind": 4,
+    "width": 33,
+    "height": 13,
+    "pivot": [
+     -5,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0006__human_player04__kind4_secondary.png",
+    "bobId": 6,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0007__human_player04.png",
+    "kind": 4,
+    "width": 30,
+    "height": 19,
+    "pivot": [
+     -4,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0007__human_player04__kind4_secondary.png",
+    "bobId": 7,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0008__human_player04.png",
+    "kind": 4,
+    "width": 24,
+    "height": 24,
+    "pivot": [
+     -3,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0008__human_player04__kind4_secondary.png",
+    "bobId": 8,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0009__human_player04.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     -1,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0009__human_player04__kind4_secondary.png",
+    "bobId": 9,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0010__human_player04.png",
+    "kind": 4,
+    "width": 4,
+    "height": 27,
+    "pivot": [
+     0,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0010__human_player04__kind4_secondary.png",
+    "bobId": 10,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0011__human_player04.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     13,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0011__human_player04__kind4_secondary.png",
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0012__human_player04.png",
+    "kind": 4,
+    "width": 24,
+    "height": 23,
+    "pivot": [
+     23,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0012__human_player04__kind4_secondary.png",
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0013__human_player04.png",
+    "kind": 4,
+    "width": 31,
+    "height": 18,
+    "pivot": [
+     31,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0013__human_player04__kind4_secondary.png",
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0014__human_player04.png",
+    "kind": 4,
+    "width": 32,
+    "height": 13,
+    "pivot": [
+     34,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0014__human_player04__kind4_secondary.png",
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0015__human_player04.png",
+    "kind": 4,
+    "width": 31,
+    "height": 14,
+    "pivot": [
+     33,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0015__human_player04__kind4_secondary.png",
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0016__human_player04.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     29,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0016__human_player04__kind4_secondary.png",
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0017__human_player04.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     21,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0017__human_player04__kind4_secondary.png",
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player04/bob_0018__human_player04.png",
+    "kind": 4,
+    "width": 12,
+    "height": 21,
+    "pivot": [
+     11,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player04/bob_0018__human_player04__kind4_secondary.png",
+    "bobId": 18,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player05": [
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0000__human_player05.png",
+    "kind": 4,
+    "width": 22,
+    "height": 72,
+    "pivot": [
+     12,
+     61
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0000__human_player05__kind4_secondary.png",
+    "bobId": 0,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0001__human_player05.png",
+    "kind": 4,
+    "width": 4,
+    "height": 14,
+    "pivot": [
+     0,
+     75
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0001__human_player05__kind4_secondary.png",
+    "bobId": 1,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0002__human_player05.png",
+    "kind": 4,
+    "width": 12,
+    "height": 23,
+    "pivot": [
+     -3,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0002__human_player05__kind4_secondary.png",
+    "bobId": 2,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0003__human_player05.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     -4,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0003__human_player05__kind4_secondary.png",
+    "bobId": 3,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0004__human_player05.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     -5,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0004__human_player05__kind4_secondary.png",
+    "bobId": 4,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0005__human_player05.png",
+    "kind": 4,
+    "width": 32,
+    "height": 14,
+    "pivot": [
+     -5,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0005__human_player05__kind4_secondary.png",
+    "bobId": 5,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0006__human_player05.png",
+    "kind": 4,
+    "width": 33,
+    "height": 13,
+    "pivot": [
+     -5,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0006__human_player05__kind4_secondary.png",
+    "bobId": 6,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0007__human_player05.png",
+    "kind": 4,
+    "width": 30,
+    "height": 19,
+    "pivot": [
+     -4,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0007__human_player05__kind4_secondary.png",
+    "bobId": 7,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0008__human_player05.png",
+    "kind": 4,
+    "width": 24,
+    "height": 24,
+    "pivot": [
+     -3,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0008__human_player05__kind4_secondary.png",
+    "bobId": 8,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0009__human_player05.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     -1,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0009__human_player05__kind4_secondary.png",
+    "bobId": 9,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0010__human_player05.png",
+    "kind": 4,
+    "width": 4,
+    "height": 27,
+    "pivot": [
+     0,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0010__human_player05__kind4_secondary.png",
+    "bobId": 10,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0011__human_player05.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     13,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0011__human_player05__kind4_secondary.png",
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0012__human_player05.png",
+    "kind": 4,
+    "width": 24,
+    "height": 23,
+    "pivot": [
+     23,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0012__human_player05__kind4_secondary.png",
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0013__human_player05.png",
+    "kind": 4,
+    "width": 31,
+    "height": 18,
+    "pivot": [
+     31,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0013__human_player05__kind4_secondary.png",
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0014__human_player05.png",
+    "kind": 4,
+    "width": 32,
+    "height": 13,
+    "pivot": [
+     34,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0014__human_player05__kind4_secondary.png",
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0015__human_player05.png",
+    "kind": 4,
+    "width": 31,
+    "height": 14,
+    "pivot": [
+     33,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0015__human_player05__kind4_secondary.png",
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0016__human_player05.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     29,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0016__human_player05__kind4_secondary.png",
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0017__human_player05.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     21,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0017__human_player05__kind4_secondary.png",
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player05/bob_0018__human_player05.png",
+    "kind": 4,
+    "width": 12,
+    "height": 21,
+    "pivot": [
+     11,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player05/bob_0018__human_player05__kind4_secondary.png",
+    "bobId": 18,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player06": [
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0000__human_player06.png",
+    "kind": 4,
+    "width": 22,
+    "height": 72,
+    "pivot": [
+     12,
+     61
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0000__human_player06__kind4_secondary.png",
+    "bobId": 0,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0001__human_player06.png",
+    "kind": 4,
+    "width": 4,
+    "height": 14,
+    "pivot": [
+     0,
+     75
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0001__human_player06__kind4_secondary.png",
+    "bobId": 1,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0002__human_player06.png",
+    "kind": 4,
+    "width": 12,
+    "height": 23,
+    "pivot": [
+     -3,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0002__human_player06__kind4_secondary.png",
+    "bobId": 2,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0003__human_player06.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     -4,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0003__human_player06__kind4_secondary.png",
+    "bobId": 3,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0004__human_player06.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     -5,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0004__human_player06__kind4_secondary.png",
+    "bobId": 4,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0005__human_player06.png",
+    "kind": 4,
+    "width": 32,
+    "height": 14,
+    "pivot": [
+     -5,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0005__human_player06__kind4_secondary.png",
+    "bobId": 5,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0006__human_player06.png",
+    "kind": 4,
+    "width": 33,
+    "height": 13,
+    "pivot": [
+     -5,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0006__human_player06__kind4_secondary.png",
+    "bobId": 6,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0007__human_player06.png",
+    "kind": 4,
+    "width": 30,
+    "height": 19,
+    "pivot": [
+     -4,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0007__human_player06__kind4_secondary.png",
+    "bobId": 7,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0008__human_player06.png",
+    "kind": 4,
+    "width": 24,
+    "height": 24,
+    "pivot": [
+     -3,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0008__human_player06__kind4_secondary.png",
+    "bobId": 8,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0009__human_player06.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     -1,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0009__human_player06__kind4_secondary.png",
+    "bobId": 9,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0010__human_player06.png",
+    "kind": 4,
+    "width": 4,
+    "height": 27,
+    "pivot": [
+     0,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0010__human_player06__kind4_secondary.png",
+    "bobId": 10,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0011__human_player06.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     13,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0011__human_player06__kind4_secondary.png",
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0012__human_player06.png",
+    "kind": 4,
+    "width": 24,
+    "height": 23,
+    "pivot": [
+     23,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0012__human_player06__kind4_secondary.png",
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0013__human_player06.png",
+    "kind": 4,
+    "width": 31,
+    "height": 18,
+    "pivot": [
+     31,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0013__human_player06__kind4_secondary.png",
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0014__human_player06.png",
+    "kind": 4,
+    "width": 32,
+    "height": 13,
+    "pivot": [
+     34,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0014__human_player06__kind4_secondary.png",
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0015__human_player06.png",
+    "kind": 4,
+    "width": 31,
+    "height": 14,
+    "pivot": [
+     33,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0015__human_player06__kind4_secondary.png",
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0016__human_player06.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     29,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0016__human_player06__kind4_secondary.png",
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0017__human_player06.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     21,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0017__human_player06__kind4_secondary.png",
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player06/bob_0018__human_player06.png",
+    "kind": 4,
+    "width": 12,
+    "height": 21,
+    "pivot": [
+     11,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player06/bob_0018__human_player06__kind4_secondary.png",
+    "bobId": 18,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player07": [
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0000__human_player07.png",
+    "kind": 4,
+    "width": 22,
+    "height": 72,
+    "pivot": [
+     12,
+     61
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0000__human_player07__kind4_secondary.png",
+    "bobId": 0,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0001__human_player07.png",
+    "kind": 4,
+    "width": 4,
+    "height": 14,
+    "pivot": [
+     0,
+     75
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0001__human_player07__kind4_secondary.png",
+    "bobId": 1,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0002__human_player07.png",
+    "kind": 4,
+    "width": 12,
+    "height": 23,
+    "pivot": [
+     -3,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0002__human_player07__kind4_secondary.png",
+    "bobId": 2,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0003__human_player07.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     -4,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0003__human_player07__kind4_secondary.png",
+    "bobId": 3,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0004__human_player07.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     -5,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0004__human_player07__kind4_secondary.png",
+    "bobId": 4,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0005__human_player07.png",
+    "kind": 4,
+    "width": 32,
+    "height": 14,
+    "pivot": [
+     -5,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0005__human_player07__kind4_secondary.png",
+    "bobId": 5,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0006__human_player07.png",
+    "kind": 4,
+    "width": 33,
+    "height": 13,
+    "pivot": [
+     -5,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0006__human_player07__kind4_secondary.png",
+    "bobId": 6,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0007__human_player07.png",
+    "kind": 4,
+    "width": 30,
+    "height": 19,
+    "pivot": [
+     -4,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0007__human_player07__kind4_secondary.png",
+    "bobId": 7,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0008__human_player07.png",
+    "kind": 4,
+    "width": 24,
+    "height": 24,
+    "pivot": [
+     -3,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0008__human_player07__kind4_secondary.png",
+    "bobId": 8,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0009__human_player07.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     -1,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0009__human_player07__kind4_secondary.png",
+    "bobId": 9,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0010__human_player07.png",
+    "kind": 4,
+    "width": 4,
+    "height": 27,
+    "pivot": [
+     0,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0010__human_player07__kind4_secondary.png",
+    "bobId": 10,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0011__human_player07.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     13,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0011__human_player07__kind4_secondary.png",
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0012__human_player07.png",
+    "kind": 4,
+    "width": 24,
+    "height": 23,
+    "pivot": [
+     23,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0012__human_player07__kind4_secondary.png",
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0013__human_player07.png",
+    "kind": 4,
+    "width": 31,
+    "height": 18,
+    "pivot": [
+     31,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0013__human_player07__kind4_secondary.png",
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0014__human_player07.png",
+    "kind": 4,
+    "width": 32,
+    "height": 13,
+    "pivot": [
+     34,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0014__human_player07__kind4_secondary.png",
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0015__human_player07.png",
+    "kind": 4,
+    "width": 31,
+    "height": 14,
+    "pivot": [
+     33,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0015__human_player07__kind4_secondary.png",
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0016__human_player07.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     29,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0016__human_player07__kind4_secondary.png",
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0017__human_player07.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     21,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0017__human_player07__kind4_secondary.png",
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player07/bob_0018__human_player07.png",
+    "kind": 4,
+    "width": 12,
+    "height": 21,
+    "pivot": [
+     11,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player07/bob_0018__human_player07__kind4_secondary.png",
+    "bobId": 18,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player08": [
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0000__human_player08.png",
+    "kind": 4,
+    "width": 22,
+    "height": 72,
+    "pivot": [
+     12,
+     61
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0000__human_player08__kind4_secondary.png",
+    "bobId": 0,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0001__human_player08.png",
+    "kind": 4,
+    "width": 4,
+    "height": 14,
+    "pivot": [
+     0,
+     75
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0001__human_player08__kind4_secondary.png",
+    "bobId": 1,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0002__human_player08.png",
+    "kind": 4,
+    "width": 12,
+    "height": 23,
+    "pivot": [
+     -3,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0002__human_player08__kind4_secondary.png",
+    "bobId": 2,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0003__human_player08.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     -4,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0003__human_player08__kind4_secondary.png",
+    "bobId": 3,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0004__human_player08.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     -5,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0004__human_player08__kind4_secondary.png",
+    "bobId": 4,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0005__human_player08.png",
+    "kind": 4,
+    "width": 32,
+    "height": 14,
+    "pivot": [
+     -5,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0005__human_player08__kind4_secondary.png",
+    "bobId": 5,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0006__human_player08.png",
+    "kind": 4,
+    "width": 33,
+    "height": 13,
+    "pivot": [
+     -5,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0006__human_player08__kind4_secondary.png",
+    "bobId": 6,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0007__human_player08.png",
+    "kind": 4,
+    "width": 30,
+    "height": 19,
+    "pivot": [
+     -4,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0007__human_player08__kind4_secondary.png",
+    "bobId": 7,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0008__human_player08.png",
+    "kind": 4,
+    "width": 24,
+    "height": 24,
+    "pivot": [
+     -3,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0008__human_player08__kind4_secondary.png",
+    "bobId": 8,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0009__human_player08.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     -1,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0009__human_player08__kind4_secondary.png",
+    "bobId": 9,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0010__human_player08.png",
+    "kind": 4,
+    "width": 4,
+    "height": 27,
+    "pivot": [
+     0,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0010__human_player08__kind4_secondary.png",
+    "bobId": 10,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0011__human_player08.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     13,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0011__human_player08__kind4_secondary.png",
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0012__human_player08.png",
+    "kind": 4,
+    "width": 24,
+    "height": 23,
+    "pivot": [
+     23,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0012__human_player08__kind4_secondary.png",
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0013__human_player08.png",
+    "kind": 4,
+    "width": 31,
+    "height": 18,
+    "pivot": [
+     31,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0013__human_player08__kind4_secondary.png",
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0014__human_player08.png",
+    "kind": 4,
+    "width": 32,
+    "height": 13,
+    "pivot": [
+     34,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0014__human_player08__kind4_secondary.png",
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0015__human_player08.png",
+    "kind": 4,
+    "width": 31,
+    "height": 14,
+    "pivot": [
+     33,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0015__human_player08__kind4_secondary.png",
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0016__human_player08.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     29,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0016__human_player08__kind4_secondary.png",
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0017__human_player08.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     21,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0017__human_player08__kind4_secondary.png",
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player08/bob_0018__human_player08.png",
+    "kind": 4,
+    "width": 12,
+    "height": 21,
+    "pivot": [
+     11,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player08/bob_0018__human_player08__kind4_secondary.png",
+    "bobId": 18,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player09": [
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0000__human_player09.png",
+    "kind": 4,
+    "width": 22,
+    "height": 72,
+    "pivot": [
+     12,
+     61
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0000__human_player09__kind4_secondary.png",
+    "bobId": 0,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0001__human_player09.png",
+    "kind": 4,
+    "width": 4,
+    "height": 14,
+    "pivot": [
+     0,
+     75
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0001__human_player09__kind4_secondary.png",
+    "bobId": 1,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0002__human_player09.png",
+    "kind": 4,
+    "width": 12,
+    "height": 23,
+    "pivot": [
+     -3,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0002__human_player09__kind4_secondary.png",
+    "bobId": 2,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0003__human_player09.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     -4,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0003__human_player09__kind4_secondary.png",
+    "bobId": 3,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0004__human_player09.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     -5,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0004__human_player09__kind4_secondary.png",
+    "bobId": 4,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0005__human_player09.png",
+    "kind": 4,
+    "width": 32,
+    "height": 14,
+    "pivot": [
+     -5,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0005__human_player09__kind4_secondary.png",
+    "bobId": 5,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0006__human_player09.png",
+    "kind": 4,
+    "width": 33,
+    "height": 13,
+    "pivot": [
+     -5,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0006__human_player09__kind4_secondary.png",
+    "bobId": 6,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0007__human_player09.png",
+    "kind": 4,
+    "width": 30,
+    "height": 19,
+    "pivot": [
+     -4,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0007__human_player09__kind4_secondary.png",
+    "bobId": 7,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0008__human_player09.png",
+    "kind": 4,
+    "width": 24,
+    "height": 24,
+    "pivot": [
+     -3,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0008__human_player09__kind4_secondary.png",
+    "bobId": 8,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0009__human_player09.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     -1,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0009__human_player09__kind4_secondary.png",
+    "bobId": 9,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0010__human_player09.png",
+    "kind": 4,
+    "width": 4,
+    "height": 27,
+    "pivot": [
+     0,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0010__human_player09__kind4_secondary.png",
+    "bobId": 10,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0011__human_player09.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     13,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0011__human_player09__kind4_secondary.png",
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0012__human_player09.png",
+    "kind": 4,
+    "width": 24,
+    "height": 23,
+    "pivot": [
+     23,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0012__human_player09__kind4_secondary.png",
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0013__human_player09.png",
+    "kind": 4,
+    "width": 31,
+    "height": 18,
+    "pivot": [
+     31,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0013__human_player09__kind4_secondary.png",
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0014__human_player09.png",
+    "kind": 4,
+    "width": 32,
+    "height": 13,
+    "pivot": [
+     34,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0014__human_player09__kind4_secondary.png",
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0015__human_player09.png",
+    "kind": 4,
+    "width": 31,
+    "height": 14,
+    "pivot": [
+     33,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0015__human_player09__kind4_secondary.png",
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0016__human_player09.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     29,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0016__human_player09__kind4_secondary.png",
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0017__human_player09.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     21,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0017__human_player09__kind4_secondary.png",
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player09/bob_0018__human_player09.png",
+    "kind": 4,
+    "width": 12,
+    "height": 21,
+    "pivot": [
+     11,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player09/bob_0018__human_player09__kind4_secondary.png",
+    "bobId": 18,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player10": [
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0000__human_player10.png",
+    "kind": 4,
+    "width": 22,
+    "height": 72,
+    "pivot": [
+     12,
+     61
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0000__human_player10__kind4_secondary.png",
+    "bobId": 0,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0001__human_player10.png",
+    "kind": 4,
+    "width": 4,
+    "height": 14,
+    "pivot": [
+     0,
+     75
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0001__human_player10__kind4_secondary.png",
+    "bobId": 1,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0002__human_player10.png",
+    "kind": 4,
+    "width": 12,
+    "height": 23,
+    "pivot": [
+     -3,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0002__human_player10__kind4_secondary.png",
+    "bobId": 2,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0003__human_player10.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     -4,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0003__human_player10__kind4_secondary.png",
+    "bobId": 3,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0004__human_player10.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     -5,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0004__human_player10__kind4_secondary.png",
+    "bobId": 4,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0005__human_player10.png",
+    "kind": 4,
+    "width": 32,
+    "height": 14,
+    "pivot": [
+     -5,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0005__human_player10__kind4_secondary.png",
+    "bobId": 5,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0006__human_player10.png",
+    "kind": 4,
+    "width": 33,
+    "height": 13,
+    "pivot": [
+     -5,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0006__human_player10__kind4_secondary.png",
+    "bobId": 6,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0007__human_player10.png",
+    "kind": 4,
+    "width": 30,
+    "height": 19,
+    "pivot": [
+     -4,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0007__human_player10__kind4_secondary.png",
+    "bobId": 7,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0008__human_player10.png",
+    "kind": 4,
+    "width": 24,
+    "height": 24,
+    "pivot": [
+     -3,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0008__human_player10__kind4_secondary.png",
+    "bobId": 8,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0009__human_player10.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     -1,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0009__human_player10__kind4_secondary.png",
+    "bobId": 9,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0010__human_player10.png",
+    "kind": 4,
+    "width": 4,
+    "height": 27,
+    "pivot": [
+     0,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0010__human_player10__kind4_secondary.png",
+    "bobId": 10,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0011__human_player10.png",
+    "kind": 4,
+    "width": 15,
+    "height": 26,
+    "pivot": [
+     13,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0011__human_player10__kind4_secondary.png",
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0012__human_player10.png",
+    "kind": 4,
+    "width": 24,
+    "height": 23,
+    "pivot": [
+     23,
+     56
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0012__human_player10__kind4_secondary.png",
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0013__human_player10.png",
+    "kind": 4,
+    "width": 31,
+    "height": 18,
+    "pivot": [
+     31,
+     57
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0013__human_player10__kind4_secondary.png",
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0014__human_player10.png",
+    "kind": 4,
+    "width": 32,
+    "height": 13,
+    "pivot": [
+     34,
+     58
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0014__human_player10__kind4_secondary.png",
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0015__human_player10.png",
+    "kind": 4,
+    "width": 31,
+    "height": 14,
+    "pivot": [
+     33,
+     62
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0015__human_player10__kind4_secondary.png",
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0016__human_player10.png",
+    "kind": 4,
+    "width": 27,
+    "height": 18,
+    "pivot": [
+     29,
+     67
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0016__human_player10__kind4_secondary.png",
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0017__human_player10.png",
+    "kind": 4,
+    "width": 21,
+    "height": 22,
+    "pivot": [
+     21,
+     72
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0017__human_player10__kind4_secondary.png",
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/signposts/human_player10/bob_0018__human_player10.png",
+    "kind": 4,
+    "width": 12,
+    "height": 21,
+    "pivot": [
+     11,
+     74
+    ],
+    "kind4Secondary": "Shared/Effects/Markers/signposts/human_player10/bob_0018__human_player10__kind4_secondary.png",
+    "bobId": 18,
+    "status": "RENDERED"
+   }
+  ]
+ },
+ "confidence": "SOURCE_COMPLETE (code evidence); PIXEL_CONFIRMED frames"
+}

@@ -1,0 +1,63 @@
+{
+  "bobId": 21,
+  "descriptor": {
+    "bobId": 21,
+    "frameIndex": 21,
+    "kind": 1,
+    "x": -325,
+    "y": -333,
+    "width": 645,
+    "height": 445,
+    "firstScanline": 9571
+  },
+  "pivot": [
+    325,
+    333
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 2009,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+    "offset": 127653421,
+    "size": 3621890,
+    "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+  },
+  "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+  "role": "effect",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "wonders_semiramis",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 2174,
+    "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_semiramis.pcx",
+    "offset": 132843334,
+    "size": 139385,
+    "sha256": "86620856fe8c78a814e0dfc23e25d18f2d3bf74ac3be33f3e2e8a5d9b2b0df7b"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "wonders_semiramis"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\landscapes\\wonders_semiramis.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+  "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_wonders3.bmd/wonders_semiramis/effect/frame_000021.png",
+  "pixelSha256": "fd60ed4d89f3155ca4af95be4d289f9674cd9f4e3d3cbfc4594db199493e719c"
+}

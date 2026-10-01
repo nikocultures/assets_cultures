@@ -1,0 +1,1016 @@
+{
+  "body": "static base plus declared overlays",
+  "sequences": [
+    {
+      "nativeTuple": [
+        0,
+        4,
+        0,
+        0,
+        0,
+        1,
+        76
+      ],
+      "level": 0,
+      "stateLane": 4,
+      "requiredLaneState": 0,
+      "offset": [
+        0,
+        0
+      ],
+      "ticksPerFrame": 1,
+      "sequence": [
+        {
+          "sequenceIndex": 0,
+          "bobId": 76,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 76,
+            "descriptor": {
+              "bobId": 76,
+              "frameIndex": 76,
+              "kind": 1,
+              "x": -126,
+              "y": -224,
+              "width": 207,
+              "height": 198,
+              "firstScanline": 6267
+            },
+            "pivot": [
+              126,
+              224
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000076.png",
+            "pixelSha256": "a41b610696a871409be1c6a6ad675c60b75ed9923c49f55e4d892a4c66bd463b"
+          }
+        }
+      ],
+      "rule": "index=(native tick / ticksPerFrame) modulo count; 0x004341C0 state lane gating; rate in seconds UNKNOWN",
+      "evidence": "0x00495B57"
+    },
+    {
+      "nativeTuple": [
+        0,
+        4,
+        1,
+        0,
+        0,
+        1,
+        85,
+        84,
+        83,
+        82,
+        81,
+        80,
+        79,
+        78,
+        77,
+        76,
+        88,
+        87,
+        86
+      ],
+      "level": 0,
+      "stateLane": 4,
+      "requiredLaneState": 1,
+      "offset": [
+        0,
+        0
+      ],
+      "ticksPerFrame": 1,
+      "sequence": [
+        {
+          "sequenceIndex": 0,
+          "bobId": 85,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 85,
+            "descriptor": {
+              "bobId": 85,
+              "frameIndex": 85,
+              "kind": 1,
+              "x": -126,
+              "y": -231,
+              "width": 211,
+              "height": 210,
+              "firstScanline": 8010
+            },
+            "pivot": [
+              126,
+              231
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000085.png",
+            "pixelSha256": "6fe11ba2400133672479a7769888fdd9e2a453c28a28d8229f8284802a258675"
+          }
+        },
+        {
+          "sequenceIndex": 1,
+          "bobId": 84,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 84,
+            "descriptor": {
+              "bobId": 84,
+              "frameIndex": 84,
+              "kind": 1,
+              "x": -123,
+              "y": -231,
+              "width": 206,
+              "height": 210,
+              "firstScanline": 7800
+            },
+            "pivot": [
+              123,
+              231
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000084.png",
+            "pixelSha256": "e996ad692a8b05d1c25e3677ae0d082738eea566dfe836e3b6055d18c6f654e2"
+          }
+        },
+        {
+          "sequenceIndex": 2,
+          "bobId": 83,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 83,
+            "descriptor": {
+              "bobId": 83,
+              "frameIndex": 83,
+              "kind": 1,
+              "x": -119,
+              "y": -229,
+              "width": 197,
+              "height": 208,
+              "firstScanline": 7592
+            },
+            "pivot": [
+              119,
+              229
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000083.png",
+            "pixelSha256": "362bfc4bb8ed33eb730185d20a3c68853b33f2ff5f58e42e896ffa26cd8ebc9e"
+          }
+        },
+        {
+          "sequenceIndex": 3,
+          "bobId": 82,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 82,
+            "descriptor": {
+              "bobId": 82,
+              "frameIndex": 82,
+              "kind": 1,
+              "x": -113,
+              "y": -226,
+              "width": 186,
+              "height": 203,
+              "firstScanline": 7389
+            },
+            "pivot": [
+              113,
+              226
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000082.png",
+            "pixelSha256": "c40a3165f458159cac4fe127ff77c86f94d9e7423fde59e2c8ebb0c7b23ac1ba"
+          }
+        },
+        {
+          "sequenceIndex": 4,
+          "bobId": 81,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 81,
+            "descriptor": {
+              "bobId": 81,
+              "frameIndex": 81,
+              "kind": 1,
+              "x": -112,
+              "y": -221,
+              "width": 178,
+              "height": 194,
+              "firstScanline": 7195
+            },
+            "pivot": [
+              112,
+              221
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000081.png",
+            "pixelSha256": "5eae34719fa6aa5dcd03226a45e487c89f09a8fc30b5b59a6fb5f06621e50b56"
+          }
+        },
+        {
+          "sequenceIndex": 5,
+          "bobId": 80,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 80,
+            "descriptor": {
+              "bobId": 80,
+              "frameIndex": 80,
+              "kind": 1,
+              "x": -117,
+              "y": -215,
+              "width": 186,
+              "height": 183,
+              "firstScanline": 7012
+            },
+            "pivot": [
+              117,
+              215
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000080.png",
+            "pixelSha256": "b28ff3d3504fa9190ac882171c2d11a59298615c4067a8ca833e6702399a4ab4"
+          }
+        },
+        {
+          "sequenceIndex": 6,
+          "bobId": 79,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 79,
+            "descriptor": {
+              "bobId": 79,
+              "frameIndex": 79,
+              "kind": 1,
+              "x": -122,
+              "y": -211,
+              "width": 196,
+              "height": 173,
+              "firstScanline": 6839
+            },
+            "pivot": [
+              122,
+              211
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000079.png",
+            "pixelSha256": "5883923c388331688e9973738759439cbae2045331d0147a685ede780f83ad4c"
+          }
+        },
+        {
+          "sequenceIndex": 7,
+          "bobId": 78,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 78,
+            "descriptor": {
+              "bobId": 78,
+              "frameIndex": 78,
+              "kind": 1,
+              "x": -125,
+              "y": -217,
+              "width": 203,
+              "height": 183,
+              "firstScanline": 6656
+            },
+            "pivot": [
+              125,
+              217
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000078.png",
+            "pixelSha256": "f47e126f993b30527cfc85225fc39829ceae705a77a0e1a45f20c97e0cae30e4"
+          }
+        },
+        {
+          "sequenceIndex": 8,
+          "bobId": 77,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 77,
+            "descriptor": {
+              "bobId": 77,
+              "frameIndex": 77,
+              "kind": 1,
+              "x": -126,
+              "y": -221,
+              "width": 206,
+              "height": 191,
+              "firstScanline": 6465
+            },
+            "pivot": [
+              126,
+              221
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000077.png",
+            "pixelSha256": "bceec450b6879edae8b97cda951ef475cc9a4984ad3ef48b313ff6378ae546ee"
+          }
+        },
+        {
+          "sequenceIndex": 9,
+          "bobId": 76,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 76,
+            "descriptor": {
+              "bobId": 76,
+              "frameIndex": 76,
+              "kind": 1,
+              "x": -126,
+              "y": -224,
+              "width": 207,
+              "height": 198,
+              "firstScanline": 6267
+            },
+            "pivot": [
+              126,
+              224
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000076.png",
+            "pixelSha256": "a41b610696a871409be1c6a6ad675c60b75ed9923c49f55e4d892a4c66bd463b"
+          }
+        },
+        {
+          "sequenceIndex": 10,
+          "bobId": 88,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 88,
+            "descriptor": {
+              "bobId": 88,
+              "frameIndex": 88,
+              "kind": 1,
+              "x": -127,
+              "y": -226,
+              "width": 210,
+              "height": 202,
+              "firstScanline": 8631
+            },
+            "pivot": [
+              127,
+              226
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000088.png",
+            "pixelSha256": "d459dc11d6f32e39165ec07c3d43626677ff3258b37c5894b87099d7d1d84420"
+          }
+        },
+        {
+          "sequenceIndex": 11,
+          "bobId": 87,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 87,
+            "descriptor": {
+              "bobId": 87,
+              "frameIndex": 87,
+              "kind": 1,
+              "x": -128,
+              "y": -227,
+              "width": 213,
+              "height": 204,
+              "firstScanline": 8427
+            },
+            "pivot": [
+              128,
+              227
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000087.png",
+            "pixelSha256": "540fe260dfef85ed328924e314f1e21b77d524c26e324337628dd65e6ca98c75"
+          }
+        },
+        {
+          "sequenceIndex": 12,
+          "bobId": 86,
+          "ticksPerFrame": 1,
+          "asset": {
+            "bobId": 86,
+            "descriptor": {
+              "bobId": 86,
+              "frameIndex": 86,
+              "kind": 1,
+              "x": -128,
+              "y": -230,
+              "width": 214,
+              "height": 207,
+              "firstScanline": 8220
+            },
+            "pivot": [
+              128,
+              230
+            ],
+            "source": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 245,
+              "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+              "offset": 102590742,
+              "size": 2236731,
+              "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+            },
+            "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+            "role": "body",
+            "confidence": "AUTOMATED_CONFIRMED",
+            "palette": "houseMiller01",
+            "paletteSource": {
+              "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+              "entryId": 880,
+              "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\hausmiller01.pcx",
+              "offset": 132801885,
+              "size": 901,
+              "sha256": "0ecf47187511834ac25bfe82cd41f690b07918e31652cb010c2df32a40e02dd6"
+            },
+            "paletteDefinition": {
+              "section": "gfxpalette256",
+              "commands": [
+                {
+                  "name": "editname",
+                  "arguments": [
+                    "houseMiller01"
+                  ]
+                },
+                {
+                  "name": "gfxfile",
+                  "arguments": [
+                    "data\\engine2d\\bin\\palettes\\landscapes\\hausMiller01.pcx"
+                  ]
+                },
+                {
+                  "name": "gfxpreshade",
+                  "arguments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+            "path": "Vikings/Buildings/Mill/level_0/animation/frame_000086.png",
+            "pixelSha256": "5011d673a91c44c8b25bfbad8fffdfd87825ebcdc71de99468cff586785326e1"
+          }
+        }
+      ],
+      "rule": "index=(native tick / ticksPerFrame) modulo count; 0x004341C0 state lane gating; rate in seconds UNKNOWN",
+      "evidence": "0x00495B57"
+    }
+  ],
+  "confidence": "AUTOMATED_CONFIRMED (native frame order); PARTIAL (runtime triggers/timing)"
+}

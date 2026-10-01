@@ -1,0 +1,37 @@
+{
+  "asset": {
+    "bobId": 32,
+    "descriptor": {
+      "bobId": 32,
+      "frameIndex": 32,
+      "kind": 2,
+      "x": -56,
+      "y": -13,
+      "width": 105,
+      "height": 70,
+      "firstScanline": 5848
+    },
+    "pivot": [
+      56,
+      13
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1925,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_vehicles_s.bmd",
+      "offset": 121985192,
+      "size": 123138,
+      "sha256": "a5b491bd3f820c66f27002b7e9730acba296310de00591546de38c39613cd4c7"
+    },
+    "rawLibrary": "Metadata/Sources/ls_vehicles_s.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Vikings/Buildings/Catapult/level_0/shadow/coverage_000032.png",
+    "pixelSha256": "08ca02164c4c47ad1383503abf8df25a6a97aef7a5e4a0bf250adafe96acfe14"
+  },
+  "rule": "Native destination darkening, not alpha blend",
+  "Game.exe": "0x0049B930",
+  "drawOrder": "before finished body; extension keeps existing shadow; new construction uses auxiliary threshold maps",
+  "confidence": "AUTOMATED_CONFIRMED (source coverage); PARTIAL (live composition)"
+}

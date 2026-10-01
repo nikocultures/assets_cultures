@@ -1,0 +1,44 @@
+{
+  "progressPercent": 10,
+  "path": "Vikings/Buildings/Tower/level_1/construction/progress_010.png",
+  "pivot": [
+    70,
+    258
+  ],
+  "dimensions": [
+    309,
+    294
+  ],
+  "palette": "house01",
+  "contributingLayers": [
+    {
+      "tuple": [
+        1,
+        0,
+        22,
+        -1,
+        10,
+        70
+      ],
+      "threshold": 0,
+      "bodyPixels": 0,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    },
+    {
+      "tuple": [
+        1,
+        0,
+        21,
+        -1,
+        0,
+        50
+      ],
+      "threshold": 51,
+      "bodyPixels": 2137,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    }
+  ],
+  "destinationDarkeningCounts": "Vikings/Buildings/Tower/level_1/construction/progress_010_destination_darken_counts.png",
+  "confidence": "PARTIAL",
+  "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+}

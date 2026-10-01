@@ -1,0 +1,59 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1778,
+  "entryName": "data\\engine2d\\bin\\sounds\\ambient\\ice_cracking1.wav",
+  "offset": 139256360,
+  "size": 82750,
+  "sha256": "ffb7a6b702252dff82d99fb250ba846fc7a42745f26f457aa6347a82e0fee5e8"
+ },
+ "output": "Audio/ambient/ice_cracking1.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 82692,
+  "durationSeconds": 1.875,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 15,
+   "name": "Ice cracks",
+   "parameters": [
+    10,
+    80,
+    10
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": "xMissionCD_ice wall",
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 15,
+   "name": "Ice cracks",
+   "parameters": [
+    10,
+    80,
+    10
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": "xMissionCD_ice wall",
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Ambient",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

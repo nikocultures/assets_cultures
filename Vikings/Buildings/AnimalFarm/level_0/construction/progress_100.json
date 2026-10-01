@@ -1,0 +1,57 @@
+{
+  "progressPercent": 100,
+  "path": "Vikings/Buildings/AnimalFarm/level_0/construction/progress_100.png",
+  "pivot": [
+    288,
+    165
+  ],
+  "dimensions": [
+    553,
+    329
+  ],
+  "palette": "house01",
+  "contributingLayers": [
+    {
+      "tuple": [
+        0,
+        0,
+        32,
+        -1,
+        0,
+        73
+      ],
+      "threshold": 256,
+      "bodyPixels": 21392,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    },
+    {
+      "tuple": [
+        0,
+        0,
+        31,
+        -1,
+        0,
+        56
+      ],
+      "threshold": 256,
+      "bodyPixels": 28729,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    },
+    {
+      "tuple": [
+        0,
+        0,
+        30,
+        33,
+        0,
+        100
+      ],
+      "threshold": 255,
+      "bodyPixels": 40669,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    }
+  ],
+  "destinationDarkeningCounts": "Vikings/Buildings/AnimalFarm/level_0/construction/progress_100_destination_darken_counts.png",
+  "confidence": "PARTIAL",
+  "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+}

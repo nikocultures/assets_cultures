@@ -1,0 +1,656 @@
+{
+ "gfxLandscapeId": 270,
+ "nativeName": "norne fat01",
+ "editGroups": [
+  [
+   "misc_storyCreatures"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeName": "void",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "void"
+    ]
+   },
+   {
+    "name": "allowedoneverything",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     117,
+     117,
+     117
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_statues.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_statues_s.bmd",
+ "palettes": [
+  "informer02"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 0.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [],
+ "maximumValency": 1,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "norne fat01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "misc_storyCreatures"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_statues.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_statues_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "informer02"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     135,
+     136,
+     137,
+     138,
+     139,
+     140,
+     141,
+     142,
+     143,
+     144,
+     145,
+     146,
+     147,
+     148,
+     149,
+     150,
+     151,
+     152,
+     153,
+     154,
+     155,
+     156,
+     157,
+     158
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 135,
+     "width": 24,
+     "height": 46,
+     "pivot": [
+      13,
+      43
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000135.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000135__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 136,
+     "width": 24,
+     "height": 47,
+     "pivot": [
+      13,
+      43
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000136.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000136__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 137,
+     "width": 24,
+     "height": 47,
+     "pivot": [
+      13,
+      43
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000137.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000137__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 138,
+     "width": 24,
+     "height": 47,
+     "pivot": [
+      13,
+      43
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000138.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000138__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      5
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 139,
+     "width": 23,
+     "height": 48,
+     "pivot": [
+      13,
+      44
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000139.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000139__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 140,
+     "width": 24,
+     "height": 48,
+     "pivot": [
+      13,
+      44
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000140.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000140__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 141,
+     "width": 24,
+     "height": 48,
+     "pivot": [
+      13,
+      44
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000141.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000141__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 142,
+     "width": 25,
+     "height": 48,
+     "pivot": [
+      13,
+      44
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000142.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000142__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 143,
+     "width": 27,
+     "height": 46,
+     "pivot": [
+      13,
+      43
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000143.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000143__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 144,
+     "width": 28,
+     "height": 46,
+     "pivot": [
+      13,
+      43
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000144.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000144__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 145,
+     "width": 28,
+     "height": 46,
+     "pivot": [
+      13,
+      43
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000145.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000145__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 146,
+     "width": 27,
+     "height": 46,
+     "pivot": [
+      13,
+      43
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000146.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000146__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 147,
+     "width": 26,
+     "height": 45,
+     "pivot": [
+      13,
+      42
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000147.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000147__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 148,
+     "width": 24,
+     "height": 47,
+     "pivot": [
+      13,
+      43
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000148.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000148__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      5
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 149,
+     "width": 23,
+     "height": 47,
+     "pivot": [
+      13,
+      43
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000149.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000149__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      5
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 150,
+     "width": 23,
+     "height": 48,
+     "pivot": [
+      13,
+      44
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000150.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000150__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 151,
+     "width": 23,
+     "height": 48,
+     "pivot": [
+      13,
+      44
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000151.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000151__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 152,
+     "width": 24,
+     "height": 48,
+     "pivot": [
+      13,
+      44
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000152.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000152__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 153,
+     "width": 27,
+     "height": 48,
+     "pivot": [
+      13,
+      44
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000153.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000153__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 154,
+     "width": 26,
+     "height": 48,
+     "pivot": [
+      13,
+      44
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000154.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000154__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 155,
+     "width": 26,
+     "height": 48,
+     "pivot": [
+      13,
+      44
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000155.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000155__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 156,
+     "width": 26,
+     "height": 48,
+     "pivot": [
+      13,
+      44
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000156.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000156__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 157,
+     "width": 26,
+     "height": 47,
+     "pivot": [
+      13,
+      43
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000157.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000157__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      6
+     ]
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 158,
+     "width": 26,
+     "height": 47,
+     "pivot": [
+      13,
+      43
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01/bob_000158.png",
+     "shadowMask": "Terrain/Landscapes/misc_storyCreatures/241_norne_fat/bob_000158__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      5
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/misc_storyCreatures/270_norne_fat01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

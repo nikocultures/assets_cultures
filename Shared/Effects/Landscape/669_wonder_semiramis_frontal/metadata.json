@@ -1,0 +1,395 @@
+{
+ "gfxLandscapeId": 669,
+ "nativeName": "wonder semiramis frontal",
+ "editGroups": [
+  [
+   "xMissionCD_effects"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeName": "void",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "void"
+    ]
+   },
+   {
+    "name": "allowedoneverything",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     117,
+     117,
+     117
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+ "shadowLibrary": null,
+ "palettes": [
+  "wonders_semiramis"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [],
+ "maximumValency": 1,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "wonder semiramis frontal"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "xMissionCD_effects"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "wonders_semiramis"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     27,
+     27,
+     26,
+     26,
+     25,
+     25,
+     24,
+     24,
+     23,
+     23,
+     22,
+     22,
+     21,
+     21,
+     20,
+     20
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 27,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000027.png"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 27,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000027.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 26,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000026.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 26,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000026.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 25,
+     "width": 645,
+     "height": 446,
+     "pivot": [
+      325,
+      334
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000025.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 25,
+     "width": 645,
+     "height": 446,
+     "pivot": [
+      325,
+      334
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000025.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 24,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000024.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 24,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000024.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 23,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000023.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 23,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000023.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 22,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000022.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 22,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000022.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 21,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000021.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 21,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000021.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 20,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000020.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 20,
+     "width": 645,
+     "height": 445,
+     "pivot": [
+      325,
+      333
+     ],
+     "pixelKind": 1,
+     "path": "Shared/Effects/Landscape/669_wonder_semiramis_frontal/frames/bob_000020.png"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Effects",
+ "folder": "Shared/Effects/Landscape/669_wonder_semiramis_frontal",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

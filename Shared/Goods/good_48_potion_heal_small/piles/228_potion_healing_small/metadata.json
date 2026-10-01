@@ -1,0 +1,386 @@
+{
+ "gfxLandscapeId": 228,
+ "nativeName": "potion healing small",
+ "editGroups": [
+  [
+   "goods all"
+  ]
+ ],
+ "logicType": 71,
+ "logicTypeName": "potion_healing_small",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     71
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "potion_healing_small"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     71,
+     2,
+     -1,
+     48
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     71,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 48,
+   "goodName": "potion_heal_small",
+   "english": "S Healing Potion",
+   "field": "landscapetype"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd",
+ "palettes": [
+  "goods_leather"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   4,
+   "potion healing small"
+  ],
+  [
+   3,
+   "potion healing small"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "potion healing small"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     71
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_leather"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     129
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     128
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     127
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     126
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     125
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "potion healing small"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "potion healing small"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 129,
+     "width": 24,
+     "height": 25,
+     "pivot": [
+      12,
+      16
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_48_potion_heal_small/piles/228_potion_healing_small/bob_000129.png",
+     "kind4Secondary": "Shared/Goods/good_48_potion_heal_small/piles/228_potion_healing_small/bob_000129__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_43_mead/piles/197_mead_pile_01/bob_000129__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 128,
+     "width": 24,
+     "height": 25,
+     "pivot": [
+      12,
+      16
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_48_potion_heal_small/piles/228_potion_healing_small/bob_000128.png",
+     "kind4Secondary": "Shared/Goods/good_48_potion_heal_small/piles/228_potion_healing_small/bob_000128__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_43_mead/piles/197_mead_pile_01/bob_000128__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 127,
+     "width": 24,
+     "height": 18,
+     "pivot": [
+      12,
+      16
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_48_potion_heal_small/piles/228_potion_healing_small/bob_000127.png",
+     "kind4Secondary": "Shared/Goods/good_48_potion_heal_small/piles/228_potion_healing_small/bob_000127__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_43_mead/piles/197_mead_pile_01/bob_000127__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 126,
+     "width": 18,
+     "height": 16,
+     "pivot": [
+      12,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_48_potion_heal_small/piles/228_potion_healing_small/bob_000126.png",
+     "kind4Secondary": "Shared/Goods/good_48_potion_heal_small/piles/228_potion_healing_small/bob_000126__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_43_mead/piles/197_mead_pile_01/bob_000126__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 125,
+     "width": 8,
+     "height": 14,
+     "pivot": [
+      2,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_48_potion_heal_small/piles/228_potion_healing_small/bob_000125.png",
+     "kind4Secondary": "Shared/Goods/good_48_potion_heal_small/piles/228_potion_healing_small/bob_000125__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_43_mead/piles/197_mead_pile_01/bob_000125__shadow_mask.png",
+     "shadowPivot": [
+      2,
+      2
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_48_potion_heal_small/piles/228_potion_healing_small",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

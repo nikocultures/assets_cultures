@@ -1,0 +1,300 @@
+{
+ "gfxLandscapeId": 138,
+ "nativeName": "player10 soldier 04",
+ "editGroups": [
+  [
+   "misc_signs"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeName": "void",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "void"
+    ]
+   },
+   {
+    "name": "allowedoneverything",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     117,
+     117,
+     117
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_temp.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_temp_s.bmd",
+ "palettes": [
+  "human_Player10"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [],
+ "maximumValency": 1,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "player10 soldier 04"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "misc_signs"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_temp.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_temp_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "human_Player10"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     60,
+     61,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 60,
+     "width": 46,
+     "height": 43,
+     "pivot": [
+      4,
+      38
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000060.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000060__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 61,
+     "width": 46,
+     "height": 44,
+     "pivot": [
+      4,
+      38
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000061.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000061__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 62,
+     "width": 48,
+     "height": 44,
+     "pivot": [
+      4,
+      38
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000062.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000062__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 63,
+     "width": 48,
+     "height": 44,
+     "pivot": [
+      4,
+      38
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000063.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000063__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 64,
+     "width": 47,
+     "height": 44,
+     "pivot": [
+      4,
+      38
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000064.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000064__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 65,
+     "width": 47,
+     "height": 43,
+     "pivot": [
+      4,
+      38
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000065.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000065__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 66,
+     "width": 45,
+     "height": 42,
+     "pivot": [
+      4,
+      38
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000066.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000066__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 67,
+     "width": 45,
+     "height": 42,
+     "pivot": [
+      4,
+      38
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000067.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_signs/138_player10_soldier_04/bob_000067__kind4_secondary.png"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/misc_signs/138_player10_soldier_04",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

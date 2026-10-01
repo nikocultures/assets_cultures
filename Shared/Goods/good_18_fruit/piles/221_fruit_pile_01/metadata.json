@@ -1,0 +1,386 @@
+{
+ "gfxLandscapeId": 221,
+ "nativeName": "fruit pile 01",
+ "editGroups": [
+  [
+   "goods all"
+  ]
+ ],
+ "logicType": 41,
+ "logicTypeName": "fruit",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     41
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "fruit"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     41,
+     2,
+     -1,
+     18
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     41,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 18,
+   "goodName": "fruit",
+   "english": "Fruit",
+   "field": "landscapetype"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd",
+ "palettes": [
+  "goods_bread"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "fruit pile 01"
+  ],
+  [
+   4,
+   "fruit pile 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "fruit pile 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     41
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_bread"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     89
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     88
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     87
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     86
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     85
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "fruit pile 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "fruit pile 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 89,
+     "width": 24,
+     "height": 22,
+     "pivot": [
+      12,
+      11
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000089.png",
+     "kind4Secondary": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000089__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000089__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 88,
+     "width": 24,
+     "height": 22,
+     "pivot": [
+      12,
+      11
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000088.png",
+     "kind4Secondary": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000088__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000088__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 87,
+     "width": 24,
+     "height": 17,
+     "pivot": [
+      12,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000087.png",
+     "kind4Secondary": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000087__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000087__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 86,
+     "width": 24,
+     "height": 13,
+     "pivot": [
+      12,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000086.png",
+     "kind4Secondary": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000086__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000086__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 85,
+     "width": 12,
+     "height": 11,
+     "pivot": [
+      12,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000085.png",
+     "kind4Secondary": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000085__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000085__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      1
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_18_fruit/piles/221_fruit_pile_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

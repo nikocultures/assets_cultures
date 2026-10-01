@@ -1,0 +1,1075 @@
+{
+  "nativeName": "fx fire incense",
+  "definition": {
+    "section": "gfxlandscape",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "fx fire incense"
+        ]
+      },
+      {
+        "name": "editgroups",
+        "arguments": [
+          "effects"
+        ]
+      },
+      {
+        "name": "logictype",
+        "arguments": [
+          1
+        ]
+      },
+      {
+        "name": "logicmaximumvalency",
+        "arguments": [
+          1
+        ]
+      },
+      {
+        "name": "logicisworkable",
+        "arguments": [
+          0
+        ]
+      },
+      {
+        "name": "logicispileableonmap",
+        "arguments": [
+          0
+        ]
+      },
+      {
+        "name": "gfxboblibs",
+        "arguments": [
+          "data\\engine2d\\bin\\bobs\\ls_smoke.bmd"
+        ]
+      },
+      {
+        "name": "gfxpalette",
+        "arguments": [
+          "fire_incense"
+        ]
+      },
+      {
+        "name": "gfxframes",
+        "arguments": [
+          1,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ]
+      },
+      {
+        "name": "gfxstatic",
+        "arguments": [
+          0
+        ]
+      },
+      {
+        "name": "gfxloopanimation",
+        "arguments": [
+          1
+        ]
+      },
+      {
+        "name": "gfxshadingfactor",
+        "arguments": [
+          0.0
+        ]
+      },
+      {
+        "name": "gfxuserfxmatrix",
+        "arguments": [
+          0
+        ]
+      },
+      {
+        "name": "gfxdynamicbackground",
+        "arguments": [
+          0
+        ]
+      },
+      {
+        "name": "gfxdrawvoidever",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "sequences": [
+    {
+      "nativeValency": 1,
+      "frames": [
+        {
+          "bobId": 66,
+          "descriptor": {
+            "bobId": 66,
+            "frameIndex": 66,
+            "kind": 4,
+            "x": -36,
+            "y": -66,
+            "width": 67,
+            "height": 80,
+            "firstScanline": 2788
+          },
+          "pivot": [
+            36,
+            66
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000066.png",
+          "pixelSha256": "e37006d151f484b320c6ddaaba8c8c98d84070bd2cbea7c62cb993f48ab53f7e"
+        },
+        {
+          "bobId": 67,
+          "descriptor": {
+            "bobId": 67,
+            "frameIndex": 67,
+            "kind": 4,
+            "x": -37,
+            "y": -70,
+            "width": 70,
+            "height": 84,
+            "firstScanline": 2868
+          },
+          "pivot": [
+            37,
+            70
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000067.png",
+          "pixelSha256": "89148f5ceaa9a1601fe285ee5ba8767d1eb0746c0ea3a4d0ad30d68128ec9de6"
+        },
+        {
+          "bobId": 68,
+          "descriptor": {
+            "bobId": 68,
+            "frameIndex": 68,
+            "kind": 4,
+            "x": -36,
+            "y": -68,
+            "width": 67,
+            "height": 81,
+            "firstScanline": 2952
+          },
+          "pivot": [
+            36,
+            68
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000068.png",
+          "pixelSha256": "179ea6595f906a921a13297c5b854962fde72707af55a854e46866236a6e83b1"
+        },
+        {
+          "bobId": 69,
+          "descriptor": {
+            "bobId": 69,
+            "frameIndex": 69,
+            "kind": 4,
+            "x": -37,
+            "y": -71,
+            "width": 69,
+            "height": 84,
+            "firstScanline": 3033
+          },
+          "pivot": [
+            37,
+            71
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000069.png",
+          "pixelSha256": "fd76a992ad0c8f363e374dea34932ef32df98825d94d15771e609d5c5c643fd7"
+        },
+        {
+          "bobId": 70,
+          "descriptor": {
+            "bobId": 70,
+            "frameIndex": 70,
+            "kind": 4,
+            "x": -38,
+            "y": -64,
+            "width": 71,
+            "height": 78,
+            "firstScanline": 3117
+          },
+          "pivot": [
+            38,
+            64
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000070.png",
+          "pixelSha256": "a7e33a0569b580dcb738d5cf8010956d8634b0b4eaf8f4dfa429025a4d536efb"
+        },
+        {
+          "bobId": 71,
+          "descriptor": {
+            "bobId": 71,
+            "frameIndex": 71,
+            "kind": 4,
+            "x": -37,
+            "y": -64,
+            "width": 71,
+            "height": 77,
+            "firstScanline": 3195
+          },
+          "pivot": [
+            37,
+            64
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000071.png",
+          "pixelSha256": "32bb3d74f40550edf13e425d6aa6e1344bc3e14976c5c920edd4a0871a9f71b1"
+        },
+        {
+          "bobId": 72,
+          "descriptor": {
+            "bobId": 72,
+            "frameIndex": 72,
+            "kind": 4,
+            "x": -37,
+            "y": -66,
+            "width": 70,
+            "height": 80,
+            "firstScanline": 3272
+          },
+          "pivot": [
+            37,
+            66
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000072.png",
+          "pixelSha256": "7a3cf7900ef4e7f67592aa6106a2be917a3c11f6990eeb6c05bd7c607c089b97"
+        },
+        {
+          "bobId": 73,
+          "descriptor": {
+            "bobId": 73,
+            "frameIndex": 73,
+            "kind": 4,
+            "x": -36,
+            "y": -67,
+            "width": 67,
+            "height": 80,
+            "firstScanline": 3352
+          },
+          "pivot": [
+            36,
+            67
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000073.png",
+          "pixelSha256": "b202281b8292f5475140c0e7bcbeb604c6e4fce7618c86c4d9a4743ac71d2055"
+        },
+        {
+          "bobId": 74,
+          "descriptor": {
+            "bobId": 74,
+            "frameIndex": 74,
+            "kind": 4,
+            "x": -38,
+            "y": -64,
+            "width": 71,
+            "height": 78,
+            "firstScanline": 3432
+          },
+          "pivot": [
+            38,
+            64
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000074.png",
+          "pixelSha256": "90dbd7e6e7b2b8277eb764f17844e0761ec903637e53e173bf6acf61b3c38dbe"
+        },
+        {
+          "bobId": 75,
+          "descriptor": {
+            "bobId": 75,
+            "frameIndex": 75,
+            "kind": 4,
+            "x": -38,
+            "y": -66,
+            "width": 72,
+            "height": 80,
+            "firstScanline": 3510
+          },
+          "pivot": [
+            38,
+            66
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000075.png",
+          "pixelSha256": "65bf8efa4fdd25bba160b29b3530c4ebb907730b51fe77ffaa367be1837dd8d6"
+        },
+        {
+          "bobId": 76,
+          "descriptor": {
+            "bobId": 76,
+            "frameIndex": 76,
+            "kind": 4,
+            "x": -37,
+            "y": -64,
+            "width": 69,
+            "height": 78,
+            "firstScanline": 3590
+          },
+          "pivot": [
+            37,
+            64
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000076.png",
+          "pixelSha256": "66730c1cd8b90baeb2aaf4a93336f32b25a2604b0f6b8f660e343d809173b9c6"
+        },
+        {
+          "bobId": 77,
+          "descriptor": {
+            "bobId": 77,
+            "frameIndex": 77,
+            "kind": 4,
+            "x": -37,
+            "y": -66,
+            "width": 69,
+            "height": 80,
+            "firstScanline": 3668
+          },
+          "pivot": [
+            37,
+            66
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000077.png",
+          "pixelSha256": "f70679b6977ac9173fbd30be08b36dd61f0d9acff03fc6ffa4e62453951f4eed"
+        },
+        {
+          "bobId": 78,
+          "descriptor": {
+            "bobId": 78,
+            "frameIndex": 78,
+            "kind": 4,
+            "x": -37,
+            "y": -65,
+            "width": 68,
+            "height": 79,
+            "firstScanline": 3748
+          },
+          "pivot": [
+            37,
+            65
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000078.png",
+          "pixelSha256": "f159184a91b1a0bb7728a85927d8a9570b80a791f262f5da144749acac11b64d"
+        },
+        {
+          "bobId": 79,
+          "descriptor": {
+            "bobId": 79,
+            "frameIndex": 79,
+            "kind": 4,
+            "x": -36,
+            "y": -67,
+            "width": 69,
+            "height": 81,
+            "firstScanline": 3827
+          },
+          "pivot": [
+            36,
+            67
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000079.png",
+          "pixelSha256": "60312b36ee5d9314aa0fcf4576f2825cdc1e31e04b49972f253f7b3699658443"
+        },
+        {
+          "bobId": 80,
+          "descriptor": {
+            "bobId": 80,
+            "frameIndex": 80,
+            "kind": 4,
+            "x": -35,
+            "y": -65,
+            "width": 69,
+            "height": 79,
+            "firstScanline": 3908
+          },
+          "pivot": [
+            35,
+            65
+          ],
+          "source": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1884,
+            "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+            "offset": 112454685,
+            "size": 3256020,
+            "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+          },
+          "rawLibrary": "Metadata/Sources/ls_smoke.bmd",
+          "role": "effect",
+          "confidence": "AUTOMATED_CONFIRMED",
+          "palette": "fire_incense",
+          "paletteSource": {
+            "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+            "entryId": 1590,
+            "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx",
+            "offset": 132790168,
+            "size": 905,
+            "sha256": "9613aa1ab802e84d1119c898ca0984722ddd4442ad4b6aef74788c709a5fc394"
+          },
+          "paletteDefinition": {
+            "section": "gfxpalette256",
+            "commands": [
+              {
+                "name": "editname",
+                "arguments": [
+                  "fire_incense"
+                ]
+              },
+              {
+                "name": "gfxfile",
+                "arguments": [
+                  "data\\engine2d\\bin\\palettes\\landscapes\\fire_incense.pcx"
+                ]
+              },
+              {
+                "name": "gfxpreshade",
+                "arguments": [
+                  1
+                ]
+              }
+            ]
+          },
+          "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+          "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire_incense/effect/frame_000080.png",
+          "pixelSha256": "10a224f699a38c75b36294b920bc4ca7404050e00453e33e8edb4d886ded201f"
+        }
+      ]
+    }
+  ],
+  "timing": "UNKNOWN until runtime owner/rate validated",
+  "confidence": "PARTIAL",
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1195,
+    "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+    "offset": 193548446,
+    "size": 683149,
+    "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+  }
+}

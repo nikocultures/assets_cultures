@@ -1,0 +1,52 @@
+{
+ "LIBRARY": "data\\gui\\lang\\eng\\bobs\\ls_menu_logos.bmd",
+ "BOB_ID": 0,
+ "KIND": 4,
+ "WIDTH": 737,
+ "HEIGHT": 218,
+ "PIVOT": [
+  0,
+  0
+ ],
+ "EVIDENCE": [
+  "production_frontend.cpp:322"
+ ],
+ "PALETTES": [
+  "data\\engine2d\\bin\\palettes\\gui\\menu_funatics.pcx"
+ ],
+ "OUTPUTS": [
+  "UI/Sprites/ls_menu_logos/menu_funatics/bob_0000.png"
+ ],
+ "INDEX_DATA": "UI/Sprites/ls_menu_logos/_index_data/bob_0000.png",
+ "STATUS": "PALETTE_EVIDENCED",
+ "CONFIDENCE": "PIXEL_CONFIRMED",
+ "evidenceDetail": [
+  {
+   "file": "production_frontend.cpp",
+   "line": 322,
+   "paletteMember": "logoPalette_",
+   "palette": "data\\engine2d\\bin\\palettes\\gui\\menu_funatics.pcx",
+   "code": "else if(!logos_.frames.empty())sprite(logos_,0,(width_-logos_.frames[0].right)/2,10,logoPalette_.paletteBgra,all);",
+   "nearestComment": ""
+  }
+ ],
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 70,
+  "entryName": "data\\gui\\lang\\eng\\bobs\\ls_menu_logos.bmd",
+  "offset": 197207960,
+  "size": 1594681,
+  "sha256": "404b1548e5401757b90836d0f1222c0d0e2cc9398514a94fa9ce52a004447018"
+ },
+ "descriptor": {
+  "bobId": 0,
+  "frameIndex": 0,
+  "kind": 4,
+  "x": 0,
+  "y": 0,
+  "width": 737,
+  "height": 218,
+  "firstScanline": 0,
+  "offset": 0
+ }
+}

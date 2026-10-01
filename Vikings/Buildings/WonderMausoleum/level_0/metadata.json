@@ -1,0 +1,1150 @@
+{
+  "nativeName": "wonder mausoleum",
+  "tribe": "Vikings",
+  "logicHouseType": 50,
+  "gfxHouseId": 34,
+  "level": 0,
+  "bodyBob": 5,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_wonders3_s.bmd",
+  "shadowBob": 5,
+  "paletteAlternatives": [
+    "wonders_pyramid"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 5,
+      "descriptor": {
+        "bobId": 5,
+        "frameIndex": 5,
+        "kind": 4,
+        "x": -358,
+        "y": -258,
+        "width": 647,
+        "height": 462,
+        "firstScanline": 2567
+      },
+      "pivot": [
+        358,
+        258
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "wonders_pyramid",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2645,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx",
+        "offset": 132842433,
+        "size": 901,
+        "sha256": "46545f90b30ac26b1a8ede00c961a12917d29066668d18cf55de9a75caf544ad"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "wonders_pyramid"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/WonderMausoleum/level_0/main/frame_000005.png",
+      "pixelSha256": "d2a92fb00043bbf815bcba64a1eda962f459a876e401ca7c06371ccbba75e464"
+    }
+  ],
+  "constructionLayers": [
+    [
+      0,
+      1,
+      4,
+      -1,
+      0,
+      100
+    ],
+    [
+      0,
+      0,
+      5,
+      -1,
+      20,
+      100
+    ]
+  ],
+  "doors": [],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [
+      [
+        0,
+        -24,
+        -240
+      ],
+      [
+        0,
+        -22,
+        -229
+      ],
+      [
+        0,
+        -18,
+        -215
+      ],
+      [
+        0,
+        94,
+        -211
+      ],
+      [
+        0,
+        -12,
+        -208
+      ],
+      [
+        0,
+        -36,
+        -208
+      ],
+      [
+        0,
+        -71,
+        -208
+      ],
+      [
+        0,
+        -2,
+        -205
+      ],
+      [
+        0,
+        77,
+        -201
+      ],
+      [
+        0,
+        72,
+        -195
+      ],
+      [
+        0,
+        28,
+        -192
+      ],
+      [
+        0,
+        58,
+        -186
+      ],
+      [
+        0,
+        -175,
+        -179
+      ],
+      [
+        0,
+        52,
+        -178
+      ],
+      [
+        0,
+        45,
+        -178
+      ],
+      [
+        0,
+        55,
+        -170
+      ],
+      [
+        0,
+        63,
+        -164
+      ],
+      [
+        0,
+        -165,
+        -161
+      ],
+      [
+        0,
+        -161,
+        -153
+      ],
+      [
+        0,
+        -157,
+        -140
+      ],
+      [
+        0,
+        -155,
+        -133
+      ],
+      [
+        0,
+        -151,
+        -124
+      ],
+      [
+        0,
+        -133,
+        -114
+      ],
+      [
+        0,
+        -85,
+        -110
+      ],
+      [
+        0,
+        -73,
+        -106
+      ],
+      [
+        0,
+        -66,
+        -101
+      ],
+      [
+        0,
+        -29,
+        -91
+      ],
+      [
+        0,
+        -38,
+        -88
+      ],
+      [
+        0,
+        -45,
+        -87
+      ],
+      [
+        0,
+        -55,
+        -78
+      ],
+      [
+        0,
+        -63,
+        -63
+      ],
+      [
+        0,
+        -80,
+        -51
+      ],
+      [
+        0,
+        -95,
+        -44
+      ]
+    ],
+    "gfxsmokepoint": [
+      [
+        0,
+        -352,
+        -26,
+        1
+      ],
+      [
+        0,
+        -347,
+        -23,
+        1
+      ],
+      [
+        0,
+        -331,
+        -13,
+        1
+      ],
+      [
+        0,
+        -322,
+        -2,
+        1
+      ],
+      [
+        0,
+        283,
+        2,
+        1
+      ],
+      [
+        0,
+        275,
+        7,
+        1
+      ],
+      [
+        0,
+        -311,
+        12,
+        1
+      ],
+      [
+        0,
+        -302,
+        17,
+        1
+      ],
+      [
+        0,
+        258,
+        17,
+        1
+      ],
+      [
+        0,
+        247,
+        21,
+        1
+      ],
+      [
+        0,
+        214,
+        32,
+        1
+      ],
+      [
+        0,
+        -291,
+        35,
+        1
+      ],
+      [
+        0,
+        -272,
+        36,
+        1
+      ],
+      [
+        0,
+        203,
+        38,
+        1
+      ],
+      [
+        0,
+        181,
+        47,
+        1
+      ],
+      [
+        0,
+        -270,
+        55,
+        1
+      ],
+      [
+        0,
+        173,
+        56,
+        1
+      ],
+      [
+        0,
+        177,
+        65,
+        1
+      ],
+      [
+        0,
+        -266,
+        69,
+        1
+      ],
+      [
+        0,
+        177,
+        77,
+        1
+      ],
+      [
+        0,
+        171,
+        83,
+        1
+      ],
+      [
+        0,
+        -252,
+        87,
+        1
+      ],
+      [
+        0,
+        158,
+        89,
+        1
+      ],
+      [
+        0,
+        141,
+        99,
+        1
+      ],
+      [
+        0,
+        -228,
+        109,
+        1
+      ],
+      [
+        0,
+        76,
+        110,
+        1
+      ],
+      [
+        0,
+        113,
+        118,
+        1
+      ],
+      [
+        0,
+        6,
+        124,
+        1
+      ],
+      [
+        0,
+        60,
+        125,
+        1
+      ],
+      [
+        0,
+        -2,
+        129,
+        1
+      ],
+      [
+        0,
+        -204,
+        130,
+        1
+      ],
+      [
+        0,
+        52,
+        133,
+        1
+      ],
+      [
+        0,
+        -13,
+        137,
+        1
+      ],
+      [
+        0,
+        -40,
+        147,
+        1
+      ],
+      [
+        0,
+        30,
+        149,
+        1
+      ],
+      [
+        0,
+        -182,
+        150,
+        1
+      ],
+      [
+        0,
+        -67,
+        158,
+        1
+      ],
+      [
+        0,
+        -91,
+        167,
+        1
+      ],
+      [
+        0,
+        -162,
+        167,
+        1
+      ],
+      [
+        0,
+        -103,
+        175,
+        1
+      ],
+      [
+        0,
+        -105,
+        181,
+        1
+      ],
+      [
+        0,
+        -151,
+        182,
+        1
+      ],
+      [
+        0,
+        -123,
+        189,
+        1
+      ],
+      [
+        0,
+        -134,
+        196,
+        1
+      ],
+      [
+        0,
+        18,
+        -169,
+        0
+      ],
+      [
+        0,
+        -4,
+        -157,
+        0
+      ],
+      [
+        0,
+        -12,
+        -152,
+        0
+      ],
+      [
+        0,
+        41,
+        -148,
+        0
+      ],
+      [
+        0,
+        37,
+        -148,
+        0
+      ],
+      [
+        0,
+        -25,
+        -148,
+        0
+      ],
+      [
+        0,
+        63,
+        -139,
+        0
+      ],
+      [
+        0,
+        -53,
+        -139,
+        0
+      ],
+      [
+        0,
+        -73,
+        -133,
+        0
+      ],
+      [
+        0,
+        85,
+        -130,
+        0
+      ],
+      [
+        0,
+        -89,
+        -125,
+        0
+      ],
+      [
+        0,
+        -111,
+        -118,
+        0
+      ],
+      [
+        0,
+        123,
+        -107,
+        0
+      ],
+      [
+        0,
+        -132,
+        -105,
+        0
+      ],
+      [
+        0,
+        140,
+        -101,
+        0
+      ],
+      [
+        0,
+        -156,
+        -91,
+        0
+      ],
+      [
+        0,
+        161,
+        -91,
+        0
+      ],
+      [
+        0,
+        173,
+        -84,
+        0
+      ],
+      [
+        0,
+        -173,
+        -83,
+        0
+      ],
+      [
+        0,
+        -186,
+        -78,
+        0
+      ],
+      [
+        0,
+        -215,
+        -78,
+        0
+      ],
+      [
+        0,
+        188,
+        -73,
+        0
+      ],
+      [
+        0,
+        -243,
+        -69,
+        0
+      ],
+      [
+        0,
+        199,
+        -66,
+        0
+      ],
+      [
+        0,
+        -267,
+        -63,
+        0
+      ],
+      [
+        0,
+        -291,
+        -56,
+        0
+      ],
+      [
+        0,
+        225,
+        -53,
+        0
+      ],
+      [
+        0,
+        -322,
+        -47,
+        0
+      ],
+      [
+        0,
+        -326,
+        -44,
+        0
+      ],
+      [
+        0,
+        255,
+        -33,
+        0
+      ],
+      [
+        0,
+        269,
+        -26,
+        0
+      ]
+    ],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [],
+    "sharedEffects": {
+      "fx fire house 0": "Shared/Effects/fx_fire_house_0/metadata.json",
+      "fx fire house 1": "Shared/Effects/fx_fire_house_1/metadata.json",
+      "fx fire house 2": "Shared/Effects/fx_fire_house_2/metadata.json",
+      "fx smoke": "Shared/Effects/fx_smoke/metadata.json"
+    },
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 647,
+  "height": 462,
+  "pivot": [
+    358,
+    258
+  ],
+  "shadow": {
+    "bobId": 5,
+    "descriptor": {
+      "bobId": 5,
+      "frameIndex": 5,
+      "kind": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "firstScanline": 0
+    },
+    "pivot": [
+      0,
+      0
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1696,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3_s.bmd",
+      "offset": 131275311,
+      "size": 7020,
+      "sha256": "638abfff78f442a6e5741860705c423d6ba519b681f72d924b2f9fbd2fd637a0"
+    },
+    "rawLibrary": "Metadata/Sources/ls_wonders3_s.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "empty": true,
+    "path": null
+  },
+  "constructionParts": [
+    {
+      "bobId": 4,
+      "descriptor": {
+        "bobId": 4,
+        "frameIndex": 4,
+        "kind": 4,
+        "x": -358,
+        "y": -464,
+        "width": 647,
+        "height": 668,
+        "firstScanline": 1899
+      },
+      "pivot": [
+        358,
+        464
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "wonders_pyramid",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2645,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx",
+        "offset": 132842433,
+        "size": 901,
+        "sha256": "46545f90b30ac26b1a8ede00c961a12917d29066668d18cf55de9a75caf544ad"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "wonders_pyramid"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/WonderMausoleum/level_0/construction/layers/wonders_pyramid/body_000004.png",
+      "pixelSha256": "ae74462f39e543878b04e48d5f45b27d8f4fd37a8a31abbf3bc5cdb47170b9b2"
+    },
+    {
+      "bobId": 4,
+      "descriptor": {
+        "bobId": 4,
+        "frameIndex": 4,
+        "kind": 4,
+        "x": -358,
+        "y": -464,
+        "width": 647,
+        "height": 668,
+        "firstScanline": 1899
+      },
+      "pivot": [
+        358,
+        464
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/WonderMausoleum/level_0/construction/layers/reveal_000004.png",
+      "pixelSha256": "4bdab6261479e4e011bbc8ba9b292df84a070d9e05d750ba1cea3263d4044e57"
+    },
+    {
+      "bobId": 5,
+      "descriptor": {
+        "bobId": 5,
+        "frameIndex": 5,
+        "kind": 4,
+        "x": -358,
+        "y": -258,
+        "width": 647,
+        "height": 462,
+        "firstScanline": 2567
+      },
+      "pivot": [
+        358,
+        258
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "wonders_pyramid",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2645,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx",
+        "offset": 132842433,
+        "size": 901,
+        "sha256": "46545f90b30ac26b1a8ede00c961a12917d29066668d18cf55de9a75caf544ad"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "wonders_pyramid"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/WonderMausoleum/level_0/main/frame_000005.png",
+      "pixelSha256": "d2a92fb00043bbf815bcba64a1eda962f459a876e401ca7c06371ccbba75e464"
+    },
+    {
+      "bobId": 5,
+      "descriptor": {
+        "bobId": 5,
+        "frameIndex": 5,
+        "kind": 4,
+        "x": -358,
+        "y": -258,
+        "width": 647,
+        "height": 462,
+        "firstScanline": 2567
+      },
+      "pivot": [
+        358,
+        258
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/WonderMausoleum/level_0/construction/layers/reveal_000005.png",
+      "pixelSha256": "e10efb52959cc42c12053fd4b1ff2146927479713c9b3ded5defb4ffa5c757d0"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Vikings/Buildings/WonderMausoleum/level_0/construction/progress_000.png",
+      "pivot": [
+        358,
+        464
+      ],
+      "dimensions": [
+        647,
+        668
+      ],
+      "palette": "wonders_pyramid",
+      "contributingLayers": [],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderMausoleum/level_0/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Vikings/Buildings/WonderMausoleum/level_0/construction/progress_010.png",
+      "pivot": [
+        358,
+        464
+      ],
+      "dimensions": [
+        647,
+        668
+      ],
+      "palette": "wonders_pyramid",
+      "contributingLayers": [],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderMausoleum/level_0/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Vikings/Buildings/WonderMausoleum/level_0/construction/progress_025.png",
+      "pivot": [
+        358,
+        464
+      ],
+      "dimensions": [
+        647,
+        668
+      ],
+      "palette": "wonders_pyramid",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            5,
+            -1,
+            20,
+            100
+          ],
+          "threshold": 15,
+          "bodyPixels": 1,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderMausoleum/level_0/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Vikings/Buildings/WonderMausoleum/level_0/construction/progress_050.png",
+      "pivot": [
+        358,
+        464
+      ],
+      "dimensions": [
+        647,
+        668
+      ],
+      "palette": "wonders_pyramid",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            5,
+            -1,
+            20,
+            100
+          ],
+          "threshold": 94,
+          "bodyPixels": 46588,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderMausoleum/level_0/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Vikings/Buildings/WonderMausoleum/level_0/construction/progress_075.png",
+      "pivot": [
+        358,
+        464
+      ],
+      "dimensions": [
+        647,
+        668
+      ],
+      "palette": "wonders_pyramid",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            5,
+            -1,
+            20,
+            100
+          ],
+          "threshold": 173,
+          "bodyPixels": 93735,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderMausoleum/level_0/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Vikings/Buildings/WonderMausoleum/level_0/construction/progress_100.png",
+      "pivot": [
+        358,
+        464
+      ],
+      "dimensions": [
+        647,
+        668
+      ],
+      "palette": "wonders_pyramid",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            5,
+            -1,
+            20,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 190548,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderMausoleum/level_0/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [],
+  "sourceAssetExport": "COMPLETE"
+}

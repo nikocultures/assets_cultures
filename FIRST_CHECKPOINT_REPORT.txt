@@ -1,0 +1,95 @@
+FIRST CHECKPOINT — ORIGINAL ASSET MAP
+ASSET ROOT: E:\assets cultures
+Status: extraction and native-data mapping checkpoint; original in-game visual validation remains PENDING. No building is labelled CONFIRMED overall.
+
+HOUSE ASSET STORAGE
+The installed DataX has one LIB: Libs\data0001.lib (255,230,793 bytes), with 2,691 named entries. House BMDs are named members, not loose BMD files. Viking graphics span ls_houses_viking.bmd, viking2, viking3, viking4, each with a paired _s.bmd. All are under data\engine2d\bin\bobs\ inside the archive.
+Definitions: entry ordinal 1024, data\engine2d\inis\houses\houses.cif, offset 192918316, size 551993.
+Primary Viking body: ordinal 245, offset 102590742, size 2236731.
+Primary Viking shadow: ordinal 2442, offset 110985921, size 16409.
+HQ body viking4: ordinal 945, offset 108381429, size 2586720.
+HQ shadow viking4_s: ordinal 277, offset 110968149, size 17772.
+Ordinals are zero-based archive table positions assigned for this catalog, not native asset IDs.
+
+DATAX / LIB FORMAT
+Custom little-endian LIB. Header: three u32 words: retained header word (observed 1), directory count, file count. Directory rows: length-prefixed byte path followed by an unknown u32. File rows: length-prefixed logical path, absolute u32 data offset, u32 byte size. Payloads are raw ranges; no container compression flag or decompression. BMD payloads have their own RLE; CIF text is obfuscated.
+Existing readers reused: cultures_lib.py/read_index and archive_blob from catalog_game_data.py. Production reference: MountedLibraryFile::loadDirectory, Game 0x0040665D; lookup 0x004068B3. Older Python directory field labels differ from the newer C++ interpretation, but consume the same bytes. Do not interpret the older 'alignment' label as proven semantics.
+
+BMD FORMAT STATUS
+Working production decodeBobLibraryBmd and drawing routines exist. No new BMD or archive parser was written. See Metadata\bmd_format.md.
+The older Python PNG decoder treats kind 4's second byte as opacity and kind 2 as constant-alpha black. Those choices are not faithful for finished houses or native destination-dependent shadows. Sample export uses the C++ body draw routine, not those paths.
+
+GAME.EXE HOUSE→ASSET CALL CHAIN
+Game hash verified C52209CF06493142ECA1BA836AC3019943CAA003008EB998350354D0A9B8B85F.
+0x0048E651 loads ordered GfxHouse records from houses.ini/CIF; record stride 0x8BC. The data associates LogicType[level], LogicTribeType, GfxBobLibs, GfxPalette, GfxBobId[level].
+0x00430FCE creates a House with GfxHouse ID at +0x10 and extension level at +0x20; 0x0048089E retrieves the GfxHouse definition and selects logic type and tribe. Thus logic ID alone is not a unique graphic key: the native relation is GfxHouse + level -> logic ID, with a reverse search constrained by tribe/context.
+House drawing 0x00495B57 selects body, construction layers, door/animation/effect data; BOB draw dispatch 0x0049B3EE; kind-2 shadow path 0x0049B930. Construction reveal owner 0x0049DA62.
+C++: TypedDefinitionRegistry::loadHouseDefinitions -> parseHouseDocument -> PublishedGfxHouseDefinition; ProductionWorldCompositor binds gfxBobLibraries and level-indexed gfxBobIdByLevel -> decodeBobLibraryBmd -> drawBobClippedBorrowed32 / dedicated shadow and construction paths.
+Native address evidence uses the existing RE corpus and matching current Game hash; some older YAML files identify an earlier unpacked-analysis hash. No claim that all older metadata hashes equal the current binary.
+
+EDITOR.EXE HOUSE→ASSET CALL CHAIN
+Editor hash verified 30D05ACC22D22DE33DA9C2553D97A5D934FA7698247A404C9507573BEF087C7D; matches run 20260807-220341-405 (its export is misleadingly named Game_decompiled.cpp).
+Editor 0x0044543D reads the house configuration, counts GfxHouse sections, allocates count * 0x8BC and advances records in section order. Global count 0x00513A38, table 0x00513A3C. Loader explicitly parses editname and the graphic/logic fields.
+0x0043921A / 0x00446428 performs name -> index search; 0x0043921F / 0x00446466 searches tribe + logic type and returns GfxHouse ID with level; 0x00439245 retrieves full record; 0x00439205 retrieves record +0x3C.
+EDITOR ADVANTAGE: PARTIAL. It supplies a directly evidenced name/tribe/logic lookup over the native graphic registry. Full palette UI selection and preview-render call chains have not been traced, and runtime equivalence with Game has not been visually validated. Do not assume identical live mappings merely from similar layouts.
+
+VIKING MAPPINGS
+All rows are tribe 1. Levels are native zero-based indices.
+viking home: logic 2; GfxHouse 3; level 0; BOB 1; data\engine2d\bin\bobs\ls_houses_viking.bmd; shadow BOB 1 in paired _s library.
+viking home: logic 3; GfxHouse 3; level 1; BOB 11; data\engine2d\bin\bobs\ls_houses_viking.bmd; shadow BOB 11 in paired _s library.
+viking home: logic 4; GfxHouse 3; level 2; BOB 21; data\engine2d\bin\bobs\ls_houses_viking.bmd; shadow BOB 21 in paired _s library.
+viking home: logic 5; GfxHouse 3; level 3; BOB 31; data\engine2d\bin\bobs\ls_houses_viking.bmd; shadow BOB 31 in paired _s library.
+viking home: logic 6; GfxHouse 3; level 4; BOB 41; data\engine2d\bin\bobs\ls_houses_viking.bmd; shadow BOB 41 in paired _s library.
+viking farm: logic 12; GfxHouse 4; level 0; BOB 60; data\engine2d\bin\bobs\ls_houses_viking.bmd; shadow BOB 60 in paired _s library.
+viking mill: logic 13; GfxHouse 5; level 0; BOB 70; data\engine2d\bin\bobs\ls_houses_viking.bmd; shadow BOB 70 in paired _s library.
+viking bakery: logic 14; GfxHouse 6; level 0; BOB 101; data\engine2d\bin\bobs\ls_houses_viking.bmd; shadow BOB 101 in paired _s library.
+viking bakery: logic 15; GfxHouse 6; level 1; BOB 105; data\engine2d\bin\bobs\ls_houses_viking.bmd; shadow BOB 105 in paired _s library.
+viking headquarters: logic 1; GfxHouse 21; level 0; BOB 34; data\engine2d\bin\bobs\ls_houses_viking4.bmd; shadow BOB 34 in paired _s library.
+viking headquarters house: logic 1; GfxHouse 27; level 0; BOB 44; data\engine2d\bin\bobs\ls_houses_viking4.bmd; shadow BOB 44 in paired _s library.
+
+HQ has TWO native definitions: 'viking headquarters' (21) and 'viking headquarters house' (27), both logic 1. Their scenario-specific selection remains unresolved; neither is renamed or collapsed.
+Mill animation: inactive overlay BOB 76; active ordered sequence 85,84,83,82,81,80,79,78,77,76,88,87,86. Raw timing/lane fields and all effects/doors are retained in per-definition JSON. Farm occupied-door frame is 66. A finished base frame is not a complete animated building presentation.
+
+SHADOW MAPPING
+The selected 11 level rows have a same-numbered frame in their explicitly paired shadow library, all pixel kind 2. This is checked against actual BMD descriptors, not inferred solely from filenames. Native kind 2 darkens existing destination pixels and has no source color; a fixed-alpha shadow PNG is not claimed to be exact. Shadow export/composition is not included in this checkpoint sample.
+
+CONSTRUCTION-STAGE MAPPING
+Native GfxBobConstructionLayer tuple is retained verbatim: [level, extension flag, body BOB, auxiliary BOB, start %, end %]. The auxiliary BOB must not be called a shadow merely because a reconstructed member is named shadowBobId: production notes identify these as normal-library palette overlays, with exact role still partial.
+Farm level 0 layers: [0,0,62,-1,12,74], [0,0,61,-1,0,64], [0,0,60,65,21,100].
+Mill level 0: [0,0,72,75,9,81], [0,0,71,-1,0,73], [0,0,70,-1,26,100].
+Home, Bakery and both HQ layer lists are in houses.csv and Metadata\Houses\gfx_<id>.json. Construction is a progress-dependent reveal/composite, not just an ordered slideshow. Upgrade flag 1 is distinct from new-building flag 0. No construction render is labelled verified.
+
+EXPORTER STATUS
+Checkpoint-only Python orchestrator with a compiled C++ frame helper. Reuses existing LIB/CIF/BMD readers and production body drawing. Not a complete asset_exporter.exe CLI; category/all-game/house-filter commands are not implemented. Scripts and helper are saved in Metadata\Exporter for reproducibility. They depend on the existing E:\cultures RE tools and source.
+Sample: Vikings\Buildings\Farm\level_0\main\frame_000060.png, 129 x 150 RGBA, pivot (62,106), 13,954 drawn pixels, native house01/haus01.pcx palette. Pixel alpha is 255 on drawn runs and 0 in untouched transparent areas. No palette changes/upscaling. Lighting, shadow, occupied door and effects are not baked into the base-frame export.
+Metadata: Vikings\Buildings\Farm\level_0\metadata.json.
+
+CATALOG FILES CREATED
+Catalogs\archive_index.csv — 2,691 entries, required archive columns.
+Catalogs\file_inventory.csv — physical DataX files plus original EXEs; size, magic, hashes.
+Catalogs\houses.csv — 11 level rows across 6 native definitions.
+Catalogs\asset_cross_reference.csv — required master columns, restricted to first checkpoint.
+Metadata\Houses — six native definition JSON files, complete original command lists.
+Metadata\Evidence — decoded native definition/localization text and source hash manifests.
+Metadata\bmd_format.md; FIRST_CHECKPOINT_REPORT.txt; index.html.
+
+ORIGINAL FILES MODIFIED: NONE
+SHA-256 before/after export matched for 126 source files (all discovered DataX files and original EXEs). Reconstruction gameplay/AI/renderer sources were not edited.
+
+VALIDATION
+Production build succeeded. Four focused existing tests passed: bob_compositor, gfxhouse_registry_layout, gfxhouse_door_offset_initialization, mounted_library_file. PNG successfully opened for inspection; this is not an original-game visual PASS. Full baseline test run was also initiated; status is recorded separately in validation_status.txt. The old handoff's 308-test count is stale; current suite contains 826 tests.
+
+UNKNOWN / BLOCKERS
+Original Game.exe comparison of tribe, orientation, level, animation, construction, pivot and shadow is pending. All building confidence remains PARTIAL. Exact scenario choice between the HQ definitions remains unresolved. Dynamic palette shading, full Editor preview route, construction auxiliary-layer semantics, full animation exports and all-game coverage remain outside the completed checkpoint. No invented building levels or fake mappings.
+
+NEXT STEP AFTER APPROVAL
+Compare the Farm sample with the original game, including pivot/shadow and construction progress. Then complete the five requested buildings' layered exports before expanding beyond Vikings. Stopping here as requested; no whole-game extraction.
+
+FINAL VALIDATION STATUS
+Production build: PASS.
+Focused tests: 4/4 PASS (bob_compositor, gfxhouse_registry_layout, gfxhouse_door_offset_initialization, mounted_library_file).
+Full suite: INCOMPLETE, deliberately stopped this session's ctest process and descendants. Current suite has 826 tests; unrelated existing test run in the shared build was left running. No full-suite PASS claimed.
+Original in-game visual comparison: PENDING.
+Reconstruction source edits: NONE.
+
+Final source hash recheck after test shutdown: all 126 files unchanged.

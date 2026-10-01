@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2500,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\axe03.wav",
+  "offset": 178051554,
+  "size": 10264,
+  "sha256": "d82da2fb35b6b4579b76071b5386ef9c065ba01bbe509ba3f3046d884a1832a8"
+ },
+ "output": "Audio/static/axe03.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 10206,
+  "durationSeconds": 0.231,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 30,
+   "name": "Woodcutter Axe",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 9,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 30,
+   "name": "Woodcutter Axe",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 9,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Production/actions (folder static)",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

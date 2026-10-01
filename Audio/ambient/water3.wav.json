@@ -1,0 +1,59 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2613,
+  "entryName": "data\\engine2d\\bin\\sounds\\ambient\\water3.wav",
+  "offset": 145551458,
+  "size": 781762,
+  "sha256": "8e7592e0e5f25ddcd8701bb1d0d2ca93c7bfd8244405ae6105d19c9885d8bda9"
+ },
+ "output": "Audio/ambient/water3.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 781704,
+  "durationSeconds": 17.726,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 2,
+   "name": "Water See",
+   "parameters": [
+    0,
+    0,
+    0
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": "water 2x2",
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 2,
+   "name": "Water See",
+   "parameters": [
+    0,
+    0,
+    0
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": "water 2x2",
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Ambient",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

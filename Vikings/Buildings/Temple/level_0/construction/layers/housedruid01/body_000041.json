@@ -1,0 +1,63 @@
+{
+  "bobId": 41,
+  "descriptor": {
+    "bobId": 41,
+    "frameIndex": 41,
+    "kind": 4,
+    "x": -144,
+    "y": -208,
+    "width": 314,
+    "height": 305,
+    "firstScanline": 9975
+  },
+  "pivot": [
+    144,
+    208
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 945,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+    "offset": 108381429,
+    "size": 2586720,
+    "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+  },
+  "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+  "role": "body",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "housedruid01",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 2083,
+    "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_druid.pcx",
+    "offset": 132804588,
+    "size": 901,
+    "sha256": "68019699a23e8dac0dd2a76d033cbb308055043d1f7f50e4cadd1d09d701aead"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "housedruid01"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\landscapes\\haus_druid.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+  "path": "Vikings/Buildings/Temple/level_0/construction/layers/housedruid01/body_000041.png",
+  "pixelSha256": "ee027a721e6705e24c0161bb801f6ed73487f69abf7fed64b635c79b55c824c6"
+}

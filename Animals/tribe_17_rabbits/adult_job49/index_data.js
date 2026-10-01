@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../../", "crumbs": [["Home", "index.html"], ["Animals", "Animals/index.html"], ["tribe_17_rabbits", ""], ["adult_job49", ""]], "prev": ["Young Animal", "Animals/tribe_17_rabbits/young_job48/index.html"], "next": ["Young Animal", "Animals/tribe_18_evil_hares/young_job48/index.html"]};

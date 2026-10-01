@@ -1,0 +1,363 @@
+{
+ "gfxLandscapeId": 198,
+ "nativeName": "food extra pile 01",
+ "editGroups": [
+  [
+   "goods all",
+   "good piles all"
+  ]
+ ],
+ "logicType": 40,
+ "logicTypeName": "food_extra",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     40
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "food_extra"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     40,
+     2,
+     -1,
+     17
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     40,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 17,
+   "goodName": "food_extra",
+   "english": "Cake",
+   "field": "landscapetype"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\test_piles_s.bmd",
+ "palettes": [
+  "goods_bow"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   4,
+   "food extra pile 01"
+  ],
+  [
+   3,
+   "food extra pile 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "food extra pile 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all",
+     "good piles all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     40
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\test_piles_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_bow"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     124
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     123
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     122
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     121
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     120
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "food extra pile 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "food extra pile 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 124,
+     "width": 36,
+     "height": 23,
+     "pivot": [
+      19,
+      11
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000124.png",
+     "kind4Secondary": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000124__kind4_secondary.png"
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 123,
+     "width": 36,
+     "height": 23,
+     "pivot": [
+      19,
+      11
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000123.png",
+     "kind4Secondary": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000123__kind4_secondary.png"
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 122,
+     "width": 24,
+     "height": 22,
+     "pivot": [
+      19,
+      10
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000122.png",
+     "kind4Secondary": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000122__kind4_secondary.png"
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 121,
+     "width": 24,
+     "height": 14,
+     "pivot": [
+      19,
+      10
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000121.png",
+     "kind4Secondary": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000121__kind4_secondary.png"
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 120,
+     "width": 12,
+     "height": 10,
+     "pivot": [
+      7,
+      10
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000120.png",
+     "kind4Secondary": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000120__kind4_secondary.png"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_17_food_extra/piles/198_food_extra_pile_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

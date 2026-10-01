@@ -1,0 +1,71 @@
+{
+  "idleBase": [
+    {
+      "bobId": 91,
+      "descriptor": {
+        "bobId": 91,
+        "frameIndex": 91,
+        "kind": 4,
+        "x": -31,
+        "y": -69,
+        "width": 64,
+        "height": 89,
+        "firstScanline": 9271
+      },
+      "pivot": [
+        31,
+        69
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 245,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking.bmd",
+        "offset": 102590742,
+        "size": 2236731,
+        "sha256": "ac0a21d26e4f538c6a72c8290ea4120800cce8bead1cfae488e71e764259760a"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1905,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+        "offset": 132800083,
+        "size": 901,
+        "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Hive/level_0/main/frame_000091.png",
+      "pixelSha256": "1d83572aafb02eab6b906d51998b4e7d2e8024aacb415dde2a2f6cd336890ff4"
+    }
+  ],
+  "doorFrames": [],
+  "doorPredicate": "House door scan 0x00495B57, 0x0042C214/0x0042C392, Human 0x00441AAD checks +0xB50/+0xB51. Not equivalent to any Farmer assignment or production state.",
+  "working": "See native overlay state lanes; no fabricated unique working sprite",
+  "confidence": "PARTIAL"
+}

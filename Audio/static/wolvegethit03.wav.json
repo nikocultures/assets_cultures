@@ -1,0 +1,63 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1117,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\wolvegethit03.wav",
+  "offset": 187671976,
+  "size": 44960,
+  "sha256": "80d3d80d6c1322f47e8b222e6fa1609321e3e23ebdfa776897237b1851d8ad93"
+ },
+ "output": "Audio/static/wolvegethit03.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 44902,
+  "durationSeconds": 1.018,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 122,
+   "name": "Wolve Get Hit",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 106,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 122,
+   "name": "Wolve Get Hit",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 106,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [
+  {
+   "tribe": 6,
+   "use": "scream",
+   "arguments": [
+    2
+   ]
+  }
+ ],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

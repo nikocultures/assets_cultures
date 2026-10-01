@@ -1,0 +1,390 @@
+{
+ "gfxLandscapeId": 201,
+ "nativeName": "tiles pile 01",
+ "editGroups": [
+  [
+   "goods all",
+   "good piles all",
+   "good piles build"
+  ]
+ ],
+ "logicType": 51,
+ "logicTypeName": "tile",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     51
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "tile"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     51,
+     2,
+     -1,
+     25
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     51,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 25,
+   "goodName": "tile",
+   "english": "Tile",
+   "field": "landscapetype"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd",
+ "palettes": [
+  "goods_clay"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "tiles pile 01"
+  ],
+  [
+   4,
+   "tiles pile 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "tiles pile 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all",
+     "good piles all",
+     "good piles build"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     51
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_clay"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     59
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     58
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     57
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     56
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     55
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "tiles pile 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "tiles pile 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 59,
+     "width": 45,
+     "height": 29,
+     "pivot": [
+      22,
+      16
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000059.png",
+     "kind4Secondary": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000059__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000059__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 58,
+     "width": 45,
+     "height": 27,
+     "pivot": [
+      22,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000058.png",
+     "kind4Secondary": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000058__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000058__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 57,
+     "width": 45,
+     "height": 27,
+     "pivot": [
+      22,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000057.png",
+     "kind4Secondary": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000057__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000057__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 56,
+     "width": 45,
+     "height": 21,
+     "pivot": [
+      22,
+      8
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000056.png",
+     "kind4Secondary": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000056__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000056__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 55,
+     "width": 26,
+     "height": 14,
+     "pivot": [
+      3,
+      1
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000055.png",
+     "kind4Secondary": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000055__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000055__shadow_mask.png",
+     "shadowPivot": [
+      1,
+      -1
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

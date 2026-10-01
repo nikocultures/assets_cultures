@@ -1,0 +1,1836 @@
+{
+ "particleId": 12,
+ "nativeName": "stork",
+ "library": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+ "palette": "cattle01",
+ "definition": {
+  "section": "particel",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "stork"
+    ]
+   },
+   {
+    "name": "palette",
+    "arguments": [
+     "cattle01"
+    ]
+   },
+   {
+    "name": "bobmanager",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_smoke.bmd"
+    ]
+   },
+   {
+    "name": "maxvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     0,
+     293,
+     294,
+     295,
+     296,
+     297,
+     298,
+     299,
+     300,
+     301,
+     302,
+     303,
+     304,
+     305,
+     306,
+     307,
+     308,
+     309,
+     310,
+     311,
+     312,
+     313,
+     314,
+     315,
+     316,
+     317,
+     318,
+     319,
+     320,
+     321,
+     322,
+     323,
+     324,
+     325,
+     326,
+     327,
+     328,
+     329,
+     330,
+     331,
+     332,
+     333,
+     334,
+     335,
+     336,
+     337,
+     338,
+     339,
+     340,
+     341,
+     342,
+     343,
+     344,
+     345,
+     346,
+     347,
+     348,
+     349,
+     350,
+     351,
+     352,
+     353,
+     354,
+     355,
+     356,
+     357,
+     358,
+     359,
+     360,
+     361,
+     362,
+     363,
+     364,
+     365,
+     366,
+     367,
+     368,
+     369,
+     370,
+     371,
+     372,
+     373,
+     374,
+     375,
+     376,
+     377,
+     378,
+     379,
+     380,
+     381,
+     382,
+     383,
+     384,
+     385,
+     386,
+     387,
+     388,
+     389,
+     390,
+     391,
+     392,
+     393,
+     394,
+     395,
+     396,
+     397,
+     398,
+     399,
+     400,
+     401,
+     402,
+     403,
+     404,
+     405,
+     406,
+     407,
+     408,
+     409,
+     410,
+     411,
+     412,
+     413,
+     414,
+     415,
+     416,
+     417,
+     418,
+     419,
+     420,
+     421,
+     422,
+     423,
+     424,
+     425
+    ]
+   },
+   {
+    "name": "bobtype",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2238,
+  "entryName": "data\\engine2d\\inis\\particel\\particel.cif",
+  "offset": 195245533,
+  "size": 6354,
+  "sha256": "3a0829ad1b452cec93cac5aa93adeb0aa73d920bb015124dffbbc3edde3a5b74"
+ },
+ "generators": [],
+ "particleEffects": [
+  {
+   "section": "particeleffect",
+   "commands": [
+    {
+     "name": "logictype",
+     "arguments": [
+      6
+     ]
+    },
+    {
+     "name": "particelname",
+     "arguments": [
+      "stork"
+     ]
+    },
+    {
+     "name": "movement",
+     "arguments": [
+      0
+     ]
+    },
+    {
+     "name": "usemapheights",
+     "arguments": [
+      1
+     ]
+    },
+    {
+     "name": "pixeloffset",
+     "arguments": [
+      0,
+      20
+     ]
+    }
+   ]
+  }
+ ],
+ "valencies": [
+  {
+   "valency": 0,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0293__cattle01.png",
+     "kind": 1,
+     "width": 27,
+     "height": 37,
+     "pivot": [
+      -387,
+      395
+     ],
+     "bobId": 293,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0294__cattle01.png",
+     "kind": 1,
+     "width": 33,
+     "height": 44,
+     "pivot": [
+      -381,
+      393
+     ],
+     "bobId": 294,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0295__cattle01.png",
+     "kind": 1,
+     "width": 38,
+     "height": 49,
+     "pivot": [
+      -376,
+      389
+     ],
+     "bobId": 295,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0296__cattle01.png",
+     "kind": 1,
+     "width": 44,
+     "height": 52,
+     "pivot": [
+      -370,
+      383
+     ],
+     "bobId": 296,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0297__cattle01.png",
+     "kind": 1,
+     "width": 48,
+     "height": 56,
+     "pivot": [
+      -365,
+      378
+     ],
+     "bobId": 297,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0298__cattle01.png",
+     "kind": 1,
+     "width": 47,
+     "height": 56,
+     "pivot": [
+      -359,
+      369
+     ],
+     "bobId": 298,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0299__cattle01.png",
+     "kind": 1,
+     "width": 46,
+     "height": 56,
+     "pivot": [
+      -354,
+      361
+     ],
+     "bobId": 299,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0300__cattle01.png",
+     "kind": 1,
+     "width": 45,
+     "height": 55,
+     "pivot": [
+      -348,
+      352
+     ],
+     "bobId": 300,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0301__cattle01.png",
+     "kind": 1,
+     "width": 45,
+     "height": 55,
+     "pivot": [
+      -342,
+      344
+     ],
+     "bobId": 301,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0302__cattle01.png",
+     "kind": 1,
+     "width": 46,
+     "height": 54,
+     "pivot": [
+      -336,
+      336
+     ],
+     "bobId": 302,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0303__cattle01.png",
+     "kind": 1,
+     "width": 48,
+     "height": 54,
+     "pivot": [
+      -330,
+      328
+     ],
+     "bobId": 303,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0304__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 54,
+     "pivot": [
+      -324,
+      321
+     ],
+     "bobId": 304,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0305__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 53,
+     "pivot": [
+      -318,
+      313
+     ],
+     "bobId": 305,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0306__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 52,
+     "pivot": [
+      -312,
+      306
+     ],
+     "bobId": 306,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0307__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 53,
+     "pivot": [
+      -306,
+      300
+     ],
+     "bobId": 307,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0308__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 52,
+     "pivot": [
+      -300,
+      293
+     ],
+     "bobId": 308,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0309__cattle01.png",
+     "kind": 1,
+     "width": 49,
+     "height": 51,
+     "pivot": [
+      -294,
+      286
+     ],
+     "bobId": 309,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0310__cattle01.png",
+     "kind": 1,
+     "width": 49,
+     "height": 51,
+     "pivot": [
+      -288,
+      280
+     ],
+     "bobId": 310,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0311__cattle01.png",
+     "kind": 1,
+     "width": 49,
+     "height": 50,
+     "pivot": [
+      -281,
+      274
+     ],
+     "bobId": 311,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0312__cattle01.png",
+     "kind": 1,
+     "width": 49,
+     "height": 51,
+     "pivot": [
+      -275,
+      269
+     ],
+     "bobId": 312,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0313__cattle01.png",
+     "kind": 1,
+     "width": 49,
+     "height": 50,
+     "pivot": [
+      -270,
+      262
+     ],
+     "bobId": 313,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0314__cattle01.png",
+     "kind": 1,
+     "width": 48,
+     "height": 50,
+     "pivot": [
+      -265,
+      255
+     ],
+     "bobId": 314,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0315__cattle01.png",
+     "kind": 1,
+     "width": 47,
+     "height": 50,
+     "pivot": [
+      -260,
+      249
+     ],
+     "bobId": 315,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0316__cattle01.png",
+     "kind": 1,
+     "width": 47,
+     "height": 49,
+     "pivot": [
+      -255,
+      242
+     ],
+     "bobId": 316,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0317__cattle01.png",
+     "kind": 1,
+     "width": 47,
+     "height": 48,
+     "pivot": [
+      -249,
+      236
+     ],
+     "bobId": 317,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0318__cattle01.png",
+     "kind": 1,
+     "width": 47,
+     "height": 49,
+     "pivot": [
+      -244,
+      231
+     ],
+     "bobId": 318,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0319__cattle01.png",
+     "kind": 1,
+     "width": 47,
+     "height": 50,
+     "pivot": [
+      -238,
+      227
+     ],
+     "bobId": 319,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0320__cattle01.png",
+     "kind": 1,
+     "width": 47,
+     "height": 50,
+     "pivot": [
+      -233,
+      222
+     ],
+     "bobId": 320,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0321__cattle01.png",
+     "kind": 1,
+     "width": 47,
+     "height": 49,
+     "pivot": [
+      -227,
+      216
+     ],
+     "bobId": 321,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0322__cattle01.png",
+     "kind": 1,
+     "width": 47,
+     "height": 47,
+     "pivot": [
+      -222,
+      209
+     ],
+     "bobId": 322,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0323__cattle01.png",
+     "kind": 1,
+     "width": 49,
+     "height": 45,
+     "pivot": [
+      -216,
+      203
+     ],
+     "bobId": 323,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0324__cattle01.png",
+     "kind": 1,
+     "width": 48,
+     "height": 46,
+     "pivot": [
+      -211,
+      199
+     ],
+     "bobId": 324,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0325__cattle01.png",
+     "kind": 1,
+     "width": 49,
+     "height": 45,
+     "pivot": [
+      -205,
+      194
+     ],
+     "bobId": 325,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0326__cattle01.png",
+     "kind": 1,
+     "width": 49,
+     "height": 44,
+     "pivot": [
+      -199,
+      190
+     ],
+     "bobId": 326,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0327__cattle01.png",
+     "kind": 1,
+     "width": 49,
+     "height": 44,
+     "pivot": [
+      -193,
+      186
+     ],
+     "bobId": 327,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0328__cattle01.png",
+     "kind": 1,
+     "width": 49,
+     "height": 43,
+     "pivot": [
+      -187,
+      182
+     ],
+     "bobId": 328,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0329__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 43,
+     "pivot": [
+      -181,
+      179
+     ],
+     "bobId": 329,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0330__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 42,
+     "pivot": [
+      -175,
+      175
+     ],
+     "bobId": 330,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0331__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 42,
+     "pivot": [
+      -170,
+      172
+     ],
+     "bobId": 331,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0332__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 41,
+     "pivot": [
+      -165,
+      167
+     ],
+     "bobId": 332,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0333__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 41,
+     "pivot": [
+      -160,
+      163
+     ],
+     "bobId": 333,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0334__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 42,
+     "pivot": [
+      -154,
+      160
+     ],
+     "bobId": 334,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0335__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 42,
+     "pivot": [
+      -149,
+      156
+     ],
+     "bobId": 335,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0336__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 43,
+     "pivot": [
+      -144,
+      154
+     ],
+     "bobId": 336,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0337__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 45,
+     "pivot": [
+      -139,
+      153
+     ],
+     "bobId": 337,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0338__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 46,
+     "pivot": [
+      -133,
+      151
+     ],
+     "bobId": 338,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0339__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 46,
+     "pivot": [
+      -128,
+      148
+     ],
+     "bobId": 339,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0340__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 44,
+     "pivot": [
+      -123,
+      144
+     ],
+     "bobId": 340,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0341__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 43,
+     "pivot": [
+      -117,
+      140
+     ],
+     "bobId": 341,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0342__cattle01.png",
+     "kind": 1,
+     "width": 50,
+     "height": 39,
+     "pivot": [
+      -112,
+      134
+     ],
+     "bobId": 342,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0343__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 39,
+     "pivot": [
+      -106,
+      132
+     ],
+     "bobId": 343,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0344__cattle01.png",
+     "kind": 1,
+     "width": 52,
+     "height": 37,
+     "pivot": [
+      -100,
+      129
+     ],
+     "bobId": 344,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0345__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 37,
+     "pivot": [
+      -95,
+      127
+     ],
+     "bobId": 345,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0346__cattle01.png",
+     "kind": 1,
+     "width": 52,
+     "height": 36,
+     "pivot": [
+      -89,
+      125
+     ],
+     "bobId": 346,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0347__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 36,
+     "pivot": [
+      -83,
+      124
+     ],
+     "bobId": 347,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0348__cattle01.png",
+     "kind": 1,
+     "width": 52,
+     "height": 34,
+     "pivot": [
+      -78,
+      122
+     ],
+     "bobId": 348,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0349__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 33,
+     "pivot": [
+      -72,
+      120
+     ],
+     "bobId": 349,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0350__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 32,
+     "pivot": [
+      -66,
+      119
+     ],
+     "bobId": 350,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0351__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 31,
+     "pivot": [
+      -61,
+      116
+     ],
+     "bobId": 351,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0352__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 35,
+     "pivot": [
+      -56,
+      118
+     ],
+     "bobId": 352,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0353__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 37,
+     "pivot": [
+      -50,
+      118
+     ],
+     "bobId": 353,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0354__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 37,
+     "pivot": [
+      -45,
+      117
+     ],
+     "bobId": 354,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0355__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 38,
+     "pivot": [
+      -40,
+      117
+     ],
+     "bobId": 355,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0356__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 40,
+     "pivot": [
+      -34,
+      118
+     ],
+     "bobId": 356,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0357__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 41,
+     "pivot": [
+      -29,
+      118
+     ],
+     "bobId": 357,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0358__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 40,
+     "pivot": [
+      -23,
+      117
+     ],
+     "bobId": 358,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0359__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 38,
+     "pivot": [
+      -17,
+      115
+     ],
+     "bobId": 359,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0360__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 35,
+     "pivot": [
+      -12,
+      112
+     ],
+     "bobId": 360,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0361__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 33,
+     "pivot": [
+      -6,
+      110
+     ],
+     "bobId": 361,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0362__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 32,
+     "pivot": [
+      0,
+      109
+     ],
+     "bobId": 362,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0363__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 31,
+     "pivot": [
+      5,
+      109
+     ],
+     "bobId": 363,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0364__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 30,
+     "pivot": [
+      11,
+      109
+     ],
+     "bobId": 364,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0365__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 30,
+     "pivot": [
+      15,
+      109
+     ],
+     "bobId": 365,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0366__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 31,
+     "pivot": [
+      21,
+      110
+     ],
+     "bobId": 366,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0367__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 31,
+     "pivot": [
+      28,
+      110
+     ],
+     "bobId": 367,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0368__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 31,
+     "pivot": [
+      34,
+      111
+     ],
+     "bobId": 368,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0369__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 30,
+     "pivot": [
+      39,
+      111
+     ],
+     "bobId": 369,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0370__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 29,
+     "pivot": [
+      44,
+      113
+     ],
+     "bobId": 370,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0371__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 29,
+     "pivot": [
+      51,
+      117
+     ],
+     "bobId": 371,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0372__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 28,
+     "pivot": [
+      57,
+      119
+     ],
+     "bobId": 372,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0373__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 27,
+     "pivot": [
+      63,
+      121
+     ],
+     "bobId": 373,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0374__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 25,
+     "pivot": [
+      68,
+      122
+     ],
+     "bobId": 374,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0375__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 25,
+     "pivot": [
+      75,
+      125
+     ],
+     "bobId": 375,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0376__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 25,
+     "pivot": [
+      80,
+      127
+     ],
+     "bobId": 376,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0377__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 26,
+     "pivot": [
+      86,
+      129
+     ],
+     "bobId": 377,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0378__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 26,
+     "pivot": [
+      92,
+      129
+     ],
+     "bobId": 378,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0379__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 25,
+     "pivot": [
+      99,
+      128
+     ],
+     "bobId": 379,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0380__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 26,
+     "pivot": [
+      105,
+      129
+     ],
+     "bobId": 380,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0381__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 30,
+     "pivot": [
+      110,
+      132
+     ],
+     "bobId": 381,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0382__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 31,
+     "pivot": [
+      117,
+      134
+     ],
+     "bobId": 382,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0383__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 31,
+     "pivot": [
+      123,
+      136
+     ],
+     "bobId": 383,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0384__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 32,
+     "pivot": [
+      129,
+      139
+     ],
+     "bobId": 384,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0385__cattle01.png",
+     "kind": 1,
+     "width": 56,
+     "height": 34,
+     "pivot": [
+      136,
+      143
+     ],
+     "bobId": 385,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0386__cattle01.png",
+     "kind": 1,
+     "width": 56,
+     "height": 35,
+     "pivot": [
+      142,
+      147
+     ],
+     "bobId": 386,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0387__cattle01.png",
+     "kind": 1,
+     "width": 56,
+     "height": 36,
+     "pivot": [
+      148,
+      151
+     ],
+     "bobId": 387,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0388__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 38,
+     "pivot": [
+      153,
+      157
+     ],
+     "bobId": 388,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0389__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 34,
+     "pivot": [
+      160,
+      160
+     ],
+     "bobId": 389,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0390__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 31,
+     "pivot": [
+      166,
+      162
+     ],
+     "bobId": 390,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0391__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 30,
+     "pivot": [
+      173,
+      167
+     ],
+     "bobId": 391,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0392__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 28,
+     "pivot": [
+      180,
+      171
+     ],
+     "bobId": 392,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0393__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 26,
+     "pivot": [
+      187,
+      175
+     ],
+     "bobId": 393,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0394__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 26,
+     "pivot": [
+      193,
+      180
+     ],
+     "bobId": 394,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0395__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 24,
+     "pivot": [
+      201,
+      184
+     ],
+     "bobId": 395,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0396__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 24,
+     "pivot": [
+      208,
+      188
+     ],
+     "bobId": 396,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0397__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 25,
+     "pivot": [
+      215,
+      192
+     ],
+     "bobId": 397,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0398__cattle01.png",
+     "kind": 1,
+     "width": 55,
+     "height": 28,
+     "pivot": [
+      222,
+      197
+     ],
+     "bobId": 398,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0399__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 32,
+     "pivot": [
+      228,
+      203
+     ],
+     "bobId": 399,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0400__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 34,
+     "pivot": [
+      235,
+      208
+     ],
+     "bobId": 400,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0401__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 36,
+     "pivot": [
+      242,
+      214
+     ],
+     "bobId": 401,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0402__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 39,
+     "pivot": [
+      249,
+      221
+     ],
+     "bobId": 402,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0403__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 41,
+     "pivot": [
+      256,
+      228
+     ],
+     "bobId": 403,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0404__cattle01.png",
+     "kind": 1,
+     "width": 54,
+     "height": 43,
+     "pivot": [
+      263,
+      236
+     ],
+     "bobId": 404,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0405__cattle01.png",
+     "kind": 1,
+     "width": 53,
+     "height": 45,
+     "pivot": [
+      269,
+      244
+     ],
+     "bobId": 405,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0406__cattle01.png",
+     "kind": 1,
+     "width": 52,
+     "height": 47,
+     "pivot": [
+      275,
+      253
+     ],
+     "bobId": 406,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0407__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 50,
+     "pivot": [
+      281,
+      263
+     ],
+     "bobId": 407,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0408__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 46,
+     "pivot": [
+      289,
+      268
+     ],
+     "bobId": 408,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0409__cattle01.png",
+     "kind": 1,
+     "width": 52,
+     "height": 43,
+     "pivot": [
+      298,
+      275
+     ],
+     "bobId": 409,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0410__cattle01.png",
+     "kind": 1,
+     "width": 52,
+     "height": 40,
+     "pivot": [
+      306,
+      281
+     ],
+     "bobId": 410,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0411__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 38,
+     "pivot": [
+      314,
+      288
+     ],
+     "bobId": 411,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0412__cattle01.png",
+     "kind": 1,
+     "width": 52,
+     "height": 40,
+     "pivot": [
+      323,
+      296
+     ],
+     "bobId": 412,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0413__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 40,
+     "pivot": [
+      331,
+      304
+     ],
+     "bobId": 413,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0414__cattle01.png",
+     "kind": 1,
+     "width": 52,
+     "height": 41,
+     "pivot": [
+      340,
+      312
+     ],
+     "bobId": 414,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0415__cattle01.png",
+     "kind": 1,
+     "width": 52,
+     "height": 41,
+     "pivot": [
+      348,
+      320
+     ],
+     "bobId": 415,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0416__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 42,
+     "pivot": [
+      356,
+      329
+     ],
+     "bobId": 416,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0417__cattle01.png",
+     "kind": 1,
+     "width": 52,
+     "height": 43,
+     "pivot": [
+      365,
+      338
+     ],
+     "bobId": 417,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0418__cattle01.png",
+     "kind": 1,
+     "width": 51,
+     "height": 43,
+     "pivot": [
+      373,
+      347
+     ],
+     "bobId": 418,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0419__cattle01.png",
+     "kind": 1,
+     "width": 52,
+     "height": 46,
+     "pivot": [
+      382,
+      357
+     ],
+     "bobId": 419,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0420__cattle01.png",
+     "kind": 1,
+     "width": 46,
+     "height": 47,
+     "pivot": [
+      385,
+      365
+     ],
+     "bobId": 420,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0421__cattle01.png",
+     "kind": 1,
+     "width": 36,
+     "height": 43,
+     "pivot": [
+      383,
+      370
+     ],
+     "bobId": 421,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0422__cattle01.png",
+     "kind": 1,
+     "width": 30,
+     "height": 40,
+     "pivot": [
+      386,
+      377
+     ],
+     "bobId": 422,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0423__cattle01.png",
+     "kind": 1,
+     "width": 22,
+     "height": 29,
+     "pivot": [
+      386,
+      380
+     ],
+     "bobId": 423,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0424__cattle01.png",
+     "kind": 1,
+     "width": 14,
+     "height": 25,
+     "pivot": [
+      386,
+      386
+     ],
+     "bobId": 424,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/12_stork/bob_0425__cattle01.png",
+     "kind": 1,
+     "width": 5,
+     "height": 7,
+     "pivot": [
+      386,
+      380
+     ],
+     "bobId": 425,
+     "status": "RENDERED"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: bobtype 0 blending, movement, lifetime and wind are runtime"
+ }
+}

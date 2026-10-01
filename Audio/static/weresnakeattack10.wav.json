@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2478,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\weresnakeattack10.wav",
+  "offset": 186795334,
+  "size": 42920,
+  "sha256": "88fd2aa617c1ffec3e18958d62f3a33fc6703b9c1d9a7211f51bf825bba9dfd9"
+ },
+ "output": "Audio/static/weresnakeattack10.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 42862,
+  "durationSeconds": 0.972,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 113,
+   "name": "Weresnake Attack Both Claws",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 66,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 113,
+   "name": "Weresnake Attack Both Claws",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 66,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Production/actions (folder static)",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

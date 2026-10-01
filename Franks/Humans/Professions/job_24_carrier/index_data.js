@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../../../", "crumbs": [["Home", "index.html"], ["Franks", "Franks/index.html"], ["Humans", "Franks/Humans/index.html"], ["Professions", ""], ["job_24_carrier", ""]], "prev": ["Sea Fisher", "Franks/Humans/Professions/job_23_fisher_sea/index.html"], "next": ["Merchant", "Franks/Humans/Professions/job_25_trader/index.html"]};

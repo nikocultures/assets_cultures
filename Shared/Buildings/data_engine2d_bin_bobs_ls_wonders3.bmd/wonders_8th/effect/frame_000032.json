@@ -1,0 +1,63 @@
+{
+  "bobId": 32,
+  "descriptor": {
+    "bobId": 32,
+    "frameIndex": 32,
+    "kind": 1,
+    "x": 45,
+    "y": -45,
+    "width": 37,
+    "height": 33,
+    "firstScanline": 13522
+  },
+  "pivot": [
+    -45,
+    45
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 2009,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+    "offset": 127653421,
+    "size": 3621890,
+    "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+  },
+  "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+  "role": "effect",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "wonders_8th",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 286,
+    "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_8th.pcx",
+    "offset": 132841532,
+    "size": 901,
+    "sha256": "5d88e46a0f5b4b37c6a009e3d9d25b64ffb048e7a2c087b2b564d3091b70c4ad"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "wonders_8th"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\landscapes\\wonders_8th.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+  "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_wonders3.bmd/wonders_8th/effect/frame_000032.png",
+  "pixelSha256": "1f48b5cd19463e8e463406b29183f4dca0f5b0ae70c49e7307cca87c658c4d19"
+}

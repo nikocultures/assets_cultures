@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../", "title": "Weresnakes", "crumbs": [["Home", "index.html"], ["Other Tribes", "Other Tribes/index.html"], ["Weresnakes", ""]]};

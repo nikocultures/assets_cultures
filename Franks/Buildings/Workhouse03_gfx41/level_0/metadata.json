@@ -1,0 +1,1505 @@
+{
+  "nativeName": "frank workhouse 03",
+  "tribe": "Franks",
+  "logicHouseType": 23,
+  "gfxHouseId": 41,
+  "level": 0,
+  "bodyBob": 16,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_frank_s.bmd",
+  "shadowBob": 16,
+  "paletteAlternatives": [
+    "house01",
+    "house02"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 16,
+      "descriptor": {
+        "bobId": 16,
+        "frameIndex": 16,
+        "kind": 4,
+        "x": -103,
+        "y": -178,
+        "width": 224,
+        "height": 226,
+        "firstScanline": 3778
+      },
+      "pivot": [
+        103,
+        178
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1704,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+        "offset": 96651918,
+        "size": 3342700,
+        "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1905,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+        "offset": 132800083,
+        "size": 901,
+        "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/main/frame_000016.png",
+      "pixelSha256": "25f7c13082e2866d2c47ba38ece27233b251be0822c94f1d5f89c48c194f75bf"
+    },
+    {
+      "bobId": 16,
+      "descriptor": {
+        "bobId": 16,
+        "frameIndex": 16,
+        "kind": 4,
+        "x": -103,
+        "y": -178,
+        "width": 224,
+        "height": 226,
+        "firstScanline": 3778
+      },
+      "pivot": [
+        103,
+        178
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1704,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+        "offset": 96651918,
+        "size": 3342700,
+        "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/main/palette_house02/frame_000016.png",
+      "pixelSha256": "8cfffd530dee8c511e38a5c526dd32370c64c24b66dc13d9740443e031c65639"
+    }
+  ],
+  "constructionLayers": [
+    [
+      0,
+      0,
+      18,
+      -1,
+      0,
+      69
+    ],
+    [
+      0,
+      0,
+      19,
+      -1,
+      0,
+      100
+    ],
+    [
+      0,
+      0,
+      16,
+      17,
+      35,
+      100
+    ]
+  ],
+  "doors": [
+    [
+      0,
+      1,
+      66
+    ]
+  ],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [
+      [
+        0,
+        -35,
+        -126
+      ],
+      [
+        0,
+        -11,
+        -116
+      ],
+      [
+        0,
+        -13,
+        -116
+      ],
+      [
+        0,
+        19,
+        -108
+      ],
+      [
+        0,
+        -73,
+        -104
+      ],
+      [
+        0,
+        -41,
+        -88
+      ],
+      [
+        0,
+        -81,
+        -82
+      ],
+      [
+        0,
+        -3,
+        -80
+      ],
+      [
+        0,
+        79,
+        -78
+      ],
+      [
+        0,
+        57,
+        -68
+      ],
+      [
+        0,
+        -51,
+        -68
+      ],
+      [
+        0,
+        39,
+        -58
+      ],
+      [
+        0,
+        19,
+        -52
+      ],
+      [
+        0,
+        85,
+        -50
+      ],
+      [
+        0,
+        -23,
+        -50
+      ],
+      [
+        0,
+        9,
+        -48
+      ],
+      [
+        0,
+        -53,
+        -36
+      ],
+      [
+        0,
+        45,
+        -30
+      ],
+      [
+        0,
+        -1,
+        -16
+      ],
+      [
+        0,
+        85,
+        -10
+      ],
+      [
+        0,
+        -59,
+        -10
+      ],
+      [
+        0,
+        -33,
+        0
+      ],
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        0,
+        87,
+        10
+      ]
+    ],
+    "gfxsmokepoint": [
+      [
+        0,
+        -83,
+        -10,
+        1
+      ],
+      [
+        0,
+        -77,
+        -4,
+        1
+      ],
+      [
+        0,
+        -69,
+        2,
+        1
+      ],
+      [
+        0,
+        121,
+        4,
+        1
+      ],
+      [
+        0,
+        -59,
+        6,
+        1
+      ],
+      [
+        0,
+        -53,
+        14,
+        1
+      ],
+      [
+        0,
+        109,
+        18,
+        1
+      ],
+      [
+        0,
+        -41,
+        24,
+        1
+      ],
+      [
+        0,
+        97,
+        24,
+        1
+      ],
+      [
+        0,
+        39,
+        28,
+        1
+      ],
+      [
+        0,
+        89,
+        30,
+        1
+      ],
+      [
+        0,
+        -29,
+        30,
+        1
+      ],
+      [
+        0,
+        31,
+        32,
+        1
+      ],
+      [
+        0,
+        47,
+        34,
+        1
+      ],
+      [
+        0,
+        -21,
+        36,
+        1
+      ],
+      [
+        0,
+        19,
+        38,
+        1
+      ],
+      [
+        0,
+        57,
+        38,
+        1
+      ],
+      [
+        0,
+        75,
+        38,
+        1
+      ],
+      [
+        0,
+        11,
+        42,
+        1
+      ],
+      [
+        0,
+        -9,
+        44,
+        1
+      ],
+      [
+        0,
+        -3,
+        48,
+        1
+      ],
+      [
+        0,
+        21,
+        -74,
+        0
+      ],
+      [
+        0,
+        25,
+        -72,
+        0
+      ],
+      [
+        0,
+        17,
+        -68,
+        0
+      ],
+      [
+        0,
+        37,
+        -66,
+        0
+      ],
+      [
+        0,
+        5,
+        -62,
+        0
+      ],
+      [
+        0,
+        45,
+        -58,
+        0
+      ],
+      [
+        0,
+        -9,
+        -54,
+        0
+      ],
+      [
+        0,
+        57,
+        -50,
+        0
+      ],
+      [
+        0,
+        -19,
+        -46,
+        0
+      ],
+      [
+        0,
+        65,
+        -44,
+        0
+      ],
+      [
+        0,
+        -27,
+        -42,
+        0
+      ],
+      [
+        0,
+        -23,
+        -42,
+        0
+      ],
+      [
+        0,
+        -41,
+        -36,
+        0
+      ],
+      [
+        0,
+        73,
+        -36,
+        0
+      ],
+      [
+        0,
+        -53,
+        -30,
+        0
+      ],
+      [
+        0,
+        79,
+        -30,
+        0
+      ],
+      [
+        0,
+        -53,
+        -28,
+        0
+      ],
+      [
+        0,
+        -65,
+        -26,
+        0
+      ],
+      [
+        0,
+        -79,
+        -20,
+        0
+      ],
+      [
+        0,
+        87,
+        -20,
+        0
+      ],
+      [
+        0,
+        -73,
+        -20,
+        0
+      ],
+      [
+        0,
+        -81,
+        -14,
+        0
+      ],
+      [
+        0,
+        97,
+        -12,
+        0
+      ]
+    ],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [],
+    "sharedEffects": {
+      "fx fire house 0": "Shared/Effects/fx_fire_house_0/metadata.json",
+      "fx fire house 1": "Shared/Effects/fx_fire_house_1/metadata.json",
+      "fx fire house 2": "Shared/Effects/fx_fire_house_2/metadata.json",
+      "fx smoke": "Shared/Effects/fx_smoke/metadata.json"
+    },
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [
+    "body: data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd BOB 66: KeyError: 66",
+    "body: data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd BOB 66: KeyError: 66"
+  ],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 224,
+  "height": 226,
+  "pivot": [
+    103,
+    178
+  ],
+  "shadow": {
+    "bobId": 16,
+    "descriptor": {
+      "bobId": 16,
+      "frameIndex": 16,
+      "kind": 2,
+      "x": -81,
+      "y": -93,
+      "width": 273,
+      "height": 141,
+      "firstScanline": 735
+    },
+    "pivot": [
+      81,
+      93
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1317,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank_s.bmd",
+      "offset": 99994618,
+      "size": 18265,
+      "sha256": "5458cec60fe2da990f26fd8cfa82025381c339d0e8eed084292ac658488780dd"
+    },
+    "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank_s.bmd/source.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Franks/Buildings/Workhouse03_gfx41/level_0/shadow/coverage_000016.png",
+    "pixelSha256": "021bb8f6c8f575e0e751ed700bfd8a013c8e3f5312382d7b7ca64ed2f63e7a65"
+  },
+  "constructionParts": [
+    {
+      "bobId": 18,
+      "descriptor": {
+        "bobId": 18,
+        "frameIndex": 18,
+        "kind": 4,
+        "x": -93,
+        "y": -178,
+        "width": 204,
+        "height": 177,
+        "firstScanline": 4166
+      },
+      "pivot": [
+        93,
+        178
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1704,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+        "offset": 96651918,
+        "size": 3342700,
+        "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1905,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+        "offset": 132800083,
+        "size": 901,
+        "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/layers/house01/body_000018.png",
+      "pixelSha256": "c6810fcbf81d847edb89fd131b68971804dbcebfc02351715f72c0ff25e2abb3"
+    },
+    {
+      "bobId": 18,
+      "descriptor": {
+        "bobId": 18,
+        "frameIndex": 18,
+        "kind": 4,
+        "x": -93,
+        "y": -178,
+        "width": 204,
+        "height": 177,
+        "firstScanline": 4166
+      },
+      "pivot": [
+        93,
+        178
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1704,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+        "offset": 96651918,
+        "size": 3342700,
+        "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/layers/house02/body_000018.png",
+      "pixelSha256": "c6810fcbf81d847edb89fd131b68971804dbcebfc02351715f72c0ff25e2abb3"
+    },
+    {
+      "bobId": 18,
+      "descriptor": {
+        "bobId": 18,
+        "frameIndex": 18,
+        "kind": 4,
+        "x": -93,
+        "y": -178,
+        "width": 204,
+        "height": 177,
+        "firstScanline": 4166
+      },
+      "pivot": [
+        93,
+        178
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1704,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+        "offset": 96651918,
+        "size": 3342700,
+        "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/layers/reveal_000018.png",
+      "pixelSha256": "f36026ea66fb717a2f070f6d6339ee59c8ca21cad42dc8e52998d9b106c1bb3f"
+    },
+    {
+      "bobId": 19,
+      "descriptor": {
+        "bobId": 19,
+        "frameIndex": 19,
+        "kind": 4,
+        "x": -93,
+        "y": -165,
+        "width": 195,
+        "height": 209,
+        "firstScanline": 4343
+      },
+      "pivot": [
+        93,
+        165
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1704,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+        "offset": 96651918,
+        "size": 3342700,
+        "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1905,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+        "offset": 132800083,
+        "size": 901,
+        "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/layers/house01/body_000019.png",
+      "pixelSha256": "3af9c6a725b770718fe8b03ec5e6b8f9887f413c974045a020fe060b8efae5aa"
+    },
+    {
+      "bobId": 19,
+      "descriptor": {
+        "bobId": 19,
+        "frameIndex": 19,
+        "kind": 4,
+        "x": -93,
+        "y": -165,
+        "width": 195,
+        "height": 209,
+        "firstScanline": 4343
+      },
+      "pivot": [
+        93,
+        165
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1704,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+        "offset": 96651918,
+        "size": 3342700,
+        "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/layers/house02/body_000019.png",
+      "pixelSha256": "3af9c6a725b770718fe8b03ec5e6b8f9887f413c974045a020fe060b8efae5aa"
+    },
+    {
+      "bobId": 19,
+      "descriptor": {
+        "bobId": 19,
+        "frameIndex": 19,
+        "kind": 4,
+        "x": -93,
+        "y": -165,
+        "width": 195,
+        "height": 209,
+        "firstScanline": 4343
+      },
+      "pivot": [
+        93,
+        165
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1704,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+        "offset": 96651918,
+        "size": 3342700,
+        "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/layers/reveal_000019.png",
+      "pixelSha256": "ba464296a5a98f324b65bf8a1839f7cea6b1961c9330824db69adc48b0be0728"
+    },
+    {
+      "bobId": 16,
+      "descriptor": {
+        "bobId": 16,
+        "frameIndex": 16,
+        "kind": 4,
+        "x": -103,
+        "y": -178,
+        "width": 224,
+        "height": 226,
+        "firstScanline": 3778
+      },
+      "pivot": [
+        103,
+        178
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1704,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+        "offset": 96651918,
+        "size": 3342700,
+        "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1905,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+        "offset": 132800083,
+        "size": 901,
+        "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/main/frame_000016.png",
+      "pixelSha256": "25f7c13082e2866d2c47ba38ece27233b251be0822c94f1d5f89c48c194f75bf"
+    },
+    {
+      "bobId": 16,
+      "descriptor": {
+        "bobId": 16,
+        "frameIndex": 16,
+        "kind": 4,
+        "x": -103,
+        "y": -178,
+        "width": 224,
+        "height": 226,
+        "firstScanline": 3778
+      },
+      "pivot": [
+        103,
+        178
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1704,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+        "offset": 96651918,
+        "size": 3342700,
+        "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/main/palette_house02/frame_000016.png",
+      "pixelSha256": "8cfffd530dee8c511e38a5c526dd32370c64c24b66dc13d9740443e031c65639"
+    },
+    {
+      "bobId": 16,
+      "descriptor": {
+        "bobId": 16,
+        "frameIndex": 16,
+        "kind": 4,
+        "x": -103,
+        "y": -178,
+        "width": 224,
+        "height": 226,
+        "firstScanline": 3778
+      },
+      "pivot": [
+        103,
+        178
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1704,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+        "offset": 96651918,
+        "size": 3342700,
+        "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/layers/reveal_000016.png",
+      "pixelSha256": "c8925c0a87a5fd210105979e7269c8bb5bee325bf9d251bb9d390f7af71203dd"
+    },
+    {
+      "bobId": 17,
+      "descriptor": {
+        "bobId": 17,
+        "frameIndex": 17,
+        "kind": 1,
+        "x": -310,
+        "y": -93,
+        "width": 502,
+        "height": 162,
+        "firstScanline": 4004
+      },
+      "pivot": [
+        310,
+        93
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1704,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+        "offset": 96651918,
+        "size": 3342700,
+        "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_frank.bmd/source.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/layers/auxiliary_threshold_000017.png",
+      "pixelSha256": "834a53a10534d45ebac73cd87efe119bb9b9ffccb9c4abf91e5a5068dcf4cd9e"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/progress_000.png",
+      "pivot": [
+        310,
+        178
+      ],
+      "dimensions": [
+        502,
+        247
+      ],
+      "palette": "house01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            18,
+            -1,
+            0,
+            69
+          ],
+          "threshold": 0,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            19,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 0,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/progress_010.png",
+      "pivot": [
+        310,
+        178
+      ],
+      "dimensions": [
+        502,
+        247
+      ],
+      "palette": "house01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            18,
+            -1,
+            0,
+            69
+          ],
+          "threshold": 35,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            19,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 25,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/progress_025.png",
+      "pivot": [
+        310,
+        178
+      ],
+      "dimensions": [
+        502,
+        247
+      ],
+      "palette": "house01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            18,
+            -1,
+            0,
+            69
+          ],
+          "threshold": 91,
+          "bodyPixels": 6868,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            19,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 63,
+          "bodyPixels": 973,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/progress_050.png",
+      "pivot": [
+        310,
+        178
+      ],
+      "dimensions": [
+        502,
+        247
+      ],
+      "palette": "house01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            18,
+            -1,
+            0,
+            69
+          ],
+          "threshold": 183,
+          "bodyPixels": 18645,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            19,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 127,
+          "bodyPixels": 7642,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            16,
+            17,
+            35,
+            100
+          ],
+          "threshold": 58,
+          "bodyPixels": 2943,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/progress_075.png",
+      "pivot": [
+        310,
+        178
+      ],
+      "dimensions": [
+        502,
+        247
+      ],
+      "palette": "house01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            18,
+            -1,
+            0,
+            69
+          ],
+          "threshold": 256,
+          "bodyPixels": 21195,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            19,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 191,
+          "bodyPixels": 17678,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            16,
+            17,
+            35,
+            100
+          ],
+          "threshold": 155,
+          "bodyPixels": 18664,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/progress_100.png",
+      "pivot": [
+        310,
+        178
+      ],
+      "dimensions": [
+        502,
+        247
+      ],
+      "palette": "house01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            18,
+            -1,
+            0,
+            69
+          ],
+          "threshold": 256,
+          "bodyPixels": 21195,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            19,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 20377,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            16,
+            17,
+            35,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 31897,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Franks/Buildings/Workhouse03_gfx41/level_0/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [
+    {
+      "tuple": [
+        0,
+        1,
+        66
+      ],
+      "asset": {
+        "bobId": 66,
+        "source": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 1704,
+          "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+          "offset": 96651918,
+          "size": 3342700,
+          "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+        },
+        "path": null,
+        "descriptor": {},
+        "confidence": "UNKNOWN",
+        "error": "body: data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd BOB 66: KeyError: 66"
+      }
+    },
+    {
+      "tuple": [
+        0,
+        1,
+        66
+      ],
+      "asset": {
+        "bobId": 66,
+        "source": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 1704,
+          "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd",
+          "offset": 96651918,
+          "size": 3342700,
+          "sha256": "248bad98114f00416b653b8d151e8e611dd2bf2cc39e464774485cb4eaa7b6f0"
+        },
+        "path": null,
+        "descriptor": {},
+        "confidence": "UNKNOWN",
+        "error": "body: data\\engine2d\\bin\\bobs\\ls_houses_frank.bmd BOB 66: KeyError: 66"
+      }
+    }
+  ],
+  "sourceAssetExport": "PARTIAL"
+}

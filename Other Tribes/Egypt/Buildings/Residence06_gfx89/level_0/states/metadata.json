@@ -1,0 +1,71 @@
+{
+  "idleBase": [
+    {
+      "bobId": 8,
+      "descriptor": {
+        "bobId": 8,
+        "frameIndex": 8,
+        "kind": 4,
+        "x": -131,
+        "y": -152,
+        "width": 236,
+        "height": 251,
+        "firstScanline": 2420
+      },
+      "pivot": [
+        131,
+        152
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1883,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+        "offset": 95458132,
+        "size": 1181712,
+        "sha256": "aaa9bcceffb393d888c133387f9e022f6064b9c9b9a40876e961030f3140e4d2"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "caves",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1904,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\caves.pcx",
+        "offset": 132782956,
+        "size": 901,
+        "sha256": "e27c2a3eb01c271607490bec6b9d3c4703157e92231b4fc9e83b0b03b7da8a87"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "caves"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\caves.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/main/frame_000008.png",
+      "pixelSha256": "1199aa72c4535d7d89ac6c5bd48a458a0ce60651e64fc85aa11cb5752554a0e3"
+    }
+  ],
+  "doorFrames": [],
+  "doorPredicate": "House door scan 0x00495B57, 0x0042C214/0x0042C392, Human 0x00441AAD checks +0xB50/+0xB51. Not equivalent to any Farmer assignment or production state.",
+  "working": "See native overlay state lanes; no fabricated unique working sprite",
+  "confidence": "PARTIAL"
+}

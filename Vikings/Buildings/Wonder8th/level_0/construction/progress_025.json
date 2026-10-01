@@ -1,0 +1,31 @@
+{
+  "progressPercent": 25,
+  "path": "Vikings/Buildings/Wonder8th/level_0/construction/progress_025.png",
+  "pivot": [
+    325,
+    485
+  ],
+  "dimensions": [
+    654,
+    737
+  ],
+  "palette": "wonders_8th",
+  "contributingLayers": [
+    {
+      "tuple": [
+        0,
+        0,
+        28,
+        -1,
+        0,
+        100
+      ],
+      "threshold": 63,
+      "bodyPixels": 0,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    }
+  ],
+  "destinationDarkeningCounts": "Vikings/Buildings/Wonder8th/level_0/construction/progress_025_destination_darken_counts.png",
+  "confidence": "PARTIAL",
+  "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+}

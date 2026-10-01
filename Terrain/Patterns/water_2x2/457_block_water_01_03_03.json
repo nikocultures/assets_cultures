@@ -1,0 +1,142 @@
+{
+ "gfxPatternId": 457,
+ "nativeName": "block water 01 03 03",
+ "editGroups": [
+  [
+   "water 2x2",
+   "water all"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeDefinition": {
+  "section": "trianglepatterntype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "iswater",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "moveresistance",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "debugname",
+    "arguments": [
+     "water"
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     0,
+     98,
+     115
+    ]
+   }
+  ]
+ },
+ "texture": "data\\engine2d\\bin\\textures\\text_235.pcx",
+ "textureOutput": "Terrain/Textures/text_235.png",
+ "triangleA": [
+  192,
+  192,
+  255,
+  255,
+  192,
+  255
+ ],
+ "triangleB": [
+  192,
+  192,
+  255,
+  192,
+  255,
+  255
+ ],
+ "cropBox": [
+  192,
+  192,
+  255,
+  255
+ ],
+ "crop": "Terrain/Patterns/water_2x2/457_block_water_01_03_03.png",
+ "triangleMask": "Terrain/Patterns/water_2x2/457_block_water_01_03_03__triangles.png",
+ "maskValues": {
+  "85": "triangle A",
+  "170": "triangle B"
+ },
+ "definition": {
+  "section": "gfxpattern",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "block water 01 03 03"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "water 2x2",
+     "water all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxtexture",
+    "arguments": [
+     "data\\engine2d\\bin\\textures\\text_235.pcx"
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     192,
+     192,
+     255,
+     255,
+     192,
+     255
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     192,
+     192,
+     255,
+     192,
+     255,
+     255
+    ]
+   }
+  ]
+ },
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0048E24E pattern.cif loader (stride 0x70)",
+   "0x00491EA8 pattern texture resolve"
+  ],
+  "cpp": "GfxPatternRegistry"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED texture decode",
+  "presentation": "PRESENTATION_PARTIAL: texture-space crop; isometric triangle projection, lighting and transitions not applied"
+ }
+}

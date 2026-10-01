@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Good 63 Catapult (catapult) | Cultures asset library</title><link rel="stylesheet" href="../../../Metadata/Browser/app.css"><script src="index_data.js"></script><script src="../../../Metadata/Browser/app.js"></script></head><body><header class="top"><h1><a href="../../../index.html">Cultures | Original Asset Library</a></h1><div>Good 63 Catapult (catapult)</div></header><main><div id="crumbs"></div><section id="good:63"><div class="kv"><b>Good ID</b><span>63</span><b>Native name</b><span>catapult</span><b>English</b><span>Catapult / Catapults</span><b>Landscape type</b><span>1</span><b>Resolved GfxLandscape</b><span>None </span><b>Rule</b><span>Game 0x00415565: first pileable GfxLandscape with logictype == landscapetype (Goods 0..55 only)</span><b>BMD</b><span>None</span><b>Palette</b><span>None</span><b>Production</b><span>{&quot;productionInputGoods&quot;: [], &quot;atomicForProduction&quot;: 39, &quot;isProducedInHouse&quot;: 0, &quot;isProducedOnMap&quot;: 1}</span><b>Harvest</b><span>{}</span><b>Weapon / armor type</b><span>[null, null]</span><b>Ownership</b><span>SHARED (Good table is global; per-tribe availability in tribeOwnership)</span><b>Confidence</b><span>{&quot;nativeTable&quot;: &quot;SOURCE_COMPLETE&quot;, &quot;pile&quot;: &quot;UNKNOWN&quot;, &quot;icon&quot;: &quot;UNKNOWN&quot;, &quot;carried&quot;: &quot;NONE_DECLARED&quot;}</span></div></section><section><p class="note">No resolvable pile landscape -&gt; no native UI visual (UNKNOWN)</p></section><section><h2>Carried visual</h2><p>GfxWalkAtomic logicgoodtype == Good id; carried good is baked into the Human body frames (no separate overlay sprite). Human random palette: None</p><table class="grid"><tr><th>tribe</th><th>job</th><th>phase</th><th>sequence</th><th>sheet</th></tr></table></section><section><h2>Consumers</h2><p>Production input of: none</p><p>Needed to build: tribe 1 None, tribe 2 None, tribe 3 None, tribe 4 None, tribe 7 None</p><p>Native job relations: tribe 1 jobenablesgood job 10 Armourer, tribe 2 jobenablesgood job 10 Armourer, tribe 3 jobenablesgood job 10 Armourer, tribe 4 jobenablesgood job 10 Armourer, tribe 7 jobenablesgood job 10 Armourer</p><p class="sub">goodtypes.cif productioninputgoods; tribetypes.cif tobuildhouseneedgood (house, goods...)</p></section><section><h2>Producers / tribes</h2><pre>[
+ {
+  &quot;tribe&quot;: 1,
+  &quot;tribeName&quot;: &quot;viking&quot;,
+  &quot;allowgood&quot;: true,
+  &quot;producedInHouseTypes&quot;: [
+   {
+    &quot;houseType&quot;: 28,
+    &quot;houseName&quot;: null,
+    &quot;english&quot;: &quot;Armourer&#x27;s Shop 2&quot;
+   }
+  ],
+  &quot;relations&quot;: {
+   &quot;allowgood&quot;: [
+    [
+     63
+    ]
+   ],
+   &quot;jobenablesgood&quot;: [
+    [
+     10,
+     63
+    ]
+   ],
+   &quot;toproducegoodneedhouse&quot;: [
+    [
+     63,
+     28
+    ]
+   ],
+   &quot;needforgood&quot;: [
+    [
+     63,
+     10,
+     17
+    ]
+   ],
+   &quot;trainforgood&quot;: [
+    [
+     63,
+     10,
+     77
+    ]
+   ]
+  }
+ },
+ {
+  &quot;tribe&quot;: 2,
+  &quot;tribeName&quot;: &quot;frank&quot;,
+  &quot;allowgood&quot;: true,
+  &quot;producedInHouseTypes&quot;: [
+   {
+    &quot;houseType&quot;: 28,
+    &quot;houseName&quot;: null,
+    &quot;english&quot;: &quot;Armourer&#x27;s Shop 2&quot;
+   }
+  ],
+  &quot;relations&quot;: {
+   &quot;allowgood&quot;: [
+    [
+     63
+    ]
+   ],
+   &quot;jobenablesgood&quot;: [
+    [
+     10,
+     63
+    ]
+   ],
+   &quot;toproducegoodneedhouse&quot;: [
+    [
+     63,
+     28
+    ]
+   ],
+   &quot;needforgood&quot;: [
+    [
+     63,
+     10,
+     17
+    ]
+   ],
+   &quot;trainforgood&quot;: [
+    [
+     63,
+     10,
+     77
+    ]
+   ]
+  }
+ },
+ {
+  &quot;tribe&quot;: 4,
+  &quot;tribeName&quot;: &quot;saracen&quot;,
+  &quot;allowgood&quot;: true,
+  &quot;producedInHouseTypes&quot;: [
+   {
+    &quot;houseType&quot;: 28,
+    &quot;houseName&quot;: null,
+    &quot;english&quot;: &quot;Armourer&#x27;s Shop 2&quot;
+   }
+  ],
+  &quot;relations&quot;: {
+   &quot;allowgood&quot;: [
+    [
+     63
+    ]
+   ],
+   &quot;jobenablesgood&quot;: [
+    [
+     10,
+     63
+    ]
+   ],
+   &quot;toproducegoodneedhouse&quot;: [
+    [
+     63,
+     28
+    ]
+   ],
+   &quot;needforgood&quot;: [
+    [
+     63,
+     10,
+     17
+    ]
+   ],
+   &quot;trainforgood&quot;: [
+    [
+     63,
+     10,
+     77
+    ]
+   ]
+  }
+ },
+ {
+  &quot;tribe&quot;: 3,
+  &quot;tribeName&quot;: &quot;byzantine&quot;,
+  &quot;allowgood&quot;: true,
+  &quot;producedInHouseTypes&quot;: [
+   {
+    &quot;houseType&quot;: 28,
+    &quot;houseName&quot;: null,
+    &quot;english&quot;: &quot;Armourer&#x27;s Shop 2&quot;
+   }
+  ],
+  &quot;relations&quot;: {
+   &quot;allowgood&quot;: [
+    [
+     63
+    ]
+   ],
+   &quot;jobenablesgood&quot;: [
+    [
+     10,
+     63
+    ]
+   ],
+   &quot;toproducegoodneedhouse&quot;: [
+    [
+     63,
+     28
+    ]
+   ],
+   &quot;needforgood&quot;: [
+    [
+     63,
+     10,
+     17
+    ]
+   ],
+   &quot;trainforgood&quot;: [
+    [
+     63,
+     10,
+     77
+    ]
+   ]
+  }
+ },
+ {
+  &quot;tribe&quot;: 7,
+  &quot;tribeName&quot;: &quot;egypt&quot;,
+  &quot;allowgood&quot;: true,
+  &quot;producedInHouseTypes&quot;: [
+   {
+    &quot;houseType&quot;: 28,
+    &quot;houseName&quot;: null,
+    &quot;english&quot;: &quot;Armourer&#x27;s Shop 2&quot;
+   }
+  ],
+  &quot;relations&quot;: {
+   &quot;allowgood&quot;: [
+    [
+     63
+    ]
+   ],
+   &quot;jobenablesgood&quot;: [
+    [
+     10,
+     63
+    ]
+   ],
+   &quot;toproducegoodneedhouse&quot;: [
+    [
+     63,
+     28
+    ]
+   ],
+   &quot;needforgood&quot;: [
+    [
+     63,
+     10,
+     17
+    ]
+   ],
+   &quot;trainforgood&quot;: [
+    [
+     63,
+     10,
+     77
+    ]
+   ]
+  }
+ }
+]</pre></section><p><a href="../../../Shared/Goods/good_63_catapult/metadata.json">metadata.json</a></p></main></body></html>

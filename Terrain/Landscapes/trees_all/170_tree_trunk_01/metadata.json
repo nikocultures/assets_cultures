@@ -1,0 +1,385 @@
+{
+ "gfxLandscapeId": 170,
+ "nativeName": "tree trunk 01",
+ "editGroups": [
+  [
+   "trees all",
+   "goods all",
+   "good mines all"
+  ]
+ ],
+ "logicType": 6,
+ "logicTypeName": "trunk",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     6
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "trunk"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     6,
+     2,
+     -1,
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     2,
+     1,
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     2,
+     115,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 5,
+   "goodName": "wood",
+   "english": "Wood",
+   "field": "landscapetopickup"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\test_piles.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\test_piles_s.bmd",
+ "palettes": [
+  "goods_wood"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "tree trunk 01"
+  ],
+  [
+   2,
+   "tree debris small"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "tree trunk 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "trees all",
+     "goods all",
+     "good mines all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     6
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\test_piles.bmd",
+     "data\\engine2d\\bin\\bobs\\test_piles_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_wood"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     37
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     36
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     35
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     34
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     33
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "tree trunk 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     2,
+     "tree debris small"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 37,
+     "width": 56,
+     "height": 31,
+     "pivot": [
+      27,
+      13
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/170_tree_trunk_01/bob_000037.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/170_tree_trunk_01/bob_000037__shadow_mask.png",
+     "shadowPivot": [
+      27,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 36,
+     "width": 56,
+     "height": 31,
+     "pivot": [
+      27,
+      13
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/170_tree_trunk_01/bob_000036.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/170_tree_trunk_01/bob_000036__shadow_mask.png",
+     "shadowPivot": [
+      27,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 35,
+     "width": 50,
+     "height": 31,
+     "pivot": [
+      21,
+      13
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/170_tree_trunk_01/bob_000035.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/170_tree_trunk_01/bob_000035__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 34,
+     "width": 46,
+     "height": 27,
+     "pivot": [
+      17,
+      13
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/170_tree_trunk_01/bob_000034.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/170_tree_trunk_01/bob_000034__shadow_mask.png",
+     "shadowPivot": [
+      14,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 33,
+     "width": 40,
+     "height": 21,
+     "pivot": [
+      17,
+      7
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_all/170_tree_trunk_01/bob_000033.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/170_tree_trunk_01/bob_000033__shadow_mask.png",
+     "shadowPivot": [
+      14,
+      0
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/trees_all/170_tree_trunk_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

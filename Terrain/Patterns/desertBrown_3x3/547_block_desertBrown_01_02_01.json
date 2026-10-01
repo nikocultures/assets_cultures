@@ -1,0 +1,154 @@
+{
+ "gfxPatternId": 547,
+ "nativeName": "block desertBrown 01 02 01",
+ "editGroups": [
+  [
+   "desertBrown 3x3",
+   "desertBrown all"
+  ]
+ ],
+ "logicType": 4,
+ "logicTypeDefinition": {
+  "section": "trianglepatterntype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "humancanwalkon",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "housecanbebuildon",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "island",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "moveresistance",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "debugname",
+    "arguments": [
+     "sand"
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     159,
+     129,
+     55
+    ]
+   }
+  ]
+ },
+ "texture": "data\\engine2d\\bin\\textures\\text_192.pcx",
+ "textureOutput": "Terrain/Textures/text_192.png",
+ "triangleA": [
+  128,
+  64,
+  191,
+  127,
+  128,
+  127
+ ],
+ "triangleB": [
+  128,
+  64,
+  191,
+  64,
+  191,
+  127
+ ],
+ "cropBox": [
+  128,
+  64,
+  191,
+  127
+ ],
+ "crop": "Terrain/Patterns/desertBrown_3x3/547_block_desertBrown_01_02_01.png",
+ "triangleMask": "Terrain/Patterns/desertBrown_3x3/547_block_desertBrown_01_02_01__triangles.png",
+ "maskValues": {
+  "85": "triangle A",
+  "170": "triangle B"
+ },
+ "definition": {
+  "section": "gfxpattern",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "block desertBrown 01 02 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "desertBrown 3x3",
+     "desertBrown all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "gfxtexture",
+    "arguments": [
+     "data\\engine2d\\bin\\textures\\text_192.pcx"
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     128,
+     64,
+     191,
+     127,
+     128,
+     127
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     128,
+     64,
+     191,
+     64,
+     191,
+     127
+    ]
+   }
+  ]
+ },
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0048E24E pattern.cif loader (stride 0x70)",
+   "0x00491EA8 pattern texture resolve"
+  ],
+  "cpp": "GfxPatternRegistry"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED texture decode",
+  "presentation": "PRESENTATION_PARTIAL: texture-space crop; isometric triangle projection, lighting and transitions not applied"
+ }
+}

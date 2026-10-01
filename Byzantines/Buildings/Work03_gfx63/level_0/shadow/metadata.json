@@ -1,0 +1,37 @@
+{
+  "asset": {
+    "bobId": 56,
+    "descriptor": {
+      "bobId": 56,
+      "frameIndex": 56,
+      "kind": 2,
+      "x": -100,
+      "y": -131,
+      "width": 242,
+      "height": 191,
+      "firstScanline": 1699
+    },
+    "pivot": [
+      100,
+      131
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1134,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2_s.bmd",
+      "offset": 95420680,
+      "size": 17538,
+      "sha256": "e8c3a2ac75029cb1b514cc7d04c08593cedeab3d40e2df66b2d2c46c0cfc34b1"
+    },
+    "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2_s.bmd/source.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Byzantines/Buildings/Work03_gfx63/level_0/shadow/coverage_000056.png",
+    "pixelSha256": "79b81665ff7b03d3080f6be654beaec6f3230cd0b5e7265407d56e964613c76a"
+  },
+  "rule": "Native destination darkening, not alpha blend",
+  "Game.exe": "0x0049B930",
+  "drawOrder": "before finished body; extension keeps existing shadow; new construction uses auxiliary threshold maps",
+  "confidence": "AUTOMATED_CONFIRMED (source coverage); PARTIAL (live composition)"
+}

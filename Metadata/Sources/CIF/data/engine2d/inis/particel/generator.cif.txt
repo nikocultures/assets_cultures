@@ -1,0 +1,31 @@
+[ParticelGenerator]
+name "SmokeGenerator"
+generate "Smoke"
+maxGoneLifeTime 50
+maxLifeTime 100
+particelmove 3
+particelspeed 0 70 0
+usemapheights 1
+usewind 1
+[ParticelGenerator]
+name "RainGenerator"
+generate "RainDrop"
+maxLifeTime 100
+particelmove 4
+particelspeed 0 2000 0
+usemapheights 1
+setarea 20 20
+groundcollision 1
+heightoffset 250
+[ParticelGenerator]
+name "SnowGenerator"
+generate "Snow"
+maxGoneLifeTime 0
+maxLifeTime 1000
+particelmove 4
+particelspeed 0 200 0
+usemapheights 1
+usewind 1
+setarea 40 40
+groundcollision 1
+heightoffset 250

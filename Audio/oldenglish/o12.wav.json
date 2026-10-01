@@ -1,0 +1,123 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2392,
+  "entryName": "data\\engine2d\\bin\\sounds\\humantalk\\oldenglish\\o12.wav",
+  "offset": 159975970,
+  "size": 51084,
+  "sha256": "595d2f149423c49d85b54e66dca97bf801eff36475886fcd73bb956931fc2569"
+ },
+ "output": "Audio/oldenglish/o12.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 51026,
+  "durationSeconds": 1.157,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 131,
+   "name": "Talk Franks Male",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 115,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 173,
+   "name": "Generic Frank Male",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 189,
+   "name": "Frank male no 03",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 131,
+   "name": "Talk Franks Male",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 115,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 173,
+   "name": "Generic Frank Male",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 189,
+   "name": "Frank male no 03",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [
+  {
+   "tribe": 2,
+   "use": "respond",
+   "arguments": [
+    2,
+    1
+   ]
+  },
+  {
+   "tribe": 2,
+   "use": "generic",
+   "arguments": [
+    2
+   ]
+  }
+ ],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

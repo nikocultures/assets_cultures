@@ -1,0 +1,22 @@
+// Address: 0048bb3e
+// Ghidra name: FUN_0048bb3e
+// Signature: int * FUN_0048bb3e(int param_1, int param_2)
+
+int * __cdecl FUN_0048bb3e(int param_1,int param_2)
+
+{
+  int *piVar1;
+  
+  do {
+    piVar1 = FUN_0048bb6a(param_1,param_2);
+    if (piVar1 != (int *)0x0) {
+      return piVar1;
+    }
+    param_2 = *(int *)(param_2 * 0x88 + 0x20 + DAT_00510fa0);
+  } while (param_2 != 0);
+  return (int *)0x0;
+}
+
+
+
+// ============================================================================

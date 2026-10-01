@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 337,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\hotironcoolwater.wav",
+  "offset": 181665888,
+  "size": 36796,
+  "sha256": "cc4d15e595166da0e1aa11f1c894c8449a096f8eeaaaaae3ae93e1c62e697cd0"
+ },
+ "output": "Audio/static/hotironcoolwater.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 36738,
+  "durationSeconds": 0.833,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 37,
+   "name": "Hammer Iron",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 16,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 37,
+   "name": "Hammer Iron",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 16,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Environment (name-derived)",
+ "categoryConfidence": "NAME_DERIVED",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

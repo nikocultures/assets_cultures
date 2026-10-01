@@ -1,0 +1,782 @@
+{
+ "gfxLandscapeId": 567,
+ "nativeName": "flaschengeist MissionCD",
+ "editGroups": [
+  [
+   "xMissionCD_goetter"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeName": "void",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "void"
+    ]
+   },
+   {
+    "name": "allowedoneverything",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     117,
+     117,
+     117
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goetter.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goetter_s.bmd",
+ "palettes": [
+  "dungeon01"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [],
+ "maximumValency": 1,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "flaschengeist MissionCD"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "xMissionCD_goetter"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     0,
+     2,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -2,
+     1,
+     4
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     2,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     3,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goetter.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goetter_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "dungeon01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     150,
+     149,
+     148,
+     147,
+     146,
+     145,
+     144,
+     143,
+     142,
+     141,
+     140,
+     139,
+     138,
+     137,
+     136,
+     135,
+     134,
+     133,
+     132,
+     131,
+     130,
+     129,
+     128,
+     127,
+     126,
+     125,
+     124,
+     123,
+     122
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 150,
+     "width": 51,
+     "height": 100,
+     "pivot": [
+      18,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000150.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000150__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 149,
+     "width": 51,
+     "height": 100,
+     "pivot": [
+      18,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000149.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000149__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 148,
+     "width": 51,
+     "height": 100,
+     "pivot": [
+      18,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000148.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000148__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 147,
+     "width": 52,
+     "height": 100,
+     "pivot": [
+      18,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000147.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000147__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 146,
+     "width": 52,
+     "height": 100,
+     "pivot": [
+      18,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000146.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000146__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 145,
+     "width": 53,
+     "height": 100,
+     "pivot": [
+      18,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000145.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000145__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 144,
+     "width": 54,
+     "height": 100,
+     "pivot": [
+      18,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000144.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000144__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 143,
+     "width": 55,
+     "height": 100,
+     "pivot": [
+      18,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000143.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000143__shadow_mask.png",
+     "shadowPivot": [
+      20,
+      10
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 142,
+     "width": 55,
+     "height": 100,
+     "pivot": [
+      18,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000142.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000142__shadow_mask.png",
+     "shadowPivot": [
+      20,
+      10
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 141,
+     "width": 57,
+     "height": 100,
+     "pivot": [
+      19,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000141.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000141__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      10
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 140,
+     "width": 57,
+     "height": 100,
+     "pivot": [
+      19,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000140.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000140__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      10
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 139,
+     "width": 57,
+     "height": 100,
+     "pivot": [
+      19,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000139.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000139__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      10
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 138,
+     "width": 58,
+     "height": 99,
+     "pivot": [
+      19,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000138.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000138__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      10
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 137,
+     "width": 58,
+     "height": 99,
+     "pivot": [
+      19,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000137.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000137__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      9
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 136,
+     "width": 57,
+     "height": 99,
+     "pivot": [
+      19,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000136.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000136__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      9
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 135,
+     "width": 57,
+     "height": 99,
+     "pivot": [
+      19,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000135.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000135__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      9
+     ]
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 134,
+     "width": 57,
+     "height": 99,
+     "pivot": [
+      19,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000134.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000134__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      9
+     ]
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 133,
+     "width": 57,
+     "height": 99,
+     "pivot": [
+      19,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000133.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000133__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      9
+     ]
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 132,
+     "width": 56,
+     "height": 99,
+     "pivot": [
+      18,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000132.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000132__shadow_mask.png",
+     "shadowPivot": [
+      21,
+      9
+     ]
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 131,
+     "width": 55,
+     "height": 99,
+     "pivot": [
+      18,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000131.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000131__shadow_mask.png",
+     "shadowPivot": [
+      20,
+      8
+     ]
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 130,
+     "width": 55,
+     "height": 99,
+     "pivot": [
+      18,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000130.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000130__shadow_mask.png",
+     "shadowPivot": [
+      20,
+      8
+     ]
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 129,
+     "width": 55,
+     "height": 99,
+     "pivot": [
+      18,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000129.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000129__shadow_mask.png",
+     "shadowPivot": [
+      20,
+      8
+     ]
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 128,
+     "width": 54,
+     "height": 99,
+     "pivot": [
+      18,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000128.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000128__shadow_mask.png",
+     "shadowPivot": [
+      20,
+      8
+     ]
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 127,
+     "width": 54,
+     "height": 99,
+     "pivot": [
+      18,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000127.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000127__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      8
+     ]
+    },
+    {
+     "sequenceIndex": 24,
+     "bobId": 126,
+     "width": 53,
+     "height": 99,
+     "pivot": [
+      18,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000126.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000126__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      9
+     ]
+    },
+    {
+     "sequenceIndex": 25,
+     "bobId": 125,
+     "width": 53,
+     "height": 99,
+     "pivot": [
+      18,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000125.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000125__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      9
+     ]
+    },
+    {
+     "sequenceIndex": 26,
+     "bobId": 124,
+     "width": 53,
+     "height": 99,
+     "pivot": [
+      18,
+      83
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000124.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000124__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      10
+     ]
+    },
+    {
+     "sequenceIndex": 27,
+     "bobId": 123,
+     "width": 52,
+     "height": 100,
+     "pivot": [
+      18,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000123.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000123__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 28,
+     "bobId": 122,
+     "width": 52,
+     "height": 100,
+     "pivot": [
+      18,
+      84
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000122.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD/bob_000122__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      11
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/xMissionCD_goetter/567_flaschengeist_MissionCD",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

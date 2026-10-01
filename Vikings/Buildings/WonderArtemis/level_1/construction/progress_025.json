@@ -1,0 +1,31 @@
+{
+  "progressPercent": 25,
+  "path": "Vikings/Buildings/WonderArtemis/level_1/construction/progress_025.png",
+  "pivot": [
+    369,
+    411
+  ],
+  "dimensions": [
+    845,
+    681
+  ],
+  "palette": "wonders_pyramid",
+  "contributingLayers": [
+    {
+      "tuple": [
+        1,
+        0,
+        5,
+        -1,
+        20,
+        100
+      ],
+      "threshold": 15,
+      "bodyPixels": 15917,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    }
+  ],
+  "destinationDarkeningCounts": "Vikings/Buildings/WonderArtemis/level_1/construction/progress_025_destination_darken_counts.png",
+  "confidence": "PARTIAL",
+  "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+}

@@ -1,0 +1,57 @@
+{
+  "progressPercent": 75,
+  "path": "Arabs/Buildings/Tent04_gfx79/level_0/construction/progress_075.png",
+  "pivot": [
+    84,
+    82
+  ],
+  "dimensions": [
+    210,
+    141
+  ],
+  "palette": "rock03",
+  "contributingLayers": [
+    {
+      "tuple": [
+        0,
+        0,
+        14,
+        -1,
+        6,
+        87
+      ],
+      "threshold": 216,
+      "bodyPixels": 1336,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    },
+    {
+      "tuple": [
+        0,
+        0,
+        13,
+        -1,
+        0,
+        60
+      ],
+      "threshold": 256,
+      "bodyPixels": 5046,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    },
+    {
+      "tuple": [
+        0,
+        0,
+        12,
+        15,
+        10,
+        100
+      ],
+      "threshold": 183,
+      "bodyPixels": 13083,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    }
+  ],
+  "destinationDarkeningCounts": "Arabs/Buildings/Tent04_gfx79/level_0/construction/progress_075_destination_darken_counts.png",
+  "confidence": "PARTIAL",
+  "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+}

@@ -1,0 +1,412 @@
+{
+ "gfxLandscapeId": 471,
+ "nativeName": "snow cypress 03 falling",
+ "editGroups": [
+  [
+   "xMissionCD trees all",
+   "trees snow cypress",
+   "trees falling"
+  ]
+ ],
+ "logicType": 5,
+ "logicTypeName": "tree falling",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "tree falling"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     13,
+     6,
+     2,
+     0,
+     9
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     2,
+     115,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd",
+ "palettes": [
+  "treeSnow01"
+ ],
+ "static": 0,
+ "loopAnimation": 0,
+ "shadingFactor": 0.8,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   13,
+   "tree trunk 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "snow cypress 03 falling"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "xMissionCD trees all",
+     "trees snow cypress",
+     "trees falling"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "treeSnow01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.8
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     13,
+     "tree trunk 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 36,
+     "width": 46,
+     "height": 122,
+     "pivot": [
+      32,
+      116
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/469_snow_cypress_01_falling/bob_000036.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/317_cypress_01_falling/bob_000036__shadow_mask.png",
+     "shadowPivot": [
+      27,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 37,
+     "width": 46,
+     "height": 122,
+     "pivot": [
+      32,
+      116
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/469_snow_cypress_01_falling/bob_000037.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/317_cypress_01_falling/bob_000037__shadow_mask.png",
+     "shadowPivot": [
+      27,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 38,
+     "width": 47,
+     "height": 122,
+     "pivot": [
+      33,
+      116
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/469_snow_cypress_01_falling/bob_000038.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/317_cypress_01_falling/bob_000038__shadow_mask.png",
+     "shadowPivot": [
+      27,
+      11
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 39,
+     "width": 47,
+     "height": 123,
+     "pivot": [
+      34,
+      117
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/469_snow_cypress_01_falling/bob_000039.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/317_cypress_01_falling/bob_000039__shadow_mask.png",
+     "shadowPivot": [
+      28,
+      13
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 40,
+     "width": 46,
+     "height": 124,
+     "pivot": [
+      36,
+      118
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/469_snow_cypress_01_falling/bob_000040.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/317_cypress_01_falling/bob_000040__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      17
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 41,
+     "width": 44,
+     "height": 119,
+     "pivot": [
+      39,
+      113
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/469_snow_cypress_01_falling/bob_000041.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/317_cypress_01_falling/bob_000041__shadow_mask.png",
+     "shadowPivot": [
+      33,
+      25
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 42,
+     "width": 44,
+     "height": 93,
+     "pivot": [
+      41,
+      87
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/469_snow_cypress_01_falling/bob_000042.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/317_cypress_01_falling/bob_000042__shadow_mask.png",
+     "shadowPivot": [
+      36,
+      34
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 43,
+     "width": 46,
+     "height": 73,
+     "pivot": [
+      43,
+      67
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/469_snow_cypress_01_falling/bob_000043.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/317_cypress_01_falling/bob_000043__shadow_mask.png",
+     "shadowPivot": [
+      38,
+      40
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 44,
+     "width": 46,
+     "height": 67,
+     "pivot": [
+      43,
+      61
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/469_snow_cypress_01_falling/bob_000044.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/317_cypress_01_falling/bob_000044__shadow_mask.png",
+     "shadowPivot": [
+      39,
+      43
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/xMissionCD_trees_all/471_snow_cypress_03_falling",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

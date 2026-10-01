@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1095,
+  "entryName": "data\\engine2d\\bin\\sounds\\humantalk\\talk_f06.wav",
+  "offset": 167265112,
+  "size": 83740,
+  "sha256": "f9464127309fed5a60544e523d793e82755594763e926ca6530c3407e4833b0e"
+ },
+ "output": "Audio/humantalk/talk_f06.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 83682,
+  "durationSeconds": 1.898,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 136,
+   "name": "SocialTalk Female",
+   "parameters": [
+    100
+   ],
+   "logicSoundType": 62,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 136,
+   "name": "SocialTalk Female",
+   "parameters": [
+    100
+   ],
+   "logicSoundType": 62,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

@@ -1,0 +1,63 @@
+{
+  "bobId": 20,
+  "descriptor": {
+    "bobId": 20,
+    "frameIndex": 20,
+    "kind": 4,
+    "x": -261,
+    "y": -226,
+    "width": 530,
+    "height": 316,
+    "firstScanline": 5601
+  },
+  "pivot": [
+    261,
+    226
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1075,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine.bmd",
+    "offset": 90242389,
+    "size": 3074925,
+    "sha256": "3eb1b3a2c235d5a245adf2c9ccecfbf403c3fd28c8639808911e92484c2e304a"
+  },
+  "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine.bmd/source.bmd",
+  "role": "body",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "house_byzantine01",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 2472,
+    "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine01.pcx",
+    "offset": 132802786,
+    "size": 901,
+    "sha256": "11bdfaf8a7c423e8f41e38c14c6d93ac6637a7118eb2de74b6dd2c38e634cebe"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "house_byzantine01"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine01.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+  "path": "Byzantines/Buildings/Manson_gfx54/level_0/main/frame_000020.png",
+  "pixelSha256": "0758fb47ed8aade70103ee5e11e24528415bff0bfb197a5b3c06a9d61582440a"
+}

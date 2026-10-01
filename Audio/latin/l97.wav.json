@@ -1,0 +1,123 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2345,
+  "entryName": "data\\engine2d\\bin\\sounds\\humantalk\\latin\\l97.wav",
+  "offset": 159144464,
+  "size": 59248,
+  "sha256": "b16c134b71560a69abc7d70328750245b55e7602e397f7539de84ca719bef194"
+ },
+ "output": "Audio/latin/l97.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 59190,
+  "durationSeconds": 1.342,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 133,
+   "name": "Talk Byzanz Female",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 117,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 176,
+   "name": "Generic Latin Female",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 44,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 198,
+   "name": "Latin female ok 05",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 133,
+   "name": "Talk Byzanz Female",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 117,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 176,
+   "name": "Generic Latin Female",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 44,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 198,
+   "name": "Latin female ok 05",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [
+  {
+   "tribe": 3,
+   "use": "respond",
+   "arguments": [
+    1,
+    0
+   ]
+  },
+  {
+   "tribe": 3,
+   "use": "generic",
+   "arguments": [
+    1
+   ]
+  }
+ ],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

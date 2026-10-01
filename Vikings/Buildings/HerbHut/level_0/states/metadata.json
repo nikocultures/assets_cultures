@@ -1,0 +1,142 @@
+{
+  "idleBase": [
+    {
+      "bobId": 0,
+      "descriptor": {
+        "bobId": 0,
+        "frameIndex": 0,
+        "kind": 4,
+        "x": -95,
+        "y": -214,
+        "width": 182,
+        "height": 283,
+        "firstScanline": 0
+      },
+      "pivot": [
+        95,
+        214
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "housedruid01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2083,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_druid.pcx",
+        "offset": 132804588,
+        "size": 901,
+        "sha256": "68019699a23e8dac0dd2a76d033cbb308055043d1f7f50e4cadd1d09d701aead"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "housedruid01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_druid.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/HerbHut/level_0/main/frame_000000.png",
+      "pixelSha256": "86b37cca81e5a25498e183e16a719332624dc5c63c40ad88647f737e6d371a02"
+    }
+  ],
+  "doorFrames": [
+    {
+      "tuple": [
+        0,
+        1,
+        3
+      ],
+      "asset": {
+        "bobId": 3,
+        "descriptor": {
+          "bobId": 3,
+          "frameIndex": 3,
+          "kind": 1,
+          "x": -49,
+          "y": -96,
+          "width": 122,
+          "height": 144,
+          "firstScanline": 941
+        },
+        "pivot": [
+          49,
+          96
+        ],
+        "source": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 945,
+          "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+          "offset": 108381429,
+          "size": 2586720,
+          "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+        },
+        "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+        "role": "body",
+        "confidence": "AUTOMATED_CONFIRMED",
+        "palette": "housedruid01",
+        "paletteSource": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 2083,
+          "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_druid.pcx",
+          "offset": 132804588,
+          "size": 901,
+          "sha256": "68019699a23e8dac0dd2a76d033cbb308055043d1f7f50e4cadd1d09d701aead"
+        },
+        "paletteDefinition": {
+          "section": "gfxpalette256",
+          "commands": [
+            {
+              "name": "editname",
+              "arguments": [
+                "housedruid01"
+              ]
+            },
+            {
+              "name": "gfxfile",
+              "arguments": [
+                "data\\engine2d\\bin\\palettes\\landscapes\\haus_druid.pcx"
+              ]
+            },
+            {
+              "name": "gfxpreshade",
+              "arguments": [
+                1
+              ]
+            }
+          ]
+        },
+        "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+        "path": "Vikings/Buildings/HerbHut/level_0/states/door/housedruid01/frame_000003.png",
+        "pixelSha256": "849d67f34c6c415cd27c765510a78b81dad89981dbe502255bdaef93b06df66a"
+      }
+    }
+  ],
+  "doorPredicate": "House door scan 0x00495B57, 0x0042C214/0x0042C392, Human 0x00441AAD checks +0xB50/+0xB51. Not equivalent to any Farmer assignment or production state.",
+  "working": "See native overlay state lanes; no fabricated unique working sprite",
+  "confidence": "PARTIAL"
+}

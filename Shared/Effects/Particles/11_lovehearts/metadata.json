@@ -1,0 +1,548 @@
+{
+ "particleId": 11,
+ "nativeName": "lovehearts",
+ "library": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+ "palette": "house01",
+ "definition": {
+  "section": "particel",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "lovehearts"
+    ]
+   },
+   {
+    "name": "palette",
+    "arguments": [
+     "house01"
+    ]
+   },
+   {
+    "name": "bobmanager",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_smoke.bmd"
+    ]
+   },
+   {
+    "name": "maxvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     0,
+     260,
+     261,
+     262,
+     263,
+     264,
+     265,
+     266,
+     267,
+     268,
+     269,
+     270,
+     271,
+     272,
+     273,
+     274,
+     275,
+     276,
+     277,
+     278,
+     279,
+     280,
+     281,
+     282,
+     283,
+     284,
+     285,
+     286,
+     287,
+     288,
+     289,
+     290,
+     291,
+     292
+    ]
+   },
+   {
+    "name": "animloop",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "bobtype",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2238,
+  "entryName": "data\\engine2d\\inis\\particel\\particel.cif",
+  "offset": 195245533,
+  "size": 6354,
+  "sha256": "3a0829ad1b452cec93cac5aa93adeb0aa73d920bb015124dffbbc3edde3a5b74"
+ },
+ "generators": [],
+ "particleEffects": [
+  {
+   "section": "particeleffect",
+   "commands": [
+    {
+     "name": "logictype",
+     "arguments": [
+      5
+     ]
+    },
+    {
+     "name": "particelname",
+     "arguments": [
+      "lovehearts"
+     ]
+    },
+    {
+     "name": "lifetime",
+     "arguments": [
+      190
+     ]
+    },
+    {
+     "name": "movement",
+     "arguments": [
+      0
+     ]
+    },
+    {
+     "name": "usemapheights",
+     "arguments": [
+      1
+     ]
+    },
+    {
+     "name": "pixeloffset",
+     "arguments": [
+      0,
+      20
+     ]
+    }
+   ]
+  }
+ ],
+ "valencies": [
+  {
+   "valency": 0,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0260__house01.png",
+     "kind": 1,
+     "width": 17,
+     "height": 90,
+     "pivot": [
+      9,
+      92
+     ],
+     "bobId": 260,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0261__house01.png",
+     "kind": 1,
+     "width": 18,
+     "height": 89,
+     "pivot": [
+      9,
+      93
+     ],
+     "bobId": 261,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0262__house01.png",
+     "kind": 1,
+     "width": 17,
+     "height": 87,
+     "pivot": [
+      9,
+      94
+     ],
+     "bobId": 262,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0263__house01.png",
+     "kind": 1,
+     "width": 17,
+     "height": 86,
+     "pivot": [
+      8,
+      95
+     ],
+     "bobId": 263,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0264__house01.png",
+     "kind": 1,
+     "width": 16,
+     "height": 83,
+     "pivot": [
+      8,
+      95
+     ],
+     "bobId": 264,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0265__house01.png",
+     "kind": 1,
+     "width": 16,
+     "height": 80,
+     "pivot": [
+      9,
+      95
+     ],
+     "bobId": 265,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0266__house01.png",
+     "kind": 1,
+     "width": 17,
+     "height": 77,
+     "pivot": [
+      11,
+      95
+     ],
+     "bobId": 266,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0267__house01.png",
+     "kind": 1,
+     "width": 17,
+     "height": 94,
+     "pivot": [
+      13,
+      95
+     ],
+     "bobId": 267,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0268__house01.png",
+     "kind": 1,
+     "width": 20,
+     "height": 91,
+     "pivot": [
+      14,
+      95
+     ],
+     "bobId": 268,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0269__house01.png",
+     "kind": 1,
+     "width": 23,
+     "height": 90,
+     "pivot": [
+      16,
+      95
+     ],
+     "bobId": 269,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0270__house01.png",
+     "kind": 1,
+     "width": 25,
+     "height": 87,
+     "pivot": [
+      17,
+      95
+     ],
+     "bobId": 270,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0271__house01.png",
+     "kind": 1,
+     "width": 26,
+     "height": 84,
+     "pivot": [
+      18,
+      95
+     ],
+     "bobId": 271,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0272__house01.png",
+     "kind": 1,
+     "width": 26,
+     "height": 81,
+     "pivot": [
+      18,
+      95
+     ],
+     "bobId": 272,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0273__house01.png",
+     "kind": 1,
+     "width": 26,
+     "height": 78,
+     "pivot": [
+      18,
+      95
+     ],
+     "bobId": 273,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0274__house01.png",
+     "kind": 1,
+     "width": 26,
+     "height": 74,
+     "pivot": [
+      18,
+      95
+     ],
+     "bobId": 274,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0275__house01.png",
+     "kind": 1,
+     "width": 18,
+     "height": 93,
+     "pivot": [
+      14,
+      91
+     ],
+     "bobId": 275,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0276__house01.png",
+     "kind": 1,
+     "width": 20,
+     "height": 91,
+     "pivot": [
+      14,
+      91
+     ],
+     "bobId": 276,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0277__house01.png",
+     "kind": 1,
+     "width": 23,
+     "height": 91,
+     "pivot": [
+      16,
+      94
+     ],
+     "bobId": 277,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0278__house01.png",
+     "kind": 1,
+     "width": 23,
+     "height": 92,
+     "pivot": [
+      16,
+      97
+     ],
+     "bobId": 278,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0279__house01.png",
+     "kind": 1,
+     "width": 24,
+     "height": 93,
+     "pivot": [
+      16,
+      101
+     ],
+     "bobId": 279,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0280__house01.png",
+     "kind": 1,
+     "width": 24,
+     "height": 92,
+     "pivot": [
+      16,
+      103
+     ],
+     "bobId": 280,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0281__house01.png",
+     "kind": 1,
+     "width": 20,
+     "height": 90,
+     "pivot": [
+      11,
+      104
+     ],
+     "bobId": 281,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0282__house01.png",
+     "kind": 1,
+     "width": 20,
+     "height": 89,
+     "pivot": [
+      12,
+      105
+     ],
+     "bobId": 282,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0283__house01.png",
+     "kind": 1,
+     "width": 22,
+     "height": 87,
+     "pivot": [
+      14,
+      105
+     ],
+     "bobId": 283,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0284__house01.png",
+     "kind": 1,
+     "width": 22,
+     "height": 106,
+     "pivot": [
+      14,
+      106
+     ],
+     "bobId": 284,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0285__house01.png",
+     "kind": 1,
+     "width": 22,
+     "height": 102,
+     "pivot": [
+      15,
+      107
+     ],
+     "bobId": 285,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0286__house01.png",
+     "kind": 1,
+     "width": 21,
+     "height": 102,
+     "pivot": [
+      14,
+      108
+     ],
+     "bobId": 286,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0287__house01.png",
+     "kind": 1,
+     "width": 20,
+     "height": 98,
+     "pivot": [
+      14,
+      108
+     ],
+     "bobId": 287,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0288__house01.png",
+     "kind": 1,
+     "width": 19,
+     "height": 95,
+     "pivot": [
+      13,
+      108
+     ],
+     "bobId": 288,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0289__house01.png",
+     "kind": 1,
+     "width": 17,
+     "height": 91,
+     "pivot": [
+      12,
+      108
+     ],
+     "bobId": 289,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0290__house01.png",
+     "kind": 1,
+     "width": 16,
+     "height": 88,
+     "pivot": [
+      11,
+      108
+     ],
+     "bobId": 290,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0291__house01.png",
+     "kind": 1,
+     "width": 15,
+     "height": 83,
+     "pivot": [
+      9,
+      108
+     ],
+     "bobId": 291,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/11_lovehearts/bob_0292__house01.png",
+     "kind": 1,
+     "width": 16,
+     "height": 78,
+     "pivot": [
+      9,
+      108
+     ],
+     "bobId": 292,
+     "status": "RENDERED"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: bobtype 0 blending, movement, lifetime and wind are runtime"
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "gfxPatternId": 671,
+ "nativeName": "block snow 00 03 02",
+ "editGroups": [
+  [
+   "snow 2x2",
+   "snow all"
+  ]
+ ],
+ "logicType": 7,
+ "logicTypeDefinition": {
+  "section": "trianglepatterntype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     7
+    ]
+   },
+   {
+    "name": "humancanwalkon",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "island",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "moveresistance",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "debugname",
+    "arguments": [
+     "snow"
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     240,
+     255,
+     255
+    ]
+   }
+  ]
+ },
+ "texture": "data\\engine2d\\bin\\textures\\text_241.pcx",
+ "textureOutput": "Terrain/Textures/text_241.png",
+ "triangleA": [
+  192,
+  128,
+  255,
+  191,
+  192,
+  191
+ ],
+ "triangleB": [
+  192,
+  128,
+  255,
+  128,
+  255,
+  191
+ ],
+ "cropBox": [
+  192,
+  128,
+  255,
+  191
+ ],
+ "crop": "Terrain/Patterns/snow_2x2/671_block_snow_00_03_02.png",
+ "triangleMask": "Terrain/Patterns/snow_2x2/671_block_snow_00_03_02__triangles.png",
+ "maskValues": {
+  "85": "triangle A",
+  "170": "triangle B"
+ },
+ "definition": {
+  "section": "gfxpattern",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "block snow 00 03 02"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "snow 2x2",
+     "snow all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     7
+    ]
+   },
+   {
+    "name": "gfxtexture",
+    "arguments": [
+     "data\\engine2d\\bin\\textures\\text_241.pcx"
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     192,
+     128,
+     255,
+     191,
+     192,
+     191
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     192,
+     128,
+     255,
+     128,
+     255,
+     191
+    ]
+   }
+  ]
+ },
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0048E24E pattern.cif loader (stride 0x70)",
+   "0x00491EA8 pattern texture resolve"
+  ],
+  "cpp": "GfxPatternRegistry"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED texture decode",
+  "presentation": "PRESENTATION_PARTIAL: texture-space crop; isometric triangle projection, lighting and transitions not applied"
+ }
+}

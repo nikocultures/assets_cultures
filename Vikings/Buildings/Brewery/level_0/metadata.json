@@ -1,0 +1,1525 @@
+{
+  "nativeName": "viking brewery",
+  "tribe": "Vikings",
+  "logicHouseType": 16,
+  "gfxHouseId": 7,
+  "level": 0,
+  "bodyBob": 220,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_viking2_s.bmd",
+  "shadowBob": 220,
+  "paletteAlternatives": [
+    "house02"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 220,
+      "descriptor": {
+        "bobId": 220,
+        "frameIndex": 220,
+        "kind": 4,
+        "x": -162,
+        "y": -268,
+        "width": 389,
+        "height": 344,
+        "firstScanline": 5705
+      },
+      "pivot": [
+        162,
+        268
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 932,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+        "offset": 104827473,
+        "size": 2317068,
+        "sha256": "6096ebd90f5810ff7e0102394a46e6fabe759afc4acafd5db6945556c9b31b52"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking2.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Brewery/level_0/main/frame_000220.png",
+      "pixelSha256": "f64b65e700d91c4729e01206ca208cc75b76176fcfa18e85977c4554d9db88c0"
+    }
+  ],
+  "constructionLayers": [
+    [
+      0,
+      0,
+      222,
+      -1,
+      0,
+      85
+    ],
+    [
+      0,
+      0,
+      221,
+      -1,
+      1,
+      82
+    ],
+    [
+      0,
+      0,
+      220,
+      223,
+      29,
+      100
+    ]
+  ],
+  "doors": [
+    [
+      0,
+      1,
+      224
+    ]
+  ],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [
+      [
+        0,
+        -95,
+        -241
+      ],
+      [
+        0,
+        -93,
+        -231
+      ],
+      [
+        0,
+        -75,
+        -225
+      ],
+      [
+        0,
+        -95,
+        -207
+      ],
+      [
+        0,
+        -107,
+        -205
+      ],
+      [
+        0,
+        -63,
+        -205
+      ],
+      [
+        0,
+        -103,
+        -193
+      ],
+      [
+        0,
+        -71,
+        -189
+      ],
+      [
+        0,
+        -93,
+        -183
+      ],
+      [
+        0,
+        -37,
+        -143
+      ],
+      [
+        0,
+        61,
+        -143
+      ],
+      [
+        0,
+        -119,
+        -141
+      ],
+      [
+        0,
+        -29,
+        -141
+      ],
+      [
+        0,
+        89,
+        -139
+      ],
+      [
+        0,
+        15,
+        -129
+      ],
+      [
+        0,
+        43,
+        -125
+      ],
+      [
+        0,
+        -115,
+        -125
+      ],
+      [
+        0,
+        93,
+        -111
+      ],
+      [
+        0,
+        -39,
+        -109
+      ],
+      [
+        0,
+        -9,
+        -107
+      ],
+      [
+        0,
+        135,
+        -107
+      ],
+      [
+        0,
+        111,
+        -107
+      ],
+      [
+        0,
+        99,
+        -105
+      ],
+      [
+        0,
+        -61,
+        -105
+      ],
+      [
+        0,
+        -117,
+        -103
+      ],
+      [
+        0,
+        -27,
+        -95
+      ],
+      [
+        0,
+        27,
+        -86
+      ],
+      [
+        0,
+        101,
+        -83
+      ],
+      [
+        0,
+        -115,
+        -79
+      ],
+      [
+        0,
+        89,
+        -75
+      ],
+      [
+        0,
+        99,
+        -73
+      ],
+      [
+        0,
+        123,
+        -71
+      ],
+      [
+        0,
+        -85,
+        -67
+      ],
+      [
+        0,
+        -139,
+        -63
+      ],
+      [
+        0,
+        -13,
+        -59
+      ],
+      [
+        0,
+        -115,
+        -59
+      ],
+      [
+        0,
+        -21,
+        -59
+      ],
+      [
+        0,
+        29,
+        -58
+      ],
+      [
+        0,
+        107,
+        -57
+      ],
+      [
+        0,
+        171,
+        -51
+      ],
+      [
+        0,
+        -89,
+        -47
+      ],
+      [
+        0,
+        51,
+        -42
+      ],
+      [
+        0,
+        -115,
+        -41
+      ],
+      [
+        0,
+        151,
+        -41
+      ],
+      [
+        0,
+        -31,
+        -35
+      ],
+      [
+        0,
+        73,
+        -34
+      ],
+      [
+        0,
+        -57,
+        -29
+      ],
+      [
+        0,
+        -5,
+        -29
+      ],
+      [
+        0,
+        95,
+        -24
+      ],
+      [
+        0,
+        -35,
+        -15
+      ],
+      [
+        0,
+        43,
+        -11
+      ],
+      [
+        0,
+        -3,
+        -11
+      ],
+      [
+        0,
+        3,
+        -9
+      ],
+      [
+        0,
+        37,
+        -7
+      ],
+      [
+        0,
+        -123,
+        -3
+      ],
+      [
+        0,
+        -39,
+        -1
+      ],
+      [
+        0,
+        -107,
+        1
+      ],
+      [
+        0,
+        -19,
+        5
+      ],
+      [
+        0,
+        31,
+        7
+      ],
+      [
+        0,
+        189,
+        24
+      ],
+      [
+        0,
+        17,
+        37
+      ]
+    ],
+    "gfxsmokepoint": [
+      [
+        0,
+        -145,
+        14,
+        1
+      ],
+      [
+        0,
+        -129,
+        18,
+        1
+      ],
+      [
+        0,
+        -59,
+        18,
+        1
+      ],
+      [
+        0,
+        -45,
+        18,
+        1
+      ],
+      [
+        0,
+        -117,
+        20,
+        1
+      ],
+      [
+        0,
+        -55,
+        20,
+        1
+      ],
+      [
+        0,
+        -109,
+        22,
+        1
+      ],
+      [
+        0,
+        -29,
+        22,
+        1
+      ],
+      [
+        0,
+        -87,
+        24,
+        1
+      ],
+      [
+        0,
+        -65,
+        24,
+        1
+      ],
+      [
+        0,
+        -21,
+        26,
+        1
+      ],
+      [
+        0,
+        -73,
+        30,
+        1
+      ],
+      [
+        0,
+        223,
+        34,
+        1
+      ],
+      [
+        0,
+        -3,
+        36,
+        1
+      ],
+      [
+        0,
+        45,
+        36,
+        1
+      ],
+      [
+        0,
+        215,
+        36,
+        1
+      ],
+      [
+        0,
+        69,
+        38,
+        1
+      ],
+      [
+        0,
+        33,
+        40,
+        1
+      ],
+      [
+        0,
+        223,
+        40,
+        1
+      ],
+      [
+        0,
+        23,
+        42,
+        1
+      ],
+      [
+        0,
+        213,
+        44,
+        1
+      ],
+      [
+        0,
+        205,
+        46,
+        1
+      ],
+      [
+        0,
+        197,
+        52,
+        1
+      ],
+      [
+        0,
+        91,
+        54,
+        1
+      ],
+      [
+        0,
+        153,
+        56,
+        1
+      ],
+      [
+        0,
+        145,
+        58,
+        1
+      ],
+      [
+        0,
+        105,
+        62,
+        1
+      ],
+      [
+        0,
+        183,
+        64,
+        1
+      ],
+      [
+        0,
+        135,
+        66,
+        1
+      ],
+      [
+        0,
+        121,
+        68,
+        1
+      ],
+      [
+        0,
+        171,
+        68,
+        1
+      ],
+      [
+        0,
+        117,
+        72,
+        1
+      ],
+      [
+        0,
+        -15,
+        -116,
+        0
+      ],
+      [
+        0,
+        11,
+        -112,
+        0
+      ],
+      [
+        0,
+        -25,
+        -108,
+        0
+      ],
+      [
+        0,
+        33,
+        -102,
+        0
+      ],
+      [
+        0,
+        -39,
+        -96,
+        0
+      ],
+      [
+        0,
+        51,
+        -92,
+        0
+      ],
+      [
+        0,
+        -61,
+        -90,
+        0
+      ],
+      [
+        0,
+        -41,
+        -88,
+        0
+      ],
+      [
+        0,
+        -71,
+        -78,
+        0
+      ],
+      [
+        0,
+        69,
+        -76,
+        0
+      ],
+      [
+        0,
+        83,
+        -74,
+        0
+      ],
+      [
+        0,
+        -77,
+        -70,
+        0
+      ],
+      [
+        0,
+        97,
+        -64,
+        0
+      ],
+      [
+        0,
+        101,
+        -58,
+        0
+      ],
+      [
+        0,
+        -87,
+        -56,
+        0
+      ],
+      [
+        0,
+        -91,
+        -52,
+        0
+      ],
+      [
+        0,
+        127,
+        -42,
+        0
+      ],
+      [
+        0,
+        -99,
+        -40,
+        0
+      ],
+      [
+        0,
+        145,
+        -32,
+        0
+      ],
+      [
+        0,
+        -109,
+        -28,
+        0
+      ],
+      [
+        0,
+        163,
+        -14,
+        0
+      ],
+      [
+        0,
+        -123,
+        -14,
+        0
+      ],
+      [
+        0,
+        181,
+        2,
+        0
+      ],
+      [
+        0,
+        -133,
+        2,
+        0
+      ],
+      [
+        0,
+        199,
+        14,
+        0
+      ]
+    ],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [],
+    "sharedEffects": {
+      "fx fire house 0": "Shared/Effects/fx_fire_house_0/metadata.json",
+      "fx fire house 1": "Shared/Effects/fx_fire_house_1/metadata.json",
+      "fx fire house 2": "Shared/Effects/fx_fire_house_2/metadata.json",
+      "fx smoke": "Shared/Effects/fx_smoke/metadata.json"
+    },
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 389,
+  "height": 344,
+  "pivot": [
+    162,
+    268
+  ],
+  "shadow": {
+    "bobId": 220,
+    "descriptor": {
+      "bobId": 220,
+      "frameIndex": 220,
+      "kind": 2,
+      "x": -147,
+      "y": -134,
+      "width": 535,
+      "height": 208,
+      "firstScanline": 1068
+    },
+    "pivot": [
+      147,
+      134
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 265,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2_s.bmd",
+      "offset": 107144541,
+      "size": 20287,
+      "sha256": "eeede3627302ac85a367075f0c7dd47bf118d04f430f82a59d63eb787bd0b215"
+    },
+    "rawLibrary": "Metadata/Sources/ls_houses_viking2_s.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Vikings/Buildings/Brewery/level_0/shadow/coverage_000220.png",
+    "pixelSha256": "a751d7a4ab4533f23149673ecbc62634723bf646cbb0eb56bfc9d43efe78fecd"
+  },
+  "constructionParts": [
+    {
+      "bobId": 222,
+      "descriptor": {
+        "bobId": 222,
+        "frameIndex": 222,
+        "kind": 4,
+        "x": -162,
+        "y": -175,
+        "width": 389,
+        "height": 200,
+        "firstScanline": 6372
+      },
+      "pivot": [
+        162,
+        175
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 932,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+        "offset": 104827473,
+        "size": 2317068,
+        "sha256": "6096ebd90f5810ff7e0102394a46e6fabe759afc4acafd5db6945556c9b31b52"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking2.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Brewery/level_0/construction/layers/house02/body_000222.png",
+      "pixelSha256": "4b9c4f6873b33e87711ca1e16a4da2518fbed378f7dd27fc4b58eafd2ef722f5"
+    },
+    {
+      "bobId": 222,
+      "descriptor": {
+        "bobId": 222,
+        "frameIndex": 222,
+        "kind": 4,
+        "x": -162,
+        "y": -175,
+        "width": 389,
+        "height": 200,
+        "firstScanline": 6372
+      },
+      "pivot": [
+        162,
+        175
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 932,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+        "offset": 104827473,
+        "size": 2317068,
+        "sha256": "6096ebd90f5810ff7e0102394a46e6fabe759afc4acafd5db6945556c9b31b52"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking2.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/Brewery/level_0/construction/layers/reveal_000222.png",
+      "pixelSha256": "6f768f1be0450b75659ee54969292467f5453fd37dc19c4f07caf47d307d0fa9"
+    },
+    {
+      "bobId": 221,
+      "descriptor": {
+        "bobId": 221,
+        "frameIndex": 221,
+        "kind": 4,
+        "x": -153,
+        "y": -256,
+        "width": 364,
+        "height": 323,
+        "firstScanline": 6049
+      },
+      "pivot": [
+        153,
+        256
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 932,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+        "offset": 104827473,
+        "size": 2317068,
+        "sha256": "6096ebd90f5810ff7e0102394a46e6fabe759afc4acafd5db6945556c9b31b52"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking2.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Brewery/level_0/construction/layers/house02/body_000221.png",
+      "pixelSha256": "9a8e1309826736a6a9d17036dfad8500899e9fe4269c729165259caa5ec0ebaf"
+    },
+    {
+      "bobId": 221,
+      "descriptor": {
+        "bobId": 221,
+        "frameIndex": 221,
+        "kind": 4,
+        "x": -153,
+        "y": -256,
+        "width": 364,
+        "height": 323,
+        "firstScanline": 6049
+      },
+      "pivot": [
+        153,
+        256
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 932,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+        "offset": 104827473,
+        "size": 2317068,
+        "sha256": "6096ebd90f5810ff7e0102394a46e6fabe759afc4acafd5db6945556c9b31b52"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking2.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/Brewery/level_0/construction/layers/reveal_000221.png",
+      "pixelSha256": "75f44df8a4cf69a2f2126631f470c26d4c14743308002aa38e403f7e128ea5fc"
+    },
+    {
+      "bobId": 220,
+      "descriptor": {
+        "bobId": 220,
+        "frameIndex": 220,
+        "kind": 4,
+        "x": -162,
+        "y": -268,
+        "width": 389,
+        "height": 344,
+        "firstScanline": 5705
+      },
+      "pivot": [
+        162,
+        268
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 932,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+        "offset": 104827473,
+        "size": 2317068,
+        "sha256": "6096ebd90f5810ff7e0102394a46e6fabe759afc4acafd5db6945556c9b31b52"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking2.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Brewery/level_0/main/frame_000220.png",
+      "pixelSha256": "f64b65e700d91c4729e01206ca208cc75b76176fcfa18e85977c4554d9db88c0"
+    },
+    {
+      "bobId": 220,
+      "descriptor": {
+        "bobId": 220,
+        "frameIndex": 220,
+        "kind": 4,
+        "x": -162,
+        "y": -268,
+        "width": 389,
+        "height": 344,
+        "firstScanline": 5705
+      },
+      "pivot": [
+        162,
+        268
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 932,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+        "offset": 104827473,
+        "size": 2317068,
+        "sha256": "6096ebd90f5810ff7e0102394a46e6fabe759afc4acafd5db6945556c9b31b52"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking2.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/Brewery/level_0/construction/layers/reveal_000220.png",
+      "pixelSha256": "2080fae44717a852d571b4872e63afb8a129f021842fcc1f5b0da1ddbbec3371"
+    },
+    {
+      "bobId": 223,
+      "descriptor": {
+        "bobId": 223,
+        "frameIndex": 223,
+        "kind": 1,
+        "x": -145,
+        "y": -135,
+        "width": 535,
+        "height": 210,
+        "firstScanline": 6572
+      },
+      "pivot": [
+        145,
+        135
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 932,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+        "offset": 104827473,
+        "size": 2317068,
+        "sha256": "6096ebd90f5810ff7e0102394a46e6fabe759afc4acafd5db6945556c9b31b52"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking2.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Vikings/Buildings/Brewery/level_0/construction/layers/auxiliary_threshold_000223.png",
+      "pixelSha256": "ae560814f42a1d0391c96cc48dc6631de6d15b9f4fb77022834ab821fc5ac686"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Vikings/Buildings/Brewery/level_0/construction/progress_000.png",
+      "pivot": [
+        162,
+        268
+      ],
+      "dimensions": [
+        552,
+        344
+      ],
+      "palette": "house02",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            222,
+            -1,
+            0,
+            85
+          ],
+          "threshold": 0,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Brewery/level_0/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Vikings/Buildings/Brewery/level_0/construction/progress_010.png",
+      "pivot": [
+        162,
+        268
+      ],
+      "dimensions": [
+        552,
+        344
+      ],
+      "palette": "house02",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            222,
+            -1,
+            0,
+            85
+          ],
+          "threshold": 28,
+          "bodyPixels": 1524,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            221,
+            -1,
+            1,
+            82
+          ],
+          "threshold": 28,
+          "bodyPixels": 3138,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Brewery/level_0/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Vikings/Buildings/Brewery/level_0/construction/progress_025.png",
+      "pivot": [
+        162,
+        268
+      ],
+      "dimensions": [
+        552,
+        344
+      ],
+      "palette": "house02",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            222,
+            -1,
+            0,
+            85
+          ],
+          "threshold": 73,
+          "bodyPixels": 11411,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            221,
+            -1,
+            1,
+            82
+          ],
+          "threshold": 73,
+          "bodyPixels": 11642,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Brewery/level_0/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Vikings/Buildings/Brewery/level_0/construction/progress_050.png",
+      "pivot": [
+        162,
+        268
+      ],
+      "dimensions": [
+        552,
+        344
+      ],
+      "palette": "house02",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            222,
+            -1,
+            0,
+            85
+          ],
+          "threshold": 147,
+          "bodyPixels": 33038,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            221,
+            -1,
+            1,
+            82
+          ],
+          "threshold": 153,
+          "bodyPixels": 38135,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            220,
+            223,
+            29,
+            100
+          ],
+          "threshold": 73,
+          "bodyPixels": 24625,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Brewery/level_0/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Vikings/Buildings/Brewery/level_0/construction/progress_075.png",
+      "pivot": [
+        162,
+        268
+      ],
+      "dimensions": [
+        552,
+        344
+      ],
+      "palette": "house02",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            222,
+            -1,
+            0,
+            85
+          ],
+          "threshold": 224,
+          "bodyPixels": 43149,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            221,
+            -1,
+            1,
+            82
+          ],
+          "threshold": 232,
+          "bodyPixels": 46084,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            220,
+            223,
+            29,
+            100
+          ],
+          "threshold": 163,
+          "bodyPixels": 64412,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Brewery/level_0/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Vikings/Buildings/Brewery/level_0/construction/progress_100.png",
+      "pivot": [
+        162,
+        268
+      ],
+      "dimensions": [
+        552,
+        344
+      ],
+      "palette": "house02",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            222,
+            -1,
+            0,
+            85
+          ],
+          "threshold": 256,
+          "bodyPixels": 44578,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            221,
+            -1,
+            1,
+            82
+          ],
+          "threshold": 256,
+          "bodyPixels": 46762,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            220,
+            223,
+            29,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 71257,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Brewery/level_0/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [
+    {
+      "tuple": [
+        0,
+        1,
+        224
+      ],
+      "asset": {
+        "bobId": 224,
+        "descriptor": {
+          "bobId": 224,
+          "frameIndex": 224,
+          "kind": 1,
+          "x": 52,
+          "y": -14,
+          "width": 43,
+          "height": 73,
+          "firstScanline": 9547
+        },
+        "pivot": [
+          -52,
+          14
+        ],
+        "source": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 932,
+          "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+          "offset": 104827473,
+          "size": 2317068,
+          "sha256": "6096ebd90f5810ff7e0102394a46e6fabe759afc4acafd5db6945556c9b31b52"
+        },
+        "rawLibrary": "Metadata/Sources/ls_houses_viking2.bmd",
+        "role": "body",
+        "confidence": "AUTOMATED_CONFIRMED",
+        "palette": "house02",
+        "paletteSource": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 1916,
+          "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+          "offset": 132800984,
+          "size": 901,
+          "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+        },
+        "paletteDefinition": {
+          "section": "gfxpalette256",
+          "commands": [
+            {
+              "name": "editname",
+              "arguments": [
+                "house02"
+              ]
+            },
+            {
+              "name": "gfxfile",
+              "arguments": [
+                "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+              ]
+            },
+            {
+              "name": "gfxpreshade",
+              "arguments": [
+                1
+              ]
+            }
+          ]
+        },
+        "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+        "path": "Vikings/Buildings/Brewery/level_0/states/door/house02/frame_000224.png",
+        "pixelSha256": "68a28e43d3b4c5851630419fe3fbe07d67e0f80bbc7041c7f53227870e1b9790"
+      }
+    }
+  ],
+  "sourceAssetExport": "COMPLETE"
+}

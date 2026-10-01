@@ -1,0 +1,140 @@
+{
+ "gfxPatternId": 8,
+ "nativeName": "water 01",
+ "editGroups": [
+  [
+   "water all"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeDefinition": {
+  "section": "trianglepatterntype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "iswater",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "moveresistance",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "debugname",
+    "arguments": [
+     "water"
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     0,
+     98,
+     115
+    ]
+   }
+  ]
+ },
+ "texture": "data\\engine2d\\bin\\textures\\text_002.pcx",
+ "textureOutput": "Terrain/Textures/text_002.png",
+ "triangleA": [
+  0,
+  0,
+  63,
+  63,
+  0,
+  63
+ ],
+ "triangleB": [
+  0,
+  0,
+  63,
+  0,
+  63,
+  63
+ ],
+ "cropBox": [
+  0,
+  0,
+  63,
+  63
+ ],
+ "crop": "Terrain/Patterns/water_all/008_water_01.png",
+ "triangleMask": "Terrain/Patterns/water_all/008_water_01__triangles.png",
+ "maskValues": {
+  "85": "triangle A",
+  "170": "triangle B"
+ },
+ "definition": {
+  "section": "gfxpattern",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "water 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "water all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxtexture",
+    "arguments": [
+     "data\\engine2d\\bin\\textures\\text_002.pcx"
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     0,
+     0,
+     63,
+     63,
+     0,
+     63
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     0,
+     0,
+     63,
+     0,
+     63,
+     63
+    ]
+   }
+  ]
+ },
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0048E24E pattern.cif loader (stride 0x70)",
+   "0x00491EA8 pattern texture resolve"
+  ],
+  "cpp": "GfxPatternRegistry"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED texture decode",
+  "presentation": "PRESENTATION_PARTIAL: texture-space crop; isometric triangle projection, lighting and transitions not applied"
+ }
+}

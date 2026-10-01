@@ -1,0 +1,63 @@
+{
+  "bobId": 6,
+  "descriptor": {
+    "bobId": 6,
+    "frameIndex": 6,
+    "kind": 4,
+    "x": -330,
+    "y": -526,
+    "width": 758,
+    "height": 187,
+    "firstScanline": 3561
+  },
+  "pivot": [
+    330,
+    526
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1994,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders2.bmd",
+    "offset": 124975295,
+    "size": 2675469,
+    "sha256": "77d436b953340135c378c91ec52e924c2c6a262fa8059294e56b6ebe33a19a65"
+  },
+  "rawLibrary": "Metadata/Sources/ls_wonders2.bmd",
+  "role": "effect",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "gui_bubbles",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 984,
+    "entryName": "data\\engine2d\\bin\\palettes\\gui\\gui_bubbles.pcx",
+    "offset": 132777549,
+    "size": 901,
+    "sha256": "dcaddae24166e956985beba12fcd293e48240fdae588d6cc8f89b4a1881581f5"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "gui_bubbles"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\gui\\gui_bubbles.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+  "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_wonders2.bmd/gui_bubbles/effect/frame_000006.png",
+  "pixelSha256": "2ad5805f48438c04d2f0d72bb7482ea926136bfc118ef2a495e9418ebf05ab4f"
+}

@@ -1,0 +1,37 @@
+{
+  "asset": {
+    "bobId": 34,
+    "descriptor": {
+      "bobId": 34,
+      "frameIndex": 34,
+      "kind": 2,
+      "x": -219,
+      "y": -176,
+      "width": 472,
+      "height": 271,
+      "firstScanline": 1200
+    },
+    "pivot": [
+      219,
+      176
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 277,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4_s.bmd",
+      "offset": 110968149,
+      "size": 17772,
+      "sha256": "d991c4b3b0cec46eb4bbd20fab7523461345c8bd4b7447fa77eca861b8092df6"
+    },
+    "rawLibrary": "Metadata/Sources/ls_houses_viking4_s.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Vikings/Buildings/Headquarters/gfx_21/level_0/shadow/coverage_000034.png",
+    "pixelSha256": "a57c1f9c7c60aea73f72d07bd330489006a941d239abf3a192939910338e2c4f"
+  },
+  "rule": "Native destination darkening, not alpha blend",
+  "Game.exe": "0x0049B930",
+  "drawOrder": "before finished body; extension keeps existing shadow; new construction uses auxiliary threshold maps",
+  "confidence": "AUTOMATED_CONFIRMED (source coverage); PARTIAL (live composition)"
+}

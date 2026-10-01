@@ -1,0 +1,59 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 203,
+  "entryName": "data\\engine2d\\bin\\sounds\\ambient\\bird_08.wav",
+  "offset": 134706158,
+  "size": 60360,
+  "sha256": "f612b6158da52b1710ab8688bb5541ec2a15bcaad76e904f1a1020840c80cfcd"
+ },
+ "output": "Audio/ambient/bird_08.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 60302,
+  "durationSeconds": 1.367,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 11,
+   "name": "All Trees",
+   "parameters": [
+    10,
+    70,
+    5
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": "trees yew",
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 11,
+   "name": "All Trees",
+   "parameters": [
+    10,
+    70,
+    5
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": "trees yew",
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Ambient",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

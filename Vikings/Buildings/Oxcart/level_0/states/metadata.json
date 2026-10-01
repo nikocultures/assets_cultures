@@ -1,0 +1,142 @@
+{
+  "idleBase": [
+    {
+      "bobId": 2,
+      "descriptor": {
+        "bobId": 2,
+        "frameIndex": 2,
+        "kind": 4,
+        "x": -28,
+        "y": -31,
+        "width": 55,
+        "height": 48,
+        "firstScanline": 83
+      },
+      "pivot": [
+        28,
+        31
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2372,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_vehicles.bmd",
+        "offset": 102518318,
+        "size": 70271,
+        "sha256": "6a4d946b5953f972089a468209df5a9d97b51da31348b068572c93b6e1b2bd2a"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_vehicles.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1905,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+        "offset": 132800083,
+        "size": 901,
+        "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Oxcart/level_0/main/frame_000002.png",
+      "pixelSha256": "4f097599b6b4493cbfc617e367dee7b854dc533b5a97a46edec344c8d77314c7"
+    }
+  ],
+  "doorFrames": [
+    {
+      "tuple": [
+        0,
+        1,
+        4
+      ],
+      "asset": {
+        "bobId": 4,
+        "descriptor": {
+          "bobId": 4,
+          "frameIndex": 4,
+          "kind": 4,
+          "x": -95,
+          "y": -178,
+          "width": 214,
+          "height": 253,
+          "firstScanline": 165
+        },
+        "pivot": [
+          95,
+          178
+        ],
+        "source": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 2372,
+          "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_vehicles.bmd",
+          "offset": 102518318,
+          "size": 70271,
+          "sha256": "6a4d946b5953f972089a468209df5a9d97b51da31348b068572c93b6e1b2bd2a"
+        },
+        "rawLibrary": "Metadata/Sources/ls_houses_vehicles.bmd",
+        "role": "body",
+        "confidence": "AUTOMATED_CONFIRMED",
+        "palette": "house01",
+        "paletteSource": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 1905,
+          "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx",
+          "offset": 132800083,
+          "size": 901,
+          "sha256": "118f27f9b32ec6674e95fefb6b68fb7657ecfa78471c9f7b8ec1589b9499ee2c"
+        },
+        "paletteDefinition": {
+          "section": "gfxpalette256",
+          "commands": [
+            {
+              "name": "editname",
+              "arguments": [
+                "house01"
+              ]
+            },
+            {
+              "name": "gfxfile",
+              "arguments": [
+                "data\\engine2d\\bin\\palettes\\landscapes\\haus01.pcx"
+              ]
+            },
+            {
+              "name": "gfxpreshade",
+              "arguments": [
+                1
+              ]
+            }
+          ]
+        },
+        "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+        "path": "Vikings/Buildings/Oxcart/level_0/states/door/house01/frame_000004.png",
+        "pixelSha256": "6614876eb4327a7899e4cf61ba58095cac18216ece236714e1a11a6ccec71518"
+      }
+    }
+  ],
+  "doorPredicate": "House door scan 0x00495B57, 0x0042C214/0x0042C392, Human 0x00441AAD checks +0xB50/+0xB51. Not equivalent to any Farmer assignment or production state.",
+  "working": "See native overlay state lanes; no fabricated unique working sprite",
+  "confidence": "PARTIAL"
+}

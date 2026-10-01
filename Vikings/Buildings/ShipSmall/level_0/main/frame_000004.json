@@ -1,0 +1,63 @@
+{
+  "bobId": 4,
+  "descriptor": {
+    "bobId": 4,
+    "frameIndex": 4,
+    "kind": 4,
+    "x": -95,
+    "y": -178,
+    "width": 214,
+    "height": 253,
+    "firstScanline": 165
+  },
+  "pivot": [
+    95,
+    178
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 2372,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_vehicles.bmd",
+    "offset": 102518318,
+    "size": 70271,
+    "sha256": "6a4d946b5953f972089a468209df5a9d97b51da31348b068572c93b6e1b2bd2a"
+  },
+  "rawLibrary": "Metadata/Sources/ls_houses_vehicles.bmd",
+  "role": "body",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "Ship_house",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1567,
+    "entryName": "data\\engine2d\\bin\\palettes\\creatures\\ship_house.pcx",
+    "offset": 132754123,
+    "size": 901,
+    "sha256": "ede5b3c8d2212a0f818c4da11baa70f0fc72b507c567426905b96c3e67d65318"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "Ship_house"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\creatures\\Ship_house.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+  "path": "Vikings/Buildings/ShipSmall/level_0/main/frame_000004.png",
+  "pixelSha256": "148f0be2f3dd6394990c758ce486172a34a053df0b93c8ed66e09a6b402b7637"
+}

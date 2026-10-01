@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Good 60 Ox Cart (oxcart) | Cultures asset library</title><link rel="stylesheet" href="../../../Metadata/Browser/app.css"><script src="index_data.js"></script><script src="../../../Metadata/Browser/app.js"></script></head><body><header class="top"><h1><a href="../../../index.html">Cultures | Original Asset Library</a></h1><div>Good 60 Ox Cart (oxcart)</div></header><main><div id="crumbs"></div><section id="good:60"><div class="kv"><b>Good ID</b><span>60</span><b>Native name</b><span>oxcart</span><b>English</b><span>Ox Cart / Ox Carts</span><b>Landscape type</b><span>1</span><b>Resolved GfxLandscape</b><span>None </span><b>Rule</b><span>Game 0x00415565: first pileable GfxLandscape with logictype == landscapetype (Goods 0..55 only)</span><b>BMD</b><span>None</span><b>Palette</b><span>None</span><b>Production</b><span>{&quot;productionInputGoods&quot;: [], &quot;atomicForProduction&quot;: 39, &quot;isProducedInHouse&quot;: 0, &quot;isProducedOnMap&quot;: 1}</span><b>Harvest</b><span>{}</span><b>Weapon / armor type</b><span>[null, null]</span><b>Ownership</b><span>SHARED (Good table is global; per-tribe availability in tribeOwnership)</span><b>Confidence</b><span>{&quot;nativeTable&quot;: &quot;SOURCE_COMPLETE&quot;, &quot;pile&quot;: &quot;UNKNOWN&quot;, &quot;icon&quot;: &quot;UNKNOWN&quot;, &quot;carried&quot;: &quot;SOURCE_COMPLETE (walk records)&quot;}</span></div></section><section><p class="note">No resolvable pile landscape -&gt; no native UI visual (UNKNOWN)</p></section><section><h2>Carried visual</h2><p>GfxWalkAtomic logicgoodtype == Good id; carried good is baked into the Human body frames (no separate overlay sprite). Human random palette: good_OxCart</p><table class="grid"><tr><th>tribe</th><th>job</th><th>phase</th><th>sequence</th><th>sheet</th></tr><tr><td>1</td><td>24 carrier</td><td>initial body 0</td><td>human_man_z00Trader_walk</td><td><a href="../../../Vikings/Humans/Sheets/cr_hum_body_00%2Bcr_hum_head_00__test_human_00/j24_W060_human_man_z00Trader_walk_s1557.png">sheet</a></td></tr><tr><td>1</td><td>24 carrier</td><td>jobChange body 0</td><td>human_man_z00Trader_walk</td><td><a href="../../../Vikings/Humans/Sheets/cr_hum_body_00%2Bcr_hum_head_00__test_human_00/j24_W060_human_man_z00Trader_walk_s1557.png">sheet</a></td></tr><tr><td>1</td><td>25 trader</td><td>initial body 0</td><td>human_man_z01TraderOx_walk</td><td><a href="../../../Vikings/Humans/Sheets/cr_hum_body_00%2Bcr_hum_head_00__test_human_00/j25_W060_human_man_z01TraderOx_walk_s1555.png">sheet</a></td></tr><tr><td>1</td><td>25 trader</td><td>jobChange body 0</td><td>human_man_z01TraderOx_walk</td><td><a href="../../../Vikings/Humans/Sheets/cr_hum_body_00%2Bcr_hum_head_00__test_human_00/j25_W060_human_man_z01TraderOx_walk_s1555.png">sheet</a></td></tr></table></section><section><h2>Consumers</h2><p>Production input of: none</p><p>Needed to build: tribe 1 None, tribe 2 None, tribe 3 None, tribe 4 None, tribe 7 None</p><p>Native job relations: tribe 1 jobenablesgood job 9 Carpenter, tribe 2 jobenablesgood job 9 Carpenter, tribe 3 jobenablesgood job 9 Carpenter, tribe 4 jobenablesgood job 9 Carpenter, tribe 7 jobenablesgood job 9 Carpenter</p><p class="sub">goodtypes.cif productioninputgoods; tribetypes.cif tobuildhouseneedgood (house, goods...)</p></section><section><h2>Producers / tribes</h2><pre>[
+ {
+  &quot;tribe&quot;: 1,
+  &quot;tribeName&quot;: &quot;viking&quot;,
+  &quot;allowgood&quot;: true,
+  &quot;producedInHouseTypes&quot;: [
+   {
+    &quot;houseType&quot;: 25,
+    &quot;houseName&quot;: null,
+    &quot;english&quot;: &quot;Carpenter&#x27;s Shop 3&quot;
+   }
+  ],
+  &quot;relations&quot;: {
+   &quot;allowgood&quot;: [
+    [
+     60
+    ]
+   ],
+   &quot;jobenablesgood&quot;: [
+    [
+     9,
+     60
+    ]
+   ],
+   &quot;toproducegoodneedhouse&quot;: [
+    [
+     60,
+     25
+    ]
+   ],
+   &quot;needforgood&quot;: [
+    [
+     60,
+     25,
+     9
+    ]
+   ],
+   &quot;trainforgood&quot;: [
+    [
+     60,
+     25,
+     77
+    ]
+   ]
+  }
+ },
+ {
+  &quot;tribe&quot;: 2,
+  &quot;tribeName&quot;: &quot;frank&quot;,
+  &quot;allowgood&quot;: true,
+  &quot;producedInHouseTypes&quot;: [
+   {
+    &quot;houseType&quot;: 25,
+    &quot;houseName&quot;: null,
+    &quot;english&quot;: &quot;Carpenter&#x27;s Shop 3&quot;
+   }
+  ],
+  &quot;relations&quot;: {
+   &quot;allowgood&quot;: [
+    [
+     60
+    ]
+   ],
+   &quot;jobenablesgood&quot;: [
+    [
+     9,
+     60
+    ]
+   ],
+   &quot;toproducegoodneedhouse&quot;: [
+    [
+     60,
+     25
+    ]
+   ],
+   &quot;needforgood&quot;: [
+    [
+     60,
+     25,
+     9
+    ]
+   ],
+   &quot;trainforgood&quot;: [
+    [
+     60,
+     25,
+     77
+    ]
+   ]
+  }
+ },
+ {
+  &quot;tribe&quot;: 4,
+  &quot;tribeName&quot;: &quot;saracen&quot;,
+  &quot;allowgood&quot;: true,
+  &quot;producedInHouseTypes&quot;: [
+   {
+    &quot;houseType&quot;: 25,
+    &quot;houseName&quot;: null,
+    &quot;english&quot;: &quot;Carpenter&#x27;s Shop 3&quot;
+   }
+  ],
+  &quot;relations&quot;: {
+   &quot;allowgood&quot;: [
+    [
+     60
+    ]
+   ],
+   &quot;jobenablesgood&quot;: [
+    [
+     9,
+     60
+    ]
+   ],
+   &quot;toproducegoodneedhouse&quot;: [
+    [
+     60,
+     25
+    ]
+   ],
+   &quot;needforgood&quot;: [
+    [
+     60,
+     25,
+     9
+    ]
+   ],
+   &quot;trainforgood&quot;: [
+    [
+     60,
+     25,
+     77
+    ]
+   ]
+  }
+ },
+ {
+  &quot;tribe&quot;: 3,
+  &quot;tribeName&quot;: &quot;byzantine&quot;,
+  &quot;allowgood&quot;: true,
+  &quot;producedInHouseTypes&quot;: [
+   {
+    &quot;houseType&quot;: 25,
+    &quot;houseName&quot;: null,
+    &quot;english&quot;: &quot;Carpenter&#x27;s Shop 3&quot;
+   }
+  ],
+  &quot;relations&quot;: {
+   &quot;allowgood&quot;: [
+    [
+     60
+    ]
+   ],
+   &quot;jobenablesgood&quot;: [
+    [
+     9,
+     60
+    ]
+   ],
+   &quot;toproducegoodneedhouse&quot;: [
+    [
+     60,
+     25
+    ]
+   ],
+   &quot;needforgood&quot;: [
+    [
+     60,
+     25,
+     9
+    ]
+   ],
+   &quot;trainforgood&quot;: [
+    [
+     60,
+     25,
+     77
+    ]
+   ]
+  }
+ },
+ {
+  &quot;tribe&quot;: 7,
+  &quot;tribeName&quot;: &quot;egypt&quot;,
+  &quot;allowgood&quot;: true,
+  &quot;producedInHouseTypes&quot;: [
+   {
+    &quot;houseType&quot;: 25,
+    &quot;houseName&quot;: null,
+    &quot;english&quot;: &quot;Carpenter&#x27;s Shop 3&quot;
+   }
+  ],
+  &quot;relations&quot;: {
+   &quot;allowgood&quot;: [
+    [
+     60
+    ]
+   ],
+   &quot;jobenablesgood&quot;: [
+    [
+     9,
+     60
+    ]
+   ],
+   &quot;toproducegoodneedhouse&quot;: [
+    [
+     60,
+     25
+    ]
+   ],
+   &quot;needforgood&quot;: [
+    [
+     60,
+     25,
+     9
+    ]
+   ],
+   &quot;trainforgood&quot;: [
+    [
+     60,
+     25,
+     77
+    ]
+   ]
+  }
+ }
+]</pre></section><p><a href="../../../Shared/Goods/good_60_oxcart/metadata.json">metadata.json</a></p></main></body></html>

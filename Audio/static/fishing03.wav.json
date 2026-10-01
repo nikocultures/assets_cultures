@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1659,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\fishing03.wav",
+  "offset": 180218342,
+  "size": 59248,
+  "sha256": "a075d91ff9688bf8234ae692c31504de29e4a41100c341ef836eda17adaa671a"
+ },
+ "output": "Audio/static/fishing03.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 59190,
+  "durationSeconds": 1.342,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 42,
+   "name": "Fisherman Out Fish",
+   "parameters": [
+    60
+   ],
+   "logicSoundType": 20,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 42,
+   "name": "Fisherman Out Fish",
+   "parameters": [
+    60
+   ],
+   "logicSoundType": 20,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Production/actions (folder static)",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

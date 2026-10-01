@@ -1,0 +1,114 @@
+{
+  "tuples": [
+    [
+      3,
+      0,
+      0,
+      -1,
+      20,
+      100
+    ]
+  ],
+  "parts": [
+    {
+      "bobId": 0,
+      "descriptor": {
+        "bobId": 0,
+        "frameIndex": 0,
+        "kind": 4,
+        "x": -162,
+        "y": -651,
+        "width": 312,
+        "height": 763,
+        "firstScanline": 0
+      },
+      "pivot": [
+        162,
+        651
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "oxcart",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2447,
+        "entryName": "data\\engine2d\\bin\\palettes\\creatures\\oxcart.pcx",
+        "offset": 132735202,
+        "size": 901,
+        "sha256": "ae26c55604dd7986454af2b4c3a3331301e13ac742d5a3a5aca9f914f9462baf"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "oxcart"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\creatures\\oxcart.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/WonderKoloss/level_2/construction/layers/oxcart/body_000000.png",
+      "pixelSha256": "5c8d8ebe7cc0938ff5445fd2c21af0a28bfa6836afe165ba95663e22e2f7f92b"
+    },
+    {
+      "bobId": 0,
+      "descriptor": {
+        "bobId": 0,
+        "frameIndex": 0,
+        "kind": 4,
+        "x": -162,
+        "y": -651,
+        "width": 312,
+        "height": 763,
+        "firstScanline": 0
+      },
+      "pivot": [
+        162,
+        651
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/WonderKoloss/level_2/construction/layers/reveal_000000.png",
+      "pixelSha256": "dd67559fe7d95c07f549dbb92cd0e431b2f9458c85a750cebf004744b8a3a6ca"
+    }
+  ],
+  "extensionTuples": [],
+  "rule": "Auxiliary index <= reveal threshold darkens destination in pass 1; main kind4 second-byte <= threshold copies palette pixel in pass 2; source order preserved; after end use full body",
+  "confidence": "PARTIAL",
+  "paletteAlternatives": [
+    "oxcart"
+  ]
+}

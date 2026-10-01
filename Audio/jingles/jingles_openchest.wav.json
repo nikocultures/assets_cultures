@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1961,
+  "entryName": "data\\engine2d\\bin\\sounds\\jingles\\jingles_openchest.wav",
+  "offset": 177159188,
+  "size": 193954,
+  "sha256": "9e5a90f515d76c9cf29d2f0e795a0518eed35b2623e72083efed4ae8247533bc"
+ },
+ "output": "Audio/jingles/jingles_openchest.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 193896,
+  "durationSeconds": 4.397,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxjingle",
+   "sectionOrdinal": 24,
+   "name": "",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": 30
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxjingle",
+   "sectionOrdinal": 24,
+   "name": "",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": 30
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Music jingles",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

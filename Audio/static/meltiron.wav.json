@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1900,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\meltiron.wav",
+  "offset": 182344256,
+  "size": 57206,
+  "sha256": "c816a3048f927c0df00e429d57cb5f8e2cdecb005e08d7edd451576d1702038e"
+ },
+ "output": "Audio/static/meltiron.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 57148,
+  "durationSeconds": 1.296,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 38,
+   "name": "Melt Iron",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 17,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 38,
+   "name": "Melt Iron",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 17,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Production/actions (folder static)",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

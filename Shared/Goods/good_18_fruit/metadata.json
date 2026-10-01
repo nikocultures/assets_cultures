@@ -1,0 +1,337 @@
+{
+ "goodId": 18,
+ "nativeName": "fruit",
+ "english": "Fruit",
+ "englishPlural": "Fruit",
+ "definition": {
+  "section": "goodtype",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "fruit"
+    ]
+   },
+   {
+    "name": "type",
+    "arguments": [
+     18
+    ]
+   },
+   {
+    "name": "landscapetype",
+    "arguments": [
+     41
+    ]
+   },
+   {
+    "name": "isinputgoodflag",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "isproducedinhouseflag",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "isproducedonmapflag",
+    "arguments": [
+     1
+    ]
+   }
+  ]
+ },
+ "landscapeType": 41,
+ "resolvedGfxLandscape": 221,
+ "resolvedGfxLandscapeName": "fruit pile 01",
+ "resolutionRule": "Game 0x00415565: first pileable GfxLandscape with logictype == landscapetype (Goods 0..55 only)",
+ "pileMetadata": "Shared/Goods/good_18_fruit/piles/221_fruit_pile_01/metadata.json",
+ "pileValencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "bobId": 89,
+     "path": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000089.png",
+     "shadowMask": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000089__shadow_mask.png",
+     "width": 24,
+     "height": 22,
+     "pivot": [
+      12,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "bobId": 88,
+     "path": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000088.png",
+     "shadowMask": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000088__shadow_mask.png",
+     "width": 24,
+     "height": 22,
+     "pivot": [
+      12,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "bobId": 87,
+     "path": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000087.png",
+     "shadowMask": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000087__shadow_mask.png",
+     "width": 24,
+     "height": 17,
+     "pivot": [
+      12,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "bobId": 86,
+     "path": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000086.png",
+     "shadowMask": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000086__shadow_mask.png",
+     "width": 24,
+     "height": 13,
+     "pivot": [
+      12,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "bobId": 85,
+     "path": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000085.png",
+     "shadowMask": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000085__shadow_mask.png",
+     "width": 12,
+     "height": 11,
+     "pivot": [
+      12,
+      6
+     ]
+    }
+   ]
+  }
+ ],
+ "icon": {
+  "sequenceIndex": 0,
+  "bobId": 85,
+  "width": 12,
+  "height": 11,
+  "pivot": [
+   12,
+   6
+  ],
+  "pixelKind": 4,
+  "path": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000085.png",
+  "kind4Secondary": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000085__kind4_secondary.png",
+  "shadowMask": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000085__shadow_mask.png",
+  "shadowPivot": [
+   11,
+   1
+  ],
+  "valency": 1,
+  "presentation": "UI: BOB bounds centred then +(12,8) (0x004E2661/0x00496D32); first frame of group (loop phase 0)"
+ },
+ "iconNote": "No separate icon sprite: native UI draws the pile landscape frame (see icon.presentation)",
+ "palette": [
+  "goods_bread"
+ ],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "harvest": {},
+ "production": {
+  "productionInputGoods": [],
+  "atomicForProduction": null,
+  "isProducedInHouse": 0,
+  "isProducedOnMap": 1
+ },
+ "weaponType": null,
+ "armorType": null,
+ "carriedVisual": {
+  "rule": "GfxWalkAtomic logicgoodtype == Good id; carried good is baked into the Human body frames (no separate overlay sprite)",
+  "humanRandomPalette": null,
+  "humanRandomPaletteRule": null,
+  "animations": []
+ },
+ "consumers": {
+  "productionInputOf": [],
+  "houseConstruction": [],
+  "source": "goodtypes.cif productioninputgoods; tribetypes.cif tobuildhouseneedgood (house, goods...)"
+ },
+ "nativeJobRelations": [],
+ "tribeOwnership": [
+  {
+   "tribe": 1,
+   "tribeName": "viking",
+   "allowgood": false,
+   "producedInHouseTypes": [],
+   "relations": {
+    "jobenablesgood": [
+     [
+      18,
+      4
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      30,
+      18
+     ]
+    ],
+    "jobdefaultgood": [
+     [
+      18,
+      4
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 2,
+   "tribeName": "frank",
+   "allowgood": false,
+   "producedInHouseTypes": [],
+   "relations": {
+    "jobenablesgood": [
+     [
+      18,
+      4
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      30,
+      18
+     ]
+    ],
+    "jobdefaultgood": [
+     [
+      18,
+      4
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 4,
+   "tribeName": "saracen",
+   "allowgood": false,
+   "producedInHouseTypes": [],
+   "relations": {
+    "jobenablesgood": [
+     [
+      18,
+      4
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      30,
+      18
+     ]
+    ],
+    "jobdefaultgood": [
+     [
+      18,
+      4
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 3,
+   "tribeName": "byzantine",
+   "allowgood": false,
+   "producedInHouseTypes": [],
+   "relations": {
+    "jobenablesgood": [
+     [
+      18,
+      4
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      30,
+      18
+     ]
+    ],
+    "jobdefaultgood": [
+     [
+      18,
+      4
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 7,
+   "tribeName": "egypt",
+   "allowgood": false,
+   "producedInHouseTypes": [],
+   "relations": {
+    "jobenablesgood": [
+     [
+      18,
+      4
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      30,
+      18
+     ]
+    ],
+    "jobdefaultgood": [
+     [
+      18,
+      4
+     ]
+    ]
+   }
+  }
+ ],
+ "ownership": "SHARED (Good table is global; per-tribe availability in tribeOwnership)",
+ "confidence": {
+  "nativeTable": "SOURCE_COMPLETE",
+  "pile": "PIXEL_CONFIRMED frames",
+  "icon": "SOURCE_COMPLETE (production rule)",
+  "carried": "NONE_DECLARED"
+ },
+ "source": {
+  "goodtypes": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 1724,
+   "entryName": "data\\logic\\goodtypes.cif",
+   "offset": 202500688,
+   "size": 13316,
+   "sha256": "817d4e5abffb1c868f5acab09ce48b44a296b9841c7cc1cc9a71077eacf3458c"
+  },
+  "goodgraphics": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 914,
+   "entryName": "data\\engine2d\\inis\\goods\\goodgraphics.cif",
+   "offset": 192915250,
+   "size": 3066,
+   "sha256": "af62963c314891c2aab24e4e51ad2bb61e28e03c0fa15ae68b640d82e3e0f6a3"
+  }
+ }
+}

@@ -1,0 +1,63 @@
+{
+  "bobId": 2,
+  "descriptor": {
+    "bobId": 2,
+    "frameIndex": 2,
+    "kind": 4,
+    "x": -162,
+    "y": -568,
+    "width": 437,
+    "height": 703,
+    "firstScanline": 0
+  },
+  "pivot": [
+    162,
+    568
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1994,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders2.bmd",
+    "offset": 124975295,
+    "size": 2675469,
+    "sha256": "77d436b953340135c378c91ec52e924c2c6a262fa8059294e56b6ebe33a19a65"
+  },
+  "rawLibrary": "Metadata/Sources/ls_wonders2.bmd",
+  "role": "body",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "wonders_pyramid",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 2645,
+    "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx",
+    "offset": 132842433,
+    "size": 901,
+    "sha256": "46545f90b30ac26b1a8ede00c961a12917d29066668d18cf55de9a75caf544ad"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "wonders_pyramid"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+  "path": "Vikings/Buildings/WonderLeuchtturm/level_1/construction/layers/wonders_pyramid/body_000002.png",
+  "pixelSha256": "312f02530ef7641e28d1bb79eb34e6f4ddd4757542ad0970e1071f52913f832e"
+}

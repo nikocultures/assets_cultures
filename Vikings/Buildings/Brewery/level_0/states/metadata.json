@@ -1,0 +1,142 @@
+{
+  "idleBase": [
+    {
+      "bobId": 220,
+      "descriptor": {
+        "bobId": 220,
+        "frameIndex": 220,
+        "kind": 4,
+        "x": -162,
+        "y": -268,
+        "width": 389,
+        "height": 344,
+        "firstScanline": 5705
+      },
+      "pivot": [
+        162,
+        268
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 932,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+        "offset": 104827473,
+        "size": 2317068,
+        "sha256": "6096ebd90f5810ff7e0102394a46e6fabe759afc4acafd5db6945556c9b31b52"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking2.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1916,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+        "offset": 132800984,
+        "size": 901,
+        "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Brewery/level_0/main/frame_000220.png",
+      "pixelSha256": "f64b65e700d91c4729e01206ca208cc75b76176fcfa18e85977c4554d9db88c0"
+    }
+  ],
+  "doorFrames": [
+    {
+      "tuple": [
+        0,
+        1,
+        224
+      ],
+      "asset": {
+        "bobId": 224,
+        "descriptor": {
+          "bobId": 224,
+          "frameIndex": 224,
+          "kind": 1,
+          "x": 52,
+          "y": -14,
+          "width": 43,
+          "height": 73,
+          "firstScanline": 9547
+        },
+        "pivot": [
+          -52,
+          14
+        ],
+        "source": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 932,
+          "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+          "offset": 104827473,
+          "size": 2317068,
+          "sha256": "6096ebd90f5810ff7e0102394a46e6fabe759afc4acafd5db6945556c9b31b52"
+        },
+        "rawLibrary": "Metadata/Sources/ls_houses_viking2.bmd",
+        "role": "body",
+        "confidence": "AUTOMATED_CONFIRMED",
+        "palette": "house02",
+        "paletteSource": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 1916,
+          "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+          "offset": 132800984,
+          "size": 901,
+          "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+        },
+        "paletteDefinition": {
+          "section": "gfxpalette256",
+          "commands": [
+            {
+              "name": "editname",
+              "arguments": [
+                "house02"
+              ]
+            },
+            {
+              "name": "gfxfile",
+              "arguments": [
+                "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+              ]
+            },
+            {
+              "name": "gfxpreshade",
+              "arguments": [
+                1
+              ]
+            }
+          ]
+        },
+        "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+        "path": "Vikings/Buildings/Brewery/level_0/states/door/house02/frame_000224.png",
+        "pixelSha256": "68a28e43d3b4c5851630419fe3fbe07d67e0f80bbc7041c7f53227870e1b9790"
+      }
+    }
+  ],
+  "doorPredicate": "House door scan 0x00495B57, 0x0042C214/0x0042C392, Human 0x00441AAD checks +0xB50/+0xB51. Not equivalent to any Farmer assignment or production state.",
+  "working": "See native overlay state lanes; no fabricated unique working sprite",
+  "confidence": "PARTIAL"
+}

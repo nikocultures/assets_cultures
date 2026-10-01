@@ -1,0 +1,388 @@
+{
+ "gfxLandscapeId": 205,
+ "nativeName": "armor_leather pile 01",
+ "editGroups": [
+  [
+   "goods all",
+   "good piles all"
+  ]
+ ],
+ "logicType": 58,
+ "logicTypeName": "armor_leather",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     58
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "armor_leather"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     58,
+     2,
+     -1,
+     34
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     58,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 34,
+   "goodName": "armor_leather",
+   "english": "Leather Armour",
+   "field": "landscapetype"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd",
+ "palettes": [
+  "goods_bread"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "armor_leather pile 01"
+  ],
+  [
+   4,
+   "armor_leather pile 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "armor_leather pile 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all",
+     "good piles all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     58
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_bread"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     144
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     143
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     142
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     141
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     140
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "armor_leather pile 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "armor_leather pile 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 144,
+     "width": 53,
+     "height": 30,
+     "pivot": [
+      29,
+      17
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_34_armor_leather/piles/205_armor_leather_pile_01/bob_000144.png",
+     "kind4Secondary": "Shared/Goods/good_34_armor_leather/piles/205_armor_leather_pile_01/bob_000144__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_33_armor_wool/piles/204_armor_wool_pile_01/bob_000144__shadow_mask.png",
+     "shadowPivot": [
+      29,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 143,
+     "width": 53,
+     "height": 30,
+     "pivot": [
+      29,
+      17
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_34_armor_leather/piles/205_armor_leather_pile_01/bob_000143.png",
+     "kind4Secondary": "Shared/Goods/good_34_armor_leather/piles/205_armor_leather_pile_01/bob_000143__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_33_armor_wool/piles/204_armor_wool_pile_01/bob_000143__shadow_mask.png",
+     "shadowPivot": [
+      29,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 142,
+     "width": 53,
+     "height": 23,
+     "pivot": [
+      29,
+      10
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_34_armor_leather/piles/205_armor_leather_pile_01/bob_000142.png",
+     "kind4Secondary": "Shared/Goods/good_34_armor_leather/piles/205_armor_leather_pile_01/bob_000142__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_33_armor_wool/piles/204_armor_wool_pile_01/bob_000142__shadow_mask.png",
+     "shadowPivot": [
+      29,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 141,
+     "width": 38,
+     "height": 19,
+     "pivot": [
+      14,
+      10
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_34_armor_leather/piles/205_armor_leather_pile_01/bob_000141.png",
+     "kind4Secondary": "Shared/Goods/good_34_armor_leather/piles/205_armor_leather_pile_01/bob_000141__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_33_armor_wool/piles/204_armor_wool_pile_01/bob_000141__shadow_mask.png",
+     "shadowPivot": [
+      14,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 140,
+     "width": 22,
+     "height": 17,
+     "pivot": [
+      14,
+      8
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_34_armor_leather/piles/205_armor_leather_pile_01/bob_000140.png",
+     "kind4Secondary": "Shared/Goods/good_34_armor_leather/piles/205_armor_leather_pile_01/bob_000140__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_33_armor_wool/piles/204_armor_wool_pile_01/bob_000140__shadow_mask.png",
+     "shadowPivot": [
+      14,
+      3
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_34_armor_leather/piles/205_armor_leather_pile_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

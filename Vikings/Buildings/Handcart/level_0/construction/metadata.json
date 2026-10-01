@@ -1,0 +1,145 @@
+{
+  "tuples": [
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      100
+    ]
+  ],
+  "parts": [
+    {
+      "bobId": 0,
+      "descriptor": {
+        "bobId": 0,
+        "frameIndex": 0,
+        "kind": 4,
+        "x": -15,
+        "y": -24,
+        "width": 47,
+        "height": 46,
+        "firstScanline": 0
+      },
+      "pivot": [
+        15,
+        24
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2372,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_vehicles.bmd",
+        "offset": 102518318,
+        "size": 70271,
+        "sha256": "6a4d946b5953f972089a468209df5a9d97b51da31348b068572c93b6e1b2bd2a"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_vehicles.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "Djinny01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2400,
+        "entryName": "data\\engine2d\\bin\\palettes\\creatures\\djinny.pcx",
+        "offset": 132722588,
+        "size": 901,
+        "sha256": "1c50550a1042de45bc0429dce112af29d234e2b98f740e8eececc2bf231914de"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "Djinny01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\creatures\\djinny.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Handcart/level_0/main/frame_000000.png",
+      "pixelSha256": "c3997e8076910e6188fa51ee77ec517ebea4229706abebc85dc4f6d03a0a18b4"
+    },
+    {
+      "bobId": 0,
+      "descriptor": {
+        "bobId": 0,
+        "frameIndex": 0,
+        "kind": 4,
+        "x": -15,
+        "y": -24,
+        "width": 47,
+        "height": 46,
+        "firstScanline": 0
+      },
+      "pivot": [
+        15,
+        24
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2372,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_vehicles.bmd",
+        "offset": 102518318,
+        "size": 70271,
+        "sha256": "6a4d946b5953f972089a468209df5a9d97b51da31348b068572c93b6e1b2bd2a"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_vehicles.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/Handcart/level_0/construction/layers/reveal_000000.png",
+      "pixelSha256": "a66ef8953ab083cd83f45fc28a7e1d9b8778dc3f6ba74c3f94839e7f8cb9b8df"
+    },
+    {
+      "bobId": 1,
+      "descriptor": {
+        "bobId": 1,
+        "frameIndex": 1,
+        "kind": 1,
+        "x": -15,
+        "y": -5,
+        "width": 50,
+        "height": 37,
+        "firstScanline": 46
+      },
+      "pivot": [
+        15,
+        5
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2372,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_vehicles.bmd",
+        "offset": 102518318,
+        "size": 70271,
+        "sha256": "6a4d946b5953f972089a468209df5a9d97b51da31348b068572c93b6e1b2bd2a"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_vehicles.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Vikings/Buildings/Handcart/level_0/construction/layers/auxiliary_threshold_000001.png",
+      "pixelSha256": "28005f464565f138c1dabc99c8b37795bb88cba695ba8bab66f9ed975234c9b2"
+    }
+  ],
+  "extensionTuples": [],
+  "rule": "Auxiliary index <= reveal threshold darkens destination in pass 1; main kind4 second-byte <= threshold copies palette pixel in pass 2; source order preserved; after end use full body",
+  "confidence": "PARTIAL",
+  "paletteAlternatives": [
+    "Djinny01"
+  ]
+}

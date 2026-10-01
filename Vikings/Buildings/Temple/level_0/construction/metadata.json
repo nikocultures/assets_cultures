@@ -1,0 +1,349 @@
+{
+  "tuples": [
+    [
+      0,
+      0,
+      41,
+      -1,
+      0,
+      63
+    ],
+    [
+      0,
+      0,
+      40,
+      43,
+      0,
+      73
+    ],
+    [
+      0,
+      0,
+      39,
+      -1,
+      14,
+      100
+    ]
+  ],
+  "parts": [
+    {
+      "bobId": 41,
+      "descriptor": {
+        "bobId": 41,
+        "frameIndex": 41,
+        "kind": 4,
+        "x": -144,
+        "y": -208,
+        "width": 314,
+        "height": 305,
+        "firstScanline": 9975
+      },
+      "pivot": [
+        144,
+        208
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "housedruid01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2083,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_druid.pcx",
+        "offset": 132804588,
+        "size": 901,
+        "sha256": "68019699a23e8dac0dd2a76d033cbb308055043d1f7f50e4cadd1d09d701aead"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "housedruid01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_druid.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Temple/level_0/construction/layers/housedruid01/body_000041.png",
+      "pixelSha256": "ee027a721e6705e24c0161bb801f6ed73487f69abf7fed64b635c79b55c824c6"
+    },
+    {
+      "bobId": 41,
+      "descriptor": {
+        "bobId": 41,
+        "frameIndex": 41,
+        "kind": 4,
+        "x": -144,
+        "y": -208,
+        "width": 314,
+        "height": 305,
+        "firstScanline": 9975
+      },
+      "pivot": [
+        144,
+        208
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/Temple/level_0/construction/layers/reveal_000041.png",
+      "pixelSha256": "076359ac0e363bbc91da8c4c5dfe883ae043c6b6a46943a099295435281c77e9"
+    },
+    {
+      "bobId": 40,
+      "descriptor": {
+        "bobId": 40,
+        "frameIndex": 40,
+        "kind": 4,
+        "x": -95,
+        "y": -177,
+        "width": 188,
+        "height": 238,
+        "firstScanline": 9737
+      },
+      "pivot": [
+        95,
+        177
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "housedruid01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2083,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_druid.pcx",
+        "offset": 132804588,
+        "size": 901,
+        "sha256": "68019699a23e8dac0dd2a76d033cbb308055043d1f7f50e4cadd1d09d701aead"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "housedruid01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_druid.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Temple/level_0/construction/layers/housedruid01/body_000040.png",
+      "pixelSha256": "4a2b7023f07d303fc5fff1b822a5a4d24bdda23ea7f4136d4c6e7f223eab26ad"
+    },
+    {
+      "bobId": 40,
+      "descriptor": {
+        "bobId": 40,
+        "frameIndex": 40,
+        "kind": 4,
+        "x": -95,
+        "y": -177,
+        "width": 188,
+        "height": 238,
+        "firstScanline": 9737
+      },
+      "pivot": [
+        95,
+        177
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/Temple/level_0/construction/layers/reveal_000040.png",
+      "pixelSha256": "880359d0587940666027cce5ab26e35f5ada40ffab36e70e7c75db53ee20cf10"
+    },
+    {
+      "bobId": 43,
+      "descriptor": {
+        "bobId": 43,
+        "frameIndex": 43,
+        "kind": 1,
+        "x": -167,
+        "y": -91,
+        "width": 368,
+        "height": 203,
+        "firstScanline": 10347
+      },
+      "pivot": [
+        167,
+        91
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Vikings/Buildings/Temple/level_0/construction/layers/auxiliary_threshold_000043.png",
+      "pixelSha256": "dbb9bf025eaca5d16a69f04fd015231c3566997b435ee58fc76d09c3e563334e"
+    },
+    {
+      "bobId": 39,
+      "descriptor": {
+        "bobId": 39,
+        "frameIndex": 39,
+        "kind": 4,
+        "x": -174,
+        "y": -208,
+        "width": 344,
+        "height": 317,
+        "firstScanline": 9420
+      },
+      "pivot": [
+        174,
+        208
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "housedruid01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2083,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_druid.pcx",
+        "offset": 132804588,
+        "size": 901,
+        "sha256": "68019699a23e8dac0dd2a76d033cbb308055043d1f7f50e4cadd1d09d701aead"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "housedruid01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_druid.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Temple/level_0/main/frame_000039.png",
+      "pixelSha256": "b5ccdfd8a46901925b9856b593ef8ab34b2079ef241b5cc826cf4e78dae3cca2"
+    },
+    {
+      "bobId": 39,
+      "descriptor": {
+        "bobId": 39,
+        "frameIndex": 39,
+        "kind": 4,
+        "x": -174,
+        "y": -208,
+        "width": 344,
+        "height": 317,
+        "firstScanline": 9420
+      },
+      "pivot": [
+        174,
+        208
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 945,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking4.bmd",
+        "offset": 108381429,
+        "size": 2586720,
+        "sha256": "175e5b29b0d6e7f959a747856c006da17efe02e77efe88c59a6dd48302047f13"
+      },
+      "rawLibrary": "Metadata/Sources/ls_houses_viking4.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/Temple/level_0/construction/layers/reveal_000039.png",
+      "pixelSha256": "5776714949613eb98a2cffb35d68bd1509c90bf4982006e06475f573cb0eaf43"
+    }
+  ],
+  "extensionTuples": [],
+  "rule": "Auxiliary index <= reveal threshold darkens destination in pass 1; main kind4 second-byte <= threshold copies palette pixel in pass 2; source order preserved; after end use full body",
+  "confidence": "PARTIAL",
+  "paletteAlternatives": [
+    "housedruid01"
+  ]
+}

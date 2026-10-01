@@ -1,0 +1,148 @@
+{
+ "gfxPatternId": 38,
+ "nativeName": "block mountain 10 04 03",
+ "editGroups": [
+  [
+   "mountain 3x3",
+   "mountain all"
+  ]
+ ],
+ "logicType": 3,
+ "logicTypeDefinition": {
+  "section": "trianglepatterntype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "humancanwalkon",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "island",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "moveresistance",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "debugname",
+    "arguments": [
+     "mountain"
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     66,
+     66,
+     66
+    ]
+   }
+  ]
+ },
+ "texture": "data\\engine2d\\bin\\textures\\text_201.pcx",
+ "textureOutput": "Terrain/Textures/text_201.png",
+ "triangleA": [
+  0,
+  192,
+  63,
+  255,
+  0,
+  255
+ ],
+ "triangleB": [
+  0,
+  192,
+  63,
+  192,
+  63,
+  255
+ ],
+ "cropBox": [
+  0,
+  192,
+  63,
+  255
+ ],
+ "crop": "Terrain/Patterns/mountain_3x3/038_block_mountain_10_04_03.png",
+ "triangleMask": "Terrain/Patterns/mountain_3x3/038_block_mountain_10_04_03__triangles.png",
+ "maskValues": {
+  "85": "triangle A",
+  "170": "triangle B"
+ },
+ "definition": {
+  "section": "gfxpattern",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "block mountain 10 04 03"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "mountain 3x3",
+     "mountain all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "gfxtexture",
+    "arguments": [
+     "data\\engine2d\\bin\\textures\\text_201.pcx"
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     0,
+     192,
+     63,
+     255,
+     0,
+     255
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     0,
+     192,
+     63,
+     192,
+     63,
+     255
+    ]
+   }
+  ]
+ },
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0048E24E pattern.cif loader (stride 0x70)",
+   "0x00491EA8 pattern texture resolve"
+  ],
+  "cpp": "GfxPatternRegistry"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED texture decode",
+  "presentation": "PRESENTATION_PARTIAL: texture-space crop; isometric triangle projection, lighting and transitions not applied"
+ }
+}

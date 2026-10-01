@@ -1,0 +1,392 @@
+{
+ "gfxLandscapeId": 836,
+ "nativeName": "Palm 02 falling",
+ "editGroups": [
+  [
+   "trees falling",
+   "trees palm"
+  ]
+ ],
+ "logicType": 5,
+ "logicTypeName": "tree falling",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "tree falling"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     13,
+     6,
+     2,
+     0,
+     9
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     2,
+     115,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd",
+ "palettes": [
+  "tree01"
+ ],
+ "static": 0,
+ "loopAnimation": 0,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   13,
+   "tree trunk 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "Palm 02 falling"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "trees falling",
+     "trees palm"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "tree01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     374,
+     375,
+     376,
+     377,
+     378,
+     379,
+     380,
+     381
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     13,
+     "tree trunk 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 374,
+     "width": 107,
+     "height": 121,
+     "pivot": [
+      60,
+      115
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000374.png",
+     "shadowMask": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000374__shadow_mask.png",
+     "shadowPivot": [
+      56,
+      57
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 375,
+     "width": 103,
+     "height": 121,
+     "pivot": [
+      61,
+      115
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000375.png",
+     "shadowMask": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000375__shadow_mask.png",
+     "shadowPivot": [
+      59,
+      58
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 376,
+     "width": 98,
+     "height": 121,
+     "pivot": [
+      62,
+      115
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000376.png",
+     "shadowMask": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000376__shadow_mask.png",
+     "shadowPivot": [
+      58,
+      56
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 377,
+     "width": 92,
+     "height": 119,
+     "pivot": [
+      61,
+      113
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000377.png",
+     "shadowMask": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000377__shadow_mask.png",
+     "shadowPivot": [
+      57,
+      53
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 378,
+     "width": 90,
+     "height": 114,
+     "pivot": [
+      59,
+      108
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000378.png",
+     "shadowMask": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000378__shadow_mask.png",
+     "shadowPivot": [
+      57,
+      48
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 379,
+     "width": 89,
+     "height": 108,
+     "pivot": [
+      59,
+      102
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000379.png",
+     "shadowMask": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000379__shadow_mask.png",
+     "shadowPivot": [
+      57,
+      47
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 380,
+     "width": 89,
+     "height": 100,
+     "pivot": [
+      59,
+      94
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000380.png",
+     "shadowMask": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000380__shadow_mask.png",
+     "shadowPivot": [
+      58,
+      46
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 381,
+     "width": 88,
+     "height": 92,
+     "pivot": [
+      59,
+      86
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000381.png",
+     "shadowMask": "Terrain/Landscapes/trees_falling/836_Palm_02_falling/bob_000381__shadow_mask.png",
+     "shadowPivot": [
+      57,
+      48
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/trees_falling/836_Palm_02_falling",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

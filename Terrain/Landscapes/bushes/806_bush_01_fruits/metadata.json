@@ -1,0 +1,775 @@
+{
+ "gfxLandscapeId": 806,
+ "nativeName": "bush 01 fruits",
+ "editGroups": [
+  [
+   "bushes"
+  ]
+ ],
+ "logicType": 11,
+ "logicTypeName": "bush with fruits",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     11
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "bush with fruits"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     7,
+     11,
+     2,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     11,
+     9,
+     2,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     9,
+     2,
+     0,
+     18
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     11,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     2,
+     115,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd",
+ "palettes": [
+  "bush01"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   11,
+   "bush 01 empty"
+  ],
+  [
+   7,
+   "bush 01 fruits"
+  ],
+  [
+   3,
+   "bush 01 empty"
+  ]
+ ],
+ "maximumValency": 1,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "bush 01 fruits"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "bushes"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     11
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "bush01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     288,
+     288,
+     288,
+     289,
+     289,
+     289,
+     290,
+     290,
+     290,
+     291,
+     291,
+     291,
+     292,
+     292,
+     292,
+     293,
+     293,
+     293,
+     294,
+     294,
+     294,
+     295,
+     295,
+     295,
+     296,
+     296,
+     296
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     11,
+     "bush 01 empty"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     7,
+     "bush 01 fruits"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "bush 01 empty"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 288,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000288.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000288__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000288__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 288,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000288.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000288__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000288__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 288,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000288.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000288__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000288__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 289,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000289.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000289__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000289__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 289,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000289.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000289__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000289__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 289,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000289.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000289__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000289__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 290,
+     "width": 45,
+     "height": 60,
+     "pivot": [
+      23,
+      54
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000290.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000290__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000290__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 290,
+     "width": 45,
+     "height": 60,
+     "pivot": [
+      23,
+      54
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000290.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000290__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000290__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 290,
+     "width": 45,
+     "height": 60,
+     "pivot": [
+      23,
+      54
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000290.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000290__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000290__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 291,
+     "width": 45,
+     "height": 60,
+     "pivot": [
+      23,
+      54
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000291.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000291__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000291__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 291,
+     "width": 45,
+     "height": 60,
+     "pivot": [
+      23,
+      54
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000291.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000291__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000291__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 291,
+     "width": 45,
+     "height": 60,
+     "pivot": [
+      23,
+      54
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000291.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000291__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000291__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 292,
+     "width": 45,
+     "height": 60,
+     "pivot": [
+      23,
+      54
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000292.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000292__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000292__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 292,
+     "width": 45,
+     "height": 60,
+     "pivot": [
+      23,
+      54
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000292.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000292__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000292__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 292,
+     "width": 45,
+     "height": 60,
+     "pivot": [
+      23,
+      54
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000292.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000292__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000292__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 293,
+     "width": 45,
+     "height": 60,
+     "pivot": [
+      23,
+      54
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000293.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000293__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000293__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 293,
+     "width": 45,
+     "height": 60,
+     "pivot": [
+      23,
+      54
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000293.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000293__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000293__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 293,
+     "width": 45,
+     "height": 60,
+     "pivot": [
+      23,
+      54
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000293.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000293__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000293__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 294,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000294.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000294__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000294__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 294,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000294.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000294__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000294__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 294,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000294.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000294__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000294__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      16
+     ]
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 295,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000295.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000295__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000295__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 295,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000295.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000295__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000295__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 295,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000295.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000295__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000295__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 24,
+     "bobId": 296,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000296.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000296__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000296__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 25,
+     "bobId": 296,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000296.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000296__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000296__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 26,
+     "bobId": 296,
+     "width": 45,
+     "height": 61,
+     "pivot": [
+      23,
+      55
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000296.png",
+     "kind4Secondary": "Terrain/Landscapes/bushes/806_bush_01_fruits/bob_000296__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_bushesSnow/798_bush_snow_01_fruits/bob_000296__shadow_mask.png",
+     "shadowPivot": [
+      16,
+      15
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/bushes/806_bush_01_fruits",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

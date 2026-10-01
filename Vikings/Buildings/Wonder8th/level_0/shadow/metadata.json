@@ -1,0 +1,37 @@
+{
+  "asset": {
+    "bobId": 28,
+    "descriptor": {
+      "bobId": 28,
+      "frameIndex": 28,
+      "kind": 2,
+      "x": -318,
+      "y": -133,
+      "width": 645,
+      "height": 384,
+      "firstScanline": 261
+    },
+    "pivot": [
+      318,
+      133
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1696,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3_s.bmd",
+      "offset": 131275311,
+      "size": 7020,
+      "sha256": "638abfff78f442a6e5741860705c423d6ba519b681f72d924b2f9fbd2fd637a0"
+    },
+    "rawLibrary": "Metadata/Sources/ls_wonders3_s.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Vikings/Buildings/Wonder8th/level_0/shadow/coverage_000028.png",
+    "pixelSha256": "1996792439eee46e4010b24bea696edb7847a1da211ba931574aa6ca6c7ef123"
+  },
+  "rule": "Native destination darkening, not alpha blend",
+  "Game.exe": "0x0049B930",
+  "drawOrder": "before finished body; extension keeps existing shadow; new construction uses auxiliary threshold maps",
+  "confidence": "AUTOMATED_CONFIRMED (source coverage); PARTIAL (live composition)"
+}

@@ -1,0 +1,454 @@
+{
+ "gfxLandscapeId": 693,
+ "nativeName": "wall_03",
+ "editGroups": [
+  [
+   "misc_walls"
+  ]
+ ],
+ "logicType": 82,
+ "logicTypeName": "wall",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     82
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "wall"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "allowedonwater",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "playeridallowed",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     9,
+     82,
+     2,
+     3,
+     0
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     10,
+     82,
+     2,
+     -1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_wall.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_wall_s.bmd",
+ "palettes": [
+  "goods_wood"
+ ],
+ "static": 0,
+ "loopAnimation": 0,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   10,
+   "wall_03"
+  ],
+  [
+   9,
+   "wall_03"
+  ]
+ ],
+ "maximumValency": 100,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "wall_03"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "misc_walls"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     82
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_wall.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_wall_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_wood"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     80,
+     2
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     60,
+     7
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     40,
+     12
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     20,
+     17
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     22
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     10,
+     "wall_03"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     9,
+     "wall_03"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 80,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 2,
+     "width": 15,
+     "height": 71,
+     "pivot": [
+      9,
+      65
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000002.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000002__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000002__shadow_mask.png",
+     "shadowPivot": [
+      5,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 60,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 7,
+     "width": 15,
+     "height": 55,
+     "pivot": [
+      9,
+      48
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000007.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000007__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000007__shadow_mask.png",
+     "shadowPivot": [
+      4,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 40,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 12,
+     "width": 14,
+     "height": 40,
+     "pivot": [
+      8,
+      33
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000012.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000012__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000012__shadow_mask.png",
+     "shadowPivot": [
+      4,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 20,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 17,
+     "width": 13,
+     "height": 27,
+     "pivot": [
+      8,
+      20
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000017.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000017__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000017__shadow_mask.png",
+     "shadowPivot": [
+      4,
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 22,
+     "width": 12,
+     "height": 14,
+     "pivot": [
+      7,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000022.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000022__kind4_secondary.png",
+     "shadowMask": "Terrain/Landscapes/misc_walls/693_wall_03/bob_000022__shadow_mask.png",
+     "shadowPivot": [
+      2,
+      0
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/misc_walls/693_wall_03",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

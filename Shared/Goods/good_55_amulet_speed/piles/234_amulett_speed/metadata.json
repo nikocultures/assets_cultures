@@ -1,0 +1,386 @@
+{
+ "gfxLandscapeId": 234,
+ "nativeName": "amulett speed",
+ "editGroups": [
+  [
+   "goods all"
+  ]
+ ],
+ "logicType": 78,
+ "logicTypeName": "amulet_speed",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     78
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "amulet_speed"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     78,
+     2,
+     -1,
+     55
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     78,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 55,
+   "goodName": "amulet_speed",
+   "english": "Wind Amulet",
+   "field": "landscapetype"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd",
+ "palettes": [
+  "goods_longsword"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "amulett speed"
+  ],
+  [
+   4,
+   "amulett speed"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "amulett speed"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     78
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_longsword"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     154
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     153
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     152
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     151
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     150
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "amulett speed"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "amulett speed"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 154,
+     "width": 47,
+     "height": 32,
+     "pivot": [
+      23,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000154.png",
+     "kind4Secondary": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000154__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000154__shadow_mask.png",
+     "shadowPivot": [
+      23,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 153,
+     "width": 47,
+     "height": 32,
+     "pivot": [
+      23,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000153.png",
+     "kind4Secondary": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000153__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000153__shadow_mask.png",
+     "shadowPivot": [
+      23,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 152,
+     "width": 35,
+     "height": 25,
+     "pivot": [
+      11,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000152.png",
+     "kind4Secondary": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000152__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000152__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 151,
+     "width": 34,
+     "height": 25,
+     "pivot": [
+      11,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000151.png",
+     "kind4Secondary": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000151__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000151__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 150,
+     "width": 28,
+     "height": 22,
+     "pivot": [
+      5,
+      11
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000150.png",
+     "kind4Secondary": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000150__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000150__shadow_mask.png",
+     "shadowPivot": [
+      5,
+      6
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

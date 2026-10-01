@@ -1,0 +1,61 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1473,
+  "entryName": "data\\engine2d\\bin\\sounds\\generic\\animals_dog03.wav",
+  "offset": 147597942,
+  "size": 16386,
+  "sha256": "899aadce24c343a177017abd14b5d677cb19f3c47d0f3d66d5fbae5b03994b87"
+ },
+ "output": "Audio/generic/animals_dog03.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 16328,
+  "durationSeconds": 0.37,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 142,
+   "name": "Dog Sounds",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 142,
+   "name": "Dog Sounds",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [
+  {
+   "tribe": 13,
+   "probability": 10,
+   "minCount": 1
+  }
+ ],
+ "category": "Animals",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

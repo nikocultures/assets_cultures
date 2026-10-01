@@ -1,0 +1,136 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2380,
+  "entryName": "data\\engine2d\\bin\\sounds\\generic\\human_yawn f 01.wav",
+  "offset": 152901626,
+  "size": 110272,
+  "sha256": "e9be2956541e4a6da4045545a170052d1006c26433bb33a2df30028b1dbf4544"
+ },
+ "output": "Audio/generic/human_yawn f 01.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 110214,
+  "durationSeconds": 2.499,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 56,
+   "name": "Yawn Woman",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 38,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 171,
+   "name": "Generic Viking Female",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 44,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 176,
+   "name": "Generic Latin Female",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 44,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 56,
+   "name": "Yawn Woman",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 38,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 171,
+   "name": "Generic Viking Female",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 44,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 176,
+   "name": "Generic Latin Female",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 44,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [
+  {
+   "tribe": 1,
+   "use": "generic",
+   "arguments": [
+    1
+   ]
+  },
+  {
+   "tribe": 2,
+   "use": "generic",
+   "arguments": [
+    1
+   ]
+  },
+  {
+   "tribe": 4,
+   "use": "generic",
+   "arguments": [
+    1
+   ]
+  },
+  {
+   "tribe": 3,
+   "use": "generic",
+   "arguments": [
+    1
+   ]
+  }
+ ],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

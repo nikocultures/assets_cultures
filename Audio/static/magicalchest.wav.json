@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 742,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\magicalchest.wav",
+  "offset": 182164476,
+  "size": 36796,
+  "sha256": "52a5f6e6bdb1a2cbc3b64c34deeba49bb0af498aae70a4a0d54ca19ccf652249"
+ },
+ "output": "Audio/static/magicalchest.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 36738,
+  "durationSeconds": 0.833,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 107,
+   "name": "Open Magical Chest",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 57,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 107,
+   "name": "Open Magical Chest",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 57,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Production/actions (folder static)",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

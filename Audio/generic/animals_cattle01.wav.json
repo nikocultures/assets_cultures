@@ -1,0 +1,87 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1955,
+  "entryName": "data\\engine2d\\bin\\sounds\\generic\\animals_cattle01.wav",
+  "offset": 147027860,
+  "size": 59248,
+  "sha256": "a2b138306c68efa0a0ef7331bfebb39f61248681cd8dd5a30cb311ed3ba8a07f"
+ },
+ "output": "Audio/generic/animals_cattle01.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 59190,
+  "durationSeconds": 1.342,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 59,
+   "name": "Cattle",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 31,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 139,
+   "name": "Cattle Sounds",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 59,
+   "name": "Cattle",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 31,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 139,
+   "name": "Cattle Sounds",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [
+  {
+   "tribe": 10,
+   "probability": 10,
+   "minCount": 1
+  }
+ ],
+ "category": "Animals",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

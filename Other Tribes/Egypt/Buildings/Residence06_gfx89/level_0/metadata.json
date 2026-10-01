@@ -1,0 +1,1060 @@
+{
+  "nativeName": "Egypt Residence 06",
+  "tribe": "Other Tribes/Egypt",
+  "logicHouseType": 2,
+  "gfxHouseId": 89,
+  "level": 0,
+  "bodyBob": 8,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_egypt_s.bmd",
+  "shadowBob": 8,
+  "paletteAlternatives": [
+    "caves"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 8,
+      "descriptor": {
+        "bobId": 8,
+        "frameIndex": 8,
+        "kind": 4,
+        "x": -131,
+        "y": -152,
+        "width": 236,
+        "height": 251,
+        "firstScanline": 2420
+      },
+      "pivot": [
+        131,
+        152
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1883,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+        "offset": 95458132,
+        "size": 1181712,
+        "sha256": "aaa9bcceffb393d888c133387f9e022f6064b9c9b9a40876e961030f3140e4d2"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "caves",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1904,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\caves.pcx",
+        "offset": 132782956,
+        "size": 901,
+        "sha256": "e27c2a3eb01c271607490bec6b9d3c4703157e92231b4fc9e83b0b03b7da8a87"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "caves"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\caves.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/main/frame_000008.png",
+      "pixelSha256": "1199aa72c4535d7d89ac6c5bd48a458a0ce60651e64fc85aa11cb5752554a0e3"
+    }
+  ],
+  "constructionLayers": [
+    [
+      0,
+      0,
+      8,
+      17,
+      20,
+      100
+    ]
+  ],
+  "doors": [],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [
+      [
+        0,
+        -13,
+        -90
+      ],
+      [
+        0,
+        -16,
+        -90
+      ],
+      [
+        0,
+        -3,
+        -89
+      ],
+      [
+        0,
+        -11,
+        -88
+      ],
+      [
+        0,
+        -19,
+        -88
+      ],
+      [
+        0,
+        -23,
+        -86
+      ],
+      [
+        0,
+        -22,
+        -78
+      ],
+      [
+        0,
+        -23,
+        -73
+      ],
+      [
+        0,
+        -22,
+        -73
+      ],
+      [
+        0,
+        -25,
+        -63
+      ],
+      [
+        0,
+        -25,
+        -58
+      ],
+      [
+        0,
+        83,
+        -55
+      ],
+      [
+        0,
+        78,
+        -54
+      ],
+      [
+        0,
+        68,
+        -50
+      ],
+      [
+        0,
+        62,
+        -46
+      ],
+      [
+        0,
+        55,
+        -43
+      ],
+      [
+        0,
+        81,
+        -40
+      ],
+      [
+        0,
+        53,
+        -38
+      ],
+      [
+        0,
+        81,
+        -34
+      ],
+      [
+        0,
+        80,
+        -29
+      ],
+      [
+        0,
+        57,
+        -28
+      ],
+      [
+        0,
+        54,
+        -21
+      ],
+      [
+        0,
+        54,
+        -11
+      ],
+      [
+        0,
+        10,
+        38
+      ],
+      [
+        0,
+        10,
+        40
+      ],
+      [
+        0,
+        10,
+        45
+      ],
+      [
+        0,
+        10,
+        47
+      ],
+      [
+        0,
+        10,
+        51
+      ],
+      [
+        0,
+        10,
+        54
+      ]
+    ],
+    "gfxsmokepoint": [
+      [
+        0,
+        102,
+        -17,
+        1
+      ],
+      [
+        0,
+        99,
+        -15,
+        1
+      ],
+      [
+        0,
+        90,
+        -13,
+        1
+      ],
+      [
+        0,
+        88,
+        -13,
+        1
+      ],
+      [
+        0,
+        79,
+        -13,
+        1
+      ],
+      [
+        0,
+        69,
+        -11,
+        1
+      ],
+      [
+        0,
+        64,
+        -9,
+        1
+      ],
+      [
+        0,
+        59,
+        -7,
+        1
+      ],
+      [
+        0,
+        56,
+        -7,
+        1
+      ],
+      [
+        0,
+        -125,
+        9,
+        1
+      ],
+      [
+        0,
+        -124,
+        11,
+        1
+      ],
+      [
+        0,
+        -57,
+        14,
+        1
+      ],
+      [
+        0,
+        -50,
+        14,
+        1
+      ],
+      [
+        0,
+        -122,
+        14,
+        1
+      ],
+      [
+        0,
+        -64,
+        16,
+        1
+      ],
+      [
+        0,
+        -43,
+        16,
+        1
+      ],
+      [
+        0,
+        -69,
+        18,
+        1
+      ],
+      [
+        0,
+        -72,
+        20,
+        1
+      ],
+      [
+        0,
+        -118,
+        20,
+        1
+      ],
+      [
+        0,
+        -83,
+        24,
+        1
+      ],
+      [
+        0,
+        -115,
+        26,
+        1
+      ],
+      [
+        0,
+        -94,
+        27,
+        1
+      ],
+      [
+        0,
+        -115,
+        28,
+        1
+      ],
+      [
+        0,
+        -98,
+        29,
+        1
+      ],
+      [
+        0,
+        -112,
+        31,
+        1
+      ],
+      [
+        0,
+        -32,
+        33,
+        1
+      ],
+      [
+        0,
+        -28,
+        34,
+        1
+      ],
+      [
+        0,
+        -22,
+        43,
+        1
+      ],
+      [
+        0,
+        -20,
+        48,
+        1
+      ],
+      [
+        0,
+        -15,
+        52,
+        1
+      ],
+      [
+        0,
+        -10,
+        58,
+        1
+      ],
+      [
+        0,
+        -9,
+        60,
+        1
+      ],
+      [
+        0,
+        -3,
+        64,
+        1
+      ],
+      [
+        0,
+        6,
+        66,
+        1
+      ],
+      [
+        0,
+        12,
+        77,
+        1
+      ],
+      [
+        0,
+        67,
+        84,
+        1
+      ],
+      [
+        0,
+        17,
+        84,
+        1
+      ],
+      [
+        0,
+        56,
+        85,
+        1
+      ],
+      [
+        0,
+        46,
+        89,
+        1
+      ],
+      [
+        0,
+        20,
+        89,
+        1
+      ],
+      [
+        0,
+        37,
+        93,
+        1
+      ],
+      [
+        0,
+        27,
+        94,
+        1
+      ],
+      [
+        0,
+        76,
+        -57,
+        0
+      ],
+      [
+        0,
+        82,
+        -56,
+        0
+      ],
+      [
+        0,
+        61,
+        -55,
+        0
+      ],
+      [
+        0,
+        57,
+        -55,
+        0
+      ],
+      [
+        0,
+        44,
+        -52,
+        0
+      ],
+      [
+        0,
+        32,
+        -50,
+        0
+      ],
+      [
+        0,
+        88,
+        -47,
+        0
+      ],
+      [
+        0,
+        24,
+        -47,
+        0
+      ],
+      [
+        0,
+        16,
+        -47,
+        0
+      ],
+      [
+        0,
+        6,
+        -45,
+        0
+      ],
+      [
+        0,
+        94,
+        -39,
+        0
+      ],
+      [
+        0,
+        -6,
+        -37,
+        0
+      ],
+      [
+        0,
+        95,
+        -37,
+        0
+      ],
+      [
+        0,
+        -20,
+        -33,
+        0
+      ],
+      [
+        0,
+        -35,
+        -32,
+        0
+      ],
+      [
+        0,
+        -39,
+        -32,
+        0
+      ],
+      [
+        0,
+        -54,
+        -28,
+        0
+      ],
+      [
+        0,
+        -61,
+        -25,
+        0
+      ],
+      [
+        0,
+        -70,
+        -21,
+        0
+      ],
+      [
+        0,
+        -86,
+        -15,
+        0
+      ],
+      [
+        0,
+        -99,
+        -11,
+        0
+      ],
+      [
+        0,
+        -107,
+        -10,
+        0
+      ],
+      [
+        0,
+        -117,
+        -7,
+        0
+      ],
+      [
+        0,
+        -119,
+        -6,
+        0
+      ],
+      [
+        0,
+        34,
+        6,
+        0
+      ],
+      [
+        0,
+        37,
+        8,
+        0
+      ],
+      [
+        0,
+        43,
+        14,
+        0
+      ],
+      [
+        0,
+        45,
+        18,
+        0
+      ],
+      [
+        0,
+        56,
+        30,
+        0
+      ],
+      [
+        0,
+        60,
+        35,
+        0
+      ],
+      [
+        0,
+        62,
+        39,
+        0
+      ],
+      [
+        0,
+        66,
+        50,
+        0
+      ],
+      [
+        0,
+        70,
+        60,
+        0
+      ]
+    ],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [],
+    "sharedEffects": {
+      "fx fire house 0": "Shared/Effects/fx_fire_house_0/metadata.json",
+      "fx fire house 1": "Shared/Effects/fx_fire_house_1/metadata.json",
+      "fx fire house 2": "Shared/Effects/fx_fire_house_2/metadata.json",
+      "fx smoke": "Shared/Effects/fx_smoke/metadata.json"
+    },
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 236,
+  "height": 251,
+  "pivot": [
+    131,
+    152
+  ],
+  "shadow": {
+    "bobId": 8,
+    "descriptor": {
+      "bobId": 8,
+      "frameIndex": 8,
+      "kind": 2,
+      "x": -123,
+      "y": -74,
+      "width": 230,
+      "height": 166,
+      "firstScanline": 1343
+    },
+    "pivot": [
+      123,
+      74
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1516,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt_s.bmd",
+      "offset": 96639844,
+      "size": 12074,
+      "sha256": "5414a072a6a2952834e6b5771ed7bc815206cdb44f96ddf742e435c0293d3e55"
+    },
+    "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt_s.bmd/source.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/shadow/coverage_000008.png",
+    "pixelSha256": "fa86f5ff99d375b4a607067e962ce3de60dc02dab9decf7b8600a56f072978a0"
+  },
+  "constructionParts": [
+    {
+      "bobId": 8,
+      "descriptor": {
+        "bobId": 8,
+        "frameIndex": 8,
+        "kind": 4,
+        "x": -131,
+        "y": -152,
+        "width": 236,
+        "height": 251,
+        "firstScanline": 2420
+      },
+      "pivot": [
+        131,
+        152
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1883,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+        "offset": 95458132,
+        "size": 1181712,
+        "sha256": "aaa9bcceffb393d888c133387f9e022f6064b9c9b9a40876e961030f3140e4d2"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "caves",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1904,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\caves.pcx",
+        "offset": 132782956,
+        "size": 901,
+        "sha256": "e27c2a3eb01c271607490bec6b9d3c4703157e92231b4fc9e83b0b03b7da8a87"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "caves"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\caves.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/main/frame_000008.png",
+      "pixelSha256": "1199aa72c4535d7d89ac6c5bd48a458a0ce60651e64fc85aa11cb5752554a0e3"
+    },
+    {
+      "bobId": 8,
+      "descriptor": {
+        "bobId": 8,
+        "frameIndex": 8,
+        "kind": 4,
+        "x": -131,
+        "y": -152,
+        "width": 236,
+        "height": 251,
+        "firstScanline": 2420
+      },
+      "pivot": [
+        131,
+        152
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1883,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+        "offset": 95458132,
+        "size": 1181712,
+        "sha256": "aaa9bcceffb393d888c133387f9e022f6064b9c9b9a40876e961030f3140e4d2"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/layers/reveal_000008.png",
+      "pixelSha256": "a1f9fe7f97effd88ba2988d1c41edc8b6fe959ede42c7199fb3501cb076422d9"
+    },
+    {
+      "bobId": 17,
+      "descriptor": {
+        "bobId": 17,
+        "frameIndex": 17,
+        "kind": 1,
+        "x": -127,
+        "y": -66,
+        "width": 539,
+        "height": 311,
+        "firstScanline": 4311
+      },
+      "pivot": [
+        127,
+        66
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1883,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_egypt.bmd",
+        "offset": 95458132,
+        "size": 1181712,
+        "sha256": "aaa9bcceffb393d888c133387f9e022f6064b9c9b9a40876e961030f3140e4d2"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_egypt.bmd/source.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/layers/auxiliary_threshold_000017.png",
+      "pixelSha256": "52fe26725144486b33850095c8649dfd083ce4383995d92dc74e123f2db279e8"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/progress_000.png",
+      "pivot": [
+        131,
+        152
+      ],
+      "dimensions": [
+        543,
+        397
+      ],
+      "palette": "caves",
+      "contributingLayers": [],
+      "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/progress_010.png",
+      "pivot": [
+        131,
+        152
+      ],
+      "dimensions": [
+        543,
+        397
+      ],
+      "palette": "caves",
+      "contributingLayers": [],
+      "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/progress_025.png",
+      "pivot": [
+        131,
+        152
+      ],
+      "dimensions": [
+        543,
+        397
+      ],
+      "palette": "caves",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            8,
+            17,
+            20,
+            100
+          ],
+          "threshold": 15,
+          "bodyPixels": 32,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/progress_050.png",
+      "pivot": [
+        131,
+        152
+      ],
+      "dimensions": [
+        543,
+        397
+      ],
+      "palette": "caves",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            8,
+            17,
+            20,
+            100
+          ],
+          "threshold": 94,
+          "bodyPixels": 6898,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/progress_075.png",
+      "pivot": [
+        131,
+        152
+      ],
+      "dimensions": [
+        543,
+        397
+      ],
+      "palette": "caves",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            8,
+            17,
+            20,
+            100
+          ],
+          "threshold": 173,
+          "bodyPixels": 21966,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/progress_100.png",
+      "pivot": [
+        131,
+        152
+      ],
+      "dimensions": [
+        543,
+        397
+      ],
+      "palette": "caves",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            8,
+            17,
+            20,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 28069,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Residence06_gfx89/level_0/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [],
+  "sourceAssetExport": "COMPLETE"
+}

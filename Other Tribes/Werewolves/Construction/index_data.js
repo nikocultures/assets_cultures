@@ -1,0 +1,1 @@
+window.PAGE={"root":"../../../","title":"Werewolves | Construction","crumbs":[["Home","index.html"],["Other Tribes","Other Tribes/index.html"],["Werewolves","Other Tribes/Werewolves/index.html"],["Construction",""]],"rows":[],"cols":["DISPLAY_NAME","GFX_ID","BMD","BOB","STATUS"],"filters":["STATUS"],"prev":null,"next":null};

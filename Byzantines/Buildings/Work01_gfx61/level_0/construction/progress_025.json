@@ -1,0 +1,57 @@
+{
+  "progressPercent": 25,
+  "path": "Byzantines/Buildings/Work01_gfx61/level_0/construction/progress_025.png",
+  "pivot": [
+    105,
+    190
+  ],
+  "dimensions": [
+    273,
+    262
+  ],
+  "palette": "house_byzantine01",
+  "contributingLayers": [
+    {
+      "tuple": [
+        0,
+        0,
+        49,
+        -1,
+        0,
+        100
+      ],
+      "threshold": 63,
+      "bodyPixels": 8710,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    },
+    {
+      "tuple": [
+        0,
+        0,
+        50,
+        -1,
+        0,
+        100
+      ],
+      "threshold": 63,
+      "bodyPixels": 3597,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    },
+    {
+      "tuple": [
+        0,
+        0,
+        48,
+        51,
+        6,
+        100
+      ],
+      "threshold": 51,
+      "bodyPixels": 11540,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    }
+  ],
+  "destinationDarkeningCounts": "Byzantines/Buildings/Work01_gfx61/level_0/construction/progress_025_destination_darken_counts.png",
+  "confidence": "PARTIAL",
+  "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+}

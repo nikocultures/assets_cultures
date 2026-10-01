@@ -1,0 +1,63 @@
+{
+  "bobId": 2,
+  "descriptor": {
+    "bobId": 2,
+    "frameIndex": 2,
+    "kind": 4,
+    "x": -116,
+    "y": -206,
+    "width": 226,
+    "height": 203,
+    "firstScanline": 627
+  },
+  "pivot": [
+    116,
+    206
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1213,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_saracen.bmd",
+    "offset": 100012883,
+    "size": 2488595,
+    "sha256": "ddf0d59dc443eb13ff8df0ed8e560b0a5f86a6bb758bd9aa6feac9d5661dd6fa"
+  },
+  "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_saracen.bmd/source.bmd",
+  "role": "body",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "house_saracen01",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 2530,
+    "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx",
+    "offset": 132805489,
+    "size": 901,
+    "sha256": "2c25bdda4ce0014b3abad5757b75504d674af43d4ecd19b709a1ff331861f184"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "house_saracen01"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\landscapes\\haus_saracen01.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+  "path": "Arabs/Buildings/Fortress_gfx66/level_0/construction/layers/house_saracen01/body_000002.png",
+  "pixelSha256": "9ef374d94de0efb95e29488c236a46e7fc64a058e6fbb2ca07d02debbe4c55a1"
+}

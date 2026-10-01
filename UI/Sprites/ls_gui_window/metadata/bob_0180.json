@@ -1,0 +1,52 @@
+{
+ "LIBRARY": "data\\gui\\lang\\eng\\bobs\\ls_gui_window.bmd",
+ "BOB_ID": 180,
+ "KIND": 4,
+ "WIDTH": 15,
+ "HEIGHT": 8,
+ "PIVOT": [
+  0,
+  -6
+ ],
+ "EVIDENCE": [
+  "production_gameplay_ui.hpp:4045"
+ ],
+ "PALETTES": [
+  "data\\gui\\palettes\\IconsLeft.pcx"
+ ],
+ "OUTPUTS": [
+  "UI/Sprites/ls_gui_window/IconsLeft/bob_0180.png"
+ ],
+ "INDEX_DATA": "UI/Sprites/ls_gui_window/_index_data/bob_0180.png",
+ "STATUS": "PALETTE_EVIDENCED",
+ "CONFIDENCE": "PIXEL_CONFIRMED",
+ "evidenceDetail": [
+  {
+   "file": "production_gameplay_ui.hpp",
+   "line": 4045,
+   "paletteMember": "iconPalette_",
+   "palette": "data\\gui\\palettes\\IconsLeft.pcx",
+   "code": "if(state==11)drawSpriteClipped(surface,0xB4,section.x+11+textWidth(label),y-2,iconPalette_,",
+   "nearestComment": ""
+  }
+ ],
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 161,
+  "entryName": "data\\gui\\lang\\eng\\bobs\\ls_gui_window.bmd",
+  "offset": 196270849,
+  "size": 937075,
+  "sha256": "1deb6437eb2fb2806cd5e43ef9508d65a06e187f507229368335c7bb8c579631"
+ },
+ "descriptor": {
+  "bobId": 180,
+  "frameIndex": 180,
+  "kind": 4,
+  "x": 0,
+  "y": 6,
+  "width": 15,
+  "height": 8,
+  "firstScanline": 6440,
+  "offset": 2179116
+ }
+}

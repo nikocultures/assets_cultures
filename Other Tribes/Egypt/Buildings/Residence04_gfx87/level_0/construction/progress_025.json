@@ -1,0 +1,31 @@
+{
+  "progressPercent": 25,
+  "path": "Other Tribes/Egypt/Buildings/Residence04_gfx87/level_0/construction/progress_025.png",
+  "pivot": [
+    76,
+    173
+  ],
+  "dimensions": [
+    204,
+    251
+  ],
+  "palette": "caves",
+  "contributingLayers": [
+    {
+      "tuple": [
+        0,
+        0,
+        6,
+        15,
+        20,
+        100
+      ],
+      "threshold": 15,
+      "bodyPixels": 158,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    }
+  ],
+  "destinationDarkeningCounts": "Other Tribes/Egypt/Buildings/Residence04_gfx87/level_0/construction/progress_025_destination_darken_counts.png",
+  "confidence": "PARTIAL",
+  "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+}

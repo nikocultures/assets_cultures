@@ -1,0 +1,1 @@
+window.PAGE={"root":"../../../","title":"Werewolves | Vehicles","crumbs":[["Home","index.html"],["Other Tribes","Other Tribes/index.html"],["Werewolves","Other Tribes/Werewolves/index.html"],["Vehicles",""]],"rows":[],"cols":["DISPLAY_NAME","NATIVE_NAME","TRIBE","VEHICLE_TYPE","JOB_ID","BMD","SUBCATEGORY","STATUS"],"filters":["TRIBE","STATUS"],"prev":null,"next":null};

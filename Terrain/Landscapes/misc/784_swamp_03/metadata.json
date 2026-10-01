@@ -1,0 +1,2855 @@
+{
+ "gfxLandscapeId": 784,
+ "nativeName": "swamp 03",
+ "editGroups": [
+  [
+   "misc"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeName": "void",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "void"
+    ]
+   },
+   {
+    "name": "allowedoneverything",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     117,
+     117,
+     117
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_water.bmd",
+ "shadowLibrary": null,
+ "palettes": [
+  "swamp01"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "swamp 03"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "misc"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_water.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "swamp01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103,
+     104,
+     105,
+     106,
+     107,
+     108,
+     109,
+     110,
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119,
+     120,
+     121,
+     122,
+     123,
+     124,
+     125,
+     126,
+     127
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103,
+     104,
+     105,
+     106,
+     107,
+     108,
+     109,
+     110,
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119,
+     120,
+     121,
+     122,
+     123,
+     124,
+     125,
+     126,
+     127
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103,
+     104,
+     105,
+     106,
+     107,
+     108,
+     109,
+     110,
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119,
+     120,
+     121,
+     122,
+     123,
+     124,
+     125,
+     126,
+     127
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103,
+     104,
+     105,
+     106,
+     107,
+     108,
+     109,
+     110,
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119,
+     120,
+     121,
+     122,
+     123,
+     124,
+     125,
+     126,
+     127
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     94,
+     94,
+     94,
+     94,
+     94,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103,
+     104,
+     105,
+     106,
+     107,
+     108,
+     109,
+     110,
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119,
+     120,
+     121,
+     122,
+     123,
+     124,
+     125,
+     126,
+     127
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 95,
+     "width": 3,
+     "height": 4,
+     "pivot": [
+      -1,
+      -25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000095.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000095__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 96,
+     "width": 4,
+     "height": 4,
+     "pivot": [
+      -1,
+      -24
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000096.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000096__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 97,
+     "width": 3,
+     "height": 4,
+     "pivot": [
+      -1,
+      -23
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000097.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000097__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 98,
+     "width": 5,
+     "height": 5,
+     "pivot": [
+      0,
+      -21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000098.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000098__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 99,
+     "width": 6,
+     "height": 7,
+     "pivot": [
+      1,
+      -19
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000099.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000099__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 100,
+     "width": 8,
+     "height": 6,
+     "pivot": [
+      4,
+      -18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000100.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000100__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 101,
+     "width": 6,
+     "height": 7,
+     "pivot": [
+      2,
+      -17
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000101.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000101__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 102,
+     "width": 11,
+     "height": 8,
+     "pivot": [
+      6,
+      -16
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000102.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000102__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 103,
+     "width": 17,
+     "height": 12,
+     "pivot": [
+      11,
+      -14
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000103.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000103__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 104,
+     "width": 18,
+     "height": 13,
+     "pivot": [
+      11,
+      -12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000104.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000104__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 105,
+     "width": 7,
+     "height": 11,
+     "pivot": [
+      2,
+      -12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000105.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000105__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 106,
+     "width": 14,
+     "height": 11,
+     "pivot": [
+      8,
+      -11
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000106.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000106__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 107,
+     "width": 10,
+     "height": 12,
+     "pivot": [
+      4,
+      -9
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000107.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000107__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 108,
+     "width": 10,
+     "height": 12,
+     "pivot": [
+      4,
+      -8
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000108.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000108__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 109,
+     "width": 7,
+     "height": 13,
+     "pivot": [
+      1,
+      -6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000109.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000109__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 110,
+     "width": 11,
+     "height": 12,
+     "pivot": [
+      5,
+      -5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000110.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000110__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 111,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      4,
+      -3
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000111.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000111__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 112,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      5,
+      -2
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000112.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000112__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 113,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      5,
+      0
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000113.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000113__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 114,
+     "width": 8,
+     "height": 13,
+     "pivot": [
+      3,
+      1
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000114.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000114__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 115,
+     "width": 12,
+     "height": 14,
+     "pivot": [
+      6,
+      3
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000115.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000115__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 116,
+     "width": 12,
+     "height": 13,
+     "pivot": [
+      6,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000116.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000116__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 117,
+     "width": 9,
+     "height": 12,
+     "pivot": [
+      3,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000117.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000117__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 24,
+     "bobId": 118,
+     "width": 8,
+     "height": 11,
+     "pivot": [
+      3,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000118.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000118__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 25,
+     "bobId": 119,
+     "width": 11,
+     "height": 11,
+     "pivot": [
+      5,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000119.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000119__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 26,
+     "bobId": 120,
+     "width": 10,
+     "height": 11,
+     "pivot": [
+      4,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000120.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000120__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 27,
+     "bobId": 121,
+     "width": 23,
+     "height": 12,
+     "pivot": [
+      16,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000121.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000121__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 28,
+     "bobId": 122,
+     "width": 13,
+     "height": 12,
+     "pivot": [
+      5,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000122.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000122__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 29,
+     "bobId": 123,
+     "width": 21,
+     "height": 12,
+     "pivot": [
+      13,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000123.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000123__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 30,
+     "bobId": 124,
+     "width": 16,
+     "height": 11,
+     "pivot": [
+      7,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000124.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000124__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 31,
+     "bobId": 125,
+     "width": 18,
+     "height": 13,
+     "pivot": [
+      8,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000125.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000125__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 32,
+     "bobId": 126,
+     "width": 16,
+     "height": 11,
+     "pivot": [
+      7,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000126.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000126__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 33,
+     "bobId": 127,
+     "status": "EMPTY_FRAME"
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 95,
+     "width": 3,
+     "height": 4,
+     "pivot": [
+      -1,
+      -25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000095.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000095__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 96,
+     "width": 4,
+     "height": 4,
+     "pivot": [
+      -1,
+      -24
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000096.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000096__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 97,
+     "width": 3,
+     "height": 4,
+     "pivot": [
+      -1,
+      -23
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000097.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000097__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 98,
+     "width": 5,
+     "height": 5,
+     "pivot": [
+      0,
+      -21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000098.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000098__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 99,
+     "width": 6,
+     "height": 7,
+     "pivot": [
+      1,
+      -19
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000099.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000099__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 100,
+     "width": 8,
+     "height": 6,
+     "pivot": [
+      4,
+      -18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000100.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000100__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 24,
+     "bobId": 101,
+     "width": 6,
+     "height": 7,
+     "pivot": [
+      2,
+      -17
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000101.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000101__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 25,
+     "bobId": 102,
+     "width": 11,
+     "height": 8,
+     "pivot": [
+      6,
+      -16
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000102.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000102__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 26,
+     "bobId": 103,
+     "width": 17,
+     "height": 12,
+     "pivot": [
+      11,
+      -14
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000103.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000103__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 27,
+     "bobId": 104,
+     "width": 18,
+     "height": 13,
+     "pivot": [
+      11,
+      -12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000104.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000104__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 28,
+     "bobId": 105,
+     "width": 7,
+     "height": 11,
+     "pivot": [
+      2,
+      -12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000105.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000105__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 29,
+     "bobId": 106,
+     "width": 14,
+     "height": 11,
+     "pivot": [
+      8,
+      -11
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000106.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000106__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 30,
+     "bobId": 107,
+     "width": 10,
+     "height": 12,
+     "pivot": [
+      4,
+      -9
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000107.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000107__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 31,
+     "bobId": 108,
+     "width": 10,
+     "height": 12,
+     "pivot": [
+      4,
+      -8
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000108.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000108__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 32,
+     "bobId": 109,
+     "width": 7,
+     "height": 13,
+     "pivot": [
+      1,
+      -6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000109.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000109__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 33,
+     "bobId": 110,
+     "width": 11,
+     "height": 12,
+     "pivot": [
+      5,
+      -5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000110.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000110__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 34,
+     "bobId": 111,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      4,
+      -3
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000111.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000111__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 35,
+     "bobId": 112,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      5,
+      -2
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000112.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000112__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 36,
+     "bobId": 113,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      5,
+      0
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000113.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000113__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 37,
+     "bobId": 114,
+     "width": 8,
+     "height": 13,
+     "pivot": [
+      3,
+      1
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000114.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000114__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 38,
+     "bobId": 115,
+     "width": 12,
+     "height": 14,
+     "pivot": [
+      6,
+      3
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000115.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000115__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 39,
+     "bobId": 116,
+     "width": 12,
+     "height": 13,
+     "pivot": [
+      6,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000116.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000116__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 40,
+     "bobId": 117,
+     "width": 9,
+     "height": 12,
+     "pivot": [
+      3,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000117.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000117__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 41,
+     "bobId": 118,
+     "width": 8,
+     "height": 11,
+     "pivot": [
+      3,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000118.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000118__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 42,
+     "bobId": 119,
+     "width": 11,
+     "height": 11,
+     "pivot": [
+      5,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000119.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000119__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 43,
+     "bobId": 120,
+     "width": 10,
+     "height": 11,
+     "pivot": [
+      4,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000120.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000120__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 44,
+     "bobId": 121,
+     "width": 23,
+     "height": 12,
+     "pivot": [
+      16,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000121.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000121__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 45,
+     "bobId": 122,
+     "width": 13,
+     "height": 12,
+     "pivot": [
+      5,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000122.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000122__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 46,
+     "bobId": 123,
+     "width": 21,
+     "height": 12,
+     "pivot": [
+      13,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000123.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000123__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 47,
+     "bobId": 124,
+     "width": 16,
+     "height": 11,
+     "pivot": [
+      7,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000124.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000124__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 48,
+     "bobId": 125,
+     "width": 18,
+     "height": 13,
+     "pivot": [
+      8,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000125.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000125__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 49,
+     "bobId": 126,
+     "width": 16,
+     "height": 11,
+     "pivot": [
+      7,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000126.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000126__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 50,
+     "bobId": 127,
+     "status": "EMPTY_FRAME"
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 95,
+     "width": 3,
+     "height": 4,
+     "pivot": [
+      -1,
+      -25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000095.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000095__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 96,
+     "width": 4,
+     "height": 4,
+     "pivot": [
+      -1,
+      -24
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000096.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000096__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 97,
+     "width": 3,
+     "height": 4,
+     "pivot": [
+      -1,
+      -23
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000097.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000097__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 24,
+     "bobId": 98,
+     "width": 5,
+     "height": 5,
+     "pivot": [
+      0,
+      -21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000098.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000098__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 25,
+     "bobId": 99,
+     "width": 6,
+     "height": 7,
+     "pivot": [
+      1,
+      -19
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000099.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000099__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 26,
+     "bobId": 100,
+     "width": 8,
+     "height": 6,
+     "pivot": [
+      4,
+      -18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000100.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000100__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 27,
+     "bobId": 101,
+     "width": 6,
+     "height": 7,
+     "pivot": [
+      2,
+      -17
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000101.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000101__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 28,
+     "bobId": 102,
+     "width": 11,
+     "height": 8,
+     "pivot": [
+      6,
+      -16
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000102.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000102__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 29,
+     "bobId": 103,
+     "width": 17,
+     "height": 12,
+     "pivot": [
+      11,
+      -14
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000103.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000103__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 30,
+     "bobId": 104,
+     "width": 18,
+     "height": 13,
+     "pivot": [
+      11,
+      -12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000104.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000104__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 31,
+     "bobId": 105,
+     "width": 7,
+     "height": 11,
+     "pivot": [
+      2,
+      -12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000105.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000105__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 32,
+     "bobId": 106,
+     "width": 14,
+     "height": 11,
+     "pivot": [
+      8,
+      -11
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000106.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000106__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 33,
+     "bobId": 107,
+     "width": 10,
+     "height": 12,
+     "pivot": [
+      4,
+      -9
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000107.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000107__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 34,
+     "bobId": 108,
+     "width": 10,
+     "height": 12,
+     "pivot": [
+      4,
+      -8
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000108.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000108__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 35,
+     "bobId": 109,
+     "width": 7,
+     "height": 13,
+     "pivot": [
+      1,
+      -6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000109.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000109__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 36,
+     "bobId": 110,
+     "width": 11,
+     "height": 12,
+     "pivot": [
+      5,
+      -5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000110.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000110__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 37,
+     "bobId": 111,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      4,
+      -3
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000111.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000111__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 38,
+     "bobId": 112,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      5,
+      -2
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000112.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000112__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 39,
+     "bobId": 113,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      5,
+      0
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000113.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000113__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 40,
+     "bobId": 114,
+     "width": 8,
+     "height": 13,
+     "pivot": [
+      3,
+      1
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000114.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000114__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 41,
+     "bobId": 115,
+     "width": 12,
+     "height": 14,
+     "pivot": [
+      6,
+      3
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000115.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000115__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 42,
+     "bobId": 116,
+     "width": 12,
+     "height": 13,
+     "pivot": [
+      6,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000116.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000116__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 43,
+     "bobId": 117,
+     "width": 9,
+     "height": 12,
+     "pivot": [
+      3,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000117.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000117__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 44,
+     "bobId": 118,
+     "width": 8,
+     "height": 11,
+     "pivot": [
+      3,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000118.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000118__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 45,
+     "bobId": 119,
+     "width": 11,
+     "height": 11,
+     "pivot": [
+      5,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000119.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000119__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 46,
+     "bobId": 120,
+     "width": 10,
+     "height": 11,
+     "pivot": [
+      4,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000120.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000120__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 47,
+     "bobId": 121,
+     "width": 23,
+     "height": 12,
+     "pivot": [
+      16,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000121.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000121__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 48,
+     "bobId": 122,
+     "width": 13,
+     "height": 12,
+     "pivot": [
+      5,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000122.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000122__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 49,
+     "bobId": 123,
+     "width": 21,
+     "height": 12,
+     "pivot": [
+      13,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000123.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000123__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 50,
+     "bobId": 124,
+     "width": 16,
+     "height": 11,
+     "pivot": [
+      7,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000124.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000124__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 51,
+     "bobId": 125,
+     "width": 18,
+     "height": 13,
+     "pivot": [
+      8,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000125.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000125__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 52,
+     "bobId": 126,
+     "width": 16,
+     "height": 11,
+     "pivot": [
+      7,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000126.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000126__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 53,
+     "bobId": 127,
+     "status": "EMPTY_FRAME"
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 95,
+     "width": 3,
+     "height": 4,
+     "pivot": [
+      -1,
+      -25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000095.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000095__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 96,
+     "width": 4,
+     "height": 4,
+     "pivot": [
+      -1,
+      -24
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000096.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000096__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 97,
+     "width": 3,
+     "height": 4,
+     "pivot": [
+      -1,
+      -23
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000097.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000097__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 98,
+     "width": 5,
+     "height": 5,
+     "pivot": [
+      0,
+      -21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000098.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000098__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 99,
+     "width": 6,
+     "height": 7,
+     "pivot": [
+      1,
+      -19
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000099.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000099__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 100,
+     "width": 8,
+     "height": 6,
+     "pivot": [
+      4,
+      -18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000100.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000100__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 101,
+     "width": 6,
+     "height": 7,
+     "pivot": [
+      2,
+      -17
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000101.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000101__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 102,
+     "width": 11,
+     "height": 8,
+     "pivot": [
+      6,
+      -16
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000102.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000102__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 103,
+     "width": 17,
+     "height": 12,
+     "pivot": [
+      11,
+      -14
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000103.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000103__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 104,
+     "width": 18,
+     "height": 13,
+     "pivot": [
+      11,
+      -12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000104.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000104__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 105,
+     "width": 7,
+     "height": 11,
+     "pivot": [
+      2,
+      -12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000105.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000105__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 24,
+     "bobId": 106,
+     "width": 14,
+     "height": 11,
+     "pivot": [
+      8,
+      -11
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000106.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000106__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 25,
+     "bobId": 107,
+     "width": 10,
+     "height": 12,
+     "pivot": [
+      4,
+      -9
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000107.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000107__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 26,
+     "bobId": 108,
+     "width": 10,
+     "height": 12,
+     "pivot": [
+      4,
+      -8
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000108.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000108__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 27,
+     "bobId": 109,
+     "width": 7,
+     "height": 13,
+     "pivot": [
+      1,
+      -6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000109.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000109__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 28,
+     "bobId": 110,
+     "width": 11,
+     "height": 12,
+     "pivot": [
+      5,
+      -5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000110.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000110__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 29,
+     "bobId": 111,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      4,
+      -3
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000111.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000111__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 30,
+     "bobId": 112,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      5,
+      -2
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000112.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000112__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 31,
+     "bobId": 113,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      5,
+      0
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000113.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000113__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 32,
+     "bobId": 114,
+     "width": 8,
+     "height": 13,
+     "pivot": [
+      3,
+      1
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000114.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000114__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 33,
+     "bobId": 115,
+     "width": 12,
+     "height": 14,
+     "pivot": [
+      6,
+      3
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000115.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000115__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 34,
+     "bobId": 116,
+     "width": 12,
+     "height": 13,
+     "pivot": [
+      6,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000116.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000116__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 35,
+     "bobId": 117,
+     "width": 9,
+     "height": 12,
+     "pivot": [
+      3,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000117.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000117__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 36,
+     "bobId": 118,
+     "width": 8,
+     "height": 11,
+     "pivot": [
+      3,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000118.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000118__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 37,
+     "bobId": 119,
+     "width": 11,
+     "height": 11,
+     "pivot": [
+      5,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000119.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000119__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 38,
+     "bobId": 120,
+     "width": 10,
+     "height": 11,
+     "pivot": [
+      4,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000120.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000120__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 39,
+     "bobId": 121,
+     "width": 23,
+     "height": 12,
+     "pivot": [
+      16,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000121.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000121__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 40,
+     "bobId": 122,
+     "width": 13,
+     "height": 12,
+     "pivot": [
+      5,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000122.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000122__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 41,
+     "bobId": 123,
+     "width": 21,
+     "height": 12,
+     "pivot": [
+      13,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000123.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000123__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 42,
+     "bobId": 124,
+     "width": 16,
+     "height": 11,
+     "pivot": [
+      7,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000124.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000124__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 43,
+     "bobId": 125,
+     "width": 18,
+     "height": 13,
+     "pivot": [
+      8,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000125.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000125__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 44,
+     "bobId": 126,
+     "width": 16,
+     "height": 11,
+     "pivot": [
+      7,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000126.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000126__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 45,
+     "bobId": 127,
+     "status": "EMPTY_FRAME"
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 94,
+     "status": "EMPTY_FRAME"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 95,
+     "width": 3,
+     "height": 4,
+     "pivot": [
+      -1,
+      -25
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000095.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000095__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 96,
+     "width": 4,
+     "height": 4,
+     "pivot": [
+      -1,
+      -24
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000096.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000096__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 97,
+     "width": 3,
+     "height": 4,
+     "pivot": [
+      -1,
+      -23
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000097.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000097__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 98,
+     "width": 5,
+     "height": 5,
+     "pivot": [
+      0,
+      -21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000098.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000098__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 99,
+     "width": 6,
+     "height": 7,
+     "pivot": [
+      1,
+      -19
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000099.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000099__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 100,
+     "width": 8,
+     "height": 6,
+     "pivot": [
+      4,
+      -18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000100.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000100__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 101,
+     "width": 6,
+     "height": 7,
+     "pivot": [
+      2,
+      -17
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000101.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000101__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 102,
+     "width": 11,
+     "height": 8,
+     "pivot": [
+      6,
+      -16
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000102.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000102__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 103,
+     "width": 17,
+     "height": 12,
+     "pivot": [
+      11,
+      -14
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000103.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000103__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 104,
+     "width": 18,
+     "height": 13,
+     "pivot": [
+      11,
+      -12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000104.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000104__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 105,
+     "width": 7,
+     "height": 11,
+     "pivot": [
+      2,
+      -12
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000105.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000105__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 106,
+     "width": 14,
+     "height": 11,
+     "pivot": [
+      8,
+      -11
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000106.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000106__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 107,
+     "width": 10,
+     "height": 12,
+     "pivot": [
+      4,
+      -9
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000107.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000107__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 108,
+     "width": 10,
+     "height": 12,
+     "pivot": [
+      4,
+      -8
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000108.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000108__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 109,
+     "width": 7,
+     "height": 13,
+     "pivot": [
+      1,
+      -6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000109.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000109__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 110,
+     "width": 11,
+     "height": 12,
+     "pivot": [
+      5,
+      -5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000110.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000110__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 111,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      4,
+      -3
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000111.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000111__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 112,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      5,
+      -2
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000112.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000112__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 24,
+     "bobId": 113,
+     "width": 10,
+     "height": 13,
+     "pivot": [
+      5,
+      0
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000113.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000113__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 25,
+     "bobId": 114,
+     "width": 8,
+     "height": 13,
+     "pivot": [
+      3,
+      1
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000114.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000114__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 26,
+     "bobId": 115,
+     "width": 12,
+     "height": 14,
+     "pivot": [
+      6,
+      3
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000115.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000115__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 27,
+     "bobId": 116,
+     "width": 12,
+     "height": 13,
+     "pivot": [
+      6,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000116.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000116__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 28,
+     "bobId": 117,
+     "width": 9,
+     "height": 12,
+     "pivot": [
+      3,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000117.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000117__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 29,
+     "bobId": 118,
+     "width": 8,
+     "height": 11,
+     "pivot": [
+      3,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000118.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000118__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 30,
+     "bobId": 119,
+     "width": 11,
+     "height": 11,
+     "pivot": [
+      5,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000119.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000119__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 31,
+     "bobId": 120,
+     "width": 10,
+     "height": 11,
+     "pivot": [
+      4,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000120.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000120__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 32,
+     "bobId": 121,
+     "width": 23,
+     "height": 12,
+     "pivot": [
+      16,
+      7
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000121.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000121__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 33,
+     "bobId": 122,
+     "width": 13,
+     "height": 12,
+     "pivot": [
+      5,
+      6
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000122.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000122__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 34,
+     "bobId": 123,
+     "width": 21,
+     "height": 12,
+     "pivot": [
+      13,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000123.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000123__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 35,
+     "bobId": 124,
+     "width": 16,
+     "height": 11,
+     "pivot": [
+      7,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000124.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000124__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 36,
+     "bobId": 125,
+     "width": 18,
+     "height": 13,
+     "pivot": [
+      8,
+      5
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000125.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000125__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 37,
+     "bobId": 126,
+     "width": 16,
+     "height": 11,
+     "pivot": [
+      7,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc/784_swamp_03/bob_000126.png",
+     "kind4Secondary": "Terrain/Landscapes/misc/784_swamp_03/bob_000126__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 38,
+     "bobId": 127,
+     "status": "EMPTY_FRAME"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/misc/784_swamp_03",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

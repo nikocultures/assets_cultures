@@ -1,0 +1,31 @@
+{
+  "progressPercent": 10,
+  "path": "Vikings/Buildings/ShipSmall/level_0/construction/progress_010.png",
+  "pivot": [
+    95,
+    178
+  ],
+  "dimensions": [
+    251,
+    283
+  ],
+  "palette": "Ship_house",
+  "contributingLayers": [
+    {
+      "tuple": [
+        0,
+        0,
+        4,
+        5,
+        0,
+        100
+      ],
+      "threshold": 25,
+      "bodyPixels": 152,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    }
+  ],
+  "destinationDarkeningCounts": "Vikings/Buildings/ShipSmall/level_0/construction/progress_010_destination_darken_counts.png",
+  "confidence": "PARTIAL",
+  "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+}

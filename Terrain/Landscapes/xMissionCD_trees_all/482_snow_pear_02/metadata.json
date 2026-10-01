@@ -1,0 +1,1628 @@
+{
+ "gfxLandscapeId": 482,
+ "nativeName": "snow pear 02",
+ "editGroups": [
+  [
+   "xMissionCD trees all"
+  ]
+ ],
+ "logicType": 4,
+ "logicTypeName": "tree",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "tree"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     7,
+     4,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     11,
+     5,
+     2,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     2,
+     115,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 5,
+   "goodName": "wood",
+   "english": "Wood",
+   "field": "landscapetoharvest"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd",
+ "palettes": [
+  "treeSnow01"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 0.8,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   11,
+   "snow pear 02 falling"
+  ],
+  [
+   7,
+   "snow pear 02"
+  ]
+ ],
+ "maximumValency": 3,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "snow pear 02"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "xMissionCD trees all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     3,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     3,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     3,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_trees.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_trees_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "treeSnow01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     60,
+     60,
+     60,
+     61,
+     61,
+     61,
+     62,
+     62,
+     62,
+     63,
+     63,
+     63,
+     64,
+     64,
+     64,
+     65,
+     65,
+     65,
+     66,
+     66,
+     66,
+     67,
+     67,
+     67
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     188,
+     188,
+     188,
+     189,
+     189,
+     189,
+     190,
+     190,
+     190,
+     191,
+     191,
+     191,
+     192,
+     192,
+     192,
+     193,
+     193,
+     193,
+     194,
+     194,
+     194,
+     195,
+     195,
+     195
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     196,
+     196,
+     196,
+     197,
+     197,
+     197,
+     198,
+     198,
+     198,
+     199,
+     199,
+     199,
+     200,
+     200,
+     200,
+     201,
+     201,
+     201,
+     202,
+     202,
+     202,
+     203,
+     203,
+     203
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.8
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     11,
+     "snow pear 02 falling"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     7,
+     "snow pear 02"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 60,
+     "width": 101,
+     "height": 111,
+     "pivot": [
+      54,
+      100
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000060.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000060__shadow_mask.png",
+     "shadowPivot": [
+      50,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 60,
+     "width": 101,
+     "height": 111,
+     "pivot": [
+      54,
+      100
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000060.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000060__shadow_mask.png",
+     "shadowPivot": [
+      50,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 60,
+     "width": 101,
+     "height": 111,
+     "pivot": [
+      54,
+      100
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000060.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000060__shadow_mask.png",
+     "shadowPivot": [
+      50,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 61,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000061.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000061__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 61,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000061.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000061__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 61,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000061.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000061__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 62,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000062.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000062__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 62,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000062.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000062__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 62,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000062.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000062__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 63,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000063.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000063__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 63,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000063.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000063__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 63,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000063.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000063__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 64,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000064.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000064__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 64,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000064.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000064__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 64,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000064.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000064__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 65,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000065.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000065__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 65,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000065.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000065__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 65,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000065.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000065__shadow_mask.png",
+     "shadowPivot": [
+      51,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 66,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000066.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000066__shadow_mask.png",
+     "shadowPivot": [
+      50,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 66,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000066.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000066__shadow_mask.png",
+     "shadowPivot": [
+      50,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 66,
+     "width": 101,
+     "height": 110,
+     "pivot": [
+      54,
+      99
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000066.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000066__shadow_mask.png",
+     "shadowPivot": [
+      50,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 67,
+     "width": 101,
+     "height": 111,
+     "pivot": [
+      54,
+      100
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000067.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000067__shadow_mask.png",
+     "shadowPivot": [
+      50,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 67,
+     "width": 101,
+     "height": 111,
+     "pivot": [
+      54,
+      100
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000067.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000067__shadow_mask.png",
+     "shadowPivot": [
+      50,
+      24
+     ]
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 67,
+     "width": 101,
+     "height": 111,
+     "pivot": [
+      54,
+      100
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000067.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000067__shadow_mask.png",
+     "shadowPivot": [
+      50,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 188,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000188.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000188__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 188,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000188.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000188__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 188,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000188.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000188__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 189,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000189.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000189__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 189,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000189.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000189__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 189,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000189.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000189__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 190,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000190.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000190__shadow_mask.png",
+     "shadowPivot": [
+      28,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 190,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000190.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000190__shadow_mask.png",
+     "shadowPivot": [
+      28,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 190,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000190.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000190__shadow_mask.png",
+     "shadowPivot": [
+      28,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 191,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000191.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000191__shadow_mask.png",
+     "shadowPivot": [
+      29,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 191,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000191.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000191__shadow_mask.png",
+     "shadowPivot": [
+      29,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 191,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000191.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000191__shadow_mask.png",
+     "shadowPivot": [
+      29,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 192,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000192.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000192__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 192,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000192.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000192__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 192,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000192.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000192__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      15
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 193,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000193.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000193__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      17
+     ]
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 193,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000193.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000193__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      17
+     ]
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 193,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000193.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000193__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      17
+     ]
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 194,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000194.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000194__shadow_mask.png",
+     "shadowPivot": [
+      29,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 194,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000194.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000194__shadow_mask.png",
+     "shadowPivot": [
+      29,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 194,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000194.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000194__shadow_mask.png",
+     "shadowPivot": [
+      29,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 195,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000195.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000195__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 195,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000195.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000195__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      18
+     ]
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 195,
+     "width": 85,
+     "height": 83,
+     "pivot": [
+      43,
+      73
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000195.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000195__shadow_mask.png",
+     "shadowPivot": [
+      30,
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 196,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000196.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000196__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 196,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000196.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000196__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 196,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000196.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000196__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 197,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000197.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000197__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      8
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 197,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000197.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000197__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      8
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 197,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000197.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000197__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      8
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 198,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000198.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000198__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 198,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000198.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000198__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 198,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000198.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000198__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 199,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000199.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000199__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 199,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000199.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000199__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 199,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000199.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000199__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 200,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000200.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000200__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 200,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000200.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000200__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 200,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000200.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000200__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 201,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000201.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000201__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 16,
+     "bobId": 201,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000201.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000201__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 17,
+     "bobId": 201,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000201.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000201__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 18,
+     "bobId": 202,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000202.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000202__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 19,
+     "bobId": 202,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000202.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000202__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 20,
+     "bobId": 202,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000202.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000202__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 21,
+     "bobId": 203,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000203.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000203__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 22,
+     "bobId": 203,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000203.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000203__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 23,
+     "bobId": 203,
+     "width": 60,
+     "height": 67,
+     "pivot": [
+      32,
+      62
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/453_snow_yew_01/bob_000203.png",
+     "shadowMask": "Terrain/Landscapes/trees_all/290_yew_01/bob_000203__shadow_mask.png",
+     "shadowPivot": [
+      19,
+      7
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/xMissionCD_trees_all/482_snow_pear_02",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

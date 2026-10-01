@@ -1,0 +1,61 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 952,
+  "entryName": "data\\engine2d\\bin\\sounds\\generic\\animals_camel01.wav",
+  "offset": 146944004,
+  "size": 26592,
+  "sha256": "7ce80edb8e3a10e7d46b53e69fd1665a6a9416da6e01a2cea9090d93360afc23"
+ },
+ "output": "Audio/generic/animals_camel01.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 26534,
+  "durationSeconds": 0.602,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 149,
+   "name": "Camel Sounds",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 149,
+   "name": "Camel Sounds",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [
+  {
+   "tribe": 21,
+   "probability": 10,
+   "minCount": 1
+  }
+ ],
+ "category": "Animals",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

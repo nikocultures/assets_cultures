@@ -1,0 +1,21 @@
+{
+  "asset": {
+    "bobId": 1,
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1232,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders_s.bmd",
+      "offset": 131282331,
+      "size": 36,
+      "sha256": "f59936b72d68c5dfd96ad34adc6cbc0337afa431d2007a6c00baa0a79c2b1bab"
+    },
+    "path": null,
+    "descriptor": {},
+    "confidence": "UNKNOWN",
+    "error": "shadow_coverage: data\\engine2d\\bin\\bobs\\ls_wonders_s.bmd BOB 1: KeyError: 1"
+  },
+  "rule": "Native destination darkening, not alpha blend",
+  "Game.exe": "0x0049B930",
+  "drawOrder": "before finished body; extension keeps existing shadow; new construction uses auxiliary threshold maps",
+  "confidence": "AUTOMATED_CONFIRMED (source coverage); PARTIAL (live composition)"
+}

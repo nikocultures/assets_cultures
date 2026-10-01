@@ -1,0 +1,63 @@
+{
+  "bobId": 1,
+  "descriptor": {
+    "bobId": 1,
+    "frameIndex": 1,
+    "kind": 4,
+    "x": -162,
+    "y": -461,
+    "width": 312,
+    "height": 573,
+    "firstScanline": 763
+  },
+  "pivot": [
+    162,
+    461
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 2009,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+    "offset": 127653421,
+    "size": 3621890,
+    "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+  },
+  "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+  "role": "body",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "oxcart",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 2447,
+    "entryName": "data\\engine2d\\bin\\palettes\\creatures\\oxcart.pcx",
+    "offset": 132735202,
+    "size": 901,
+    "sha256": "ae26c55604dd7986454af2b4c3a3331301e13ac742d5a3a5aca9f914f9462baf"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "oxcart"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\creatures\\oxcart.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+  "path": "Vikings/Buildings/WonderKoloss/level_1/construction/layers/oxcart/body_000001.png",
+  "pixelSha256": "b45a629f3a437a7f37b5a9fcc56f08627571157db634f9f90cf5133b85f68ccb"
+}

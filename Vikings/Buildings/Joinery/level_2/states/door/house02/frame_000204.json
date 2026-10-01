@@ -1,0 +1,63 @@
+{
+  "bobId": 204,
+  "descriptor": {
+    "bobId": 204,
+    "frameIndex": 204,
+    "kind": 1,
+    "x": -22,
+    "y": -25,
+    "width": 57,
+    "height": 72,
+    "firstScanline": 9398
+  },
+  "pivot": [
+    22,
+    25
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 932,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_viking2.bmd",
+    "offset": 104827473,
+    "size": 2317068,
+    "sha256": "6096ebd90f5810ff7e0102394a46e6fabe759afc4acafd5db6945556c9b31b52"
+  },
+  "rawLibrary": "Metadata/Sources/ls_houses_viking2.bmd",
+  "role": "body",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "house02",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1916,
+    "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx",
+    "offset": 132800984,
+    "size": 901,
+    "sha256": "e79c608d2021f0345e7fc89530ad3c951b18efd66c9fd5317106de84bc1842d9"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "house02"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\landscapes\\haus02.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+  "path": "Vikings/Buildings/Joinery/level_2/states/door/house02/frame_000204.png",
+  "pixelSha256": "a6593f030696db5cc57e18bfb09f36913ee7e74fcb234d1675104797f1d1c9d9"
+}

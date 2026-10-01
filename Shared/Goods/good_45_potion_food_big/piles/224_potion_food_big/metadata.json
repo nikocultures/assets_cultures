@@ -1,0 +1,386 @@
+{
+ "gfxLandscapeId": 224,
+ "nativeName": "potion food big",
+ "editGroups": [
+  [
+   "goods all"
+  ]
+ ],
+ "logicType": 68,
+ "logicTypeName": "potion_food_big",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     68
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "potion_food_big"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     68,
+     2,
+     -1,
+     45
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     68,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 45,
+   "goodName": "potion_food_big",
+   "english": "L Nourishing Potion",
+   "field": "landscapetype"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd",
+ "palettes": [
+  "flower01"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   4,
+   "potion food big"
+  ],
+  [
+   3,
+   "potion food big"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "potion food big"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     68
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "flower01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     149
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     148
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     147
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     146
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     145
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "potion food big"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "potion food big"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 149,
+     "width": 28,
+     "height": 31,
+     "pivot": [
+      15,
+      20
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000149.png",
+     "kind4Secondary": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000149__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000149__shadow_mask.png",
+     "shadowPivot": [
+      15,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 148,
+     "width": 28,
+     "height": 31,
+     "pivot": [
+      15,
+      20
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000148.png",
+     "kind4Secondary": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000148__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000148__shadow_mask.png",
+     "shadowPivot": [
+      15,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 147,
+     "width": 28,
+     "height": 25,
+     "pivot": [
+      15,
+      20
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000147.png",
+     "kind4Secondary": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000147__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000147__shadow_mask.png",
+     "shadowPivot": [
+      15,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 146,
+     "width": 22,
+     "height": 24,
+     "pivot": [
+      15,
+      19
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000146.png",
+     "kind4Secondary": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000146__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000146__shadow_mask.png",
+     "shadowPivot": [
+      15,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 145,
+     "width": 13,
+     "height": 21,
+     "pivot": [
+      6,
+      16
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000145.png",
+     "kind4Secondary": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000145__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000145__shadow_mask.png",
+     "shadowPivot": [
+      5,
+      3
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

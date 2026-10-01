@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 963,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\carpenter_hammer01.wav",
+  "offset": 178621462,
+  "size": 24550,
+  "sha256": "135d4ffcb9c6ced909e4437b53996381e45e6f7546ceb6f6740e3dd13f508cd2"
+ },
+ "output": "Audio/static/carpenter_hammer01.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 24492,
+  "durationSeconds": 0.555,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 45,
+   "name": "Carpenter Hammer",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 23,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 45,
+   "name": "Carpenter Hammer",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 23,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Production/actions (folder static)",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

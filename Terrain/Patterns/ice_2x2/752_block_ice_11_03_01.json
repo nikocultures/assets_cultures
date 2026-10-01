@@ -1,0 +1,154 @@
+{
+ "gfxPatternId": 752,
+ "nativeName": "block ice 11 03 01",
+ "editGroups": [
+  [
+   "ice 2x2",
+   "ice all"
+  ]
+ ],
+ "logicType": 4,
+ "logicTypeDefinition": {
+  "section": "trianglepatterntype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "humancanwalkon",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "housecanbebuildon",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "island",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "moveresistance",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "debugname",
+    "arguments": [
+     "sand"
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     159,
+     129,
+     55
+    ]
+   }
+  ]
+ },
+ "texture": "data\\engine2d\\bin\\textures\\text_244.pcx",
+ "textureOutput": "Terrain/Textures/text_244.png",
+ "triangleA": [
+  192,
+  64,
+  255,
+  127,
+  192,
+  127
+ ],
+ "triangleB": [
+  192,
+  64,
+  255,
+  64,
+  255,
+  127
+ ],
+ "cropBox": [
+  192,
+  64,
+  255,
+  127
+ ],
+ "crop": "Terrain/Patterns/ice_2x2/752_block_ice_11_03_01.png",
+ "triangleMask": "Terrain/Patterns/ice_2x2/752_block_ice_11_03_01__triangles.png",
+ "maskValues": {
+  "85": "triangle A",
+  "170": "triangle B"
+ },
+ "definition": {
+  "section": "gfxpattern",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "block ice 11 03 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "ice 2x2",
+     "ice all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "gfxtexture",
+    "arguments": [
+     "data\\engine2d\\bin\\textures\\text_244.pcx"
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     192,
+     64,
+     255,
+     127,
+     192,
+     127
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     192,
+     64,
+     255,
+     64,
+     255,
+     127
+    ]
+   }
+  ]
+ },
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0048E24E pattern.cif loader (stride 0x70)",
+   "0x00491EA8 pattern texture resolve"
+  ],
+  "cpp": "GfxPatternRegistry"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED texture decode",
+  "presentation": "PRESENTATION_PARTIAL: texture-space crop; isometric triangle projection, lighting and transitions not applied"
+ }
+}

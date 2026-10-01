@@ -1,0 +1,294 @@
+{
+ "transitionId": 26,
+ "nativeName": "DesertBrown 1c",
+ "pointType": "DesertBrown c",
+ "pointTypeDefinition": {
+  "section": "pointtype",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "DesertBrown c"
+    ]
+   },
+   {
+    "name": "patterngroup",
+    "arguments": [
+     "DesertBrown c"
+    ]
+   }
+  ]
+ },
+ "texture": "data\\engine2d\\bin\\textures\\text_192.pcx",
+ "textureAlpha": "data\\engine2d\\bin\\textures\\tran_Desert_ad_a.pcx",
+ "textureOutput": "Terrain/Textures/text_192.png",
+ "alphaOutput": "Terrain/Textures/tran_desert_ad_a.png",
+ "trianglesA": [
+  [
+   0,
+   0,
+   63,
+   63,
+   0,
+   63
+  ],
+  [
+   64,
+   0,
+   127,
+   63,
+   64,
+   63
+  ],
+  [
+   128,
+   0,
+   191,
+   63,
+   128,
+   63
+  ],
+  [
+   64,
+   64,
+   127,
+   127,
+   64,
+   127
+  ],
+  [
+   128,
+   64,
+   191,
+   127,
+   128,
+   127
+  ],
+  [
+   192,
+   64,
+   255,
+   127,
+   192,
+   127
+  ]
+ ],
+ "trianglesB": [
+  [
+   0,
+   0,
+   63,
+   0,
+   63,
+   63
+  ],
+  [
+   64,
+   0,
+   127,
+   0,
+   127,
+   63
+  ],
+  [
+   128,
+   0,
+   191,
+   0,
+   191,
+   63
+  ],
+  [
+   64,
+   64,
+   127,
+   64,
+   127,
+   127
+  ],
+  [
+   128,
+   64,
+   191,
+   64,
+   191,
+   127
+  ],
+  [
+   192,
+   64,
+   255,
+   64,
+   255,
+   127
+  ]
+ ],
+ "definition": {
+  "section": "transition",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "DesertBrown 1c"
+    ]
+   },
+   {
+    "name": "pointtype",
+    "arguments": [
+     "DesertBrown c"
+    ]
+   },
+   {
+    "name": "gfxtexture",
+    "arguments": [
+     "data\\engine2d\\bin\\textures\\text_192.pcx"
+    ]
+   },
+   {
+    "name": "gfxtexturealpha",
+    "arguments": [
+     "data\\engine2d\\bin\\textures\\tran_Desert_ad_a.pcx"
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     0,
+     0,
+     63,
+     63,
+     0,
+     63
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     0,
+     0,
+     63,
+     0,
+     63,
+     63
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     64,
+     0,
+     127,
+     63,
+     64,
+     63
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     64,
+     0,
+     127,
+     0,
+     127,
+     63
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     128,
+     0,
+     191,
+     63,
+     128,
+     63
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     128,
+     0,
+     191,
+     0,
+     191,
+     63
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     64,
+     64,
+     127,
+     127,
+     64,
+     127
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     64,
+     64,
+     127,
+     64,
+     127,
+     127
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     128,
+     64,
+     191,
+     127,
+     128,
+     127
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     128,
+     64,
+     191,
+     64,
+     191,
+     127
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     192,
+     64,
+     255,
+     127,
+     192,
+     127
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     192,
+     64,
+     255,
+     64,
+     255,
+     127
+    ]
+   }
+  ]
+ },
+ "nativeReferences": {
+  "cpp": "PatternTransitionRegistry (pattern_transition_registry.hpp)"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "presentation": "PRESENTATION_PARTIAL: alpha texture is blend DATA; in-world blending not baked"
+ }
+}

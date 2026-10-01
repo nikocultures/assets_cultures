@@ -1,0 +1,154 @@
+{
+ "gfxPatternId": 926,
+ "nativeName": "block Xsnow buildable 11 04 03",
+ "editGroups": [
+  [
+   "snow buildable 2x2",
+   "snow all"
+  ]
+ ],
+ "logicType": 4,
+ "logicTypeDefinition": {
+  "section": "trianglepatterntype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "humancanwalkon",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "housecanbebuildon",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "island",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "moveresistance",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "debugname",
+    "arguments": [
+     "sand"
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     159,
+     129,
+     55
+    ]
+   }
+  ]
+ },
+ "texture": "data\\engine2d\\bin\\textures\\text_244.pcx",
+ "textureOutput": "Terrain/Textures/text_244.png",
+ "triangleA": [
+  0,
+  192,
+  63,
+  255,
+  0,
+  255
+ ],
+ "triangleB": [
+  0,
+  192,
+  63,
+  192,
+  63,
+  255
+ ],
+ "cropBox": [
+  0,
+  192,
+  63,
+  255
+ ],
+ "crop": "Terrain/Patterns/snow_buildable_2x2/926_block_Xsnow_buildable_11_04_03.png",
+ "triangleMask": "Terrain/Patterns/snow_buildable_2x2/926_block_Xsnow_buildable_11_04_03__triangles.png",
+ "maskValues": {
+  "85": "triangle A",
+  "170": "triangle B"
+ },
+ "definition": {
+  "section": "gfxpattern",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "block Xsnow buildable 11 04 03"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "snow buildable 2x2",
+     "snow all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "gfxtexture",
+    "arguments": [
+     "data\\engine2d\\bin\\textures\\text_244.pcx"
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     0,
+     192,
+     63,
+     255,
+     0,
+     255
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     0,
+     192,
+     63,
+     192,
+     63,
+     255
+    ]
+   }
+  ]
+ },
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0048E24E pattern.cif loader (stride 0x70)",
+   "0x00491EA8 pattern texture resolve"
+  ],
+  "cpp": "GfxPatternRegistry"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED texture decode",
+  "presentation": "PRESENTATION_PARTIAL: texture-space crop; isometric triangle projection, lighting and transitions not applied"
+ }
+}

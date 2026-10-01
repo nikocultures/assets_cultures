@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../../../../", "crumbs": [["Home", "index.html"], ["Other Tribes", "Other Tribes/index.html"], ["Egypt", "Other Tribes/Egypt/index.html"], ["Buildings", "Other Tribes/Egypt/Buildings/index.html"], ["Mainhouse_gfx81", ""], ["level_0", ""]], "prev": null, "next": ["Egypt Barrack L0", "Other Tribes/Egypt/Buildings/Barrack_gfx82/level_0/index.html"]};

@@ -1,0 +1,63 @@
+{
+  "bobId": 185,
+  "descriptor": {
+    "bobId": 185,
+    "frameIndex": 185,
+    "kind": 4,
+    "x": -17,
+    "y": -35,
+    "width": 33,
+    "height": 46,
+    "firstScanline": 8470
+  },
+  "pivot": [
+    17,
+    35
+  ],
+  "source": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 1884,
+    "entryName": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+    "offset": 112454685,
+    "size": 3256020,
+    "sha256": "4093a4536245a6b42d7244a6f7e4f2fc1bf71038a33f7779fb104a54304948ed"
+  },
+  "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_smoke.bmd/source.bmd",
+  "role": "effect",
+  "confidence": "AUTOMATED_CONFIRMED",
+  "palette": "fire",
+  "paletteSource": {
+    "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+    "entryId": 968,
+    "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\fire.pcx",
+    "offset": 132789263,
+    "size": 905,
+    "sha256": "cdc4d2fd5a72391aacadae2fbe4e429d022baeed2bf36cf43b5fa85bbe196e75"
+  },
+  "paletteDefinition": {
+    "section": "gfxpalette256",
+    "commands": [
+      {
+        "name": "editname",
+        "arguments": [
+          "fire"
+        ]
+      },
+      {
+        "name": "gfxfile",
+        "arguments": [
+          "data\\engine2d\\bin\\palettes\\landscapes\\fire.pcx"
+        ]
+      },
+      {
+        "name": "gfxpreshade",
+        "arguments": [
+          1
+        ]
+      }
+    ]
+  },
+  "representation": "Source RGBA preview; native kind4 /256 blending and runtime effects remain separate",
+  "path": "Shared/Buildings/data_engine2d_bin_bobs_ls_smoke.bmd/fire/effect/frame_000185.png",
+  "pixelSha256": "a7a4c1aba82d3b710527c44e6d77761dec3eb4a097e053109eace2bde5640947"
+}

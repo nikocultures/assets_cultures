@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 584,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\arrow_hit_dirt.wav",
+  "offset": 177922680,
+  "size": 30672,
+  "sha256": "1416f8a909227829ae6b624da41f2840e34ef5d1570c422abadd7f68fff009a1"
+ },
+ "output": "Audio/static/arrow_hit_dirt.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 30614,
+  "durationSeconds": 0.694,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 79,
+   "name": "Weapon Bow Hit Dirt",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 79,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 79,
+   "name": "Weapon Bow Hit Dirt",
+   "parameters": [
+    40
+   ],
+   "logicSoundType": 79,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Combat (name-derived)",
+ "categoryConfidence": "NAME_DERIVED",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

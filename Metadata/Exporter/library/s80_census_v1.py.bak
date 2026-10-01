@@ -1,0 +1,159 @@
+"""Stage 80: whole-archive graphics census -> zero silently discarded frames.
+
+Usage sources: Metadata/Mobile/usage_*.json (humans/animals/vehicles), Metadata/Landscapes/usage.json,
+Catalogs/*_building_frames.json (all tribes), Catalogs/ui_sprites.csv (GUI libraries, every frame exported).
+Every non-empty decoded frame not referenced by any mapped native definition is written to Unknown/ByLibrary as
+atlas pages with index DATA (palette unknown) and full provenance. When all referenced frames of the same library
+use exactly one palette, a separate *candidate* colour page is produced and labelled PRESENTATION_APPROXIMATION.
+"""
+import collections, csv, glob, math
+from PIL import Image
+from common import *
+
+used = collections.defaultdict(lambda: collections.defaultdict(set))   # norm(lib) -> bob -> {usage}
+libpal = collections.defaultdict(collections.Counter)
+for p in glob.glob(str(ROOT / 'Metadata/Mobile/usage_*.json')) + [str(ROOT / 'Metadata/Landscapes/usage.json')]:
+    for lib, d in read(p).items():
+        for bob, roles in d.items():
+            used[norm(lib)][int(bob)].update(f'{Path(p).stem}:{r}' for r in roles)
+for p in glob.glob(str(ROOT / 'Catalogs/*_building_frames.json')):
+    for r in read(p):
+        src = r.get('source') or {}
+        if src.get('entryName') is not None and r.get('bobId') is not None and (r.get('path') or r.get('empty') or r.get('notApplicable')):
+            used[norm(src['entryName'])][r['bobId']].add(f"buildings:{r.get('role')}")
+            if r.get('palette'):
+                libpal[norm(src['entryName'])][r['palette']] += 1
+for p in glob.glob(str(ROOT / 'Metadata/Mobile/animations_*.csv')):
+    with open(p, encoding='utf-8-sig') as f:
+        for r in csv.DictReader(f):
+            if r['BODY_PALETTE'] and r['STATUS'].startswith('RENDERED'):
+                libpal[norm(r['BODY_LIBRARY'])][r['BODY_PALETTE']] += 1
+                if r['HEAD_LIBRARY'] and r['HEAD_PALETTE']:
+                    libpal[norm(r['HEAD_LIBRARY'])][r['HEAD_PALETTE']] += 1
+for p in glob.glob(str(ROOT / 'Terrain/Landscapes/**/metadata.json'), recursive=True) + glob.glob(str(ROOT / 'Shared/Goods/**/metadata.json'), recursive=True) + \
+        glob.glob(str(ROOT / 'Shared/Effects/Landscape/**/metadata.json'), recursive=True) + glob.glob(str(ROOT / 'Animals/Landscape/**/metadata.json'), recursive=True):
+    m = read(p)
+    if m.get('bodyLibrary') and m.get('palettes'):
+        libpal[norm(m['bodyLibrary'])][m['palettes'][0]] += 1
+LIBPATH = {stem(e.path).lower(): e.path for e in INDEX.entries if e.path.lower().endswith('.bmd')}
+for p in glob.glob(str(ROOT / '*/Humans/**/metadata.json'), recursive=True) + glob.glob(str(ROOT / 'Other Tribes/*/Humans/**/metadata.json'), recursive=True):
+    m = read(p)
+    if m.get('ownerKind') != 'human':
+        continue
+    heads = {b['phase']: b['headVariants'] for b in m['bindings']}
+    for a_ in m['animations']:
+        bobs = {x for d in a_['directions'] for x in d.get('headBobs', [])}
+        for r in a_['renders']:
+            if not r['status'].startswith('RENDERED'):
+                continue
+            for hv in heads.get(r['phase'], []):
+                lib = LIBPATH.get(stem(hv['head']).lower())
+                if lib:
+                    fr = {f['bobId'] for f in bmd(lib)[0]}
+                    for x in bobs & fr:
+                        used[norm(lib)][x].add(f"human:head_variant_selector_{hv['selector']}")
+                    if r.get('headPalette'):
+                        libpal[norm(lib)][r['headPalette']] += 1
+with open(ROOT / 'Catalogs/ui_sprites.csv', encoding='utf-8-sig') as f:
+    for r in csv.DictReader(f):
+        used[norm(r['LIBRARY'])][int(r['BOB_ID'])].add('ui:' + ('palette_evidenced' if r['STATUS'] == 'PALETTE_EVIDENCED' else 'index_data_only'))
+
+lib_rows, unknown_rows = [], []
+SL = ROOT / 'Shared/SourceLibraries'
+for n, e in enumerate(INDEX.entries):
+    if not e.path.lower().endswith('.bmd'):
+        continue
+    key = norm(e.path)
+    try:
+        frames, planes = bmd(e.path)
+    except Exception as x:
+        unknown_rows.append({'LIBRARY': e.path, 'ENTRY_ID': n, 'BOB_ID': '', 'STATUS': f'UNDECODABLE: {x}', 'CONFIDENCE': 'UNKNOWN',
+                             'POSSIBLE_EVIDENCE': 'pixel kind 3 frames (outside production kinds 0/1/2/4); no production or reference decoder; test asset name' if 'test_house' in key else ''})
+        lib_rows.append({'ENTRY_ID': n, 'LIBRARY': e.path, 'FRAMES': '', 'NONEMPTY': '', 'MAPPED': '', 'UNKNOWN': '', 'STATUS': 'UNDECODABLE'})
+        continue
+    u = used.get(key, {})
+    nonempty = [f for f in frames if f['width'] and f['height'] and f['kind'] and any(frame_planes(e.path, f)[:, :, 1].flat)]
+    unk = {f['bobId'] for f in nonempty if f['bobId'] not in u}
+    pal_choice = libpal.get(key) or collections.Counter()
+    pals = [p_ for p_, _ in pal_choice.most_common(4) if p_.lower() in palette_defs()]
+    d = SL / slug(stem(e.path))
+    d.mkdir(parents=True, exist_ok=True)
+    index, pages = [], []
+    for start in range(0, len(nonempty), 64):
+        group = nonempty[start:start + 64]
+        cw = max(f['width'] for f in group); ch = max(f['height'] for f in group)
+        cols = 8; rows_ = math.ceil(len(group) / cols)
+        data = np.zeros((rows_ * ch, cols * cw, 4), np.uint8)
+        cols_img = {p_: np.zeros_like(data) for p_ in pals}
+        page = start // 64
+        for j, f in enumerate(group):
+            p = frame_planes(e.path, f)
+            X, Y = (j % cols) * cw, (j // cols) * ch
+            data[Y:Y + f['height'], X:X + f['width']] = np.dstack([p[:, :, 0]] * 3 + [p[:, :, 1]])
+            for p_ in pals:
+                cols_img[p_][Y:Y + f['height'], X:X + f['width']] = rgba(p, palette(p_)[0], f['kind'])
+            rec = {'bobId': f['bobId'], 'kind': f['kind'], 'width': f['width'], 'height': f['height'], 'pivot': [-f['x'], -f['y']],
+                   'page': page, 'rect': [X, Y, f['width'], f['height']], 'usage': sorted(u.get(f['bobId'], [])),
+                   'status': 'MAPPED' if f['bobId'] in u else 'UNKNOWN'}
+            index.append(rec)
+            if f['bobId'] in unk:
+                unknown_rows.append({'LIBRARY': e.path, 'ENTRY_ID': n, 'ARCHIVE_OFFSET': e.offset, 'BOB_ID': f['bobId'], 'KIND': f['kind'],
+                                     'WIDTH': f['width'], 'HEIGHT': f['height'], 'PIVOT': [-f['x'], -f['y']],
+                                     'SHA256_PLANES': hashlib.sha256(np.ascontiguousarray(p).tobytes()).hexdigest(),
+                                     'PAGE': rel(d / f'page_{page:04d}_index_data.png'), 'RECT': [X, Y, f['width'], f['height']],
+                                     'COLOUR_PAGES': [rel(d / f'page_{page:04d}__{slug(p_)}.png') for p_ in pals],
+                                     'POSSIBLE_EVIDENCE': (f'palettes used by mapped frames of this library: {dict(pal_choice)}' if pal_choice else 'no mapped frame in this library'),
+                                     'STATUS': 'UNREFERENCED_BY_MAPPED_NATIVE_TABLES', 'CONFIDENCE': 'UNKNOWN'})
+        Image.fromarray(data, 'RGBA').save(d / f'page_{page:04d}_index_data.png')
+        for p_, img in cols_img.items():
+            Image.fromarray(img, 'RGBA').save(d / f'page_{page:04d}__{slug(p_)}.png')
+        pages.append(page)
+    meta = {'library': e.path, 'source': source(e.path), 'decoder': 'production decodeBobLibraryBmd via export_planes.exe', 'frameDescriptors': len(frames),
+            'nonemptyFrames': len(nonempty), 'mappedFrames': len(nonempty) - len(unk), 'unknownFrames': len(unk), 'pages': len(pages),
+            'palettes': pals, 'palettesSeen': dict(pal_choice),
+            'representation': {'page_XXXX_index_data.png': 'RGB = palette index (DATA), alpha = coverage; kind 2 = coverage-only shadow',
+                               'page_XXXX__<palette>.png': 'frames coloured with a palette used by MAPPED native definitions; for UNKNOWN frames this colouring is PRESENTATION_APPROXIMATION'},
+            'frames': index}
+    write(d / 'library.json', meta, compact=True)
+    lib_rows.append({'ENTRY_ID': n, 'LIBRARY': e.path, 'FRAMES': len(frames), 'NONEMPTY': len(nonempty), 'MAPPED': len(nonempty) - len(unk), 'UNKNOWN': len(unk),
+                     'COVERAGE_PCT': round(100 * (len(nonempty) - len(unk)) / len(nonempty), 1) if nonempty else 100.0,
+                     'PALETTES': pals, 'ATLAS': rel(d / 'library.json'), 'STATUS': 'DECODED'})
+    print(stem(e.path), len(nonempty), 'unknown', len(unk), flush=True)
+csvout(ROOT / 'Catalogs/bmd_coverage.csv', lib_rows)
+# ---- evidence annotation: BobSeq ranges (animations.cif) through paired body library numbering
+SEQ = []
+for blk in cif(r'data\engine2d\inis\mapmoveableanimations\animations.cif'):
+    if blk['section'] != 'bobseq':
+        continue
+    img = stem(scalar(blk, 'imagelib', '')).lower()
+    for a_ in commands(blk, 'seq'):
+        SEQ.append((img, a_[0], a_[1], a_[2]))
+pair = collections.defaultdict(set)
+for jg in (r'data\engine2d\inis\humans\jobgraphics.cif', r'data\engine2d\inis\animals\jobgraphics.cif', r'data\engine2d\inis\vehicles\jobgraphics.cif'):
+    for blk in cif(jg):
+        bodies = [stem(a_[1] if isinstance(a_[0], int) else a_[0]).lower() for a_ in commands(blk, 'gfxbobmanagerbody')]
+        shadows = [stem(a_[-1]).lower() for a_ in commands(blk, 'gfxbobmanagerbody') if len(a_) > (2 if isinstance(a_[0], int) else 1)]
+        heads = [stem(a_[-1]).lower() for a_ in commands(blk, 'gfxbobmanagerhead')]
+        for x in heads + shadows + bodies:
+            pair[x].update(bodies)
+seqhits = collections.Counter()
+for r in unknown_rows:
+    if r.get('BOB_ID') in ('', None):
+        continue
+    lib = stem(r['LIBRARY']).lower()
+    fams = {lib} | pair.get(lib, set())
+    hits = [f'{nm} [{img}:{fb}+{cnt}]' for img, nm, fb, cnt in SEQ if img in fams and fb <= r['BOB_ID'] < fb + cnt]
+    if hits:
+        r['BOBSEQ_EVIDENCE'] = hits[:6]
+        r['POSSIBLE_EVIDENCE'] = 'inside native BobSeq range(s) not referenced by any resolved tribe animation record; ' + r['POSSIBLE_EVIDENCE']
+        for h in hits[:1]:
+            seqhits[h.split(' [')[0]] += 1
+write(ROOT / 'Unknown/unreferenced_bobseq_frames.json', dict(seqhits.most_common()))
+csvout(ROOT / 'Catalogs/unknown_frames.csv', unknown_rows)
+tot = sum(r['NONEMPTY'] or 0 for r in lib_rows)
+unk = sum(r['UNKNOWN'] or 0 for r in lib_rows)
+summary = {'bmdLibraries': len(lib_rows), 'nonemptyFrames': tot, 'mappedFrames': tot - unk, 'unknownFrames': unk,
+           'undecodable': [r['LIBRARY'] for r in lib_rows if r['STATUS'] != 'DECODED'], 'silentlyDiscarded': 0,
+           'note': 'Every non-empty frame of every decodable BMD is present in Shared/SourceLibraries atlases; Unknown rows reference those pages.'}
+write(ROOT / 'Unknown/census_summary.json', summary)
+print(summary)

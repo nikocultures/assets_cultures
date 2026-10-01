@@ -1,0 +1,73 @@
+// Address: 004803d5
+// Ghidra name: FUN_004803d5
+// Signature: undefined FUN_004803d5(int param_1, char param_2, char param_3)
+
+void __cdecl FUN_004803d5(int param_1,char param_2,char param_3)
+
+{
+  int iVar1;
+  int *piVar2;
+  uint uVar3;
+  uint uVar4;
+  char *_Source;
+  int iVar5;
+  undefined4 *_Dst;
+  
+  if (param_2 != '\0') {
+    _Dst = (undefined4 *)(param_1 * 0x8c8 + DAT_005550d8);
+    iVar5 = param_1 * 0xc58 + DAT_00510a00;
+    if (param_3 == '\0') {
+      _memset(_Dst,0,0x8c8);
+    }
+    piVar2 = FUN_0048bace(*(int *)(iVar5 + 0x14),*(int *)(iVar5 + 0x18));
+    if (piVar2[2] != 0) {
+      uVar3 = thunk_FUN_00407570();
+      uVar3 = uVar3 % (uint)piVar2[2];
+      _Dst[0xf] = piVar2[uVar3 * 3 + 3];
+      _Dst[10] = piVar2[uVar3 * 3 + 4];
+      _Dst[0xc] = piVar2[uVar3 * 3 + 5];
+    }
+    if (piVar2[0x12] != 0) {
+      uVar4 = thunk_FUN_00407570();
+      uVar3 = piVar2[0x12];
+      _Dst[0x10] = piVar2[(uVar4 % uVar3) * 2 + 0x13];
+      _Dst[0xb] = piVar2[(uVar4 % uVar3) * 2 + 0x14];
+    }
+    if (param_3 == '\0') {
+      if (piVar2[0x1d] != 0) {
+        uVar3 = thunk_FUN_00407570();
+        FUN_0040fa98(_Dst + 0x11,
+                     *(int *)(piVar2[uVar3 % (uint)piVar2[0x1d] + 0x1e] * 0x30 + 0x20 + DAT_005550e4
+                             ));
+      }
+      if (piVar2[0x23] != 0) {
+        uVar3 = thunk_FUN_00407570();
+        FUN_0040fa98(_Dst + 0x114,
+                     *(int *)(piVar2[uVar3 % (uint)piVar2[0x23] + 0x24] * 0x30 + 0x20 + DAT_005550e4
+                             ));
+      }
+      iVar1 = *(int *)(iVar5 + 0x10);
+      uVar3 = FUN_0042c54e(iVar5);
+      uVar3 = FUN_0048b44f(iVar1,(char)uVar3);
+      if (uVar3 != 0xffffffff) {
+        FUN_0048b258(uVar3,(int)(_Dst + 0x11),(int)(_Dst + 0x114),'\0');
+      }
+      if (piVar2[0x29] != 0) {
+        uVar3 = thunk_FUN_00407570();
+        FUN_0048b258(piVar2[uVar3 % (uint)piVar2[0x29] + 0x2a],(int)(_Dst + 0x11),
+                     (int)(_Dst + 0x114),'\0');
+      }
+      iVar1 = *(int *)(iVar5 + 0x14);
+      uVar3 = FUN_0042c54e(iVar5);
+      _Source = FUN_0048bba5(iVar1,(char)uVar3);
+      _strncpy((char *)(_Dst + 0x217),_Source,0x62);
+    }
+    *_Dst = 0xffffffff;
+    _Dst[1] = 0xffffffff;
+  }
+  return;
+}
+
+
+
+// ============================================================================

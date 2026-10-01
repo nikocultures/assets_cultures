@@ -1,0 +1,433 @@
+{
+ "gfxLandscapeId": 717,
+ "nativeName": "skeleton_03",
+ "editGroups": [
+  [
+   "misc_skeletons"
+  ]
+ ],
+ "logicType": 87,
+ "logicTypeName": "skeleton_falling",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     87
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "skeleton_falling"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     13,
+     81,
+     2,
+     0,
+     12
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     2,
+     115,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [
+  {
+   "section": "tribelandscapelinkdata",
+   "tribe": 3,
+   "landscapeType": 87,
+   "houseType": null
+  }
+ ],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_skeletons.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_skeletons_s.bmd",
+ "palettes": [
+  "wolves01"
+ ],
+ "static": 0,
+ "loopAnimation": 0,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   13,
+   "cadaver human bones03"
+  ]
+ ],
+ "maximumValency": 1,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "skeleton_03"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "misc_skeletons"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     87
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_skeletons.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_skeletons_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "wolves01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     13,
+     "cadaver human bones03"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 24,
+     "width": 21,
+     "height": 42,
+     "pivot": [
+      12,
+      40
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000024.png",
+     "shadowMask": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000024__shadow_mask.png",
+     "shadowPivot": [
+      10,
+      8
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 25,
+     "width": 22,
+     "height": 42,
+     "pivot": [
+      13,
+      38
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000025.png",
+     "shadowMask": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000025__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      8
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 26,
+     "width": 24,
+     "height": 41,
+     "pivot": [
+      14,
+      36
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000026.png",
+     "shadowMask": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000026__shadow_mask.png",
+     "shadowPivot": [
+      8,
+      5
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 27,
+     "width": 25,
+     "height": 40,
+     "pivot": [
+      15,
+      33
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000027.png",
+     "shadowMask": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000027__shadow_mask.png",
+     "shadowPivot": [
+      14,
+      5
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 28,
+     "width": 25,
+     "height": 39,
+     "pivot": [
+      15,
+      31
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000028.png",
+     "shadowMask": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000028__shadow_mask.png",
+     "shadowPivot": [
+      14,
+      5
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 29,
+     "width": 24,
+     "height": 37,
+     "pivot": [
+      14,
+      29
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000029.png",
+     "shadowMask": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000029__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      5
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 30,
+     "width": 25,
+     "height": 34,
+     "pivot": [
+      14,
+      26
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000030.png",
+     "shadowMask": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000030__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      5
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 31,
+     "width": 27,
+     "height": 28,
+     "pivot": [
+      15,
+      22
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000031.png",
+     "shadowMask": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000031__shadow_mask.png",
+     "shadowPivot": [
+      8,
+      7
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 32,
+     "width": 28,
+     "height": 24,
+     "pivot": [
+      16,
+      18
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000032.png",
+     "shadowMask": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000032__shadow_mask.png",
+     "shadowPivot": [
+      15,
+      8
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 33,
+     "width": 30,
+     "height": 21,
+     "pivot": [
+      17,
+      15
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000033.png",
+     "shadowMask": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000033__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      3
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 34,
+     "width": 29,
+     "height": 21,
+     "pivot": [
+      17,
+      14
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000034.png",
+     "shadowMask": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000034__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      9
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 35,
+     "width": 29,
+     "height": 21,
+     "pivot": [
+      17,
+      12
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000035.png",
+     "shadowMask": "Terrain/Landscapes/misc_skeletons/717_skeleton_03/bob_000035__shadow_mask.png",
+     "shadowPivot": [
+      8,
+      8
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/misc_skeletons/717_skeleton_03",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../../../", "crumbs": [["Home", "index.html"], ["Franks", "Franks/index.html"], ["Humans", "Franks/Humans/index.html"], ["Heroes", ""], ["job_45_hero_saber_HATSCHI", ""]], "prev": ["Bjarni", "Franks/Humans/Heroes/job_44_hero_sword_BJARNI/index.html"], "next": ["Axe Hero", "Franks/Humans/Heroes/job_46_hero_axe/index.html"]};

@@ -1,0 +1,833 @@
+{
+ "particleId": 10,
+ "nativeName": "arrow_stick",
+ "library": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+ "palette": "rock01",
+ "definition": {
+  "section": "particel",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "arrow_stick"
+    ]
+   },
+   {
+    "name": "palette",
+    "arguments": [
+     "rock01"
+    ]
+   },
+   {
+    "name": "bobmanager",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_smoke.bmd"
+    ]
+   },
+   {
+    "name": "maxvalency",
+    "arguments": [
+     32
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     0,
+     228
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     229
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     230
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     231
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     232
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     233
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     6,
+     234
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     7,
+     235
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     8,
+     236
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     9,
+     237
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     10,
+     238
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     11,
+     239
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     12,
+     240
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     13,
+     241
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     14,
+     242
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     15,
+     243
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     16,
+     244
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     17,
+     245
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     18,
+     246
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     19,
+     247
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     20,
+     248
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     21,
+     249
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     22,
+     250
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     23,
+     251
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     24,
+     252
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     25,
+     253
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     26,
+     254
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     27,
+     255
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     28,
+     256
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     29,
+     257
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     30,
+     258
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     31,
+     259
+    ]
+   },
+   {
+    "name": "animloop",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "bobtype",
+    "arguments": [
+     1
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2238,
+  "entryName": "data\\engine2d\\inis\\particel\\particel.cif",
+  "offset": 195245533,
+  "size": 6354,
+  "sha256": "3a0829ad1b452cec93cac5aa93adeb0aa73d920bb015124dffbbc3edde3a5b74"
+ },
+ "generators": [],
+ "particleEffects": [],
+ "valencies": [
+  {
+   "valency": 0,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0228__rock01.png",
+     "kind": 1,
+     "width": 2,
+     "height": 16,
+     "pivot": [
+      0,
+      13
+     ],
+     "bobId": 228,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0229__rock01.png",
+     "kind": 1,
+     "width": 5,
+     "height": 16,
+     "pivot": [
+      3,
+      13
+     ],
+     "bobId": 229,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0230__rock01.png",
+     "kind": 1,
+     "width": 7,
+     "height": 15,
+     "pivot": [
+      5,
+      12
+     ],
+     "bobId": 230,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0231__rock01.png",
+     "kind": 1,
+     "width": 10,
+     "height": 14,
+     "pivot": [
+      7,
+      11
+     ],
+     "bobId": 231,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0232__rock01.png",
+     "kind": 1,
+     "width": 12,
+     "height": 11,
+     "pivot": [
+      9,
+      9
+     ],
+     "bobId": 232,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0233__rock01.png",
+     "kind": 1,
+     "width": 15,
+     "height": 9,
+     "pivot": [
+      11,
+      7
+     ],
+     "bobId": 233,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 6,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0234__rock01.png",
+     "kind": 1,
+     "width": 17,
+     "height": 7,
+     "pivot": [
+      12,
+      5
+     ],
+     "bobId": 234,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 7,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0235__rock01.png",
+     "kind": 1,
+     "width": 20,
+     "height": 5,
+     "pivot": [
+      13,
+      3
+     ],
+     "bobId": 235,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 8,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0236__rock01.png",
+     "kind": 1,
+     "width": 19,
+     "height": 3,
+     "pivot": [
+      13,
+      0
+     ],
+     "bobId": 236,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 9,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0237__rock01.png",
+     "kind": 1,
+     "width": 14,
+     "height": 4,
+     "pivot": [
+      13,
+      0
+     ],
+     "bobId": 237,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 10,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0238__rock01.png",
+     "kind": 1,
+     "width": 15,
+     "height": 7,
+     "pivot": [
+      12,
+      0
+     ],
+     "bobId": 238,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 11,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0239__rock01.png",
+     "kind": 1,
+     "width": 14,
+     "height": 9,
+     "pivot": [
+      11,
+      0
+     ],
+     "bobId": 239,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 12,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0240__rock01.png",
+     "kind": 1,
+     "width": 14,
+     "height": 14,
+     "pivot": [
+      9,
+      3
+     ],
+     "bobId": 240,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 13,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0241__rock01.png",
+     "kind": 1,
+     "width": 11,
+     "height": 14,
+     "pivot": [
+      7,
+      2
+     ],
+     "bobId": 241,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 14,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0242__rock01.png",
+     "kind": 1,
+     "width": 8,
+     "height": 15,
+     "pivot": [
+      5,
+      2
+     ],
+     "bobId": 242,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 15,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0243__rock01.png",
+     "kind": 1,
+     "width": 4,
+     "height": 19,
+     "pivot": [
+      2,
+      5
+     ],
+     "bobId": 243,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 16,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0244__rock01.png",
+     "kind": 1,
+     "width": 2,
+     "height": 17,
+     "pivot": [
+      0,
+      3
+     ],
+     "bobId": 244,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 17,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0245__rock01.png",
+     "kind": 1,
+     "width": 5,
+     "height": 18,
+     "pivot": [
+      0,
+      4
+     ],
+     "bobId": 245,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 18,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0246__rock01.png",
+     "kind": 1,
+     "width": 8,
+     "height": 16,
+     "pivot": [
+      1,
+      3
+     ],
+     "bobId": 246,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 19,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0247__rock01.png",
+     "kind": 1,
+     "width": 10,
+     "height": 14,
+     "pivot": [
+      1,
+      2
+     ],
+     "bobId": 247,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 20,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0248__rock01.png",
+     "kind": 1,
+     "width": 13,
+     "height": 13,
+     "pivot": [
+      2,
+      3
+     ],
+     "bobId": 248,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 21,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0249__rock01.png",
+     "kind": 1,
+     "width": 16,
+     "height": 11,
+     "pivot": [
+      3,
+      3
+     ],
+     "bobId": 249,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 22,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0250__rock01.png",
+     "kind": 1,
+     "width": 18,
+     "height": 8,
+     "pivot": [
+      4,
+      2
+     ],
+     "bobId": 250,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 23,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0251__rock01.png",
+     "kind": 1,
+     "width": 17,
+     "height": 5,
+     "pivot": [
+      2,
+      1
+     ],
+     "bobId": 251,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 24,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0252__rock01.png",
+     "kind": 1,
+     "width": 17,
+     "height": 2,
+     "pivot": [
+      2,
+      1
+     ],
+     "bobId": 252,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 25,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0253__rock01.png",
+     "kind": 1,
+     "width": 16,
+     "height": 4,
+     "pivot": [
+      2,
+      3
+     ],
+     "bobId": 253,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 26,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0254__rock01.png",
+     "kind": 1,
+     "width": 18,
+     "height": 8,
+     "pivot": [
+      4,
+      6
+     ],
+     "bobId": 254,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 27,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0255__rock01.png",
+     "kind": 1,
+     "width": 14,
+     "height": 10,
+     "pivot": [
+      2,
+      8
+     ],
+     "bobId": 255,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 28,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0256__rock01.png",
+     "kind": 1,
+     "width": 12,
+     "height": 11,
+     "pivot": [
+      1,
+      10
+     ],
+     "bobId": 256,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 29,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0257__rock01.png",
+     "kind": 1,
+     "width": 10,
+     "height": 14,
+     "pivot": [
+      1,
+      12
+     ],
+     "bobId": 257,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 30,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0258__rock01.png",
+     "kind": 1,
+     "width": 8,
+     "height": 16,
+     "pivot": [
+      1,
+      13
+     ],
+     "bobId": 258,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 31,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/10_arrow_stick/bob_0259__rock01.png",
+     "kind": 1,
+     "width": 4,
+     "height": 16,
+     "pivot": [
+      0,
+      13
+     ],
+     "bobId": 259,
+     "status": "RENDERED"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: bobtype 1 blending, movement, lifetime and wind are runtime"
+ }
+}

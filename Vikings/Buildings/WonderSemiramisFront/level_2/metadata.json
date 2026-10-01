@@ -1,0 +1,423 @@
+{
+  "nativeName": "wonder semiramis front",
+  "tribe": "Vikings",
+  "logicHouseType": 48,
+  "gfxHouseId": 31,
+  "level": 2,
+  "bodyBob": 4,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_wonders.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_wonders_s.bmd",
+  "shadowBob": 4,
+  "paletteAlternatives": [
+    "wonders_pyramid"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 4,
+      "descriptor": {
+        "bobId": 4,
+        "frameIndex": 4,
+        "kind": 4,
+        "x": -343,
+        "y": -236,
+        "width": 691,
+        "height": 422,
+        "firstScanline": 2407
+      },
+      "pivot": [
+        343,
+        236
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1652,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders.bmd",
+        "offset": 122577548,
+        "size": 2397747,
+        "sha256": "41df1851f1420bd059fc88e16ee263b3da34f19c6d2d4e77427e7a9075a90092"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "wonders_pyramid",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2645,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx",
+        "offset": 132842433,
+        "size": 901,
+        "sha256": "46545f90b30ac26b1a8ede00c961a12917d29066668d18cf55de9a75caf544ad"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "wonders_pyramid"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/WonderSemiramisFront/level_1/construction/layers/wonders_pyramid/body_000004.png",
+      "pixelSha256": "d2b4ccac699c214666f95d91d4255c6218960b6e59b94356b84c9815f73d2eca"
+    }
+  ],
+  "constructionLayers": [
+    [
+      2,
+      0,
+      4,
+      -1,
+      20,
+      100
+    ]
+  ],
+  "doors": [],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [],
+    "gfxsmokepoint": [],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [
+      [
+        2,
+        0,
+        0,
+        0,
+        "wonder semiramis frontal"
+      ]
+    ],
+    "sharedEffects": {
+      "wonder semiramis frontal": "Shared/Effects/wonder_semiramis_frontal/metadata.json"
+    },
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [
+    "shadow_coverage: data\\engine2d\\bin\\bobs\\ls_wonders_s.bmd BOB 4: KeyError: 4"
+  ],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 691,
+  "height": 422,
+  "pivot": [
+    343,
+    236
+  ],
+  "shadow": {
+    "bobId": 4,
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1232,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders_s.bmd",
+      "offset": 131282331,
+      "size": 36,
+      "sha256": "f59936b72d68c5dfd96ad34adc6cbc0337afa431d2007a6c00baa0a79c2b1bab"
+    },
+    "path": null,
+    "descriptor": {},
+    "confidence": "UNKNOWN",
+    "error": "shadow_coverage: data\\engine2d\\bin\\bobs\\ls_wonders_s.bmd BOB 4: KeyError: 4"
+  },
+  "constructionParts": [
+    {
+      "bobId": 4,
+      "descriptor": {
+        "bobId": 4,
+        "frameIndex": 4,
+        "kind": 4,
+        "x": -343,
+        "y": -236,
+        "width": 691,
+        "height": 422,
+        "firstScanline": 2407
+      },
+      "pivot": [
+        343,
+        236
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1652,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders.bmd",
+        "offset": 122577548,
+        "size": 2397747,
+        "sha256": "41df1851f1420bd059fc88e16ee263b3da34f19c6d2d4e77427e7a9075a90092"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "wonders_pyramid",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2645,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx",
+        "offset": 132842433,
+        "size": 901,
+        "sha256": "46545f90b30ac26b1a8ede00c961a12917d29066668d18cf55de9a75caf544ad"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "wonders_pyramid"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\wonders_pyramid.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/WonderSemiramisFront/level_1/construction/layers/wonders_pyramid/body_000004.png",
+      "pixelSha256": "d2b4ccac699c214666f95d91d4255c6218960b6e59b94356b84c9815f73d2eca"
+    },
+    {
+      "bobId": 4,
+      "descriptor": {
+        "bobId": 4,
+        "frameIndex": 4,
+        "kind": 4,
+        "x": -343,
+        "y": -236,
+        "width": 691,
+        "height": 422,
+        "firstScanline": 2407
+      },
+      "pivot": [
+        343,
+        236
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1652,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders.bmd",
+        "offset": 122577548,
+        "size": 2397747,
+        "sha256": "41df1851f1420bd059fc88e16ee263b3da34f19c6d2d4e77427e7a9075a90092"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/WonderSemiramisFront/level_1/construction/layers/reveal_000004.png",
+      "pixelSha256": "77eada2201d5e5598a9319e077fa4ca5062fd7d7e483b0a9f9510411c53933bf"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Vikings/Buildings/WonderSemiramisFront/level_2/construction/progress_000.png",
+      "pivot": [
+        343,
+        236
+      ],
+      "dimensions": [
+        691,
+        422
+      ],
+      "palette": "wonders_pyramid",
+      "contributingLayers": [],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderSemiramisFront/level_2/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Vikings/Buildings/WonderSemiramisFront/level_2/construction/progress_010.png",
+      "pivot": [
+        343,
+        236
+      ],
+      "dimensions": [
+        691,
+        422
+      ],
+      "palette": "wonders_pyramid",
+      "contributingLayers": [],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderSemiramisFront/level_2/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Vikings/Buildings/WonderSemiramisFront/level_2/construction/progress_025.png",
+      "pivot": [
+        343,
+        236
+      ],
+      "dimensions": [
+        691,
+        422
+      ],
+      "palette": "wonders_pyramid",
+      "contributingLayers": [
+        {
+          "tuple": [
+            2,
+            0,
+            4,
+            -1,
+            20,
+            100
+          ],
+          "threshold": 15,
+          "bodyPixels": 10075,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderSemiramisFront/level_2/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Vikings/Buildings/WonderSemiramisFront/level_2/construction/progress_050.png",
+      "pivot": [
+        343,
+        236
+      ],
+      "dimensions": [
+        691,
+        422
+      ],
+      "palette": "wonders_pyramid",
+      "contributingLayers": [
+        {
+          "tuple": [
+            2,
+            0,
+            4,
+            -1,
+            20,
+            100
+          ],
+          "threshold": 94,
+          "bodyPixels": 84681,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderSemiramisFront/level_2/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Vikings/Buildings/WonderSemiramisFront/level_2/construction/progress_075.png",
+      "pivot": [
+        343,
+        236
+      ],
+      "dimensions": [
+        691,
+        422
+      ],
+      "palette": "wonders_pyramid",
+      "contributingLayers": [
+        {
+          "tuple": [
+            2,
+            0,
+            4,
+            -1,
+            20,
+            100
+          ],
+          "threshold": 173,
+          "bodyPixels": 151023,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderSemiramisFront/level_2/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Vikings/Buildings/WonderSemiramisFront/level_2/construction/progress_100.png",
+      "pivot": [
+        343,
+        236
+      ],
+      "dimensions": [
+        691,
+        422
+      ],
+      "palette": "wonders_pyramid",
+      "contributingLayers": [
+        {
+          "tuple": [
+            2,
+            0,
+            4,
+            -1,
+            20,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 213405,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderSemiramisFront/level_2/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [],
+  "sourceAssetExport": "PARTIAL"
+}

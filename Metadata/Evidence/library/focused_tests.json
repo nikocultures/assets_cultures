@@ -1,0 +1,52 @@
+[
+ {
+  "test": "LIB: archive index has 2691 entries; sampled entries match recorded sha256",
+  "result": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "CIF: all 189 CIF tables decode",
+  "result": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "BMD: 204 libraries decode with production decoder; test_house via lenient tool (3 kind-1, 4 kind-3)",
+  "result": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "Palette rendering: random frames re-validated against production drawBobClippedBorrowed32",
+  "result": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "PCX: all 409 PCX files pixel-confirmed (production decodeIndexedPcx == PIL)",
+  "result": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "Building rendering: every exported body PNG matches the production renderer; Farm stays MANUAL_CONFIRMED_1TO1",
+  "result": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "Mobile sprites: native lookup semantics (head override, shadowed duplicates, walk-speed variants, vehicle job = type + 49)",
+  "result": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "Asset metadata: goods IDs evidence-backed (Bread 19, Shoes 30, Wooden Tool 31, Iron Tool 32)",
+  "result": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "Catalog generation: statuses and unknown classes within the allowed vocabularies; zero-discard census",
+  "result": "PASS",
+  "detail": ""
+ },
+ {
+  "test": "Browser-link validation: 0 broken links, 0 catalogued assets without browser route, UTF-8 clean",
+  "result": "PASS",
+  "detail": ""
+ }
+]

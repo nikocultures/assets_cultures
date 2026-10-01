@@ -1,0 +1,1221 @@
+{
+ "gfxLandscapeId": 864,
+ "nativeName": "wheat mine 01",
+ "editGroups": [
+  [
+   "meadows wheat"
+  ]
+ ],
+ "logicType": 27,
+ "logicTypeName": "wheat (growing)",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     27
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "wheat (growing)"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     7,
+     27,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     11,
+     28,
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     255,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 4,
+   "goodName": "wheat",
+   "english": "Wheat",
+   "field": "landscapetoharvest"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_meadows.bmd",
+ "shadowLibrary": null,
+ "palettes": [
+  "wheat01"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   11,
+   "wheat ore 01"
+  ],
+  [
+   7,
+   "wheat mine 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "wheat mine 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "meadows wheat"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     27
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_meadows.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "wheat01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     7,
+     7,
+     6,
+     6,
+     5,
+     5,
+     4,
+     4,
+     3,
+     3,
+     2,
+     2,
+     1,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     79,
+     79,
+     78,
+     78,
+     77,
+     77,
+     76,
+     76,
+     75,
+     75,
+     74,
+     74,
+     73,
+     73,
+     72,
+     72
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     15,
+     15,
+     14,
+     14,
+     13,
+     13,
+     12,
+     12,
+     11,
+     11,
+     10,
+     10,
+     9,
+     9,
+     8,
+     8
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     87,
+     87,
+     86,
+     86,
+     85,
+     85,
+     84,
+     84,
+     83,
+     83,
+     82,
+     82,
+     81,
+     81,
+     80,
+     80
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     4000
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     11,
+     "wheat ore 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     7,
+     "wheat mine 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 7,
+     "width": 42,
+     "height": 49,
+     "pivot": [
+      20,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000007.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000007__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 7,
+     "width": 42,
+     "height": 49,
+     "pivot": [
+      20,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000007.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000007__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 6,
+     "width": 43,
+     "height": 49,
+     "pivot": [
+      20,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000006.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000006__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 6,
+     "width": 43,
+     "height": 49,
+     "pivot": [
+      20,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000006.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000006__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 5,
+     "width": 43,
+     "height": 49,
+     "pivot": [
+      20,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000005.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000005__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 5,
+     "width": 43,
+     "height": 49,
+     "pivot": [
+      20,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000005.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000005__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 4,
+     "width": 42,
+     "height": 49,
+     "pivot": [
+      20,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000004.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000004__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 4,
+     "width": 42,
+     "height": 49,
+     "pivot": [
+      20,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000004.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000004__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 3,
+     "width": 42,
+     "height": 50,
+     "pivot": [
+      20,
+      37
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000003.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000003__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 3,
+     "width": 42,
+     "height": 50,
+     "pivot": [
+      20,
+      37
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000003.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000003__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 2,
+     "width": 42,
+     "height": 49,
+     "pivot": [
+      20,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000002.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000002__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 2,
+     "width": 42,
+     "height": 49,
+     "pivot": [
+      20,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000002.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000002__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 1,
+     "width": 42,
+     "height": 50,
+     "pivot": [
+      20,
+      37
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000001.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000001__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 1,
+     "width": 42,
+     "height": 50,
+     "pivot": [
+      20,
+      37
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000001.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000001__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 0,
+     "width": 42,
+     "height": 49,
+     "pivot": [
+      20,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000000.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000000__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 0,
+     "width": 42,
+     "height": 49,
+     "pivot": [
+      20,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000000.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000000__kind4_secondary.png"
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 79,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000079.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000079__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 79,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000079.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000079__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 78,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000078.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000078__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 78,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000078.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000078__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 77,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000077.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000077__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 77,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000077.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000077__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 76,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000076.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000076__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 76,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000076.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000076__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 75,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000075.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000075__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 75,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000075.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000075__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 74,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000074.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000074__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 74,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000074.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000074__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 73,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000073.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000073__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 73,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000073.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000073__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 72,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000072.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000072__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 72,
+     "width": 41,
+     "height": 41,
+     "pivot": [
+      19,
+      27
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000072.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000072__kind4_secondary.png"
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 15,
+     "width": 39,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000015.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000015__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 15,
+     "width": 39,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000015.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000015__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 14,
+     "width": 39,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000014.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000014__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 14,
+     "width": 39,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000014.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000014__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 13,
+     "width": 40,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000013.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000013__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 13,
+     "width": 40,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000013.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000013__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 12,
+     "width": 40,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000012.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000012__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 12,
+     "width": 40,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000012.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000012__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 11,
+     "width": 40,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000011.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000011__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 11,
+     "width": 40,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000011.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000011__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 10,
+     "width": 39,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000010.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000010__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 10,
+     "width": 39,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000010.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000010__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 9,
+     "width": 39,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000009.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000009__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 9,
+     "width": 39,
+     "height": 35,
+     "pivot": [
+      18,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000009.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000009__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 8,
+     "width": 39,
+     "height": 36,
+     "pivot": [
+      18,
+      22
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000008.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000008__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 8,
+     "width": 39,
+     "height": 36,
+     "pivot": [
+      18,
+      22
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000008.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000008__kind4_secondary.png"
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 87,
+     "width": 39,
+     "height": 33,
+     "pivot": [
+      18,
+      19
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000087.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000087__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 87,
+     "width": 39,
+     "height": 33,
+     "pivot": [
+      18,
+      19
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000087.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000087__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 86,
+     "width": 39,
+     "height": 33,
+     "pivot": [
+      18,
+      19
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000086.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000086__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 86,
+     "width": 39,
+     "height": 33,
+     "pivot": [
+      18,
+      19
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000086.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000086__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 85,
+     "width": 39,
+     "height": 32,
+     "pivot": [
+      18,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000085.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000085__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 85,
+     "width": 39,
+     "height": 32,
+     "pivot": [
+      18,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000085.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000085__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 84,
+     "width": 39,
+     "height": 32,
+     "pivot": [
+      18,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000084.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000084__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 84,
+     "width": 39,
+     "height": 32,
+     "pivot": [
+      18,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000084.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000084__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 83,
+     "width": 39,
+     "height": 33,
+     "pivot": [
+      18,
+      19
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000083.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000083__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 83,
+     "width": 39,
+     "height": 33,
+     "pivot": [
+      18,
+      19
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000083.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000083__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 82,
+     "width": 39,
+     "height": 32,
+     "pivot": [
+      18,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000082.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000082__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 82,
+     "width": 39,
+     "height": 32,
+     "pivot": [
+      18,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000082.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000082__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 81,
+     "width": 39,
+     "height": 32,
+     "pivot": [
+      18,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000081.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000081__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 81,
+     "width": 39,
+     "height": 32,
+     "pivot": [
+      18,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000081.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000081__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 80,
+     "width": 39,
+     "height": 32,
+     "pivot": [
+      18,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000080.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000080__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 80,
+     "width": 39,
+     "height": 32,
+     "pivot": [
+      18,
+      18
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000080.png",
+     "kind4Secondary": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01/bob_000080__kind4_secondary.png"
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 4000,
+     "status": "BOB_ABSENT_IN_LIBRARY"
+    }
+   ]
+  }
+ ],
+ "errors": [
+  "valency 1: BOB 4000 absent in data\\engine2d\\bin\\bobs\\ls_meadows.bmd"
+ ],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/meadows_wheat/864_wheat_mine_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "PARTIAL",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

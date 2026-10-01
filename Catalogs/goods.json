@@ -1,0 +1,3474 @@
+[
+ {
+  "GOOD_ID": 1,
+  "NATIVE_NAME": "water",
+  "ENGLISH": "Water",
+  "LANDSCAPE_TYPE": 3,
+  "GFX_LANDSCAPE": 175,
+  "GFX_LANDSCAPE_NAME": "water pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 25,
+  "ICON_PATH": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000025.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_water"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_water",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_01_water/metadata.json"
+ },
+ {
+  "GOOD_ID": 2,
+  "NATIVE_NAME": "mud",
+  "ENGLISH": "Clay",
+  "LANDSCAPE_TYPE": 14,
+  "GFX_LANDSCAPE": 173,
+  "GFX_LANDSCAPE_NAME": "clay pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 10,
+  "ICON_PATH": "Shared/Goods/good_02_mud/piles/173_clay_pile_01/bob_000010.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_clay"
+  ],
+  "CARRIED_ANIMATIONS": 345,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_clay",
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_02_mud/metadata.json"
+ },
+ {
+  "GOOD_ID": 3,
+  "NATIVE_NAME": "stone",
+  "ENGLISH": "Quarrystone",
+  "LANDSCAPE_TYPE": 17,
+  "GFX_LANDSCAPE": 180,
+  "GFX_LANDSCAPE_NAME": "stone pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 15,
+  "ICON_PATH": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000015.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_stone"
+  ],
+  "CARRIED_ANIMATIONS": 345,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_stone",
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_03_stone/metadata.json"
+ },
+ {
+  "GOOD_ID": 4,
+  "NATIVE_NAME": "wheat",
+  "ENGLISH": "Wheat",
+  "LANDSCAPE_TYPE": 29,
+  "GFX_LANDSCAPE": 179,
+  "GFX_LANDSCAPE_NAME": "wheat pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 5,
+  "ICON_PATH": "Shared/Goods/good_04_wheat/piles/179_wheat_pile_01/bob_000005.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_wheat"
+  ],
+  "CARRIED_ANIMATIONS": 345,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_wheat",
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_04_wheat/metadata.json"
+ },
+ {
+  "GOOD_ID": 5,
+  "NATIVE_NAME": "wood",
+  "ENGLISH": "Wood",
+  "LANDSCAPE_TYPE": 7,
+  "GFX_LANDSCAPE": 172,
+  "GFX_LANDSCAPE_NAME": "wood pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 0,
+  "ICON_PATH": "Shared/Goods/good_05_wood/piles/172_wood_pile_01/bob_000000.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_wood"
+  ],
+  "CARRIED_ANIMATIONS": 345,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_wood",
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_05_wood/metadata.json"
+ },
+ {
+  "GOOD_ID": 6,
+  "NATIVE_NAME": "iron",
+  "ENGLISH": "Iron",
+  "LANDSCAPE_TYPE": 20,
+  "GFX_LANDSCAPE": 178,
+  "GFX_LANDSCAPE_NAME": "iron pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 20,
+  "ICON_PATH": "Shared/Goods/good_06_iron/piles/178_iron_pile_01/bob_000020.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_iron"
+  ],
+  "CARRIED_ANIMATIONS": 345,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_iron",
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_06_iron/metadata.json"
+ },
+ {
+  "GOOD_ID": 7,
+  "NATIVE_NAME": "gold",
+  "ENGLISH": "Gold",
+  "LANDSCAPE_TYPE": 23,
+  "GFX_LANDSCAPE": 177,
+  "GFX_LANDSCAPE_NAME": "gold pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 20,
+  "ICON_PATH": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000020.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_gold"
+  ],
+  "CARRIED_ANIMATIONS": 345,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_gold",
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_07_gold/metadata.json"
+ },
+ {
+  "GOOD_ID": 8,
+  "NATIVE_NAME": "coin",
+  "ENGLISH": "Coin",
+  "LANDSCAPE_TYPE": 24,
+  "GFX_LANDSCAPE": 185,
+  "GFX_LANDSCAPE_NAME": "coin pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 135,
+  "ICON_PATH": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000135.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "gold01"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    5,
+    7
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_08_coin/metadata.json"
+ },
+ {
+  "GOOD_ID": 9,
+  "NATIVE_NAME": "leather",
+  "ENGLISH": "Leather",
+  "LANDSCAPE_TYPE": 25,
+  "GFX_LANDSCAPE": 188,
+  "GFX_LANDSCAPE_NAME": "leather pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 75,
+  "ICON_PATH": "Shared/Goods/good_09_leather/piles/188_leather_pile_01/bob_000075.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_leather"
+  ],
+  "CARRIED_ANIMATIONS": 345,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_leather",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    58
+   ]
+  ],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_09_leather/metadata.json"
+ },
+ {
+  "GOOD_ID": 10,
+  "NATIVE_NAME": "wool",
+  "ENGLISH": "Wool",
+  "LANDSCAPE_TYPE": 26,
+  "GFX_LANDSCAPE": 189,
+  "GFX_LANDSCAPE_NAME": "wool pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 45,
+  "ICON_PATH": "Shared/Goods/good_10_wool/piles/189_wool_pile_01/bob_000045.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods01"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_wool",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    57
+   ]
+  ],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_10_wool/metadata.json"
+ },
+ {
+  "GOOD_ID": 11,
+  "NATIVE_NAME": "flour",
+  "ENGLISH": "Flour",
+  "LANDSCAPE_TYPE": 30,
+  "GFX_LANDSCAPE": 184,
+  "GFX_LANDSCAPE_NAME": "flour pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 45,
+  "ICON_PATH": "Shared/Goods/good_11_flour/piles/184_flour_pile_01/bob_000045.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_wood"
+  ],
+  "CARRIED_ANIMATIONS": 345,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_flour",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    4
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_11_flour/metadata.json"
+ },
+ {
+  "GOOD_ID": 12,
+  "NATIVE_NAME": "honey",
+  "ENGLISH": "Honey",
+  "LANDSCAPE_TYPE": 32,
+  "GFX_LANDSCAPE": 191,
+  "GFX_LANDSCAPE_NAME": "honey pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 40,
+  "ICON_PATH": "Shared/Goods/good_12_honey/piles/191_honey_pile_01/bob_000040.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_wheat"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_honey",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_12_honey/metadata.json"
+ },
+ {
+  "GOOD_ID": 13,
+  "NATIVE_NAME": "herb",
+  "ENGLISH": "Herb",
+  "LANDSCAPE_TYPE": 35,
+  "GFX_LANDSCAPE": 192,
+  "GFX_LANDSCAPE_NAME": "herb pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 5,
+  "ICON_PATH": "Shared/Goods/good_13_herb/piles/192_herb_pile_01/bob_000005.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "herbs01"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_herb",
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_13_herb/metadata.json"
+ },
+ {
+  "GOOD_ID": 14,
+  "NATIVE_NAME": "mushroom",
+  "ENGLISH": "Mushroom",
+  "LANDSCAPE_TYPE": 37,
+  "GFX_LANDSCAPE": 194,
+  "GFX_LANDSCAPE_NAME": "mushroom pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 120,
+  "ICON_PATH": "Shared/Goods/good_14_mushroom/piles/194_mushroom_pile_01/bob_000120.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "flower01"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_mushroom",
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_14_mushroom/metadata.json"
+ },
+ {
+  "GOOD_ID": 15,
+  "NATIVE_NAME": "holy_oil",
+  "ENGLISH": "Oil",
+  "LANDSCAPE_TYPE": 38,
+  "GFX_LANDSCAPE": 183,
+  "GFX_LANDSCAPE_NAME": "incense pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 40,
+  "ICON_PATH": "Shared/Goods/good_15_holy_oil/piles/183_incense_pile_01/bob_000040.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_incense"
+  ],
+  "CARRIED_ANIMATIONS": 91,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_holyoil",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    14
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_15_holy_oil/metadata.json"
+ },
+ {
+  "GOOD_ID": 16,
+  "NATIVE_NAME": "food_simple",
+  "ENGLISH": "Food",
+  "LANDSCAPE_TYPE": 39,
+  "GFX_LANDSCAPE": 171,
+  "GFX_LANDSCAPE_NAME": "food simple pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 80,
+  "ICON_PATH": "Shared/Goods/good_16_food_simple/piles/171_food_simple_pile_01/bob_000080.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_food"
+  ],
+  "CARRIED_ANIMATIONS": 352,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_food_simple",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_16_food_simple/metadata.json"
+ },
+ {
+  "GOOD_ID": 17,
+  "NATIVE_NAME": "food_extra",
+  "ENGLISH": "Cake",
+  "LANDSCAPE_TYPE": 40,
+  "GFX_LANDSCAPE": 198,
+  "GFX_LANDSCAPE_NAME": "food extra pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 120,
+  "ICON_PATH": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000120.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_bow"
+  ],
+  "CARRIED_ANIMATIONS": 352,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_food_simple",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_17_food_extra/metadata.json"
+ },
+ {
+  "GOOD_ID": 18,
+  "NATIVE_NAME": "fruit",
+  "ENGLISH": "Fruit",
+  "LANDSCAPE_TYPE": 41,
+  "GFX_LANDSCAPE": 221,
+  "GFX_LANDSCAPE_NAME": "fruit pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 85,
+  "ICON_PATH": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000085.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_bread"
+  ],
+  "CARRIED_ANIMATIONS": 0,
+  "CARRIED_TRIBES": [],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_18_fruit/metadata.json"
+ },
+ {
+  "GOOD_ID": 19,
+  "NATIVE_NAME": "bread",
+  "ENGLISH": "Bread",
+  "LANDSCAPE_TYPE": 42,
+  "GFX_LANDSCAPE": 195,
+  "GFX_LANDSCAPE_NAME": "bread pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 85,
+  "ICON_PATH": "Shared/Goods/good_19_bread/piles/195_bread_pile_01/bob_000085.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_bread"
+  ],
+  "CARRIED_ANIMATIONS": 91,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_tile",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    11,
+    1
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_19_bread/metadata.json"
+ },
+ {
+  "GOOD_ID": 20,
+  "NATIVE_NAME": "candy",
+  "ENGLISH": "Cake",
+  "LANDSCAPE_TYPE": 43,
+  "GFX_LANDSCAPE": 193,
+  "GFX_LANDSCAPE_NAME": "candy pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 120,
+  "ICON_PATH": "Shared/Goods/good_20_candy/piles/193_candy_pile_01/bob_000120.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_bow"
+  ],
+  "CARRIED_ANIMATIONS": 86,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_tile",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    11,
+    1,
+    12
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_20_candy/metadata.json"
+ },
+ {
+  "GOOD_ID": 21,
+  "NATIVE_NAME": "meat",
+  "ENGLISH": "Meat",
+  "LANDSCAPE_TYPE": 44,
+  "GFX_LANDSCAPE": 215,
+  "GFX_LANDSCAPE_NAME": "meat pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 130,
+  "ICON_PATH": "Shared/Goods/good_21_meat/piles/215_meat_pile_01/bob_000130.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_crockery"
+  ],
+  "CARRIED_ANIMATIONS": 352,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_honey",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_21_meat/metadata.json"
+ },
+ {
+  "GOOD_ID": 22,
+  "NATIVE_NAME": "fish",
+  "ENGLISH": "Fish",
+  "LANDSCAPE_TYPE": 45,
+  "GFX_LANDSCAPE": 217,
+  "GFX_LANDSCAPE_NAME": "fish pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 20,
+  "ICON_PATH": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000020.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_gold"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_22_fish/metadata.json"
+ },
+ {
+  "GOOD_ID": 23,
+  "NATIVE_NAME": "sausage",
+  "ENGLISH": "Sausage",
+  "LANDSCAPE_TYPE": 46,
+  "GFX_LANDSCAPE": 216,
+  "GFX_LANDSCAPE_NAME": "sausage pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 20,
+  "ICON_PATH": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000020.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_gold"
+  ],
+  "CARRIED_ANIMATIONS": 0,
+  "CARRIED_TRIBES": [],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    21
+   ]
+  ],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_23_sausage/metadata.json"
+ },
+ {
+  "GOOD_ID": 24,
+  "NATIVE_NAME": "brick",
+  "ENGLISH": "Brick",
+  "LANDSCAPE_TYPE": 50,
+  "GFX_LANDSCAPE": 202,
+  "GFX_LANDSCAPE_NAME": "brick pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 50,
+  "ICON_PATH": "Shared/Goods/good_24_brick/piles/202_brick_pile_01/bob_000050.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_clay"
+  ],
+  "CARRIED_ANIMATIONS": 345,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_brick",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    2,
+    5
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_24_brick/metadata.json"
+ },
+ {
+  "GOOD_ID": 25,
+  "NATIVE_NAME": "tile",
+  "ENGLISH": "Tile",
+  "LANDSCAPE_TYPE": 51,
+  "GFX_LANDSCAPE": 201,
+  "GFX_LANDSCAPE_NAME": "tiles pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 55,
+  "ICON_PATH": "Shared/Goods/good_25_tile/piles/201_tiles_pile_01/bob_000055.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_clay"
+  ],
+  "CARRIED_ANIMATIONS": 345,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_tile",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    2,
+    5,
+    2
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_25_tile/metadata.json"
+ },
+ {
+  "GOOD_ID": 26,
+  "NATIVE_NAME": "pillar",
+  "ENGLISH": "Stone",
+  "LANDSCAPE_TYPE": 52,
+  "GFX_LANDSCAPE": 218,
+  "GFX_LANDSCAPE_NAME": "pillar pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 50,
+  "ICON_PATH": "Shared/Goods/good_26_pillar/piles/218_pillar_pile_01/bob_000050.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_stone"
+  ],
+  "CARRIED_ANIMATIONS": 345,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_pillar",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    3
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_26_pillar/metadata.json"
+ },
+ {
+  "GOOD_ID": 27,
+  "NATIVE_NAME": "ornament",
+  "ENGLISH": "Marble",
+  "LANDSCAPE_TYPE": 53,
+  "GFX_LANDSCAPE": 219,
+  "GFX_LANDSCAPE_NAME": "ornament pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 60,
+  "ICON_PATH": "Shared/Goods/good_27_ornament/piles/219_ornament_pile_01/bob_000060.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_stone"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_ornament",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    3,
+    3
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_27_ornament/metadata.json"
+ },
+ {
+  "GOOD_ID": 28,
+  "NATIVE_NAME": "crockery",
+  "ENGLISH": "Crockery",
+  "LANDSCAPE_TYPE": 54,
+  "GFX_LANDSCAPE": 182,
+  "GFX_LANDSCAPE_NAME": "crockery pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 35,
+  "ICON_PATH": "Shared/Goods/good_28_crockery/piles/182_crockery_pile_01/bob_000035.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_crockery"
+  ],
+  "CARRIED_ANIMATIONS": 150,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_crockery",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    2,
+    5,
+    5
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_28_crockery/metadata.json"
+ },
+ {
+  "GOOD_ID": 29,
+  "NATIVE_NAME": "furniture",
+  "ENGLISH": "Furniture",
+  "LANDSCAPE_TYPE": 55,
+  "GFX_LANDSCAPE": 181,
+  "GFX_LANDSCAPE_NAME": "furniture pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 30,
+  "ICON_PATH": "Shared/Goods/good_29_furniture/piles/181_furniture_pile_01/bob_000030.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_furniture"
+  ],
+  "CARRIED_ANIMATIONS": 352,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_furniture",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    5,
+    5
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_29_furniture/metadata.json"
+ },
+ {
+  "GOOD_ID": 30,
+  "NATIVE_NAME": "shoes",
+  "ENGLISH": "Shoes",
+  "LANDSCAPE_TYPE": 56,
+  "GFX_LANDSCAPE": 203,
+  "GFX_LANDSCAPE_NAME": "shoes pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 90,
+  "ICON_PATH": "Shared/Goods/good_30_shoes/piles/203_shoes_pile_01/bob_000090.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_shoes"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_tile",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    9
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_30_shoes/metadata.json"
+ },
+ {
+  "GOOD_ID": 31,
+  "NATIVE_NAME": "tool_wooden",
+  "ENGLISH": "Wooden Tool",
+  "LANDSCAPE_TYPE": 48,
+  "GFX_LANDSCAPE": 199,
+  "GFX_LANDSCAPE_NAME": "tool_wooden pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 70,
+  "ICON_PATH": "Shared/Goods/good_31_tool_wooden/piles/199_tool_wooden_pile_01/bob_000070.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_clay"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_tools_wooden",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    5
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_31_tool_wooden/metadata.json"
+ },
+ {
+  "GOOD_ID": 32,
+  "NATIVE_NAME": "tool_iron",
+  "ENGLISH": "Iron Tool",
+  "LANDSCAPE_TYPE": 49,
+  "GFX_LANDSCAPE": 200,
+  "GFX_LANDSCAPE_NAME": "tool_iron pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 70,
+  "ICON_PATH": "Shared/Goods/good_32_tool_iron/piles/200_tool_iron_pile_01/bob_000070.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_furniture"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_tools_iron",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    5,
+    6
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_32_tool_iron/metadata.json"
+ },
+ {
+  "GOOD_ID": 33,
+  "NATIVE_NAME": "armor_wool",
+  "ENGLISH": "Tunic",
+  "LANDSCAPE_TYPE": 57,
+  "GFX_LANDSCAPE": 204,
+  "GFX_LANDSCAPE_NAME": "armor_wool pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 140,
+  "ICON_PATH": "Shared/Goods/good_33_armor_wool/piles/204_armor_wool_pile_01/bob_000140.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "house_saracen01"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    10
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": 1,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_33_armor_wool/metadata.json"
+ },
+ {
+  "GOOD_ID": 34,
+  "NATIVE_NAME": "armor_leather",
+  "ENGLISH": "Leather Armour",
+  "LANDSCAPE_TYPE": 58,
+  "GFX_LANDSCAPE": 205,
+  "GFX_LANDSCAPE_NAME": "armor_leather pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 140,
+  "ICON_PATH": "Shared/Goods/good_34_armor_leather/piles/205_armor_leather_pile_01/bob_000140.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_bread"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    9,
+    9
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": 2,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_34_armor_leather/metadata.json"
+ },
+ {
+  "GOOD_ID": 35,
+  "NATIVE_NAME": "armor_chain",
+  "ENGLISH": "Chain Mail",
+  "LANDSCAPE_TYPE": 59,
+  "GFX_LANDSCAPE": 206,
+  "GFX_LANDSCAPE_NAME": "armor_chain pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 140,
+  "ICON_PATH": "Shared/Goods/good_35_armor_chain/piles/206_armor_chain_pile_01/bob_000140.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_stone"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    5,
+    6,
+    6
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": 3,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_35_armor_chain/metadata.json"
+ },
+ {
+  "GOOD_ID": 36,
+  "NATIVE_NAME": "armor_plate",
+  "ENGLISH": "Plate Armour",
+  "LANDSCAPE_TYPE": 60,
+  "GFX_LANDSCAPE": 207,
+  "GFX_LANDSCAPE_NAME": "armor_plate pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 140,
+  "ICON_PATH": "Shared/Goods/good_36_armor_plate/piles/207_armor_plate_pile_01/bob_000140.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "clay01"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    5,
+    5,
+    6,
+    6,
+    6
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": 4,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_36_armor_plate/metadata.json"
+ },
+ {
+  "GOOD_ID": 37,
+  "NATIVE_NAME": "bow_short",
+  "ENGLISH": "Short Bow",
+  "LANDSCAPE_TYPE": 61,
+  "GFX_LANDSCAPE": 208,
+  "GFX_LANDSCAPE_NAME": "bow_short pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 105,
+  "ICON_PATH": "Shared/Goods/good_37_bow_short/piles/208_bow_short_pile_01/bob_000105.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_bow"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_bow",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    5
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   4,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": 16,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_37_bow_short/metadata.json"
+ },
+ {
+  "GOOD_ID": 38,
+  "NATIVE_NAME": "bow_long",
+  "ENGLISH": "Longbow",
+  "LANDSCAPE_TYPE": 62,
+  "GFX_LANDSCAPE": 209,
+  "GFX_LANDSCAPE_NAME": "bow_long pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 110,
+  "ICON_PATH": "Shared/Goods/good_38_bow_long/piles/209_bow_long_pile_01/bob_000110.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_bow"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_bow",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    5,
+    5
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   3,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": 17,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_38_bow_long/metadata.json"
+ },
+ {
+  "GOOD_ID": 39,
+  "NATIVE_NAME": "spear_wooden",
+  "ENGLISH": "Wooden Spear",
+  "LANDSCAPE_TYPE": 63,
+  "GFX_LANDSCAPE": 210,
+  "GFX_LANDSCAPE_NAME": "spear_wooden pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 115,
+  "ICON_PATH": "Shared/Goods/good_39_spear_wooden/piles/210_spear_wooden_pile_01/bob_000115.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_spear_wooden"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_bow",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    5,
+    5
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": 4,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_39_spear_wooden/metadata.json"
+ },
+ {
+  "GOOD_ID": 40,
+  "NATIVE_NAME": "spear_iron",
+  "ENGLISH": "Iron Spear",
+  "LANDSCAPE_TYPE": 64,
+  "GFX_LANDSCAPE": 212,
+  "GFX_LANDSCAPE_NAME": "spear_iron pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 115,
+  "ICON_PATH": "Shared/Goods/good_40_spear_iron/piles/212_spear_iron_pile_01/bob_000115.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_spear_iron"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_iron",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    39,
+    6
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   4,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": 5,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_40_spear_iron/metadata.json"
+ },
+ {
+  "GOOD_ID": 41,
+  "NATIVE_NAME": "sword_shord",
+  "ENGLISH": "Shortsword",
+  "LANDSCAPE_TYPE": 65,
+  "GFX_LANDSCAPE": 211,
+  "GFX_LANDSCAPE_NAME": "sword_short pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 95,
+  "ICON_PATH": "Shared/Goods/good_41_sword_shord/piles/211_sword_short_pile_01/bob_000095.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_sword"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_bow",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    5,
+    6
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": 7,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_41_sword_shord/metadata.json"
+ },
+ {
+  "GOOD_ID": 42,
+  "NATIVE_NAME": "sword_long",
+  "ENGLISH": "Longsword",
+  "LANDSCAPE_TYPE": 66,
+  "GFX_LANDSCAPE": 213,
+  "GFX_LANDSCAPE_NAME": "sword_long pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 100,
+  "ICON_PATH": "Shared/Goods/good_42_sword_long/piles/213_sword_long_pile_01/bob_000100.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_longsword"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_bow",
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    5,
+    6,
+    6
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": 8,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_42_sword_long/metadata.json"
+ },
+ {
+  "GOOD_ID": 43,
+  "NATIVE_NAME": "mead",
+  "ENGLISH": "Mead",
+  "LANDSCAPE_TYPE": 47,
+  "GFX_LANDSCAPE": 197,
+  "GFX_LANDSCAPE_NAME": "mead pile 01",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 125,
+  "ICON_PATH": "Shared/Goods/good_43_mead/piles/197_mead_pile_01/bob_000125.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_spear_wooden"
+  ],
+  "CARRIED_ANIMATIONS": 91,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    1,
+    12
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7,
+   5,
+   6
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_43_mead/metadata.json"
+ },
+ {
+  "GOOD_ID": 44,
+  "NATIVE_NAME": "potion_food_small",
+  "ENGLISH": "S Nourishing Potion",
+  "LANDSCAPE_TYPE": 67,
+  "GFX_LANDSCAPE": 223,
+  "GFX_LANDSCAPE_NAME": "potion food small",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 125,
+  "ICON_PATH": "Shared/Goods/good_44_potion_food_small/piles/223_potion_food_small/bob_000125.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "flower01"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    1,
+    14,
+    13,
+    8
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_44_potion_food_small/metadata.json"
+ },
+ {
+  "GOOD_ID": 45,
+  "NATIVE_NAME": "potion_food_big",
+  "ENGLISH": "L Nourishing Potion",
+  "LANDSCAPE_TYPE": 68,
+  "GFX_LANDSCAPE": 224,
+  "GFX_LANDSCAPE_NAME": "potion food big",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 145,
+  "ICON_PATH": "Shared/Goods/good_45_potion_food_big/piles/224_potion_food_big/bob_000145.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "flower01"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    1,
+    1,
+    14,
+    14,
+    13,
+    13,
+    8,
+    8
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_45_potion_food_big/metadata.json"
+ },
+ {
+  "GOOD_ID": 46,
+  "NATIVE_NAME": "potion_stamina_small",
+  "ENGLISH": "S Stamina Potion",
+  "LANDSCAPE_TYPE": 69,
+  "GFX_LANDSCAPE": 226,
+  "GFX_LANDSCAPE_NAME": "potion stamina small",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 125,
+  "ICON_PATH": "Shared/Goods/good_46_potion_stamina_small/piles/226_potion_stamina_small/bob_000125.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_water"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    1,
+    14,
+    13,
+    8
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_46_potion_stamina_small/metadata.json"
+ },
+ {
+  "GOOD_ID": 47,
+  "NATIVE_NAME": "potion_stamina_big",
+  "ENGLISH": "L Stamina Potion",
+  "LANDSCAPE_TYPE": 70,
+  "GFX_LANDSCAPE": 225,
+  "GFX_LANDSCAPE_NAME": "potion stamina big",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 145,
+  "ICON_PATH": "Shared/Goods/good_47_potion_stamina_big/piles/225_potion_stamina_big/bob_000145.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_water"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    1,
+    1,
+    14,
+    14,
+    13,
+    13,
+    8,
+    8
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_47_potion_stamina_big/metadata.json"
+ },
+ {
+  "GOOD_ID": 48,
+  "NATIVE_NAME": "potion_heal_small",
+  "ENGLISH": "S Healing Potion",
+  "LANDSCAPE_TYPE": 71,
+  "GFX_LANDSCAPE": 228,
+  "GFX_LANDSCAPE_NAME": "potion healing small",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 125,
+  "ICON_PATH": "Shared/Goods/good_48_potion_heal_small/piles/228_potion_healing_small/bob_000125.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_leather"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    1,
+    14,
+    13,
+    8
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_48_potion_heal_small/metadata.json"
+ },
+ {
+  "GOOD_ID": 49,
+  "NATIVE_NAME": "potion_heal_big",
+  "ENGLISH": "L Healing Potion",
+  "LANDSCAPE_TYPE": 72,
+  "GFX_LANDSCAPE": 227,
+  "GFX_LANDSCAPE_NAME": "potion healing big",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 145,
+  "ICON_PATH": "Shared/Goods/good_49_potion_heal_big/piles/227_potion_healing_big/bob_000145.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_leather"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    1,
+    1,
+    14,
+    14,
+    13,
+    13,
+    8,
+    8
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_49_potion_heal_big/metadata.json"
+ },
+ {
+  "GOOD_ID": 50,
+  "NATIVE_NAME": "amulet_food",
+  "ENGLISH": "Nourishing Amulet",
+  "LANDSCAPE_TYPE": 73,
+  "GFX_LANDSCAPE": 229,
+  "GFX_LANDSCAPE_NAME": "amulett food",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 150,
+  "ICON_PATH": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000150.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "debris01"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": null,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_50_amulet_food/metadata.json"
+ },
+ {
+  "GOOD_ID": 51,
+  "NATIVE_NAME": "amulet_stamina",
+  "ENGLISH": "Amulet of Stamina",
+  "LANDSCAPE_TYPE": 74,
+  "GFX_LANDSCAPE": 230,
+  "GFX_LANDSCAPE_NAME": "amulett stamina",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 150,
+  "ICON_PATH": "Shared/Goods/good_50_amulet_food/piles/229_amulett_food/bob_000150.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "debris01"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": null,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_51_amulet_stamina/metadata.json"
+ },
+ {
+  "GOOD_ID": 52,
+  "NATIVE_NAME": "amulet_strength",
+  "ENGLISH": "Amulet of Strength",
+  "LANDSCAPE_TYPE": 75,
+  "GFX_LANDSCAPE": 231,
+  "GFX_LANDSCAPE_NAME": "amulett strength",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 150,
+  "ICON_PATH": "Shared/Goods/good_52_amulet_strength/piles/231_amulett_strength/bob_000150.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_crockery"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": null,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_52_amulet_strength/metadata.json"
+ },
+ {
+  "GOOD_ID": 53,
+  "NATIVE_NAME": "amulet_defense",
+  "ENGLISH": "Amulet of Defence",
+  "LANDSCAPE_TYPE": 76,
+  "GFX_LANDSCAPE": 232,
+  "GFX_LANDSCAPE_NAME": "amulett defense",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 150,
+  "ICON_PATH": "Shared/Goods/good_53_amulet_defense/piles/232_amulett_defense/bob_000150.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_iron"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": null,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_53_amulet_defense/metadata.json"
+ },
+ {
+  "GOOD_ID": 54,
+  "NATIVE_NAME": "amulet_critHit",
+  "ENGLISH": "Amulet of Precision",
+  "LANDSCAPE_TYPE": 77,
+  "GFX_LANDSCAPE": 233,
+  "GFX_LANDSCAPE_NAME": "amulett critical hit",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 150,
+  "ICON_PATH": "Shared/Goods/good_54_amulet_critHit/piles/233_amulett_critical_hit/bob_000150.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "human_colors"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": null,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_54_amulet_critHit/metadata.json"
+ },
+ {
+  "GOOD_ID": 55,
+  "NATIVE_NAME": "amulet_speed",
+  "ENGLISH": "Wind Amulet",
+  "LANDSCAPE_TYPE": 78,
+  "GFX_LANDSCAPE": 234,
+  "GFX_LANDSCAPE_NAME": "amulett speed",
+  "PILE_VALENCIES": [
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "ICON_BOB": 150,
+  "ICON_PATH": "Shared/Goods/good_55_amulet_speed/piles/234_amulett_speed/bob_000150.png",
+  "BMD": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+  "PALETTE": [
+   "goods_longsword"
+  ],
+  "CARRIED_ANIMATIONS": 84,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": null,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "SOURCE_COMPLETE",
+  "METADATA": "Shared/Goods/good_55_amulet_speed/metadata.json"
+ },
+ {
+  "GOOD_ID": 56,
+  "NATIVE_NAME": "prey",
+  "ENGLISH": "Prey",
+  "LANDSCAPE_TYPE": 1,
+  "GFX_LANDSCAPE": null,
+  "GFX_LANDSCAPE_NAME": null,
+  "PILE_VALENCIES": [],
+  "ICON_BOB": "",
+  "ICON_PATH": "",
+  "BMD": null,
+  "PALETTE": null,
+  "CARRIED_ANIMATIONS": 345,
+  "CARRIED_TRIBES": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "UNKNOWN_NO_VISUAL",
+  "METADATA": "Shared/Goods/good_56_prey/metadata.json"
+ },
+ {
+  "GOOD_ID": 57,
+  "NATIVE_NAME": "sheep",
+  "ENGLISH": "Sheep",
+  "LANDSCAPE_TYPE": 1,
+  "GFX_LANDSCAPE": null,
+  "GFX_LANDSCAPE_NAME": null,
+  "PILE_VALENCIES": [],
+  "ICON_BOB": "",
+  "ICON_PATH": "",
+  "BMD": null,
+  "PALETTE": null,
+  "CARRIED_ANIMATIONS": 0,
+  "CARRIED_TRIBES": [],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    4,
+    4,
+    1
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "UNKNOWN_NO_VISUAL",
+  "METADATA": "Shared/Goods/good_57_sheep/metadata.json"
+ },
+ {
+  "GOOD_ID": 58,
+  "NATIVE_NAME": "cattle",
+  "ENGLISH": "Ox",
+  "LANDSCAPE_TYPE": 1,
+  "GFX_LANDSCAPE": null,
+  "GFX_LANDSCAPE_NAME": null,
+  "PILE_VALENCIES": [],
+  "ICON_BOB": "",
+  "ICON_PATH": "",
+  "BMD": null,
+  "PALETTE": null,
+  "CARRIED_ANIMATIONS": 0,
+  "CARRIED_TRIBES": [],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 1,
+  "PRODUCTION_INPUTS": [
+   [
+    4,
+    4,
+    1,
+    1
+   ]
+  ],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "UNKNOWN_NO_VISUAL",
+  "METADATA": "Shared/Goods/good_58_cattle/metadata.json"
+ },
+ {
+  "GOOD_ID": 59,
+  "NATIVE_NAME": "handcart",
+  "ENGLISH": "Handcart",
+  "LANDSCAPE_TYPE": 1,
+  "GFX_LANDSCAPE": null,
+  "GFX_LANDSCAPE_NAME": null,
+  "PILE_VALENCIES": [],
+  "ICON_BOB": "",
+  "ICON_PATH": "",
+  "BMD": null,
+  "PALETTE": null,
+  "CARRIED_ANIMATIONS": 4,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_HandCart",
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "UNKNOWN_NO_VISUAL",
+  "METADATA": "Shared/Goods/good_59_handcart/metadata.json"
+ },
+ {
+  "GOOD_ID": 60,
+  "NATIVE_NAME": "oxcart",
+  "ENGLISH": "Ox Cart",
+  "LANDSCAPE_TYPE": 1,
+  "GFX_LANDSCAPE": null,
+  "GFX_LANDSCAPE_NAME": null,
+  "PILE_VALENCIES": [],
+  "ICON_BOB": "",
+  "ICON_PATH": "",
+  "BMD": null,
+  "PALETTE": null,
+  "CARRIED_ANIMATIONS": 4,
+  "CARRIED_TRIBES": [
+   1
+  ],
+  "HUMAN_RANDOM_PALETTE": "good_OxCart",
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "UNKNOWN_NO_VISUAL",
+  "METADATA": "Shared/Goods/good_60_oxcart/metadata.json"
+ },
+ {
+  "GOOD_ID": 61,
+  "NATIVE_NAME": "ship_small",
+  "ENGLISH": "Ship",
+  "LANDSCAPE_TYPE": 1,
+  "GFX_LANDSCAPE": null,
+  "GFX_LANDSCAPE_NAME": null,
+  "PILE_VALENCIES": [],
+  "ICON_BOB": "",
+  "ICON_PATH": "",
+  "BMD": null,
+  "PALETTE": null,
+  "CARRIED_ANIMATIONS": 0,
+  "CARRIED_TRIBES": [],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "UNKNOWN_NO_VISUAL",
+  "METADATA": "Shared/Goods/good_61_ship_small/metadata.json"
+ },
+ {
+  "GOOD_ID": 62,
+  "NATIVE_NAME": "ship_big",
+  "ENGLISH": "Big Ship",
+  "LANDSCAPE_TYPE": 1,
+  "GFX_LANDSCAPE": null,
+  "GFX_LANDSCAPE_NAME": null,
+  "PILE_VALENCIES": [],
+  "ICON_BOB": "",
+  "ICON_PATH": "",
+  "BMD": null,
+  "PALETTE": null,
+  "CARRIED_ANIMATIONS": 0,
+  "CARRIED_TRIBES": [],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "UNKNOWN_NO_VISUAL",
+  "METADATA": "Shared/Goods/good_62_ship_big/metadata.json"
+ },
+ {
+  "GOOD_ID": 63,
+  "NATIVE_NAME": "catapult",
+  "ENGLISH": "Catapult",
+  "LANDSCAPE_TYPE": 1,
+  "GFX_LANDSCAPE": null,
+  "GFX_LANDSCAPE_NAME": null,
+  "PILE_VALENCIES": [],
+  "ICON_BOB": "",
+  "ICON_PATH": "",
+  "BMD": null,
+  "PALETTE": null,
+  "CARRIED_ANIMATIONS": 0,
+  "CARRIED_TRIBES": [],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {
+   "1": [
+    null
+   ],
+   "2": [
+    null
+   ],
+   "4": [
+    null
+   ],
+   "3": [
+    null
+   ],
+   "7": [
+    null
+   ]
+  },
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "UNKNOWN_NO_VISUAL",
+  "METADATA": "Shared/Goods/good_63_catapult/metadata.json"
+ },
+ {
+  "GOOD_ID": 64,
+  "NATIVE_NAME": "chest",
+  "ENGLISH": "Chest",
+  "LANDSCAPE_TYPE": 1,
+  "GFX_LANDSCAPE": null,
+  "GFX_LANDSCAPE_NAME": null,
+  "PILE_VALENCIES": [],
+  "ICON_BOB": "",
+  "ICON_PATH": "",
+  "BMD": null,
+  "PALETTE": null,
+  "CARRIED_ANIMATIONS": 0,
+  "CARRIED_TRIBES": [],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1,
+   2,
+   4,
+   3,
+   7
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "UNKNOWN_NO_VISUAL",
+  "METADATA": "Shared/Goods/good_64_chest/metadata.json"
+ },
+ {
+  "GOOD_ID": 65,
+  "NATIVE_NAME": "anything",
+  "ENGLISH": "All",
+  "LANDSCAPE_TYPE": 1,
+  "GFX_LANDSCAPE": null,
+  "GFX_LANDSCAPE_NAME": null,
+  "PILE_VALENCIES": [],
+  "ICON_BOB": "",
+  "ICON_PATH": "",
+  "BMD": null,
+  "PALETTE": null,
+  "CARRIED_ANIMATIONS": 0,
+  "CARRIED_TRIBES": [],
+  "HUMAN_RANDOM_PALETTE": null,
+  "PRODUCED_IN_HOUSE": 0,
+  "PRODUCTION_INPUTS": [],
+  "PRODUCERS": {},
+  "ALLOWED_TRIBES": [
+   1
+  ],
+  "WEAPON_TYPE": null,
+  "ARMOR_TYPE": null,
+  "OWNERSHIP": "SHARED",
+  "CONFIDENCE": "UNKNOWN_NO_VISUAL",
+  "METADATA": "Shared/Goods/good_65_anything/metadata.json"
+ }
+]

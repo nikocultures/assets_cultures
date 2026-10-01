@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1942,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\bearattack01.wav",
+  "offset": 178196642,
+  "size": 49042,
+  "sha256": "aa159199a6ec8d8c46bc7aa59a8a176ae50c1ba14188598a6c35d27428d90581"
+ },
+ "output": "Audio/static/bearattack01.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 48984,
+  "durationSeconds": 1.111,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 116,
+   "name": "Bear Attack",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 101,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 116,
+   "name": "Bear Attack",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 101,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Production/actions (folder static)",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

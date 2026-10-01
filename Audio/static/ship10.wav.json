@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1116,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\ship10.wav",
+  "offset": 183647288,
+  "size": 14346,
+  "sha256": "452b0d70b2150c55a789aac95e8dc488e98cdd0dbd35f7fa953e5910195331bc"
+ },
+ "output": "Audio/static/ship10.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 14288,
+  "durationSeconds": 0.324,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 66,
+   "name": "Ship Group4 Seagulls",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 54,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 66,
+   "name": "Ship Group4 Seagulls",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 54,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Ships (name-derived)",
+ "categoryConfidence": "NAME_DERIVED",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

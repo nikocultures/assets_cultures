@@ -1,0 +1,895 @@
+{
+  "nativeName": "wonder koloss",
+  "tribe": "Vikings",
+  "logicHouseType": 49,
+  "gfxHouseId": 33,
+  "level": 1,
+  "bodyBob": 2,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_wonders3_s.bmd",
+  "shadowBob": 2,
+  "paletteAlternatives": [
+    "oxcart"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 2,
+      "descriptor": {
+        "bobId": 2,
+        "frameIndex": 2,
+        "kind": 4,
+        "x": -162,
+        "y": -251,
+        "width": 312,
+        "height": 363,
+        "firstScanline": 1336
+      },
+      "pivot": [
+        162,
+        251
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "oxcart",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2447,
+        "entryName": "data\\engine2d\\bin\\palettes\\creatures\\oxcart.pcx",
+        "offset": 132735202,
+        "size": 901,
+        "sha256": "ae26c55604dd7986454af2b4c3a3331301e13ac742d5a3a5aca9f914f9462baf"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "oxcart"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\creatures\\oxcart.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/WonderKoloss/level_0/construction/layers/oxcart/body_000002.png",
+      "pixelSha256": "cabfb3bb18ddd61e344d8c3fd84b798d1ac545e14b4ec89b2f5710b5f29ff3e5"
+    }
+  ],
+  "constructionLayers": [
+    [
+      1,
+      1,
+      1,
+      -1,
+      0,
+      100
+    ],
+    [
+      1,
+      0,
+      2,
+      -1,
+      20,
+      100
+    ]
+  ],
+  "doors": [],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [
+      [
+        1,
+        -44,
+        -242
+      ],
+      [
+        1,
+        -64,
+        -239
+      ],
+      [
+        1,
+        -44,
+        -227
+      ],
+      [
+        1,
+        9,
+        -225
+      ],
+      [
+        1,
+        -43,
+        -223
+      ],
+      [
+        1,
+        -57,
+        -220
+      ],
+      [
+        1,
+        -42,
+        -219
+      ],
+      [
+        1,
+        8,
+        -207
+      ],
+      [
+        1,
+        22,
+        -205
+      ],
+      [
+        1,
+        -43,
+        -203
+      ],
+      [
+        1,
+        14,
+        -199
+      ],
+      [
+        1,
+        -39,
+        -198
+      ],
+      [
+        1,
+        10,
+        -198
+      ],
+      [
+        1,
+        28,
+        -193
+      ],
+      [
+        1,
+        24,
+        -193
+      ],
+      [
+        1,
+        -30,
+        -59
+      ],
+      [
+        1,
+        -76,
+        -53
+      ],
+      [
+        1,
+        -41,
+        -52
+      ],
+      [
+        1,
+        -56,
+        -42
+      ],
+      [
+        1,
+        -65,
+        -41
+      ],
+      [
+        1,
+        26,
+        -19
+      ],
+      [
+        1,
+        64,
+        -11
+      ],
+      [
+        1,
+        58,
+        2
+      ],
+      [
+        1,
+        41,
+        4
+      ]
+    ],
+    "gfxsmokepoint": [
+      [
+        1,
+        136,
+        -6,
+        1
+      ],
+      [
+        1,
+        122,
+        10,
+        1
+      ],
+      [
+        1,
+        116,
+        17,
+        1
+      ],
+      [
+        1,
+        -153,
+        28,
+        1
+      ],
+      [
+        1,
+        107,
+        31,
+        1
+      ],
+      [
+        1,
+        -138,
+        38,
+        1
+      ],
+      [
+        1,
+        103,
+        40,
+        1
+      ],
+      [
+        1,
+        -101,
+        41,
+        1
+      ],
+      [
+        1,
+        -123,
+        44,
+        1
+      ],
+      [
+        1,
+        97,
+        49,
+        1
+      ],
+      [
+        1,
+        -93,
+        58,
+        1
+      ],
+      [
+        1,
+        83,
+        60,
+        1
+      ],
+      [
+        1,
+        -88,
+        69,
+        1
+      ],
+      [
+        1,
+        71,
+        73,
+        1
+      ],
+      [
+        1,
+        -61,
+        77,
+        1
+      ],
+      [
+        1,
+        -48,
+        81,
+        1
+      ],
+      [
+        1,
+        58,
+        81,
+        1
+      ],
+      [
+        1,
+        -34,
+        85,
+        1
+      ],
+      [
+        1,
+        43,
+        89,
+        1
+      ],
+      [
+        1,
+        -13,
+        95,
+        1
+      ],
+      [
+        1,
+        28,
+        102,
+        1
+      ],
+      [
+        1,
+        4,
+        103,
+        1
+      ],
+      [
+        1,
+        21,
+        108,
+        1
+      ],
+      [
+        1,
+        -28,
+        -97,
+        0
+      ],
+      [
+        1,
+        -1,
+        -93,
+        0
+      ],
+      [
+        1,
+        -43,
+        -89,
+        0
+      ],
+      [
+        1,
+        26,
+        -81,
+        0
+      ],
+      [
+        1,
+        -61,
+        -75,
+        0
+      ],
+      [
+        1,
+        46,
+        -73,
+        0
+      ],
+      [
+        1,
+        61,
+        -68,
+        0
+      ],
+      [
+        1,
+        -76,
+        -61,
+        0
+      ],
+      [
+        1,
+        80,
+        -59,
+        0
+      ],
+      [
+        1,
+        -90,
+        -49,
+        0
+      ],
+      [
+        1,
+        103,
+        -42,
+        0
+      ],
+      [
+        1,
+        125,
+        -39,
+        0
+      ],
+      [
+        1,
+        -105,
+        -36,
+        0
+      ],
+      [
+        1,
+        -118,
+        -26,
+        0
+      ],
+      [
+        1,
+        144,
+        -22,
+        0
+      ],
+      [
+        1,
+        -145,
+        -5,
+        0
+      ],
+      [
+        1,
+        -158,
+        11,
+        0
+      ]
+    ],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [],
+    "sharedEffects": {
+      "fx fire house 0": "Shared/Effects/fx_fire_house_0/metadata.json",
+      "fx fire house 1": "Shared/Effects/fx_fire_house_1/metadata.json",
+      "fx fire house 2": "Shared/Effects/fx_fire_house_2/metadata.json",
+      "fx smoke": "Shared/Effects/fx_smoke/metadata.json"
+    },
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 312,
+  "height": 363,
+  "pivot": [
+    162,
+    251
+  ],
+  "shadow": {
+    "bobId": 2,
+    "descriptor": {
+      "bobId": 2,
+      "frameIndex": 2,
+      "kind": 0,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "firstScanline": 0
+    },
+    "pivot": [
+      0,
+      0
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1696,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3_s.bmd",
+      "offset": 131275311,
+      "size": 7020,
+      "sha256": "638abfff78f442a6e5741860705c423d6ba519b681f72d924b2f9fbd2fd637a0"
+    },
+    "rawLibrary": "Metadata/Sources/ls_wonders3_s.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "empty": true,
+    "path": null
+  },
+  "constructionParts": [
+    {
+      "bobId": 1,
+      "descriptor": {
+        "bobId": 1,
+        "frameIndex": 1,
+        "kind": 4,
+        "x": -162,
+        "y": -461,
+        "width": 312,
+        "height": 573,
+        "firstScanline": 763
+      },
+      "pivot": [
+        162,
+        461
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "oxcart",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2447,
+        "entryName": "data\\engine2d\\bin\\palettes\\creatures\\oxcart.pcx",
+        "offset": 132735202,
+        "size": 901,
+        "sha256": "ae26c55604dd7986454af2b4c3a3331301e13ac742d5a3a5aca9f914f9462baf"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "oxcart"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\creatures\\oxcart.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/WonderKoloss/level_1/construction/layers/oxcart/body_000001.png",
+      "pixelSha256": "b45a629f3a437a7f37b5a9fcc56f08627571157db634f9f90cf5133b85f68ccb"
+    },
+    {
+      "bobId": 1,
+      "descriptor": {
+        "bobId": 1,
+        "frameIndex": 1,
+        "kind": 4,
+        "x": -162,
+        "y": -461,
+        "width": 312,
+        "height": 573,
+        "firstScanline": 763
+      },
+      "pivot": [
+        162,
+        461
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/WonderKoloss/level_1/construction/layers/reveal_000001.png",
+      "pixelSha256": "7b51fc4fd4704ad1bb47930c949d5ef161bc2dd98128f6131d5d749bb3b969f6"
+    },
+    {
+      "bobId": 2,
+      "descriptor": {
+        "bobId": 2,
+        "frameIndex": 2,
+        "kind": 4,
+        "x": -162,
+        "y": -251,
+        "width": 312,
+        "height": 363,
+        "firstScanline": 1336
+      },
+      "pivot": [
+        162,
+        251
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "oxcart",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2447,
+        "entryName": "data\\engine2d\\bin\\palettes\\creatures\\oxcart.pcx",
+        "offset": 132735202,
+        "size": 901,
+        "sha256": "ae26c55604dd7986454af2b4c3a3331301e13ac742d5a3a5aca9f914f9462baf"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "oxcart"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\creatures\\oxcart.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/WonderKoloss/level_0/construction/layers/oxcart/body_000002.png",
+      "pixelSha256": "cabfb3bb18ddd61e344d8c3fd84b798d1ac545e14b4ec89b2f5710b5f29ff3e5"
+    },
+    {
+      "bobId": 2,
+      "descriptor": {
+        "bobId": 2,
+        "frameIndex": 2,
+        "kind": 4,
+        "x": -162,
+        "y": -251,
+        "width": 312,
+        "height": 363,
+        "firstScanline": 1336
+      },
+      "pivot": [
+        162,
+        251
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Vikings/Buildings/WonderKoloss/level_0/construction/layers/reveal_000002.png",
+      "pixelSha256": "566a07e30e0b7b2a0dde24ad4e5a475dac1bb7083da0ce87e4757a74fae154ba"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Vikings/Buildings/WonderKoloss/level_1/construction/progress_000.png",
+      "pivot": [
+        162,
+        461
+      ],
+      "dimensions": [
+        312,
+        573
+      ],
+      "palette": "oxcart",
+      "contributingLayers": [],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderKoloss/level_1/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Vikings/Buildings/WonderKoloss/level_1/construction/progress_010.png",
+      "pivot": [
+        162,
+        461
+      ],
+      "dimensions": [
+        312,
+        573
+      ],
+      "palette": "oxcart",
+      "contributingLayers": [],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderKoloss/level_1/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Vikings/Buildings/WonderKoloss/level_1/construction/progress_025.png",
+      "pivot": [
+        162,
+        461
+      ],
+      "dimensions": [
+        312,
+        573
+      ],
+      "palette": "oxcart",
+      "contributingLayers": [
+        {
+          "tuple": [
+            1,
+            0,
+            2,
+            -1,
+            20,
+            100
+          ],
+          "threshold": 15,
+          "bodyPixels": 6317,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderKoloss/level_1/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Vikings/Buildings/WonderKoloss/level_1/construction/progress_050.png",
+      "pivot": [
+        162,
+        461
+      ],
+      "dimensions": [
+        312,
+        573
+      ],
+      "palette": "oxcart",
+      "contributingLayers": [
+        {
+          "tuple": [
+            1,
+            0,
+            2,
+            -1,
+            20,
+            100
+          ],
+          "threshold": 94,
+          "bodyPixels": 41622,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderKoloss/level_1/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Vikings/Buildings/WonderKoloss/level_1/construction/progress_075.png",
+      "pivot": [
+        162,
+        461
+      ],
+      "dimensions": [
+        312,
+        573
+      ],
+      "palette": "oxcart",
+      "contributingLayers": [
+        {
+          "tuple": [
+            1,
+            0,
+            2,
+            -1,
+            20,
+            100
+          ],
+          "threshold": 173,
+          "bodyPixels": 49445,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderKoloss/level_1/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Vikings/Buildings/WonderKoloss/level_1/construction/progress_100.png",
+      "pivot": [
+        162,
+        461
+      ],
+      "dimensions": [
+        312,
+        573
+      ],
+      "palette": "oxcart",
+      "contributingLayers": [
+        {
+          "tuple": [
+            1,
+            0,
+            2,
+            -1,
+            20,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 52377,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/WonderKoloss/level_1/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [],
+  "sourceAssetExport": "COMPLETE"
+}

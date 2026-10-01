@@ -1,0 +1,1286 @@
+{
+ "particleId": 1,
+ "nativeName": "Hit",
+ "library": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+ "palette": "rock01",
+ "definition": {
+  "section": "particel",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "Hit"
+    ]
+   },
+   {
+    "name": "palette",
+    "arguments": [
+     "rock01"
+    ]
+   },
+   {
+    "name": "bobmanager",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_smoke.bmd"
+    ]
+   },
+   {
+    "name": "maxvalency",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     0,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     130,
+     131,
+     132,
+     133,
+     134,
+     135,
+     136,
+     137,
+     138,
+     139,
+     140,
+     141,
+     142,
+     143,
+     144,
+     145,
+     146,
+     147,
+     148
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     106,
+     107,
+     108,
+     109,
+     110,
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119,
+     120,
+     121,
+     122,
+     123,
+     124,
+     125
+    ]
+   },
+   {
+    "name": "animloop",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "bobtype",
+    "arguments": [
+     2
+    ]
+   },
+   {
+    "name": "specialtype",
+    "arguments": [
+     1
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2238,
+  "entryName": "data\\engine2d\\inis\\particel\\particel.cif",
+  "offset": 195245533,
+  "size": 6354,
+  "sha256": "3a0829ad1b452cec93cac5aa93adeb0aa73d920bb015124dffbbc3edde3a5b74"
+ },
+ "generators": [],
+ "particleEffects": [
+  {
+   "section": "particeleffect",
+   "commands": [
+    {
+     "name": "logictype",
+     "arguments": [
+      1
+     ]
+    },
+    {
+     "name": "particelname",
+     "arguments": [
+      "Hit"
+     ]
+    },
+    {
+     "name": "movement",
+     "arguments": [
+      0
+     ]
+    },
+    {
+     "name": "usemapheights",
+     "arguments": [
+      1
+     ]
+    },
+    {
+     "name": "pixeloffset",
+     "arguments": [
+      15,
+      20
+     ]
+    }
+   ]
+  }
+ ],
+ "valencies": [
+  {
+   "valency": 0,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0082__rock01.png",
+     "kind": 4,
+     "width": 3,
+     "height": 4,
+     "pivot": [
+      2,
+      0
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0082__rock01__kind4_secondary.png",
+     "bobId": 82,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0083__rock01.png",
+     "kind": 4,
+     "width": 5,
+     "height": 8,
+     "pivot": [
+      3,
+      4
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0083__rock01__kind4_secondary.png",
+     "bobId": 83,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0084__rock01.png",
+     "kind": 4,
+     "width": 7,
+     "height": 10,
+     "pivot": [
+      4,
+      6
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0084__rock01__kind4_secondary.png",
+     "bobId": 84,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0085__rock01.png",
+     "kind": 4,
+     "width": 8,
+     "height": 11,
+     "pivot": [
+      4,
+      8
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0085__rock01__kind4_secondary.png",
+     "bobId": 85,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0086__rock01.png",
+     "kind": 4,
+     "width": 10,
+     "height": 14,
+     "pivot": [
+      5,
+      10
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0086__rock01__kind4_secondary.png",
+     "bobId": 86,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0087__rock01.png",
+     "kind": 4,
+     "width": 12,
+     "height": 15,
+     "pivot": [
+      6,
+      11
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0087__rock01__kind4_secondary.png",
+     "bobId": 87,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0088__rock01.png",
+     "kind": 4,
+     "width": 14,
+     "height": 17,
+     "pivot": [
+      7,
+      13
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0088__rock01__kind4_secondary.png",
+     "bobId": 88,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0089__rock01.png",
+     "kind": 4,
+     "width": 15,
+     "height": 18,
+     "pivot": [
+      7,
+      13
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0089__rock01__kind4_secondary.png",
+     "bobId": 89,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0090__rock01.png",
+     "kind": 4,
+     "width": 17,
+     "height": 18,
+     "pivot": [
+      8,
+      14
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0090__rock01__kind4_secondary.png",
+     "bobId": 90,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0091__rock01.png",
+     "kind": 4,
+     "width": 19,
+     "height": 20,
+     "pivot": [
+      9,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0091__rock01__kind4_secondary.png",
+     "bobId": 91,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0092__rock01.png",
+     "kind": 4,
+     "width": 16,
+     "height": 22,
+     "pivot": [
+      9,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0092__rock01__kind4_secondary.png",
+     "bobId": 92,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0093__rock01.png",
+     "kind": 4,
+     "width": 15,
+     "height": 22,
+     "pivot": [
+      9,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0093__rock01__kind4_secondary.png",
+     "bobId": 93,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0094__rock01.png",
+     "kind": 4,
+     "width": 19,
+     "height": 21,
+     "pivot": [
+      10,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0094__rock01__kind4_secondary.png",
+     "bobId": 94,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0095__rock01.png",
+     "kind": 4,
+     "width": 17,
+     "height": 22,
+     "pivot": [
+      10,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0095__rock01__kind4_secondary.png",
+     "bobId": 95,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0096__rock01.png",
+     "kind": 4,
+     "width": 15,
+     "height": 23,
+     "pivot": [
+      10,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0096__rock01__kind4_secondary.png",
+     "bobId": 96,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0097__rock01.png",
+     "kind": 4,
+     "width": 16,
+     "height": 25,
+     "pivot": [
+      10,
+      14
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0097__rock01__kind4_secondary.png",
+     "bobId": 97,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0098__rock01.png",
+     "kind": 4,
+     "width": 14,
+     "height": 20,
+     "pivot": [
+      9,
+      14
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0098__rock01__kind4_secondary.png",
+     "bobId": 98,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0099__rock01.png",
+     "kind": 4,
+     "width": 15,
+     "height": 22,
+     "pivot": [
+      10,
+      13
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0099__rock01__kind4_secondary.png",
+     "bobId": 99,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0100__rock01.png",
+     "kind": 4,
+     "width": 16,
+     "height": 22,
+     "pivot": [
+      13,
+      11
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0100__rock01__kind4_secondary.png",
+     "bobId": 100,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0101__rock01.png",
+     "kind": 4,
+     "width": 17,
+     "height": 19,
+     "pivot": [
+      10,
+      8
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0101__rock01__kind4_secondary.png",
+     "bobId": 101,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0102__rock01.png",
+     "kind": 4,
+     "width": 1,
+     "height": 1,
+     "pivot": [
+      10,
+      -12
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0102__rock01__kind4_secondary.png",
+     "bobId": 102,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0130__rock01.png",
+     "kind": 4,
+     "width": 5,
+     "height": 4,
+     "pivot": [
+      1,
+      2
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0130__rock01__kind4_secondary.png",
+     "bobId": 130,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0131__rock01.png",
+     "kind": 4,
+     "width": 8,
+     "height": 8,
+     "pivot": [
+      1,
+      6
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0131__rock01__kind4_secondary.png",
+     "bobId": 131,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0132__rock01.png",
+     "kind": 4,
+     "width": 11,
+     "height": 10,
+     "pivot": [
+      1,
+      8
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0132__rock01__kind4_secondary.png",
+     "bobId": 132,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0133__rock01.png",
+     "kind": 4,
+     "width": 13,
+     "height": 11,
+     "pivot": [
+      1,
+      10
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0133__rock01__kind4_secondary.png",
+     "bobId": 133,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0134__rock01.png",
+     "kind": 4,
+     "width": 16,
+     "height": 13,
+     "pivot": [
+      1,
+      11
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0134__rock01__kind4_secondary.png",
+     "bobId": 134,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0135__rock01.png",
+     "kind": 4,
+     "width": 19,
+     "height": 15,
+     "pivot": [
+      1,
+      13
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0135__rock01__kind4_secondary.png",
+     "bobId": 135,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0136__rock01.png",
+     "kind": 4,
+     "width": 21,
+     "height": 16,
+     "pivot": [
+      1,
+      14
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0136__rock01__kind4_secondary.png",
+     "bobId": 136,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0137__rock01.png",
+     "kind": 4,
+     "width": 24,
+     "height": 19,
+     "pivot": [
+      1,
+      16
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0137__rock01__kind4_secondary.png",
+     "bobId": 137,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0138__rock01.png",
+     "kind": 4,
+     "width": 26,
+     "height": 20,
+     "pivot": [
+      0,
+      16
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0138__rock01__kind4_secondary.png",
+     "bobId": 138,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0139__rock01.png",
+     "kind": 4,
+     "width": 26,
+     "height": 21,
+     "pivot": [
+      0,
+      16
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0139__rock01__kind4_secondary.png",
+     "bobId": 139,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0140__rock01.png",
+     "kind": 4,
+     "width": 29,
+     "height": 20,
+     "pivot": [
+      0,
+      16
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0140__rock01__kind4_secondary.png",
+     "bobId": 140,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0141__rock01.png",
+     "kind": 4,
+     "width": 32,
+     "height": 21,
+     "pivot": [
+      0,
+      16
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0141__rock01__kind4_secondary.png",
+     "bobId": 141,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0142__rock01.png",
+     "kind": 4,
+     "width": 30,
+     "height": 22,
+     "pivot": [
+      -1,
+      16
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0142__rock01__kind4_secondary.png",
+     "bobId": 142,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0143__rock01.png",
+     "kind": 4,
+     "width": 31,
+     "height": 24,
+     "pivot": [
+      -1,
+      17
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0143__rock01__kind4_secondary.png",
+     "bobId": 143,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0144__rock01.png",
+     "kind": 4,
+     "width": 33,
+     "height": 25,
+     "pivot": [
+      -1,
+      16
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0144__rock01__kind4_secondary.png",
+     "bobId": 144,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0145__rock01.png",
+     "kind": 4,
+     "width": 34,
+     "height": 27,
+     "pivot": [
+      -2,
+      16
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0145__rock01__kind4_secondary.png",
+     "bobId": 145,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0146__rock01.png",
+     "kind": 4,
+     "width": 30,
+     "height": 22,
+     "pivot": [
+      -3,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0146__rock01__kind4_secondary.png",
+     "bobId": 146,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0147__rock01.png",
+     "kind": 4,
+     "width": 32,
+     "height": 23,
+     "pivot": [
+      -3,
+      14
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0147__rock01__kind4_secondary.png",
+     "bobId": 147,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0148__rock01.png",
+     "kind": 4,
+     "width": 1,
+     "height": 1,
+     "pivot": [
+      -19,
+      8
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0148__rock01__kind4_secondary.png",
+     "bobId": 148,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0082__rock01.png",
+     "kind": 4,
+     "width": 3,
+     "height": 4,
+     "pivot": [
+      2,
+      0
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0082__rock01__kind4_secondary.png",
+     "bobId": 82,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0083__rock01.png",
+     "kind": 4,
+     "width": 5,
+     "height": 8,
+     "pivot": [
+      3,
+      4
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0083__rock01__kind4_secondary.png",
+     "bobId": 83,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0084__rock01.png",
+     "kind": 4,
+     "width": 7,
+     "height": 10,
+     "pivot": [
+      4,
+      6
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0084__rock01__kind4_secondary.png",
+     "bobId": 84,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0085__rock01.png",
+     "kind": 4,
+     "width": 8,
+     "height": 11,
+     "pivot": [
+      4,
+      8
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0085__rock01__kind4_secondary.png",
+     "bobId": 85,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0086__rock01.png",
+     "kind": 4,
+     "width": 10,
+     "height": 14,
+     "pivot": [
+      5,
+      10
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0086__rock01__kind4_secondary.png",
+     "bobId": 86,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0087__rock01.png",
+     "kind": 4,
+     "width": 12,
+     "height": 15,
+     "pivot": [
+      6,
+      11
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0087__rock01__kind4_secondary.png",
+     "bobId": 87,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0088__rock01.png",
+     "kind": 4,
+     "width": 14,
+     "height": 17,
+     "pivot": [
+      7,
+      13
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0088__rock01__kind4_secondary.png",
+     "bobId": 88,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0089__rock01.png",
+     "kind": 4,
+     "width": 15,
+     "height": 18,
+     "pivot": [
+      7,
+      13
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0089__rock01__kind4_secondary.png",
+     "bobId": 89,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0090__rock01.png",
+     "kind": 4,
+     "width": 17,
+     "height": 18,
+     "pivot": [
+      8,
+      14
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0090__rock01__kind4_secondary.png",
+     "bobId": 90,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0091__rock01.png",
+     "kind": 4,
+     "width": 19,
+     "height": 20,
+     "pivot": [
+      9,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0091__rock01__kind4_secondary.png",
+     "bobId": 91,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0092__rock01.png",
+     "kind": 4,
+     "width": 16,
+     "height": 22,
+     "pivot": [
+      9,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0092__rock01__kind4_secondary.png",
+     "bobId": 92,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0093__rock01.png",
+     "kind": 4,
+     "width": 15,
+     "height": 22,
+     "pivot": [
+      9,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0093__rock01__kind4_secondary.png",
+     "bobId": 93,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0094__rock01.png",
+     "kind": 4,
+     "width": 19,
+     "height": 21,
+     "pivot": [
+      10,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0094__rock01__kind4_secondary.png",
+     "bobId": 94,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0095__rock01.png",
+     "kind": 4,
+     "width": 17,
+     "height": 22,
+     "pivot": [
+      10,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0095__rock01__kind4_secondary.png",
+     "bobId": 95,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0096__rock01.png",
+     "kind": 4,
+     "width": 15,
+     "height": 23,
+     "pivot": [
+      10,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0096__rock01__kind4_secondary.png",
+     "bobId": 96,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0097__rock01.png",
+     "kind": 4,
+     "width": 16,
+     "height": 25,
+     "pivot": [
+      10,
+      14
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0097__rock01__kind4_secondary.png",
+     "bobId": 97,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0098__rock01.png",
+     "kind": 4,
+     "width": 14,
+     "height": 20,
+     "pivot": [
+      9,
+      14
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0098__rock01__kind4_secondary.png",
+     "bobId": 98,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0099__rock01.png",
+     "kind": 4,
+     "width": 15,
+     "height": 22,
+     "pivot": [
+      10,
+      13
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0099__rock01__kind4_secondary.png",
+     "bobId": 99,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0100__rock01.png",
+     "kind": 4,
+     "width": 16,
+     "height": 22,
+     "pivot": [
+      13,
+      11
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0100__rock01__kind4_secondary.png",
+     "bobId": 100,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0101__rock01.png",
+     "kind": 4,
+     "width": 17,
+     "height": 19,
+     "pivot": [
+      10,
+      8
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0101__rock01__kind4_secondary.png",
+     "bobId": 101,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0102__rock01.png",
+     "kind": 4,
+     "width": 1,
+     "height": 1,
+     "pivot": [
+      10,
+      -12
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0102__rock01__kind4_secondary.png",
+     "bobId": 102,
+     "status": "RENDERED"
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0106__rock01.png",
+     "kind": 4,
+     "width": 5,
+     "height": 5,
+     "pivot": [
+      3,
+      1
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0106__rock01__kind4_secondary.png",
+     "bobId": 106,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0107__rock01.png",
+     "kind": 4,
+     "width": 9,
+     "height": 8,
+     "pivot": [
+      7,
+      4
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0107__rock01__kind4_secondary.png",
+     "bobId": 107,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0108__rock01.png",
+     "kind": 4,
+     "width": 11,
+     "height": 10,
+     "pivot": [
+      9,
+      6
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0108__rock01__kind4_secondary.png",
+     "bobId": 108,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0109__rock01.png",
+     "kind": 4,
+     "width": 14,
+     "height": 12,
+     "pivot": [
+      12,
+      7
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0109__rock01__kind4_secondary.png",
+     "bobId": 109,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0110__rock01.png",
+     "kind": 4,
+     "width": 16,
+     "height": 14,
+     "pivot": [
+      14,
+      9
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0110__rock01__kind4_secondary.png",
+     "bobId": 110,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0111__rock01.png",
+     "kind": 4,
+     "width": 19,
+     "height": 16,
+     "pivot": [
+      17,
+      10
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0111__rock01__kind4_secondary.png",
+     "bobId": 111,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0112__rock01.png",
+     "kind": 4,
+     "width": 21,
+     "height": 17,
+     "pivot": [
+      20,
+      11
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0112__rock01__kind4_secondary.png",
+     "bobId": 112,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0113__rock01.png",
+     "kind": 4,
+     "width": 23,
+     "height": 20,
+     "pivot": [
+      22,
+      12
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0113__rock01__kind4_secondary.png",
+     "bobId": 113,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0114__rock01.png",
+     "kind": 4,
+     "width": 25,
+     "height": 22,
+     "pivot": [
+      25,
+      13
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0114__rock01__kind4_secondary.png",
+     "bobId": 114,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0115__rock01.png",
+     "kind": 4,
+     "width": 27,
+     "height": 23,
+     "pivot": [
+      27,
+      14
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0115__rock01__kind4_secondary.png",
+     "bobId": 115,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0116__rock01.png",
+     "kind": 4,
+     "width": 29,
+     "height": 26,
+     "pivot": [
+      30,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0116__rock01__kind4_secondary.png",
+     "bobId": 116,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0117__rock01.png",
+     "kind": 4,
+     "width": 30,
+     "height": 27,
+     "pivot": [
+      31,
+      15
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0117__rock01__kind4_secondary.png",
+     "bobId": 117,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0118__rock01.png",
+     "kind": 4,
+     "width": 30,
+     "height": 27,
+     "pivot": [
+      33,
+      13
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0118__rock01__kind4_secondary.png",
+     "bobId": 118,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0119__rock01.png",
+     "kind": 4,
+     "width": 32,
+     "height": 28,
+     "pivot": [
+      35,
+      13
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0119__rock01__kind4_secondary.png",
+     "bobId": 119,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0120__rock01.png",
+     "kind": 4,
+     "width": 25,
+     "height": 21,
+     "pivot": [
+      31,
+      12
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0120__rock01__kind4_secondary.png",
+     "bobId": 120,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0121__rock01.png",
+     "kind": 4,
+     "width": 31,
+     "height": 30,
+     "pivot": [
+      38,
+      10
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0121__rock01__kind4_secondary.png",
+     "bobId": 121,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0122__rock01.png",
+     "kind": 4,
+     "width": 25,
+     "height": 16,
+     "pivot": [
+      30,
+      11
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0122__rock01__kind4_secondary.png",
+     "bobId": 122,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0123__rock01.png",
+     "kind": 4,
+     "width": 26,
+     "height": 22,
+     "pivot": [
+      35,
+      11
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0123__rock01__kind4_secondary.png",
+     "bobId": 123,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0124__rock01.png",
+     "kind": 4,
+     "width": 1,
+     "height": 1,
+     "pivot": [
+      25,
+      2
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0124__rock01__kind4_secondary.png",
+     "bobId": 124,
+     "status": "RENDERED"
+    },
+    {
+     "path": "Shared/Effects/Particles/01_Hit/bob_0125__rock01.png",
+     "kind": 4,
+     "width": 1,
+     "height": 2,
+     "pivot": [
+      32,
+      -3
+     ],
+     "kind4Secondary": "Shared/Effects/Particles/01_Hit/bob_0125__rock01__kind4_secondary.png",
+     "bobId": 125,
+     "status": "RENDERED"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: bobtype 2 blending, movement, lifetime and wind are runtime"
+ }
+}

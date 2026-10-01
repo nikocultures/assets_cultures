@@ -1,0 +1,396 @@
+{
+ "gfxLandscapeId": 175,
+ "nativeName": "water pile 01",
+ "editGroups": [
+  [
+   "goods all",
+   "good piles all",
+   "good piles build"
+  ]
+ ],
+ "logicType": 3,
+ "logicTypeName": "water",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "water"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "allowedonwater",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     3,
+     2,
+     -1,
+     1
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     3,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     0,
+     0,
+     255
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 1,
+   "goodName": "water",
+   "english": "Water",
+   "field": "landscapetype"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd",
+ "palettes": [
+  "goods_water"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "water pile 01"
+  ],
+  [
+   4,
+   "water pile 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "water pile 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all",
+     "good piles all",
+     "good piles build"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_water"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     29
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     28
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     27
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     26
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     25
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "water pile 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "water pile 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 29,
+     "width": 42,
+     "height": 32,
+     "pivot": [
+      21,
+      16
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000029.png",
+     "kind4Secondary": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000029__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000029__shadow_mask.png",
+     "shadowPivot": [
+      20,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 28,
+     "width": 29,
+     "height": 32,
+     "pivot": [
+      8,
+      16
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000028.png",
+     "kind4Secondary": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000028__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000028__shadow_mask.png",
+     "shadowPivot": [
+      8,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 27,
+     "width": 29,
+     "height": 25,
+     "pivot": [
+      8,
+      16
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000027.png",
+     "kind4Secondary": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000027__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000027__shadow_mask.png",
+     "shadowPivot": [
+      8,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 26,
+     "width": 27,
+     "height": 21,
+     "pivot": [
+      8,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000026.png",
+     "kind4Secondary": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000026__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000026__shadow_mask.png",
+     "shadowPivot": [
+      8,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 25,
+     "width": 14,
+     "height": 16,
+     "pivot": [
+      8,
+      12
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000025.png",
+     "kind4Secondary": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000025__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000025__shadow_mask.png",
+     "shadowPivot": [
+      8,
+      3
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_01_water/piles/175_water_pile_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

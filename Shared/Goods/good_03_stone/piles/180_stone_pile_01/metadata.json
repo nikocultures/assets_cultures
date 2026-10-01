@@ -1,0 +1,396 @@
+{
+ "gfxLandscapeId": 180,
+ "nativeName": "stone pile 01",
+ "editGroups": [
+  [
+   "goods all",
+   "good piles all",
+   "good piles build"
+  ]
+ ],
+ "logicType": 17,
+ "logicTypeName": "stone",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     17
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "stone"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     6
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     17,
+     2,
+     -1,
+     3
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     17,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     185,
+     185,
+     185
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 3,
+   "goodName": "stone",
+   "english": "Quarrystone",
+   "field": "landscapetype"
+  },
+  {
+   "goodId": 3,
+   "goodName": "stone",
+   "english": "Quarrystone",
+   "field": "landscapetostore"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd",
+ "palettes": [
+  "goods_stone"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "stone pile 01"
+  ],
+  [
+   4,
+   "stone pile 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "stone pile 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all",
+     "good piles all",
+     "good piles build"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     17
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_stone"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     19
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     18
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     17
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     16
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     15
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "stone pile 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "stone pile 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 19,
+     "width": 34,
+     "height": 28,
+     "pivot": [
+      17,
+      16
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000019.png",
+     "kind4Secondary": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000019__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000019__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 18,
+     "width": 34,
+     "height": 28,
+     "pivot": [
+      17,
+      16
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000018.png",
+     "kind4Secondary": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000018__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000018__shadow_mask.png",
+     "shadowPivot": [
+      13,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 17,
+     "width": 32,
+     "height": 28,
+     "pivot": [
+      15,
+      16
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000017.png",
+     "kind4Secondary": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000017__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000017__shadow_mask.png",
+     "shadowPivot": [
+      11,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 16,
+     "width": 19,
+     "height": 28,
+     "pivot": [
+      2,
+      16
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000016.png",
+     "kind4Secondary": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000016__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000016__shadow_mask.png",
+     "shadowPivot": [
+      0,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 15,
+     "width": 19,
+     "height": 20,
+     "pivot": [
+      2,
+      8
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000015.png",
+     "kind4Secondary": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000015__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_03_stone/piles/180_stone_pile_01/bob_000015__shadow_mask.png",
+     "shadowPivot": [
+      0,
+      0
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_03_stone/piles/180_stone_pile_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

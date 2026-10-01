@@ -1,0 +1,397 @@
+{
+ "gfxLandscapeId": 655,
+ "nativeName": "fx fire house 1",
+ "editGroups": [
+  [
+   "effects"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeName": "void",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "void"
+    ]
+   },
+   {
+    "name": "allowedoneverything",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     117,
+     117,
+     117
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_smoke.bmd",
+ "shadowLibrary": null,
+ "palettes": [
+  "fire"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 0.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 1,
+ "transitions": [],
+ "maximumValency": 1,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "fx fire house 1"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "effects"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_smoke.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "fire"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     172,
+     173,
+     174,
+     175,
+     176,
+     177,
+     178,
+     179,
+     180,
+     181,
+     182,
+     183,
+     184,
+     185,
+     186
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     1
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 172,
+     "width": 32,
+     "height": 48,
+     "pivot": [
+      16,
+      37
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000172.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000172__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 173,
+     "width": 32,
+     "height": 45,
+     "pivot": [
+      16,
+      34
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000173.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000173__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 174,
+     "width": 32,
+     "height": 47,
+     "pivot": [
+      16,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000174.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000174__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 175,
+     "width": 32,
+     "height": 46,
+     "pivot": [
+      16,
+      35
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000175.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000175__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 176,
+     "width": 32,
+     "height": 44,
+     "pivot": [
+      16,
+      32
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000176.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000176__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 177,
+     "width": 32,
+     "height": 46,
+     "pivot": [
+      16,
+      34
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000177.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000177__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 178,
+     "width": 32,
+     "height": 47,
+     "pivot": [
+      16,
+      35
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000178.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000178__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 179,
+     "width": 32,
+     "height": 49,
+     "pivot": [
+      16,
+      37
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000179.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000179__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 180,
+     "width": 32,
+     "height": 46,
+     "pivot": [
+      16,
+      35
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000180.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000180__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 181,
+     "width": 33,
+     "height": 45,
+     "pivot": [
+      17,
+      34
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000181.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000181__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 182,
+     "width": 33,
+     "height": 47,
+     "pivot": [
+      17,
+      36
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000182.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000182__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 183,
+     "width": 33,
+     "height": 48,
+     "pivot": [
+      17,
+      37
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000183.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000183__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 184,
+     "width": 33,
+     "height": 45,
+     "pivot": [
+      17,
+      34
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000184.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000184__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 185,
+     "width": 33,
+     "height": 46,
+     "pivot": [
+      17,
+      35
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000185.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000185__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 186,
+     "width": 33,
+     "height": 49,
+     "pivot": [
+      17,
+      37
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000186.png",
+     "kind4Secondary": "Shared/Effects/Landscape/653_fx_fire_small/frames/bob_000186__kind4_secondary.png"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Effects",
+ "folder": "Shared/Effects/Landscape/655_fx_fire_house_1",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

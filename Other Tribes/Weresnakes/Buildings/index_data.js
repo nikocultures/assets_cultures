@@ -1,0 +1,1 @@
+window.PAGE={"root":"../../../","title":"Weresnakes | Buildings","crumbs":[["Home","index.html"],["Other Tribes","Other Tribes/index.html"],["Weresnakes","Other Tribes/Weresnakes/index.html"],["Buildings",""]],"rows":[],"cols":["DISPLAY_NAME","GFX_ID","LOGIC_ID","BMD","BOB","WIDTH","HEIGHT","PIVOT","STATUS"],"filters":["STATUS"],"prev":null,"next":null};

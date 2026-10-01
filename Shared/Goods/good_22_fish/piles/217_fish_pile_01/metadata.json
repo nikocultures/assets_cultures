@@ -1,0 +1,388 @@
+{
+ "gfxLandscapeId": 217,
+ "nativeName": "fish pile 01",
+ "editGroups": [
+  [
+   "goods all",
+   "good piles all"
+  ]
+ ],
+ "logicType": 45,
+ "logicTypeName": "fish",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     45
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "fish"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     45,
+     2,
+     -1,
+     22
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     45,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     255,
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 22,
+   "goodName": "fish",
+   "english": "Fish",
+   "field": "landscapetype"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd",
+ "palettes": [
+  "goods_gold"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "fish pile 01"
+  ],
+  [
+   4,
+   "fish pile 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "fish pile 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all",
+     "good piles all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     45
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "goods_gold"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     24
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     23
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     22
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     21
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     20
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "fish pile 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "fish pile 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 24,
+     "width": 36,
+     "height": 30,
+     "pivot": [
+      13,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000024.png",
+     "kind4Secondary": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000024__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000024__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 23,
+     "width": 35,
+     "height": 26,
+     "pivot": [
+      13,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000023.png",
+     "kind4Secondary": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000023__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000023__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 22,
+     "width": 35,
+     "height": 26,
+     "pivot": [
+      13,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000022.png",
+     "kind4Secondary": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000022__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000022__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 21,
+     "width": 21,
+     "height": 26,
+     "pivot": [
+      13,
+      14
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000021.png",
+     "kind4Secondary": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000021__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000021__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 20,
+     "width": 20,
+     "height": 16,
+     "pivot": [
+      13,
+      4
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000020.png",
+     "kind4Secondary": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000020__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_07_gold/piles/177_gold_pile_01/bob_000020__shadow_mask.png",
+     "shadowPivot": [
+      12,
+      -1
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_22_fish/piles/217_fish_pile_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

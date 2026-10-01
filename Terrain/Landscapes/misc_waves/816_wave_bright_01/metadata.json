@@ -1,0 +1,411 @@
+{
+ "gfxLandscapeId": 816,
+ "nativeName": "wave bright 01",
+ "editGroups": [
+  [
+   "misc_waves"
+  ]
+ ],
+ "logicType": 1,
+ "logicTypeName": "void",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "void"
+    ]
+   },
+   {
+    "name": "allowedoneverything",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     100
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     117,
+     117,
+     117
+    ]
+   }
+  ]
+ },
+ "goodLinks": [],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_water.bmd",
+ "shadowLibrary": null,
+ "palettes": [
+  "wave02"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [],
+ "maximumValency": 1,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "wave bright 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "misc_waves"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_water.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "wave02"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 0,
+     "width": 75,
+     "height": 46,
+     "pivot": [
+      40,
+      22
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000000.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000000__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 1,
+     "width": 75,
+     "height": 46,
+     "pivot": [
+      40,
+      22
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000001.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000001__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 2,
+     "width": 67,
+     "height": 49,
+     "pivot": [
+      33,
+      23
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000002.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000002__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 3,
+     "width": 67,
+     "height": 49,
+     "pivot": [
+      33,
+      23
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000003.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000003__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 4,
+     "width": 70,
+     "height": 49,
+     "pivot": [
+      34,
+      23
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000004.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000004__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 5,
+     "width": 69,
+     "height": 49,
+     "pivot": [
+      33,
+      23
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000005.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000005__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 6,
+     "width": 69,
+     "height": 50,
+     "pivot": [
+      33,
+      23
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000006.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000006__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 7,
+     "width": 68,
+     "height": 47,
+     "pivot": [
+      33,
+      21
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000007.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000007__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 8,
+     "width": 68,
+     "height": 48,
+     "pivot": [
+      33,
+      22
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000008.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000008__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 9,
+     "width": 69,
+     "height": 48,
+     "pivot": [
+      34,
+      22
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000009.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000009__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 10,
+     "width": 70,
+     "height": 48,
+     "pivot": [
+      34,
+      22
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000010.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000010__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 11,
+     "width": 76,
+     "height": 47,
+     "pivot": [
+      40,
+      22
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000011.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000011__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 12,
+     "width": 76,
+     "height": 47,
+     "pivot": [
+      40,
+      22
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000012.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000012__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 13,
+     "width": 76,
+     "height": 47,
+     "pivot": [
+      40,
+      22
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000013.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000013__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 14,
+     "width": 76,
+     "height": 47,
+     "pivot": [
+      40,
+      22
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000014.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000014__kind4_secondary.png"
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 15,
+     "width": 76,
+     "height": 46,
+     "pivot": [
+      40,
+      22
+     ],
+     "pixelKind": 4,
+     "path": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000015.png",
+     "kind4Secondary": "Terrain/Landscapes/misc_waves/816_wave_bright_01/bob_000015__kind4_secondary.png"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/misc_waves/816_wave_bright_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

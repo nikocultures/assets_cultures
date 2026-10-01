@@ -1,0 +1,142 @@
+{
+  "idleBase": [
+    {
+      "bobId": 32,
+      "descriptor": {
+        "bobId": 32,
+        "frameIndex": 32,
+        "kind": 4,
+        "x": -64,
+        "y": -53,
+        "width": 112,
+        "height": 104,
+        "firstScanline": 7932
+      },
+      "pivot": [
+        64,
+        53
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2460,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_vehicles.bmd",
+        "offset": 119392542,
+        "size": 2592650,
+        "sha256": "105f4b82582a9feca5b11cd08966a03642def8b8c1068bf2bd541379c2eab400"
+      },
+      "rawLibrary": "Metadata/Sources/ls_vehicles.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "goods_bow",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1183,
+        "entryName": "data\\engine2d\\bin\\palettes\\goods\\goods_bow.pcx",
+        "offset": 132759529,
+        "size": 901,
+        "sha256": "7d19cbaec45a7343eeb8cb6b90abcc73e4b8d300353704c5bd9643ffceb241a1"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "goods_bow"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\goods\\goods_bow.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Catapult/level_0/main/frame_000032.png",
+      "pixelSha256": "71901b0e6c8d733fb2edc184b65c83e00f5bbfc24f1da1d06b13c6189c5576ef"
+    }
+  ],
+  "doorFrames": [
+    {
+      "tuple": [
+        0,
+        1,
+        4
+      ],
+      "asset": {
+        "bobId": 4,
+        "descriptor": {
+          "bobId": 4,
+          "frameIndex": 4,
+          "kind": 1,
+          "x": -115,
+          "y": -178,
+          "width": 238,
+          "height": 249,
+          "firstScanline": 1066
+        },
+        "pivot": [
+          115,
+          178
+        ],
+        "source": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 2460,
+          "entryName": "data\\engine2d\\bin\\bobs\\ls_vehicles.bmd",
+          "offset": 119392542,
+          "size": 2592650,
+          "sha256": "105f4b82582a9feca5b11cd08966a03642def8b8c1068bf2bd541379c2eab400"
+        },
+        "rawLibrary": "Metadata/Sources/ls_vehicles.bmd",
+        "role": "body",
+        "confidence": "AUTOMATED_CONFIRMED",
+        "palette": "goods_bow",
+        "paletteSource": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 1183,
+          "entryName": "data\\engine2d\\bin\\palettes\\goods\\goods_bow.pcx",
+          "offset": 132759529,
+          "size": 901,
+          "sha256": "7d19cbaec45a7343eeb8cb6b90abcc73e4b8d300353704c5bd9643ffceb241a1"
+        },
+        "paletteDefinition": {
+          "section": "gfxpalette256",
+          "commands": [
+            {
+              "name": "editname",
+              "arguments": [
+                "goods_bow"
+              ]
+            },
+            {
+              "name": "gfxfile",
+              "arguments": [
+                "data\\engine2d\\bin\\palettes\\goods\\goods_bow.pcx"
+              ]
+            },
+            {
+              "name": "gfxpreshade",
+              "arguments": [
+                1
+              ]
+            }
+          ]
+        },
+        "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+        "path": "Vikings/Buildings/Catapult/level_0/states/door/goods_bow/frame_000004.png",
+        "pixelSha256": "1eb2b5cfdd6c5c42e39e68edd3182bf307602522cf7b97be49e737580cf237e1"
+      }
+    }
+  ],
+  "doorPredicate": "House door scan 0x00495B57, 0x0042C214/0x0042C392, Human 0x00441AAD checks +0xB50/+0xB51. Not equivalent to any Farmer assignment or production state.",
+  "working": "See native overlay state lanes; no fabricated unique working sprite",
+  "confidence": "PARTIAL"
+}

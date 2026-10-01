@@ -1,0 +1,166 @@
+{
+ "gfxPatternId": 416,
+ "nativeName": "block swamp 00 03 01",
+ "editGroups": [
+  [
+   "swamp 1x1",
+   "swamp all"
+  ]
+ ],
+ "logicType": 5,
+ "logicTypeDefinition": {
+  "section": "trianglepatterntype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "humancanwalkon",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "housecanbebuildon",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "biocangrowon",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "biocanplanton",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "island",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "moveresistance",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "debugname",
+    "arguments": [
+     "moor"
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     52,
+     63,
+     18
+    ]
+   }
+  ]
+ },
+ "texture": "data\\engine2d\\bin\\textures\\text_232.pcx",
+ "textureOutput": "Terrain/Textures/text_232.png",
+ "triangleA": [
+  192,
+  64,
+  255,
+  127,
+  192,
+  127
+ ],
+ "triangleB": [
+  192,
+  64,
+  255,
+  64,
+  255,
+  127
+ ],
+ "cropBox": [
+  192,
+  64,
+  255,
+  127
+ ],
+ "crop": "Terrain/Patterns/swamp_1x1/416_block_swamp_00_03_01.png",
+ "triangleMask": "Terrain/Patterns/swamp_1x1/416_block_swamp_00_03_01__triangles.png",
+ "maskValues": {
+  "85": "triangle A",
+  "170": "triangle B"
+ },
+ "definition": {
+  "section": "gfxpattern",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "block swamp 00 03 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "swamp 1x1",
+     "swamp all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "gfxtexture",
+    "arguments": [
+     "data\\engine2d\\bin\\textures\\text_232.pcx"
+    ]
+   },
+   {
+    "name": "gfxcoordsa",
+    "arguments": [
+     192,
+     64,
+     255,
+     127,
+     192,
+     127
+    ]
+   },
+   {
+    "name": "gfxcoordsb",
+    "arguments": [
+     192,
+     64,
+     255,
+     64,
+     255,
+     127
+    ]
+   }
+  ]
+ },
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0048E24E pattern.cif loader (stride 0x70)",
+   "0x00491EA8 pattern texture resolve"
+  ],
+  "cpp": "GfxPatternRegistry"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED texture decode",
+  "presentation": "PRESENTATION_PARTIAL: texture-space crop; isometric triangle projection, lighting and transitions not applied"
+ }
+}

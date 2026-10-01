@@ -1,0 +1,63 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1065,
+  "entryName": "data\\engine2d\\bin\\sounds\\generic\\animals_snake07.wav",
+  "offset": 149089500,
+  "size": 98026,
+  "sha256": "0a47a7c2cc52d96f18b150ba851d73cbbc0b0d24ac6ab6634141af28d14d3b6f"
+ },
+ "output": "Audio/generic/animals_snake07.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 97968,
+  "durationSeconds": 2.221,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 247,
+   "name": "Generic Snake",
+   "parameters": [
+    70
+   ],
+   "logicSoundType": 55,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 247,
+   "name": "Generic Snake",
+   "parameters": [
+    70
+   ],
+   "logicSoundType": 55,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [
+  {
+   "tribe": 5,
+   "use": "generic",
+   "arguments": [
+    2
+   ]
+  }
+ ],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

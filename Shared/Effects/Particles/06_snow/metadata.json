@@ -1,0 +1,164 @@
+{
+ "particleId": 6,
+ "nativeName": "snow",
+ "library": "data\\engine2d\\bin\\bobs\\test_snow.bmd",
+ "palette": "rock01",
+ "definition": {
+  "section": "particel",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "snow"
+    ]
+   },
+   {
+    "name": "palette",
+    "arguments": [
+     "rock01"
+    ]
+   },
+   {
+    "name": "bobmanager",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\test_snow.bmd"
+    ]
+   },
+   {
+    "name": "maxvalency",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     0,
+     0
+    ]
+   },
+   {
+    "name": "animloop",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "bobtype",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 2238,
+  "entryName": "data\\engine2d\\inis\\particel\\particel.cif",
+  "offset": 195245533,
+  "size": 6354,
+  "sha256": "3a0829ad1b452cec93cac5aa93adeb0aa73d920bb015124dffbbc3edde3a5b74"
+ },
+ "generators": [
+  {
+   "section": "particelgenerator",
+   "commands": [
+    {
+     "name": "name",
+     "arguments": [
+      "SnowGenerator"
+     ]
+    },
+    {
+     "name": "generate",
+     "arguments": [
+      "Snow"
+     ]
+    },
+    {
+     "name": "maxgonelifetime",
+     "arguments": [
+      0
+     ]
+    },
+    {
+     "name": "maxlifetime",
+     "arguments": [
+      1000
+     ]
+    },
+    {
+     "name": "particelmove",
+     "arguments": [
+      4
+     ]
+    },
+    {
+     "name": "particelspeed",
+     "arguments": [
+      0,
+      200,
+      0
+     ]
+    },
+    {
+     "name": "usemapheights",
+     "arguments": [
+      1
+     ]
+    },
+    {
+     "name": "usewind",
+     "arguments": [
+      1
+     ]
+    },
+    {
+     "name": "setarea",
+     "arguments": [
+      40,
+      40
+     ]
+    },
+    {
+     "name": "groundcollision",
+     "arguments": [
+      1
+     ]
+    },
+    {
+     "name": "heightoffset",
+     "arguments": [
+      250
+     ]
+    }
+   ]
+  }
+ ],
+ "particleEffects": [],
+ "valencies": [
+  {
+   "valency": 0,
+   "frames": [
+    {
+     "path": "Shared/Effects/Particles/06_snow/bob_0000__rock01.png",
+     "kind": 1,
+     "width": 5,
+     "height": 5,
+     "pivot": [
+      2,
+      2
+     ],
+     "bobId": 0,
+     "status": "RENDERED"
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: bobtype 0 blending, movement, lifetime and wind are runtime"
+ }
+}

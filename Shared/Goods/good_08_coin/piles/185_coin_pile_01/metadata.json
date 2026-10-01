@@ -1,0 +1,388 @@
+{
+ "gfxLandscapeId": 185,
+ "nativeName": "coin pile 01",
+ "editGroups": [
+  [
+   "goods all",
+   "good piles all"
+  ]
+ ],
+ "logicType": 24,
+ "logicTypeName": "coin",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     24
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "coin"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     6
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     3,
+     24,
+     2,
+     -1,
+     8
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     4,
+     24,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     185,
+     185,
+     185
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 8,
+   "goodName": "coin",
+   "english": "Coin",
+   "field": "landscapetype"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd",
+ "palettes": [
+  "gold01"
+ ],
+ "static": 1,
+ "loopAnimation": 0,
+ "shadingFactor": 0.6,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   3,
+   "coin pile 01"
+  ],
+  [
+   4,
+   "coin pile 01"
+  ]
+ ],
+ "maximumValency": 5,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "coin pile 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "goods all",
+     "good piles all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     24
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_goods_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "gold01"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     5,
+     139
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     4,
+     138
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     137
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     136
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     135
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     0.6
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     3,
+     "coin pile 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     4,
+     "coin pile 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 139,
+     "width": 47,
+     "height": 30,
+     "pivot": [
+      24,
+      13
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000139.png",
+     "kind4Secondary": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000139__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000139__shadow_mask.png",
+     "shadowPivot": [
+      24,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 138,
+     "width": 47,
+     "height": 28,
+     "pivot": [
+      24,
+      11
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000138.png",
+     "kind4Secondary": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000138__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000138__shadow_mask.png",
+     "shadowPivot": [
+      24,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 137,
+     "width": 40,
+     "height": 28,
+     "pivot": [
+      17,
+      11
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000137.png",
+     "kind4Secondary": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000137__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000137__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 136,
+     "width": 40,
+     "height": 20,
+     "pivot": [
+      17,
+      11
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000136.png",
+     "kind4Secondary": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000136__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000136__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 135,
+     "width": 26,
+     "height": 17,
+     "pivot": [
+      3,
+      8
+     ],
+     "pixelKind": 4,
+     "path": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000135.png",
+     "kind4Secondary": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000135__kind4_secondary.png",
+     "shadowMask": "Shared/Goods/good_08_coin/piles/185_coin_pile_01/bob_000135__shadow_mask.png",
+     "shadowPivot": [
+      2,
+      4
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Goods",
+ "folder": "Shared/Goods/good_08_coin/piles/185_coin_pile_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

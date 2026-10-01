@@ -1,0 +1,57 @@
+{
+  "progressPercent": 100,
+  "path": "Franks/Buildings/Patricianhouse02_gfx44/level_0/construction/progress_100.png",
+  "pivot": [
+    307,
+    185
+  ],
+  "dimensions": [
+    498,
+    332
+  ],
+  "palette": "house01",
+  "contributingLayers": [
+    {
+      "tuple": [
+        0,
+        0,
+        30,
+        -1,
+        0,
+        53
+      ],
+      "threshold": 256,
+      "bodyPixels": 21988,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    },
+    {
+      "tuple": [
+        0,
+        0,
+        31,
+        -1,
+        0,
+        100
+      ],
+      "threshold": 255,
+      "bodyPixels": 20683,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    },
+    {
+      "tuple": [
+        0,
+        0,
+        28,
+        29,
+        35,
+        100
+      ],
+      "threshold": 255,
+      "bodyPixels": 29400,
+      "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+    }
+  ],
+  "destinationDarkeningCounts": "Franks/Buildings/Patricianhouse02_gfx44/level_0/construction/progress_100_destination_darken_counts.png",
+  "confidence": "PARTIAL",
+  "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+}

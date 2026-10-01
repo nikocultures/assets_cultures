@@ -1,0 +1,1196 @@
+{
+ "gfxLandscapeId": 484,
+ "nativeName": "BigCypress 01",
+ "editGroups": [
+  [
+   "xMissionCD trees all"
+  ]
+ ],
+ "logicType": 4,
+ "logicTypeName": "tree",
+ "logicTypeDefinition": {
+  "section": "landscapetype",
+  "commands": [
+   {
+    "name": "type",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "name",
+    "arguments": [
+     "tree"
+    ]
+   },
+   {
+    "name": "allowedonland",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "maximumvalency",
+    "arguments": [
+     5
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     7,
+     4,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "name": "transition",
+    "arguments": [
+     11,
+     5,
+     2,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "debugcolor",
+    "arguments": [
+     2,
+     115,
+     0
+    ]
+   }
+  ]
+ },
+ "goodLinks": [
+  {
+   "goodId": 5,
+   "goodName": "wood",
+   "english": "Wood",
+   "field": "landscapetoharvest"
+  }
+ ],
+ "tribeLinks": [],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_trees_daw.bmd",
+ "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_trees_daw_s.bmd",
+ "palettes": [
+  "herbs02"
+ ],
+ "static": 0,
+ "loopAnimation": 1,
+ "shadingFactor": 1.0,
+ "userFxMatrix": 0,
+ "dynamicBackground": 0,
+ "drawVoidEver": 0,
+ "transitions": [
+  [
+   11,
+   "Bigcypress falling 01"
+  ],
+  [
+   7,
+   "BigCypress 01"
+  ]
+ ],
+ "maximumValency": 3,
+ "definition": {
+  "section": "gfxlandscape",
+  "commands": [
+   {
+    "name": "editname",
+    "arguments": [
+     "BigCypress 01"
+    ]
+   },
+   {
+    "name": "editgroups",
+    "arguments": [
+     "xMissionCD trees all"
+    ]
+   },
+   {
+    "name": "logictype",
+    "arguments": [
+     4
+    ]
+   },
+   {
+    "name": "logicmaximumvalency",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "logicisworkable",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "logicispileableonmap",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "logicwalkblockarea",
+    "arguments": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     3
+    ]
+   },
+   {
+    "name": "logicbuildblockarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     -1,
+     2
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "name": "logicworkarea",
+    "arguments": [
+     1,
+     -1,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "gfxboblibs",
+    "arguments": [
+     "data\\engine2d\\bin\\bobs\\ls_trees_daw.bmd",
+     "data\\engine2d\\bin\\bobs\\ls_trees_daw_s.bmd"
+    ]
+   },
+   {
+    "name": "gfxpalette",
+    "arguments": [
+     "herbs02"
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     3,
+     7,
+     7,
+     6,
+     6,
+     5,
+     5,
+     4,
+     4,
+     3,
+     3,
+     2,
+     2,
+     1,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     2,
+     15,
+     15,
+     14,
+     14,
+     13,
+     13,
+     12,
+     12,
+     11,
+     11,
+     10,
+     10,
+     9,
+     9,
+     8,
+     8
+    ]
+   },
+   {
+    "name": "gfxframes",
+    "arguments": [
+     1,
+     15,
+     15,
+     14,
+     14,
+     13,
+     13,
+     12,
+     12,
+     11,
+     11,
+     10,
+     10,
+     9,
+     9,
+     8,
+     8
+    ]
+   },
+   {
+    "name": "gfxstatic",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxloopanimation",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "gfxshadingfactor",
+    "arguments": [
+     1.0
+    ]
+   },
+   {
+    "name": "gfxuserfxmatrix",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdynamicbackground",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxdrawvoidever",
+    "arguments": [
+     0
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     11,
+     "Bigcypress falling 01"
+    ]
+   },
+   {
+    "name": "gfxtransition",
+    "arguments": [
+     7,
+     "BigCypress 01"
+    ]
+   }
+  ]
+ },
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1195,
+  "entryName": "data\\engine2d\\inis\\landscapes\\landscapes.cif",
+  "offset": 193548446,
+  "size": 683149,
+  "sha256": "23081e703bc1fc8bcc401857157ae575b8c4db48a58a193cc849e6ef12f19129"
+ },
+ "valencies": [
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 7,
+     "width": 81,
+     "height": 238,
+     "pivot": [
+      39,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000007.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000007__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      44
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 7,
+     "width": 81,
+     "height": 238,
+     "pivot": [
+      39,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000007.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000007__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      44
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 6,
+     "width": 81,
+     "height": 238,
+     "pivot": [
+      39,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000006.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000006__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      44
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 6,
+     "width": 81,
+     "height": 238,
+     "pivot": [
+      39,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000006.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000006__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      44
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 5,
+     "width": 81,
+     "height": 238,
+     "pivot": [
+      39,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000005.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000005__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 5,
+     "width": 81,
+     "height": 238,
+     "pivot": [
+      39,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000005.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000005__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 4,
+     "width": 81,
+     "height": 238,
+     "pivot": [
+      39,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000004.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000004__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 4,
+     "width": 81,
+     "height": 238,
+     "pivot": [
+      39,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000004.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000004__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 3,
+     "width": 82,
+     "height": 238,
+     "pivot": [
+      40,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000003.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000003__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 3,
+     "width": 82,
+     "height": 238,
+     "pivot": [
+      40,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000003.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000003__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 2,
+     "width": 82,
+     "height": 238,
+     "pivot": [
+      40,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000002.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000002__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 2,
+     "width": 82,
+     "height": 238,
+     "pivot": [
+      40,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000002.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000002__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 1,
+     "width": 81,
+     "height": 238,
+     "pivot": [
+      40,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000001.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000001__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 1,
+     "width": 81,
+     "height": 238,
+     "pivot": [
+      40,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000001.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000001__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 0,
+     "width": 80,
+     "height": 238,
+     "pivot": [
+      39,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000000.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000000__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 0,
+     "width": 80,
+     "height": 238,
+     "pivot": [
+      39,
+      231
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000000.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000000__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      43
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 15,
+     "width": 67,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000015.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000015__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      44
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 15,
+     "width": 67,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000015.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000015__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      44
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 14,
+     "width": 66,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000014.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000014__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      44
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 14,
+     "width": 66,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000014.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000014__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      44
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 13,
+     "width": 65,
+     "height": 165,
+     "pivot": [
+      27,
+      159
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000013.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000013__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 13,
+     "width": 65,
+     "height": 165,
+     "pivot": [
+      27,
+      159
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000013.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000013__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 12,
+     "width": 65,
+     "height": 165,
+     "pivot": [
+      27,
+      159
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000012.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000012__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 12,
+     "width": 65,
+     "height": 165,
+     "pivot": [
+      27,
+      159
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000012.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000012__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 11,
+     "width": 65,
+     "height": 166,
+     "pivot": [
+      27,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000011.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000011__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 11,
+     "width": 65,
+     "height": 166,
+     "pivot": [
+      27,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000011.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000011__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 10,
+     "width": 66,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000010.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000010__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 10,
+     "width": 66,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000010.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000010__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 9,
+     "width": 67,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000009.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000009__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 9,
+     "width": 67,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000009.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000009__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 8,
+     "width": 67,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000008.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000008__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 8,
+     "width": 67,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000008.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000008__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      43
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "sequenceIndex": 0,
+     "bobId": 15,
+     "width": 67,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000015.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000015__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      44
+     ]
+    },
+    {
+     "sequenceIndex": 1,
+     "bobId": 15,
+     "width": 67,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000015.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000015__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      44
+     ]
+    },
+    {
+     "sequenceIndex": 2,
+     "bobId": 14,
+     "width": 66,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000014.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000014__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      44
+     ]
+    },
+    {
+     "sequenceIndex": 3,
+     "bobId": 14,
+     "width": 66,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000014.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000014__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      44
+     ]
+    },
+    {
+     "sequenceIndex": 4,
+     "bobId": 13,
+     "width": 65,
+     "height": 165,
+     "pivot": [
+      27,
+      159
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000013.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000013__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 5,
+     "bobId": 13,
+     "width": 65,
+     "height": 165,
+     "pivot": [
+      27,
+      159
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000013.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000013__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 6,
+     "bobId": 12,
+     "width": 65,
+     "height": 165,
+     "pivot": [
+      27,
+      159
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000012.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000012__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 7,
+     "bobId": 12,
+     "width": 65,
+     "height": 165,
+     "pivot": [
+      27,
+      159
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000012.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000012__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 8,
+     "bobId": 11,
+     "width": 65,
+     "height": 166,
+     "pivot": [
+      27,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000011.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000011__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 9,
+     "bobId": 11,
+     "width": 65,
+     "height": 166,
+     "pivot": [
+      27,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000011.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000011__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 10,
+     "bobId": 10,
+     "width": 66,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000010.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000010__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 11,
+     "bobId": 10,
+     "width": 66,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000010.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000010__shadow_mask.png",
+     "shadowPivot": [
+      18,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 12,
+     "bobId": 9,
+     "width": 67,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000009.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000009__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 13,
+     "bobId": 9,
+     "width": 67,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000009.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000009__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 14,
+     "bobId": 8,
+     "width": 67,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000008.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000008__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      43
+     ]
+    },
+    {
+     "sequenceIndex": 15,
+     "bobId": 8,
+     "width": 67,
+     "height": 166,
+     "pivot": [
+      28,
+      160
+     ],
+     "pixelKind": 1,
+     "path": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000008.png",
+     "shadowMask": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01/bob_000008__shadow_mask.png",
+     "shadowPivot": [
+      17,
+      43
+     ]
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "category": "Terrain",
+ "folder": "Terrain/Landscapes/xMissionCD_trees_all/484_BigCypress_01",
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0049B930 kind-2 shadow darkening"
+  ],
+  "cpp": "GfxLandscapeRegistry; ProductionWorldCompositor static landscape path"
+ },
+ "confidence": {
+  "source": "SOURCE_COMPLETE",
+  "pixels": "PIXEL_CONFIRMED per frame (Catalogs/pixel_validation.csv)",
+  "presentation": "PRESENTATION_PARTIAL: lighting/shading factor, kind-4 blending, shadow darkening and animation rate not baked"
+ }
+}

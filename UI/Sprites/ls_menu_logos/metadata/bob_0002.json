@@ -1,0 +1,52 @@
+{
+ "LIBRARY": "data\\gui\\lang\\eng\\bobs\\ls_menu_logos.bmd",
+ "BOB_ID": 2,
+ "KIND": 4,
+ "WIDTH": 524,
+ "HEIGHT": 558,
+ "PIVOT": [
+  -177,
+  -8
+ ],
+ "EVIDENCE": [
+  "production_frontend.cpp:321"
+ ],
+ "PALETTES": [
+  "data\\gui\\palettes\\campaignmap.pcx"
+ ],
+ "OUTPUTS": [
+  "UI/Sprites/ls_menu_logos/campaignmap/bob_0002.png"
+ ],
+ "INDEX_DATA": "UI/Sprites/ls_menu_logos/_index_data/bob_0002.png",
+ "STATUS": "PALETTE_EVIDENCED",
+ "CONFIDENCE": "PIXEL_CONFIRMED",
+ "evidenceDetail": [
+  {
+   "file": "production_frontend.cpp",
+   "line": 321,
+   "paletteMember": "campaignPalette_",
+   "palette": "data\\gui\\palettes\\campaignmap.pcx",
+   "code": "if(screen_==FrontendScreen::campaign)sprite(logos_,2,(width_-800)/2,(height_-600)/2,campaignPalette_.paletteBgra,all);",
+   "nearestComment": "// 004DAB77 uses five high bits per channel, shifted by three."
+  }
+ ],
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 70,
+  "entryName": "data\\gui\\lang\\eng\\bobs\\ls_menu_logos.bmd",
+  "offset": 197207960,
+  "size": 1594681,
+  "sha256": "404b1548e5401757b90836d0f1222c0d0e2cc9398514a94fa9ce52a004447018"
+ },
+ "descriptor": {
+  "bobId": 2,
+  "frameIndex": 2,
+  "kind": 4,
+  "x": 177,
+  "y": 8,
+  "width": 524,
+  "height": 558,
+  "firstScanline": 367,
+  "offset": 555306
+ }
+}

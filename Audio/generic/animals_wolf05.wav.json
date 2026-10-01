@@ -1,0 +1,50 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 12,
+  "entryName": "data\\engine2d\\bin\\sounds\\generic\\animals_wolf05.wav",
+  "offset": 150118514,
+  "size": 187830,
+  "sha256": "31924586ca6e58f6eadcfb5aeb200a5a7bc88f4fc3bbf9f5c995b2e72f7a77e2"
+ },
+ "output": "Audio/generic/animals_wolf05.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 187772,
+  "durationSeconds": 4.258,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 248,
+   "name": "Generic WereWolf",
+   "parameters": [
+    70
+   ],
+   "logicSoundType": 63,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [
+  {
+   "tribe": 6,
+   "use": "generic",
+   "arguments": [
+    2
+   ]
+  }
+ ],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

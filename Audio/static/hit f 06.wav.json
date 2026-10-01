@@ -1,0 +1,84 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1708,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\hit f 06.wav",
+  "offset": 181324108,
+  "size": 22510,
+  "sha256": "d3ad692b9f761ffd531d7daa50454012dd27c3408fc63cdd85714d8aad9e410b"
+ },
+ "output": "Audio/static/hit f 06.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 22452,
+  "durationSeconds": 0.509,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 98,
+   "name": "Woman Get Hit",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 97,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 98,
+   "name": "Woman Get Hit",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 97,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [
+  {
+   "tribe": 1,
+   "use": "scream",
+   "arguments": [
+    1
+   ]
+  },
+  {
+   "tribe": 2,
+   "use": "scream",
+   "arguments": [
+    1
+   ]
+  },
+  {
+   "tribe": 3,
+   "use": "scream",
+   "arguments": [
+    1
+   ]
+  },
+  {
+   "tribe": 4,
+   "use": "scream",
+   "arguments": [
+    1
+   ]
+  }
+ ],
+ "animalSoundUse": [],
+ "category": "Human voices",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

@@ -1,0 +1,1 @@
+window.PAGE={"root":"../../../","title":"Werewolves | Effects","crumbs":[["Home","index.html"],["Other Tribes","Other Tribes/index.html"],["Werewolves","Other Tribes/Werewolves/index.html"],["Effects",""]],"rows":[],"cols":["DISPLAY_NAME","SUBCATEGORY","BMD","PALETTE","FRAMES","STATUS"],"filters":["STATUS"],"prev":null,"next":null};

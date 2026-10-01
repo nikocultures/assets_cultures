@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Source atlas viewer | Cultures asset library</title><link rel="stylesheet" href="../../Metadata/Browser/app.css"><script src="viewer_libs.js"></script><script src="viewer_data.js"></script><script src="../../Metadata/Browser/app.js"></script></head><body><header class="top"><h1><a href="../../index.html">Cultures | Original Asset Library</a></h1><div>Source atlas viewer</div></header><main><div id="crumbs"></div><div class="bar"><select id="lib"></select> <input id="fq" type="search" placeholder="filter frames: BOB id, status, usage, sequence"></div>
+<div id="info"></div><div id="frames"></div>
+<script>
+(function(){
+ var libs=window.LIBS||[];var sel=document.getElementById('lib');
+ sel.innerHTML=libs.map(function(l){return '<option value="'+l[0]+'">'+l[1]+' ('+l[2]+' frames)</option>'}).join('');
+ function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+ function show(){var L=window.LIBRARY;if(!L)return;var q=document.getElementById('fq').value.toLowerCase().split(/\s+/).filter(Boolean);
+  var slug=sel.value;var pal=L.palettes&&L.palettes.length?L.palettes[0]:null;
+  document.getElementById('info').innerHTML='<div class="kv"><b>library</b><span>'+esc(L.library)+'</span><b>archive entry</b><span>'+esc(L.source.entryId)+' offset '+esc(L.source.offset)+' sha256 '+esc(L.source.sha256)+'</span><b>decoder</b><span>'+esc(L.decoder)+'</span><b>descriptors / non-empty / mapped</b><span>'+L.frameDescriptors+' / '+L.nonemptyFrames+' / '+L.mappedFrames+'</span><b>status counts</b><span>'+esc(JSON.stringify(L.statusCounts))+'</span><b>palettes</b><span>'+esc((L.palettes||[]).join(', ')||'none (index data only)')+'</span><b>representation</b><span>'+esc(JSON.stringify(L.representation))+'</span></div><p><a href="'+slug+'/library.json">library.json</a></p>';
+  var out=[],n=0;L.frames.forEach(function(f){var t=(f.bobId+' '+f.status+' '+(f.reason||'')+' '+(f.usage||[]).join(' ')+' '+(f.bobSeq||[]).join(' ')).toLowerCase();
+   for(var i=0;i<q.length;i++)if(t.indexOf(q[i])<0)return; if(++n>400)return;
+   var img=f.page==null?'':slug+'/page_'+('000'+f.page).slice(-4)+(pal?'__'+pal.replace(/[^\w.-]+/g,'_'):'_index_data')+'.png';
+   var r=f.rect||[0,0,0,0],s=Math.min(1,96/Math.max(r[2],r[3],1));
+   out.push('<tr id="bob'+f.bobId+'"><td class="th">'+(img?'<div class="crop" style="width:'+Math.ceil(r[2]*s)+'px;height:'+Math.ceil(r[3]*s)+'px"><div style="width:'+r[2]+'px;height:'+r[3]+'px;transform:scale('+s+');transform-origin:0 0;background:url(\''+encodeURI(img)+'\') -'+r[0]+'px -'+r[1]+'px"></div></div>':'(no pixels)')+'</td><td>BOB '+f.bobId+'</td><td>kind '+f.kind+'</td><td>'+f.width+'x'+f.height+'<br>pivot '+esc(f.pivot)+'</td><td><span class="status">'+esc(f.status)+'</span><div class="sub">'+esc(f.reason||'')+'</div></td><td>'+esc((f.usage||[]).join(', '))+'<div class="sub">'+esc((f.bobSeq||[]).join(' | '))+'</div></td><td>'+(f.page==null?'':'<a href="'+encodeURI(slug+'/page_'+('000'+f.page).slice(-4)+'_index_data.png')+'">index page</a>')+'</td></tr>')});
+  document.getElementById('frames').innerHTML='<p>'+n+' matching frames'+(n>400?' (first 400 shown)':'')+'</p><table class="grid"><tr><th>frame</th><th>BOB</th><th>kind</th><th>size</th><th>status</th><th>usage / BobSeq</th><th>page</th></tr>'+out.join('')+'</table>';}
+ function load(){var slug=sel.value;location.hash=slug;window.LIBRARY=null;var s=document.createElement('script');s.src=encodeURI(slug+'/library.js');s.onload=show;document.head.appendChild(s);}
+ var h=decodeURIComponent(location.hash.slice(1));if(h){sel.value=h}
+ sel.addEventListener('change',load);document.getElementById('fq').addEventListener('input',show);load();
+})();
+</script></main></body></html>

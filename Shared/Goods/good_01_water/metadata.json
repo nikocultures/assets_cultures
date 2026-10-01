@@ -1,0 +1,1313 @@
+{
+ "goodId": 1,
+ "nativeName": "water",
+ "english": "Water",
+ "englishPlural": "Water",
+ "definition": {
+  "section": "goodtype",
+  "commands": [
+   {
+    "name": "name",
+    "arguments": [
+     "water"
+    ]
+   },
+   {
+    "name": "type",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "landscapetype",
+    "arguments": [
+     3
+    ]
+   },
+   {
+    "name": "isinputgoodflag",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "isproducedinhouseflag",
+    "arguments": [
+     1
+    ]
+   },
+   {
+    "name": "isproducedonmapflag",
+    "arguments": [
+     0
+    ]
+   }
+  ]
+ },
+ "landscapeType": 3,
+ "resolvedGfxLandscape": 175,
+ "resolvedGfxLandscapeName": "water pile 01",
+ "resolutionRule": "Game 0x00415565: first pileable GfxLandscape with logictype == landscapetype (Goods 0..55 only)",
+ "pileMetadata": "Shared/Goods/good_01_water/piles/175_water_pile_01/metadata.json",
+ "pileValencies": [
+  {
+   "valency": 5,
+   "frames": [
+    {
+     "bobId": 29,
+     "path": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000029.png",
+     "shadowMask": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000029__shadow_mask.png",
+     "width": 42,
+     "height": 32,
+     "pivot": [
+      21,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 4,
+   "frames": [
+    {
+     "bobId": 28,
+     "path": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000028.png",
+     "shadowMask": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000028__shadow_mask.png",
+     "width": 29,
+     "height": 32,
+     "pivot": [
+      8,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 3,
+   "frames": [
+    {
+     "bobId": 27,
+     "path": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000027.png",
+     "shadowMask": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000027__shadow_mask.png",
+     "width": 29,
+     "height": 25,
+     "pivot": [
+      8,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 2,
+   "frames": [
+    {
+     "bobId": 26,
+     "path": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000026.png",
+     "shadowMask": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000026__shadow_mask.png",
+     "width": 27,
+     "height": 21,
+     "pivot": [
+      8,
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "valency": 1,
+   "frames": [
+    {
+     "bobId": 25,
+     "path": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000025.png",
+     "shadowMask": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000025__shadow_mask.png",
+     "width": 14,
+     "height": 16,
+     "pivot": [
+      8,
+      12
+     ]
+    }
+   ]
+  }
+ ],
+ "icon": {
+  "sequenceIndex": 0,
+  "bobId": 25,
+  "width": 14,
+  "height": 16,
+  "pivot": [
+   8,
+   12
+  ],
+  "pixelKind": 4,
+  "path": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000025.png",
+  "kind4Secondary": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000025__kind4_secondary.png",
+  "shadowMask": "Shared/Goods/good_01_water/piles/175_water_pile_01/bob_000025__shadow_mask.png",
+  "shadowPivot": [
+   8,
+   3
+  ],
+  "valency": 1,
+  "presentation": "UI: BOB bounds centred then +(12,8) (0x004E2661/0x00496D32); first frame of group (loop phase 0)"
+ },
+ "iconNote": "No separate icon sprite: native UI draws the pile landscape frame (see icon.presentation)",
+ "palette": [
+  "goods_water"
+ ],
+ "bodyLibrary": "data\\engine2d\\bin\\bobs\\ls_goods.bmd",
+ "harvest": {},
+ "production": {
+  "productionInputGoods": [],
+  "atomicForProduction": null,
+  "isProducedInHouse": 1,
+  "isProducedOnMap": 0
+ },
+ "weaponType": null,
+ "armorType": null,
+ "carriedVisual": {
+  "rule": "GfxWalkAtomic logicgoodtype == Good id; carried good is baked into the Human body frames (no separate overlay sprite)",
+  "humanRandomPalette": "good_water",
+  "humanRandomPaletteRule": "goodgraphics.cif palette patch definition linked to the Good; runtime application site not re-derived here -> PARTIAL",
+  "animations": [
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "6",
+    "NATIVE_NAME": "civilist",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "6",
+    "NATIVE_NAME": "civilist",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "7",
+    "NATIVE_NAME": "builder",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "7",
+    "NATIVE_NAME": "builder",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "8",
+    "NATIVE_NAME": "collector",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "8",
+    "NATIVE_NAME": "collector",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "9",
+    "NATIVE_NAME": "joiner",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "9",
+    "NATIVE_NAME": "joiner",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "10",
+    "NATIVE_NAME": "armorer",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "10",
+    "NATIVE_NAME": "armorer",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "11",
+    "NATIVE_NAME": "potter",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "11",
+    "NATIVE_NAME": "potter",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "12",
+    "NATIVE_NAME": "mason",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "12",
+    "NATIVE_NAME": "mason",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "13",
+    "NATIVE_NAME": "smith",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "13",
+    "NATIVE_NAME": "smith",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "14",
+    "NATIVE_NAME": "coin maker",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "14",
+    "NATIVE_NAME": "coin maker",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "15",
+    "NATIVE_NAME": "hunter",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "15",
+    "NATIVE_NAME": "hunter",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "16",
+    "NATIVE_NAME": "breeder",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "16",
+    "NATIVE_NAME": "breeder",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "17",
+    "NATIVE_NAME": "sewer",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "17",
+    "NATIVE_NAME": "sewer",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "18",
+    "NATIVE_NAME": "farmer",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "18",
+    "NATIVE_NAME": "farmer",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "19",
+    "NATIVE_NAME": "miller",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "19",
+    "NATIVE_NAME": "miller",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "20",
+    "NATIVE_NAME": "baker",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "20",
+    "NATIVE_NAME": "baker",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "21",
+    "NATIVE_NAME": "brewer",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "21",
+    "NATIVE_NAME": "brewer",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "22",
+    "NATIVE_NAME": "fisher",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "22",
+    "NATIVE_NAME": "fisher",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "23",
+    "NATIVE_NAME": "fisher_sea",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "23",
+    "NATIVE_NAME": "fisher_sea",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "24",
+    "NATIVE_NAME": "carrier",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "24",
+    "NATIVE_NAME": "carrier",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "25",
+    "NATIVE_NAME": "trader",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "25",
+    "NATIVE_NAME": "trader",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "26",
+    "NATIVE_NAME": "trader_sea",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "26",
+    "NATIVE_NAME": "trader_sea",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "27",
+    "NATIVE_NAME": "scout",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_80__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "27",
+    "NATIVE_NAME": "scout",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_80__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "28",
+    "NATIVE_NAME": "jester",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "28",
+    "NATIVE_NAME": "jester",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "29",
+    "NATIVE_NAME": "herb & mush guy",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "29",
+    "NATIVE_NAME": "herb & mush guy",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_00__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "30",
+    "NATIVE_NAME": "druid",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_90__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "30",
+    "NATIVE_NAME": "druid",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "Vikings/Humans/Sheets/cr_hum_body_00+cr_hum_head_90__test_human_00/j06_W001_human_man_generic_walk_water_s1201.png",
+    "STATUS": "RENDERED"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "31",
+    "NATIVE_NAME": "soldier_unarmed",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "31",
+    "NATIVE_NAME": "soldier_unarmed",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "32",
+    "NATIVE_NAME": "soldier_spear_wooden",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "32",
+    "NATIVE_NAME": "soldier_spear_wooden",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "33",
+    "NATIVE_NAME": "soldier_spear_iron",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "33",
+    "NATIVE_NAME": "soldier_spear_iron",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "34",
+    "NATIVE_NAME": "soldier_sword_short",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "34",
+    "NATIVE_NAME": "soldier_sword_short",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "35",
+    "NATIVE_NAME": "soldier_sword_long",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "35",
+    "NATIVE_NAME": "soldier_sword_long",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "36",
+    "NATIVE_NAME": "soldier_saber_short",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "36",
+    "NATIVE_NAME": "soldier_saber_short",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "37",
+    "NATIVE_NAME": "soldier_saber_long",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "37",
+    "NATIVE_NAME": "soldier_saber_long",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "38",
+    "NATIVE_NAME": "soldier_axe_small",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "38",
+    "NATIVE_NAME": "soldier_axe_small",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "39",
+    "NATIVE_NAME": "soldier_axe_big",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "39",
+    "NATIVE_NAME": "soldier_axe_big",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "40",
+    "NATIVE_NAME": "soldier_bow_short",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "40",
+    "NATIVE_NAME": "soldier_bow_short",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "41",
+    "NATIVE_NAME": "soldier_bow_long",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "41",
+    "NATIVE_NAME": "soldier_bow_long",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "42",
+    "NATIVE_NAME": "hero_unarmed_???",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "42",
+    "NATIVE_NAME": "hero_unarmed_???",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "43",
+    "NATIVE_NAME": "hero_spear_SIEGFRIED",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "43",
+    "NATIVE_NAME": "hero_spear_SIEGFRIED",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "44",
+    "NATIVE_NAME": "hero_sword_BJARNI",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "44",
+    "NATIVE_NAME": "hero_sword_BJARNI",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "45",
+    "NATIVE_NAME": "hero_saber_HATSCHI",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "45",
+    "NATIVE_NAME": "hero_saber_HATSCHI",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "46",
+    "NATIVE_NAME": "hero_axe_???",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "46",
+    "NATIVE_NAME": "hero_axe_???",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "47",
+    "NATIVE_NAME": "heroine_bow_XENA",
+    "PHASE": "initial",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   },
+   {
+    "TRIBE_ID": "1",
+    "TYPE_ID": "47",
+    "NATIVE_NAME": "heroine_bow_XENA",
+    "PHASE": "jobChange",
+    "BODY_SELECTOR": "0",
+    "ANIMATION_SECTION": "1201",
+    "BODY_SEQUENCE": "human_man_generic_walk_water",
+    "SHEET": "",
+    "STATUS": "VARIANT_INCOMPATIBLE: no referenced BOB exists in this body library"
+   }
+  ]
+ },
+ "consumers": {
+  "productionInputOf": [
+   {
+    "goodId": 19,
+    "nativeName": "bread",
+    "english": "Bread"
+   },
+   {
+    "goodId": 20,
+    "nativeName": "candy",
+    "english": "Cake"
+   },
+   {
+    "goodId": 43,
+    "nativeName": "mead",
+    "english": "Mead"
+   },
+   {
+    "goodId": 44,
+    "nativeName": "potion_food_small",
+    "english": "S Nourishing Potion"
+   },
+   {
+    "goodId": 45,
+    "nativeName": "potion_food_big",
+    "english": "L Nourishing Potion"
+   },
+   {
+    "goodId": 46,
+    "nativeName": "potion_stamina_small",
+    "english": "S Stamina Potion"
+   },
+   {
+    "goodId": 47,
+    "nativeName": "potion_stamina_big",
+    "english": "L Stamina Potion"
+   },
+   {
+    "goodId": 48,
+    "nativeName": "potion_heal_small",
+    "english": "S Healing Potion"
+   },
+   {
+    "goodId": 49,
+    "nativeName": "potion_heal_big",
+    "english": "L Healing Potion"
+   },
+   {
+    "goodId": 57,
+    "nativeName": "sheep",
+    "english": "Sheep"
+   },
+   {
+    "goodId": 58,
+    "nativeName": "cattle",
+    "english": "Ox"
+   }
+  ],
+  "houseConstruction": [],
+  "source": "goodtypes.cif productioninputgoods; tribetypes.cif tobuildhouseneedgood (house, goods...)"
+ },
+ "nativeJobRelations": [],
+ "tribeOwnership": [
+  {
+   "tribe": 1,
+   "tribeName": "viking",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 10,
+     "houseName": null,
+     "english": "Well"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      1
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      1,
+      10
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 2,
+   "tribeName": "frank",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 10,
+     "houseName": null,
+     "english": "Well"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      1
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      1,
+      10
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 4,
+   "tribeName": "saracen",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 10,
+     "houseName": null,
+     "english": "Well"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      1
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      1,
+      10
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 3,
+   "tribeName": "byzantine",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 10,
+     "houseName": null,
+     "english": "Well"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      1
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      1,
+      10
+     ]
+    ]
+   }
+  },
+  {
+   "tribe": 7,
+   "tribeName": "egypt",
+   "allowgood": true,
+   "producedInHouseTypes": [
+    {
+     "houseType": 10,
+     "houseName": null,
+     "english": "Well"
+    }
+   ],
+   "relations": {
+    "allowgood": [
+     [
+      1
+     ]
+    ],
+    "toproducegoodneedhouse": [
+     [
+      1,
+      10
+     ]
+    ]
+   }
+  }
+ ],
+ "ownership": "SHARED (Good table is global; per-tribe availability in tribeOwnership)",
+ "confidence": {
+  "nativeTable": "SOURCE_COMPLETE",
+  "pile": "PIXEL_CONFIRMED frames",
+  "icon": "SOURCE_COMPLETE (production rule)",
+  "carried": "SOURCE_COMPLETE (walk records)"
+ },
+ "source": {
+  "goodtypes": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 1724,
+   "entryName": "data\\logic\\goodtypes.cif",
+   "offset": 202500688,
+   "size": 13316,
+   "sha256": "817d4e5abffb1c868f5acab09ce48b44a296b9841c7cc1cc9a71077eacf3458c"
+  },
+  "goodgraphics": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 914,
+   "entryName": "data\\engine2d\\inis\\goods\\goodgraphics.cif",
+   "offset": 192915250,
+   "size": 3066,
+   "sha256": "af62963c314891c2aab24e4e51ad2bb61e28e03c0fa15ae68b640d82e3e0f6a3"
+  }
+ }
+}

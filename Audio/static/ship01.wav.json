@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1115,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\ship01.wav",
+  "offset": 182583404,
+  "size": 69452,
+  "sha256": "c817c782e0fe53d9af3bd9b0cfb0ad3d196349909f991876dcf7df6f23e18020"
+ },
+ "output": "Audio/static/ship01.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 69394,
+  "durationSeconds": 1.574,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 63,
+   "name": "Ship Group1 Water",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 51,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 63,
+   "name": "Ship Group1 Water",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 51,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Ships (name-derived)",
+ "categoryConfidence": "NAME_DERIVED",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

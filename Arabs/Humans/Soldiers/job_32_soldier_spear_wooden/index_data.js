@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../../../", "crumbs": [["Home", "index.html"], ["Arabs", "Arabs/index.html"], ["Humans", "Arabs/Humans/index.html"], ["Soldiers", ""], ["job_32_soldier_spear_wooden", ""]], "prev": ["Soldier", "Arabs/Humans/Soldiers/job_31_soldier_unarmed/index.html"], "next": ["Iron Spearman", "Arabs/Humans/Soldiers/job_33_soldier_spear_iron/index.html"]};

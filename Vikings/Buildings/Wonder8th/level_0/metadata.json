@@ -1,0 +1,513 @@
+{
+  "nativeName": "wonder 8th",
+  "tribe": "Vikings",
+  "logicHouseType": 54,
+  "gfxHouseId": 36,
+  "level": 0,
+  "bodyBob": 28,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_wonders3_s.bmd",
+  "shadowBob": 28,
+  "paletteAlternatives": [
+    "wonders_8th"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 28,
+      "descriptor": {
+        "bobId": 28,
+        "frameIndex": 28,
+        "kind": 1,
+        "x": -325,
+        "y": -485,
+        "width": 654,
+        "height": 737,
+        "firstScanline": 12687
+      },
+      "pivot": [
+        325,
+        485
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "wonders_8th",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 286,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_8th.pcx",
+        "offset": 132841532,
+        "size": 901,
+        "sha256": "5d88e46a0f5b4b37c6a009e3d9d25b64ffb048e7a2c087b2b564d3091b70c4ad"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "wonders_8th"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\wonders_8th.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Wonder8th/level_0/main/frame_000028.png",
+      "pixelSha256": "35af37fedd510a80357cd5214ce3a052ba5e9c70317f934a66740f2e39ad48d5"
+    }
+  ],
+  "constructionLayers": [
+    [
+      0,
+      0,
+      28,
+      -1,
+      0,
+      100
+    ]
+  ],
+  "doors": [],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [],
+    "gfxsmokepoint": [],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [
+      [
+        0,
+        0,
+        0,
+        0,
+        "wonder 8th orange"
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        "wonder 8th rot"
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        "wonder 8th violett"
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        "wonder 8th blue"
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        "wonder 8th cyan"
+      ],
+      [
+        0,
+        5,
+        0,
+        0,
+        "wonder 8th green"
+      ],
+      [
+        0,
+        6,
+        0,
+        0,
+        "wonder 8th yellow"
+      ]
+    ],
+    "sharedEffects": {
+      "wonder 8th orange": "Shared/Effects/wonder_8th_orange/metadata.json",
+      "wonder 8th rot": "Shared/Effects/wonder_8th_rot/metadata.json",
+      "wonder 8th violett": "Shared/Effects/wonder_8th_violett/metadata.json",
+      "wonder 8th blue": "Shared/Effects/wonder_8th_blue/metadata.json",
+      "wonder 8th cyan": "Shared/Effects/wonder_8th_cyan/metadata.json",
+      "wonder 8th green": "Shared/Effects/wonder_8th_green/metadata.json",
+      "wonder 8th yellow": "Shared/Effects/wonder_8th_yellow/metadata.json"
+    },
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 654,
+  "height": 737,
+  "pivot": [
+    325,
+    485
+  ],
+  "shadow": {
+    "bobId": 28,
+    "descriptor": {
+      "bobId": 28,
+      "frameIndex": 28,
+      "kind": 2,
+      "x": -318,
+      "y": -133,
+      "width": 645,
+      "height": 384,
+      "firstScanline": 261
+    },
+    "pivot": [
+      318,
+      133
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1696,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3_s.bmd",
+      "offset": 131275311,
+      "size": 7020,
+      "sha256": "638abfff78f442a6e5741860705c423d6ba519b681f72d924b2f9fbd2fd637a0"
+    },
+    "rawLibrary": "Metadata/Sources/ls_wonders3_s.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Vikings/Buildings/Wonder8th/level_0/shadow/coverage_000028.png",
+    "pixelSha256": "1996792439eee46e4010b24bea696edb7847a1da211ba931574aa6ca6c7ef123"
+  },
+  "constructionParts": [
+    {
+      "bobId": 28,
+      "descriptor": {
+        "bobId": 28,
+        "frameIndex": 28,
+        "kind": 1,
+        "x": -325,
+        "y": -485,
+        "width": 654,
+        "height": 737,
+        "firstScanline": 12687
+      },
+      "pivot": [
+        325,
+        485
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "wonders_8th",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 286,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\wonders_8th.pcx",
+        "offset": 132841532,
+        "size": 901,
+        "sha256": "5d88e46a0f5b4b37c6a009e3d9d25b64ffb048e7a2c087b2b564d3091b70c4ad"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "wonders_8th"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\wonders_8th.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Vikings/Buildings/Wonder8th/level_0/main/frame_000028.png",
+      "pixelSha256": "35af37fedd510a80357cd5214ce3a052ba5e9c70317f934a66740f2e39ad48d5"
+    },
+    {
+      "bobId": 28,
+      "descriptor": {
+        "bobId": 28,
+        "frameIndex": 28,
+        "kind": 1,
+        "x": -325,
+        "y": -485,
+        "width": 654,
+        "height": 737,
+        "firstScanline": 12687
+      },
+      "pivot": [
+        325,
+        485
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2009,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_wonders3.bmd",
+        "offset": 127653421,
+        "size": 3621890,
+        "sha256": "5850ebf9c2c4d488b08e8931f21f5fc981881a7952f56cc3334bcd53e72d81ae"
+      },
+      "rawLibrary": "Metadata/Sources/ls_wonders3.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "notApplicable": true,
+      "path": null,
+      "representation": "No kind4 second-byte reveal plane in this descriptor"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Vikings/Buildings/Wonder8th/level_0/construction/progress_000.png",
+      "pivot": [
+        325,
+        485
+      ],
+      "dimensions": [
+        654,
+        737
+      ],
+      "palette": "wonders_8th",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            28,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 0,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Wonder8th/level_0/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Vikings/Buildings/Wonder8th/level_0/construction/progress_010.png",
+      "pivot": [
+        325,
+        485
+      ],
+      "dimensions": [
+        654,
+        737
+      ],
+      "palette": "wonders_8th",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            28,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 25,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Wonder8th/level_0/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Vikings/Buildings/Wonder8th/level_0/construction/progress_025.png",
+      "pivot": [
+        325,
+        485
+      ],
+      "dimensions": [
+        654,
+        737
+      ],
+      "palette": "wonders_8th",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            28,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 63,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Wonder8th/level_0/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Vikings/Buildings/Wonder8th/level_0/construction/progress_050.png",
+      "pivot": [
+        325,
+        485
+      ],
+      "dimensions": [
+        654,
+        737
+      ],
+      "palette": "wonders_8th",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            28,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 127,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Wonder8th/level_0/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Vikings/Buildings/Wonder8th/level_0/construction/progress_075.png",
+      "pivot": [
+        325,
+        485
+      ],
+      "dimensions": [
+        654,
+        737
+      ],
+      "palette": "wonders_8th",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            28,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 191,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Wonder8th/level_0/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Vikings/Buildings/Wonder8th/level_0/construction/progress_100.png",
+      "pivot": [
+        325,
+        485
+      ],
+      "dimensions": [
+        654,
+        737
+      ],
+      "palette": "wonders_8th",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            28,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 0,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Vikings/Buildings/Wonder8th/level_0/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [],
+  "sourceAssetExport": "COMPLETE"
+}

@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 424,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\hammer02.wav",
+  "offset": 181060228,
+  "size": 20468,
+  "sha256": "9a6f1bb9a5bfdf6bcbeb2b778a801004ef3d6590996b70a53b0c6a2d33e38562"
+ },
+ "output": "Audio/static/hammer02.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 20410,
+  "durationSeconds": 0.463,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 25,
+   "name": "Hammer Wood",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 1,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 25,
+   "name": "Hammer Wood",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 1,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Production/actions (folder static)",
+ "categoryConfidence": "FOLDER_ONLY",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

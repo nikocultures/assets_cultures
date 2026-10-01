@@ -1,0 +1,1 @@
+window.PAGE={"root": "../../../../", "crumbs": [["Home", "index.html"], ["Arabs", "Arabs/index.html"], ["Humans", "Arabs/Humans/index.html"], ["Children", ""], ["job_03_child_female", ""]], "prev": ["Baby", "Arabs/Humans/Children/Babies/job_02_baby_male/index.html"], "next": ["Boy", "Arabs/Humans/Children/job_04_child_male/index.html"]};

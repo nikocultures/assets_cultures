@@ -1,0 +1,1474 @@
+{
+  "nativeName": "byzantine doorhouse",
+  "tribe": "Byzantines",
+  "logicHouseType": 29,
+  "gfxHouseId": 59,
+  "level": 0,
+  "bodyBob": 40,
+  "bobLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+  "shadowLibrary": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2_s.bmd",
+  "shadowBob": 40,
+  "paletteAlternatives": [
+    "house_byzantine01",
+    "house_byzantine02"
+  ],
+  "paletteSelection": "House unique ID modulo palette count, then lighting/shading table (0x00495B57); all native palettes exported",
+  "levelsAreZeroBased": true,
+  "confidencePerField": {
+    "body": "AUTOMATED_CONFIRMED",
+    "sourceMapping": "AUTOMATED_CONFIRMED",
+    "pivot": "AUTOMATED_CONFIRMED",
+    "runtimePivot": "PARTIAL",
+    "shadow": "PARTIAL",
+    "construction": "PARTIAL",
+    "doors": "PARTIAL",
+    "animation": "PARTIAL",
+    "effects": "PARTIAL",
+    "overall": "PARTIAL"
+  },
+  "baseFrames": [
+    {
+      "bobId": 40,
+      "descriptor": {
+        "bobId": 40,
+        "frameIndex": 40,
+        "kind": 4,
+        "x": -116,
+        "y": -162,
+        "width": 203,
+        "height": 206,
+        "firstScanline": 3817
+      },
+      "pivot": [
+        116,
+        162
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1603,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+        "offset": 93317314,
+        "size": 2103366,
+        "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_byzantine01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2472,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine01.pcx",
+        "offset": 132802786,
+        "size": 901,
+        "sha256": "11bdfaf8a7c423e8f41e38c14c6d93ac6637a7118eb2de74b6dd2c38e634cebe"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_byzantine01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/main/frame_000040.png",
+      "pixelSha256": "2d4b7da81cd3345b4fb09acb88bb16e6bc08120b396aece434111d8e956eed31"
+    },
+    {
+      "bobId": 40,
+      "descriptor": {
+        "bobId": 40,
+        "frameIndex": 40,
+        "kind": 4,
+        "x": -116,
+        "y": -162,
+        "width": 203,
+        "height": 206,
+        "firstScanline": 3817
+      },
+      "pivot": [
+        116,
+        162
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1603,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+        "offset": 93317314,
+        "size": 2103366,
+        "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_byzantine02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2481,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine02.pcx",
+        "offset": 132803687,
+        "size": 901,
+        "sha256": "3802d89747affdee7cf51e827b0ad4284cfe7098b597fe4867b5a5ec419a98be"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_byzantine02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/main/palette_house_byzantine02/frame_000040.png",
+      "pixelSha256": "da5e0b2d88d82d47b6a3aedc3b605acbd194164bd3af7c7a9298e598f8621c99"
+    }
+  ],
+  "constructionLayers": [
+    [
+      0,
+      0,
+      41,
+      -1,
+      0,
+      100
+    ],
+    [
+      0,
+      0,
+      42,
+      -1,
+      0,
+      100
+    ],
+    [
+      0,
+      0,
+      40,
+      43,
+      6,
+      100
+    ]
+  ],
+  "doors": [
+    [
+      0,
+      1,
+      66
+    ]
+  ],
+  "animations": [],
+  "effects": {
+    "gfxfirepoint": [
+      [
+        0,
+        39,
+        -148
+      ],
+      [
+        0,
+        51,
+        -144
+      ],
+      [
+        0,
+        39,
+        -136
+      ],
+      [
+        0,
+        -83,
+        -114
+      ],
+      [
+        0,
+        13,
+        -108
+      ],
+      [
+        0,
+        -5,
+        -104
+      ],
+      [
+        0,
+        -69,
+        -102
+      ],
+      [
+        0,
+        63,
+        -102
+      ],
+      [
+        0,
+        -91,
+        -100
+      ],
+      [
+        0,
+        -29,
+        -92
+      ],
+      [
+        0,
+        -55,
+        -62
+      ],
+      [
+        0,
+        81,
+        -32
+      ],
+      [
+        0,
+        51,
+        -16
+      ],
+      [
+        0,
+        -41,
+        16
+      ],
+      [
+        0,
+        -97,
+        18
+      ]
+    ],
+    "gfxsmokepoint": [
+      [
+        0,
+        87,
+        -24,
+        1
+      ],
+      [
+        0,
+        75,
+        -16,
+        1
+      ],
+      [
+        0,
+        55,
+        -14,
+        1
+      ],
+      [
+        0,
+        69,
+        -10,
+        1
+      ],
+      [
+        0,
+        39,
+        -10,
+        1
+      ],
+      [
+        0,
+        31,
+        -6,
+        1
+      ],
+      [
+        0,
+        17,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        4,
+        1
+      ],
+      [
+        0,
+        -15,
+        10,
+        1
+      ],
+      [
+        0,
+        -115,
+        14,
+        1
+      ],
+      [
+        0,
+        -23,
+        14,
+        1
+      ],
+      [
+        0,
+        -105,
+        18,
+        1
+      ],
+      [
+        0,
+        -95,
+        20,
+        1
+      ],
+      [
+        0,
+        -39,
+        22,
+        1
+      ],
+      [
+        0,
+        -43,
+        26,
+        1
+      ],
+      [
+        0,
+        -89,
+        30,
+        1
+      ],
+      [
+        0,
+        -53,
+        32,
+        1
+      ],
+      [
+        0,
+        -63,
+        34,
+        1
+      ],
+      [
+        0,
+        -79,
+        36,
+        1
+      ],
+      [
+        0,
+        55,
+        -64,
+        0
+      ],
+      [
+        0,
+        47,
+        -62,
+        0
+      ],
+      [
+        0,
+        61,
+        -60,
+        0
+      ],
+      [
+        0,
+        37,
+        -58,
+        0
+      ],
+      [
+        0,
+        27,
+        -54,
+        0
+      ],
+      [
+        0,
+        21,
+        -54,
+        0
+      ],
+      [
+        0,
+        65,
+        -52,
+        0
+      ],
+      [
+        0,
+        71,
+        -46,
+        0
+      ],
+      [
+        0,
+        21,
+        -44,
+        0
+      ],
+      [
+        0,
+        77,
+        -40,
+        0
+      ],
+      [
+        0,
+        11,
+        -36,
+        0
+      ],
+      [
+        0,
+        -1,
+        -30,
+        0
+      ],
+      [
+        0,
+        -45,
+        -28,
+        0
+      ],
+      [
+        0,
+        -13,
+        -26,
+        0
+      ],
+      [
+        0,
+        -23,
+        -24,
+        0
+      ],
+      [
+        0,
+        -39,
+        -24,
+        0
+      ],
+      [
+        0,
+        -57,
+        -24,
+        0
+      ],
+      [
+        0,
+        -35,
+        -22,
+        0
+      ],
+      [
+        0,
+        -69,
+        -18,
+        0
+      ],
+      [
+        0,
+        -77,
+        -14,
+        0
+      ],
+      [
+        0,
+        -89,
+        -8,
+        0
+      ],
+      [
+        0,
+        -101,
+        -4,
+        0
+      ],
+      [
+        0,
+        -113,
+        6,
+        0
+      ]
+    ],
+    "gfxholyfirepoint": [],
+    "gfxoverlaylandscape": [],
+    "sharedEffects": {
+      "fx fire house 0": "Shared/Effects/fx_fire_house_0/metadata.json",
+      "fx fire house 1": "Shared/Effects/fx_fire_house_1/metadata.json",
+      "fx fire house 2": "Shared/Effects/fx_fire_house_2/metadata.json",
+      "fx smoke": "Shared/Effects/fx_smoke/metadata.json"
+    },
+    "confidence": "PARTIAL",
+    "note": "Native spawn points/definitions/ordered frames retained. Damage, destruction, holy-fire activation and exact timing are runtime dependent."
+  },
+  "errors": [
+    "body: data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd BOB 66: KeyError: 66",
+    "body: data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd BOB 66: KeyError: 66"
+  ],
+  "nativeReferences": {
+    "Game.exe": [
+      "0x0048E651",
+      "0x0048089E",
+      "0x00495B57",
+      "0x00496594",
+      "0x0049B3EE",
+      "0x0049B930",
+      "0x0049DA62",
+      "0x0049E618"
+    ],
+    "Editor.exe": [
+      "0x0044543D",
+      "0x0043921A",
+      "0x0043921F"
+    ]
+  },
+  "width": 203,
+  "height": 206,
+  "pivot": [
+    116,
+    162
+  ],
+  "shadow": {
+    "bobId": 40,
+    "descriptor": {
+      "bobId": 40,
+      "frameIndex": 40,
+      "kind": 2,
+      "x": -115,
+      "y": -121,
+      "width": 208,
+      "height": 165,
+      "firstScanline": 916
+    },
+    "pivot": [
+      115,
+      121
+    ],
+    "source": {
+      "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+      "entryId": 1134,
+      "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2_s.bmd",
+      "offset": 95420680,
+      "size": 17538,
+      "sha256": "e8c3a2ac75029cb1b514cc7d04c08593cedeab3d40e2df66b2d2c46c0cfc34b1"
+    },
+    "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2_s.bmd/source.bmd",
+    "role": "shadow_coverage",
+    "confidence": "AUTOMATED_CONFIRMED",
+    "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+    "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/shadow/coverage_000040.png",
+    "pixelSha256": "e59c85aa491edfcc9e85eecc1adf8e5233d858ae72d5e10e3b1f12d9a7b9d5af"
+  },
+  "constructionParts": [
+    {
+      "bobId": 41,
+      "descriptor": {
+        "bobId": 41,
+        "frameIndex": 41,
+        "kind": 4,
+        "x": -116,
+        "y": -154,
+        "width": 203,
+        "height": 176,
+        "firstScanline": 4023
+      },
+      "pivot": [
+        116,
+        154
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1603,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+        "offset": 93317314,
+        "size": 2103366,
+        "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_byzantine01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2472,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine01.pcx",
+        "offset": 132802786,
+        "size": 901,
+        "sha256": "11bdfaf8a7c423e8f41e38c14c6d93ac6637a7118eb2de74b6dd2c38e634cebe"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_byzantine01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/layers/house_byzantine01/body_000041.png",
+      "pixelSha256": "b16e824def8b954ca5569fafc7b092b5f5a08b6d6bbda203ca427197a5ca1960"
+    },
+    {
+      "bobId": 41,
+      "descriptor": {
+        "bobId": 41,
+        "frameIndex": 41,
+        "kind": 4,
+        "x": -116,
+        "y": -154,
+        "width": 203,
+        "height": 176,
+        "firstScanline": 4023
+      },
+      "pivot": [
+        116,
+        154
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1603,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+        "offset": 93317314,
+        "size": 2103366,
+        "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_byzantine02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2481,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine02.pcx",
+        "offset": 132803687,
+        "size": 901,
+        "sha256": "3802d89747affdee7cf51e827b0ad4284cfe7098b597fe4867b5a5ec419a98be"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_byzantine02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/layers/house_byzantine02/body_000041.png",
+      "pixelSha256": "0ac04dfaf5ff12a43c9865dadd1d21b02b0b6151918debc8127979ee7583dea1"
+    },
+    {
+      "bobId": 41,
+      "descriptor": {
+        "bobId": 41,
+        "frameIndex": 41,
+        "kind": 4,
+        "x": -116,
+        "y": -154,
+        "width": 203,
+        "height": 176,
+        "firstScanline": 4023
+      },
+      "pivot": [
+        116,
+        154
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1603,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+        "offset": 93317314,
+        "size": 2103366,
+        "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/layers/reveal_000041.png",
+      "pixelSha256": "defa7d2b3b32df68a2fcd5607ab52d2a59e15a7e155afe3ba859f36635e0b3b0"
+    },
+    {
+      "bobId": 42,
+      "descriptor": {
+        "bobId": 42,
+        "frameIndex": 42,
+        "kind": 4,
+        "x": -99,
+        "y": -136,
+        "width": 171,
+        "height": 169,
+        "firstScanline": 4199
+      },
+      "pivot": [
+        99,
+        136
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1603,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+        "offset": 93317314,
+        "size": 2103366,
+        "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_byzantine01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2472,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine01.pcx",
+        "offset": 132802786,
+        "size": 901,
+        "sha256": "11bdfaf8a7c423e8f41e38c14c6d93ac6637a7118eb2de74b6dd2c38e634cebe"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_byzantine01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/layers/house_byzantine01/body_000042.png",
+      "pixelSha256": "e26432259da315c1c9a503ec059275ced5773065fe5114a2865e56509149b6f9"
+    },
+    {
+      "bobId": 42,
+      "descriptor": {
+        "bobId": 42,
+        "frameIndex": 42,
+        "kind": 4,
+        "x": -99,
+        "y": -136,
+        "width": 171,
+        "height": 169,
+        "firstScanline": 4199
+      },
+      "pivot": [
+        99,
+        136
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1603,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+        "offset": 93317314,
+        "size": 2103366,
+        "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_byzantine02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2481,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine02.pcx",
+        "offset": 132803687,
+        "size": 901,
+        "sha256": "3802d89747affdee7cf51e827b0ad4284cfe7098b597fe4867b5a5ec419a98be"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_byzantine02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/layers/house_byzantine02/body_000042.png",
+      "pixelSha256": "e26432259da315c1c9a503ec059275ced5773065fe5114a2865e56509149b6f9"
+    },
+    {
+      "bobId": 42,
+      "descriptor": {
+        "bobId": 42,
+        "frameIndex": 42,
+        "kind": 4,
+        "x": -99,
+        "y": -136,
+        "width": 171,
+        "height": 169,
+        "firstScanline": 4199
+      },
+      "pivot": [
+        99,
+        136
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1603,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+        "offset": 93317314,
+        "size": 2103366,
+        "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/layers/reveal_000042.png",
+      "pixelSha256": "0a4dc32b377cd89bac6d9f5dc01829015fe1fa39ed7d665956312381ff86e9a7"
+    },
+    {
+      "bobId": 40,
+      "descriptor": {
+        "bobId": 40,
+        "frameIndex": 40,
+        "kind": 4,
+        "x": -116,
+        "y": -162,
+        "width": 203,
+        "height": 206,
+        "firstScanline": 3817
+      },
+      "pivot": [
+        116,
+        162
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1603,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+        "offset": 93317314,
+        "size": 2103366,
+        "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_byzantine01",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2472,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine01.pcx",
+        "offset": 132802786,
+        "size": 901,
+        "sha256": "11bdfaf8a7c423e8f41e38c14c6d93ac6637a7118eb2de74b6dd2c38e634cebe"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_byzantine01"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine01.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/main/frame_000040.png",
+      "pixelSha256": "2d4b7da81cd3345b4fb09acb88bb16e6bc08120b396aece434111d8e956eed31"
+    },
+    {
+      "bobId": 40,
+      "descriptor": {
+        "bobId": 40,
+        "frameIndex": 40,
+        "kind": 4,
+        "x": -116,
+        "y": -162,
+        "width": 203,
+        "height": 206,
+        "firstScanline": 3817
+      },
+      "pivot": [
+        116,
+        162
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1603,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+        "offset": 93317314,
+        "size": 2103366,
+        "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2.bmd/source.bmd",
+      "role": "body",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "palette": "house_byzantine02",
+      "paletteSource": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 2481,
+        "entryName": "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine02.pcx",
+        "offset": 132803687,
+        "size": 901,
+        "sha256": "3802d89747affdee7cf51e827b0ad4284cfe7098b597fe4867b5a5ec419a98be"
+      },
+      "paletteDefinition": {
+        "section": "gfxpalette256",
+        "commands": [
+          {
+            "name": "editname",
+            "arguments": [
+              "house_byzantine02"
+            ]
+          },
+          {
+            "name": "gfxfile",
+            "arguments": [
+              "data\\engine2d\\bin\\palettes\\landscapes\\haus_byzantine02.pcx"
+            ]
+          },
+          {
+            "name": "gfxpreshade",
+            "arguments": [
+              1
+            ]
+          }
+        ]
+      },
+      "representation": "Unlit source color frame; runtime light/selection/background composition separate",
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/main/palette_house_byzantine02/frame_000040.png",
+      "pixelSha256": "da5e0b2d88d82d47b6a3aedc3b605acbd194164bd3af7c7a9298e598f8621c99"
+    },
+    {
+      "bobId": 40,
+      "descriptor": {
+        "bobId": 40,
+        "frameIndex": 40,
+        "kind": 4,
+        "x": -116,
+        "y": -162,
+        "width": 203,
+        "height": 206,
+        "firstScanline": 3817
+      },
+      "pivot": [
+        116,
+        162
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1603,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+        "offset": 93317314,
+        "size": 2103366,
+        "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2.bmd/source.bmd",
+      "role": "reveal_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: second source byte, not display alpha",
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/layers/reveal_000040.png",
+      "pixelSha256": "d9bc123fa378a5e9011c0f51c6b02ac11d7de761d45d105c231b475fbf54651e"
+    },
+    {
+      "bobId": 43,
+      "descriptor": {
+        "bobId": 43,
+        "frameIndex": 43,
+        "kind": 1,
+        "x": -115,
+        "y": -120,
+        "width": 208,
+        "height": 164,
+        "firstScanline": 4368
+      },
+      "pivot": [
+        115,
+        120
+      ],
+      "source": {
+        "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+        "entryId": 1603,
+        "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+        "offset": 93317314,
+        "size": 2103366,
+        "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+      },
+      "rawLibrary": "Metadata/Exporter/library/cache/buildings/data_engine2d_bin_bobs_ls_houses_byzantine2.bmd/source.bmd",
+      "role": "auxiliary_threshold",
+      "confidence": "AUTOMATED_CONFIRMED",
+      "representation": "DATA mask: coverage and per-pixel threshold; not an alpha shadow or colored sprite",
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/layers/auxiliary_threshold_000043.png",
+      "pixelSha256": "a48315a918c0f7da7a8f9af4f9c343bdeb62203caf5e2438c51c6583515e90fa"
+    }
+  ],
+  "constructionSnapshots": [
+    {
+      "progressPercent": 0,
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/progress_000.png",
+      "pivot": [
+        116,
+        162
+      ],
+      "dimensions": [
+        209,
+        206
+      ],
+      "palette": "house_byzantine01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            41,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 0,
+          "bodyPixels": 3,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            42,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 0,
+          "bodyPixels": 2,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/progress_000_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 10,
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/progress_010.png",
+      "pivot": [
+        116,
+        162
+      ],
+      "dimensions": [
+        209,
+        206
+      ],
+      "palette": "house_byzantine01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            41,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 25,
+          "bodyPixels": 2314,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            42,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 25,
+          "bodyPixels": 739,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            40,
+            43,
+            6,
+            100
+          ],
+          "threshold": 10,
+          "bodyPixels": 1139,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/progress_010_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 25,
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/progress_025.png",
+      "pivot": [
+        116,
+        162
+      ],
+      "dimensions": [
+        209,
+        206
+      ],
+      "palette": "house_byzantine01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            41,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 63,
+          "bodyPixels": 5697,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            42,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 63,
+          "bodyPixels": 1800,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            40,
+            43,
+            6,
+            100
+          ],
+          "threshold": 51,
+          "bodyPixels": 5710,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/progress_025_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 50,
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/progress_050.png",
+      "pivot": [
+        116,
+        162
+      ],
+      "dimensions": [
+        209,
+        206
+      ],
+      "palette": "house_byzantine01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            41,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 127,
+          "bodyPixels": 11458,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            42,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 127,
+          "bodyPixels": 5378,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            40,
+            43,
+            6,
+            100
+          ],
+          "threshold": 117,
+          "bodyPixels": 12002,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/progress_050_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 75,
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/progress_075.png",
+      "pivot": [
+        116,
+        162
+      ],
+      "dimensions": [
+        209,
+        206
+      ],
+      "palette": "house_byzantine01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            41,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 191,
+          "bodyPixels": 17771,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            42,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 191,
+          "bodyPixels": 7584,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            40,
+            43,
+            6,
+            100
+          ],
+          "threshold": 186,
+          "bodyPixels": 20963,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/progress_075_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    },
+    {
+      "progressPercent": 100,
+      "path": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/progress_100.png",
+      "pivot": [
+        116,
+        162
+      ],
+      "dimensions": [
+        209,
+        206
+      ],
+      "palette": "house_byzantine01",
+      "contributingLayers": [
+        {
+          "tuple": [
+            0,
+            0,
+            41,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 19541,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            42,
+            -1,
+            0,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 7584,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        },
+        {
+          "tuple": [
+            0,
+            0,
+            40,
+            43,
+            6,
+            100
+          ],
+          "threshold": 255,
+          "bodyPixels": 25949,
+          "drawOrder": "auxiliary pass before all body layers; body layer order follows CIF"
+        }
+      ],
+      "destinationDarkeningCounts": "Byzantines/Buildings/Doorhouse_gfx59/level_0/construction/progress_100_destination_darken_counts.png",
+      "confidence": "PARTIAL",
+      "note": "PNG is body-only on transparent background; destination-dependent auxiliary pass is separate. Checkerboard image is PREVIEW, not original terrain. Native progress thresholds/order recovered at 0x00495B57/0x0049DA62/0x0049E618; runtime palette/shading and builder marker not baked."
+    }
+  ],
+  "doorFrames": [
+    {
+      "tuple": [
+        0,
+        1,
+        66
+      ],
+      "asset": {
+        "bobId": 66,
+        "source": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 1603,
+          "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+          "offset": 93317314,
+          "size": 2103366,
+          "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+        },
+        "path": null,
+        "descriptor": {},
+        "confidence": "UNKNOWN",
+        "error": "body: data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd BOB 66: KeyError: 66"
+      }
+    },
+    {
+      "tuple": [
+        0,
+        1,
+        66
+      ],
+      "asset": {
+        "bobId": 66,
+        "source": {
+          "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+          "entryId": 1603,
+          "entryName": "data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd",
+          "offset": 93317314,
+          "size": 2103366,
+          "sha256": "f496e3ba801100f67a5d7905518edd58d503dd97676d5f5bfb90d97d1589a7ac"
+        },
+        "path": null,
+        "descriptor": {},
+        "confidence": "UNKNOWN",
+        "error": "body: data\\engine2d\\bin\\bobs\\ls_houses_byzantine2.bmd BOB 66: KeyError: 66"
+      }
+    }
+  ],
+  "sourceAssetExport": "PARTIAL"
+}

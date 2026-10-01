@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 261,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\sword long hit06.wav",
+  "offset": 185957356,
+  "size": 14346,
+  "sha256": "8453b978f9458aa4e9ed699640b39ec3fa79fe01cfd0d260b76c2bddd69b63b5"
+ },
+ "output": "Audio/static/sword long hit06.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 14288,
+  "durationSeconds": 0.324,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 87,
+   "name": "Weapon Sword Long Hit Wood",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 87,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 87,
+   "name": "Weapon Sword Long Hit Wood",
+   "parameters": [
+    80
+   ],
+   "logicSoundType": 87,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Combat (name-derived)",
+ "categoryConfidence": "NAME_DERIVED",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

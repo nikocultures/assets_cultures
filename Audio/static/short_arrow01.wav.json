@@ -1,0 +1,55 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1209,
+  "entryName": "data\\engine2d\\bin\\sounds\\static\\short_arrow01.wav",
+  "offset": 183737268,
+  "size": 4140,
+  "sha256": "a49238284e20aaef70f708d2aeb0f21fac374fc7b7e6675eaecab205b377be75"
+ },
+ "output": "Audio/static/short_arrow01.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 4082,
+  "durationSeconds": 0.093,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 74,
+   "name": "Weapon Bow Short Arrow",
+   "parameters": [
+    60
+   ],
+   "logicSoundType": 74,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxstatic",
+   "sectionOrdinal": 74,
+   "name": "Weapon Bow Short Arrow",
+   "parameters": [
+    60
+   ],
+   "logicSoundType": 74,
+   "landscapeGroup": null,
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Combat (name-derived)",
+ "categoryConfidence": "NAME_DERIVED",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

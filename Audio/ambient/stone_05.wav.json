@@ -1,0 +1,59 @@
+{
+ "source": {
+  "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+  "entryId": 1604,
+  "entryName": "data\\engine2d\\bin\\sounds\\ambient\\stone_05.wav",
+  "offset": 143068716,
+  "size": 24550,
+  "sha256": "96c7b8773f196d9ccff6471cd6b9d65a8afe5d6e69994e56b4b20a20bb5c7d3f"
+ },
+ "output": "Audio/ambient/stone_05.wav",
+ "header": {
+  "formatTag": 1,
+  "channels": 1,
+  "sampleRate": 22050,
+  "byteRate": 44100,
+  "blockAlign": 2,
+  "bitsPerSample": 16,
+  "dataBytes": 24492,
+  "durationSeconds": 0.555,
+  "format": "PCM"
+ },
+ "nativeReferences": [
+  {
+   "table": "soundfx.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 13,
+   "name": "All Stones",
+   "parameters": [
+    10,
+    50,
+    1
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": "stones grey",
+   "patternGroup": null,
+   "musicType": null
+  },
+  {
+   "table": "soundfx_nomissioncd.cif",
+   "section": "soundfxambient",
+   "sectionOrdinal": 13,
+   "name": "All Stones",
+   "parameters": [
+    10,
+    50,
+    1
+   ],
+   "logicSoundType": null,
+   "landscapeGroup": "stones grey",
+   "patternGroup": null,
+   "musicType": null
+  }
+ ],
+ "humanSoundUse": [],
+ "animalSoundUse": [],
+ "category": "Ambient",
+ "categoryConfidence": "NATIVE_TABLE",
+ "preservation": "bit-exact copy of archive entry (sha256 identical)"
+}

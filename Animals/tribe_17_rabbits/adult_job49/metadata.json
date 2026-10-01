@@ -1,0 +1,2116 @@
+{
+ "ownerKind": "animal",
+ "tribeId": 17,
+ "nativeTribe": "rabbits",
+ "tribeEnglish": "Blue Hares",
+ "typeId": 49,
+ "animationJobId": 49,
+ "nativeName": "adult_animal",
+ "englishName": "Animal",
+ "nativeAllowed": true,
+ "parentChain": [
+  49,
+  48
+ ],
+ "sexAge": "adult",
+ "bindings": [
+  {
+   "phase": "initial",
+   "sectionOrdinal": 15,
+   "section": "jobgraphics",
+   "definedForType": 49,
+   "inheritedFrom": null,
+   "bodyVariants": [
+    {
+     "selector": 0,
+     "body": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadow": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd"
+    }
+   ],
+   "headVariants": [],
+   "bodyPalettes": [
+    "house01"
+   ],
+   "headPalettes": [],
+   "paletteRemaps": [],
+   "variantSelection": "single binding"
+  }
+ ],
+ "animations": [
+  {
+   "animationSection": 357,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 2,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_rabbit_adult_idle",
+   "atomicLength": 30,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_rabbit_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      32
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2463
+     ],
+     "headBobs": [
+      2463
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      40
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2471
+     ],
+     "headBobs": [
+      2471
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2431
+     ],
+     "headBobs": [
+      2431
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      8
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2439
+     ],
+     "headBobs": [
+      2439
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      16
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2447
+     ],
+     "headBobs": [
+      2447
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2455
+     ],
+     "headBobs": [
+      2455
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      56
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2487
+     ],
+     "headBobs": [
+      2487
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      48
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2479
+     ],
+     "headBobs": [
+      2479
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A002_animal_rabbit_walk_s357.png",
+     "shadowMask": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A002_animal_rabbit_walk_s357__shadow_mask.png",
+     "cellWidth": 22,
+     "cellHeight": 22,
+     "anchorInCell": [
+      15,
+      14
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 358,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 3,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_rabbit_adult_idle",
+   "atomicLength": 30,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_rabbit_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      32
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2463
+     ],
+     "headBobs": [
+      2463
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      40
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2471
+     ],
+     "headBobs": [
+      2471
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2431
+     ],
+     "headBobs": [
+      2431
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      8
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2439
+     ],
+     "headBobs": [
+      2439
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      16
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2447
+     ],
+     "headBobs": [
+      2447
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2455
+     ],
+     "headBobs": [
+      2455
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      56
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2487
+     ],
+     "headBobs": [
+      2487
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      48
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2479
+     ],
+     "headBobs": [
+      2479
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A003_animal_rabbit_walk_s358.png",
+     "shadowMask": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A003_animal_rabbit_walk_s358__shadow_mask.png",
+     "cellWidth": 22,
+     "cellHeight": 22,
+     "anchorInCell": [
+      15,
+      14
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 359,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 4,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_rabbit_adult_idle",
+   "atomicLength": 30,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_rabbit_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      32
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2463
+     ],
+     "headBobs": [
+      2463
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      40
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2471
+     ],
+     "headBobs": [
+      2471
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2431
+     ],
+     "headBobs": [
+      2431
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      8
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2439
+     ],
+     "headBobs": [
+      2439
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      16
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2447
+     ],
+     "headBobs": [
+      2447
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2455
+     ],
+     "headBobs": [
+      2455
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      56
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2487
+     ],
+     "headBobs": [
+      2487
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      48
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2479
+     ],
+     "headBobs": [
+      2479
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A004_animal_rabbit_walk_s359.png",
+     "shadowMask": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A004_animal_rabbit_walk_s359__shadow_mask.png",
+     "cellWidth": 22,
+     "cellHeight": 22,
+     "anchorInCell": [
+      15,
+      14
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 354,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 5,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_rabbit_adult_idle",
+   "atomicLength": 30,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_rabbit_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      32
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2463
+     ],
+     "headBobs": [
+      2463
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      40
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2471
+     ],
+     "headBobs": [
+      2471
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2431
+     ],
+     "headBobs": [
+      2431
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      8
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2439
+     ],
+     "headBobs": [
+      2439
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      16
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2447
+     ],
+     "headBobs": [
+      2447
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2455
+     ],
+     "headBobs": [
+      2455
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      56
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2487
+     ],
+     "headBobs": [
+      2487
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      48
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2479
+     ],
+     "headBobs": [
+      2479
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A005_animal_rabbit_walk_s354.png",
+     "shadowMask": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A005_animal_rabbit_walk_s354__shadow_mask.png",
+     "cellWidth": 22,
+     "cellHeight": 22,
+     "anchorInCell": [
+      15,
+      14
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 355,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 6,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_rabbit_adult_idle",
+   "atomicLength": 30,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_rabbit_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      32
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2463
+     ],
+     "headBobs": [
+      2463
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      40
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2471
+     ],
+     "headBobs": [
+      2471
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2431
+     ],
+     "headBobs": [
+      2431
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      8
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2439
+     ],
+     "headBobs": [
+      2439
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      16
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2447
+     ],
+     "headBobs": [
+      2447
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2455
+     ],
+     "headBobs": [
+      2455
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      56
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2487
+     ],
+     "headBobs": [
+      2487
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      48
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2479
+     ],
+     "headBobs": [
+      2479
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A006_animal_rabbit_walk_s355.png",
+     "shadowMask": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A006_animal_rabbit_walk_s355__shadow_mask.png",
+     "cellWidth": 22,
+     "cellHeight": 22,
+     "anchorInCell": [
+      15,
+      14
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 356,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 7,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_rabbit_adult_idle",
+   "atomicLength": 30,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_rabbit_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      32
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2463
+     ],
+     "headBobs": [
+      2463
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      40
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2471
+     ],
+     "headBobs": [
+      2471
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2431
+     ],
+     "headBobs": [
+      2431
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      8
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2439
+     ],
+     "headBobs": [
+      2439
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      16
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2447
+     ],
+     "headBobs": [
+      2447
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2455
+     ],
+     "headBobs": [
+      2455
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      56
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2487
+     ],
+     "headBobs": [
+      2487
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      48
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2479
+     ],
+     "headBobs": [
+      2479
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A007_animal_rabbit_walk_s356.png",
+     "shadowMask": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A007_animal_rabbit_walk_s356__shadow_mask.png",
+     "cellWidth": 22,
+     "cellHeight": 22,
+     "anchorInCell": [
+      15,
+      14
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 360,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "atomic",
+   "atomicActionSelector": 9,
+   "carriedGoodType": null,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": 0,
+   "walkSpeedThreshold": null,
+   "mode": 0,
+   "atomicName": "animal_bear_eat",
+   "atomicLength": 20,
+   "atomicEvents": [],
+   "interruptable": 1,
+   "bodySequence": "animal_rabbit_walk",
+   "headSequence": "",
+   "timing": "frame = min(count-1, floor(count*progress/duration)); duration from atomic length",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      32
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2463
+     ],
+     "headBobs": [
+      2463
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      40
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2471
+     ],
+     "headBobs": [
+      2471
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      0
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2431
+     ],
+     "headBobs": [
+      2431
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      8
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2439
+     ],
+     "headBobs": [
+      2439
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      16
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2447
+     ],
+     "headBobs": [
+      2447
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      24
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2455
+     ],
+     "headBobs": [
+      2455
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      56
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2487
+     ],
+     "headBobs": [
+      2487
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      48
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2479
+     ],
+     "headBobs": [
+      2479
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "8/8",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A009_animal_rabbit_walk_s360.png",
+     "shadowMask": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_A009_animal_rabbit_walk_s360__shadow_mask.png",
+     "cellWidth": 22,
+     "cellHeight": 22,
+     "anchorInCell": [
+      15,
+      14
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "animationSection": 1136,
+   "definedForJob": 49,
+   "inherited": false,
+   "kind": "walk",
+   "atomicActionSelector": null,
+   "carriedGoodType": 0,
+   "carriedGoodName": "",
+   "carriedGoodEnglish": "",
+   "inHouseSubId": null,
+   "walkSpeedThreshold": 100000,
+   "mode": 0,
+   "atomicName": null,
+   "atomicLength": null,
+   "atomicEvents": [],
+   "interruptable": null,
+   "bodySequence": "animal_rabbit_walk",
+   "headSequence": "",
+   "timing": "frame = frameTick % count (walk; caller frame tick)",
+   "inHouseSteps": [],
+   "directions": [
+    {
+     "direction": 0,
+     "bodyOffsets": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2463,
+      2464,
+      2465,
+      2466,
+      2467,
+      2468,
+      2469,
+      2470
+     ],
+     "headBobs": [
+      2463,
+      2464,
+      2465,
+      2466,
+      2467,
+      2468,
+      2469,
+      2470
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 1,
+     "bodyOffsets": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2471,
+      2472,
+      2473,
+      2474,
+      2475,
+      2476,
+      2477,
+      2478
+     ],
+     "headBobs": [
+      2471,
+      2472,
+      2473,
+      2474,
+      2475,
+      2476,
+      2477,
+      2478
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 2,
+     "bodyOffsets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2431,
+      2432,
+      2433,
+      2434,
+      2435,
+      2436,
+      2437,
+      2438
+     ],
+     "headBobs": [
+      2431,
+      2432,
+      2433,
+      2434,
+      2435,
+      2436,
+      2437,
+      2438
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 3,
+     "bodyOffsets": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2439,
+      2440,
+      2441,
+      2442,
+      2443,
+      2444,
+      2445,
+      2446
+     ],
+     "headBobs": [
+      2439,
+      2440,
+      2441,
+      2442,
+      2443,
+      2444,
+      2445,
+      2446
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 4,
+     "bodyOffsets": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2447,
+      2448,
+      2449,
+      2450,
+      2451,
+      2452,
+      2453,
+      2454
+     ],
+     "headBobs": [
+      2447,
+      2448,
+      2449,
+      2450,
+      2451,
+      2452,
+      2453,
+      2454
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 5,
+     "bodyOffsets": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2455,
+      2456,
+      2457,
+      2458,
+      2459,
+      2460,
+      2461,
+      2462
+     ],
+     "headBobs": [
+      2455,
+      2456,
+      2457,
+      2458,
+      2459,
+      2460,
+      2461,
+      2462
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 6,
+     "bodyOffsets": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2487,
+      2488,
+      2489,
+      2490,
+      2491,
+      2492,
+      2493,
+      2494
+     ],
+     "headBobs": [
+      2487,
+      2488,
+      2489,
+      2490,
+      2491,
+      2492,
+      2493,
+      2494
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    },
+    {
+     "direction": 7,
+     "bodyOffsets": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+     ],
+     "headOffsets": [],
+     "bodyBobs": [
+      2479,
+      2480,
+      2481,
+      2482,
+      2483,
+      2484,
+      2485,
+      2486
+     ],
+     "headBobs": [
+      2479,
+      2480,
+      2481,
+      2482,
+      2483,
+      2484,
+      2485,
+      2486
+     ],
+     "bodySequence": {
+      "name": "animal_rabbit_walk",
+      "firstBob": 2431,
+      "count": 64,
+      "imageLibrary": "CR_Ani_Body_00.bmd",
+      "shadowLibrary": "CR_Ani_Body_00_S.bmd",
+      "sectionOrdinal": 0
+     },
+     "headSequence": "same as body"
+    }
+   ],
+   "renders": [
+    {
+     "phase": "initial",
+     "bodySelector": 0,
+     "bodyLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00.bmd",
+     "shadowLibrary": "Data\\Engine2D\\Bin\\Bobs\\CR_Ani_Body_00_s.bmd",
+     "headLibrary": "",
+     "headSelectorRendered": null,
+     "bodyPalette": "house01",
+     "headPalette": null,
+     "paletteProvenance": "declared base palette (ordinal 0 of RNG list)",
+     "bodyFramesPresent": "64/64",
+     "status": "RENDERED",
+     "sheet": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_W000_animal_rabbit_walk_s1136.png",
+     "shadowMask": "Animals/tribe_17_rabbits/Sheets/cr_ani_body_00__house01/j49_W000_animal_rabbit_walk_s1136__shadow_mask.png",
+     "cellWidth": 40,
+     "cellHeight": 34,
+     "anchorInCell": [
+      24,
+      20
+     ],
+     "sheetRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "jobgraphics": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 1692,
+   "entryName": "data\\engine2d\\inis\\animals\\jobgraphics.cif",
+   "offset": 192902023,
+   "size": 9486,
+   "sha256": "b7411f9b38a9904ad92cc50df1d171919a0618ef3935a57ef9f26f16feec266a"
+  },
+  "animations": {
+   "archive": "E:\\cultures\\vanilla-data\\DataX\\Libs\\data0001.lib",
+   "entryId": 279,
+   "entryName": "data\\engine2d\\inis\\mapmoveableanimations\\animations.cif",
+   "offset": 194231595,
+   "size": 981323,
+   "sha256": "c81ba2adfa0e57255b8edd179bd8cb753810cf3485f10acb42890ba358afa94f"
+  }
+ },
+ "nativeReferences": {
+  "Game.exe": [
+   "0x0048BD66 GraphicsAnimationRegistry_LoadFromCif",
+   "0x0048CEA1 BobSeq global lookup",
+   "0x00494AE6 frame selection",
+   "0x004803D5 creation binding/palette",
+   "0x00480576 job-change rebinding",
+   "0x0048B258 random palette patches",
+   "0x0049B930 shadow destination darkening"
+  ],
+  "cpp": "MobileSpriteRegistry / MobileSpriteRuntimeOwner / ProductionWorldCompositor"
+ },
+ "folder": "Animals/tribe_17_rabbits/adult_job49",
+ "atomicsWithoutGraphicsRecord": [
+  {
+   "selector": 81,
+   "atomicName": "animal_rabbit_attack"
+  }
+ ],
+ "summary": {
+  "animations": 8,
+  "renderStatus": {
+   "RENDERED": 8
+  },
+  "bindings": 1
+ },
+ "confidence": {
+  "sourceMapping": "SOURCE_COMPLETE",
+  "framePixels": "PIXEL_CONFIRMED (per frame; see Catalogs/pixel_validation.csv)",
+  "palette": "SOURCE_BODY_PALETTE",
+  "shadow": "Coverage mask only; native destination darkening -> PRESENTATION_APPROXIMATION",
+  "timing": "Native frame order and selection rules recorded; tick-to-seconds rate UNKNOWN"
+ }
+}

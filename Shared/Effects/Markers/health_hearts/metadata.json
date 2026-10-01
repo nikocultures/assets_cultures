@@ -1,0 +1,1348 @@
+{
+ "library": "data\\engine2d\\bin\\bobs\\ls_gui_bubbles.bmd",
+ "rule": "BOB = 21 - healthPercent/10 (11 = full, 21 = empty); palette human_playerNN by owner colour",
+ "evidence": "production_world_compositor.hpp (Game 0x004905B9 load, 0x0048B49A owner colour, 0x00493656 selected-Human pass)",
+ "frames": {
+  "human_player01": [
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player01/bob_0011__human_player01.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player01/bob_0012__human_player01.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player01/bob_0013__human_player01.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player01/bob_0014__human_player01.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player01/bob_0015__human_player01.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player01/bob_0016__human_player01.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player01/bob_0017__human_player01.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player01/bob_0018__human_player01.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 18,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player01/bob_0019__human_player01.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 19,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player01/bob_0020__human_player01.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 20,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player01/bob_0021__human_player01.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 21,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player02": [
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player02/bob_0011__human_player02.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player02/bob_0012__human_player02.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player02/bob_0013__human_player02.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player02/bob_0014__human_player02.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player02/bob_0015__human_player02.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player02/bob_0016__human_player02.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player02/bob_0017__human_player02.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player02/bob_0018__human_player02.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 18,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player02/bob_0019__human_player02.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 19,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player02/bob_0020__human_player02.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 20,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player02/bob_0021__human_player02.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 21,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player03": [
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player03/bob_0011__human_player03.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player03/bob_0012__human_player03.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player03/bob_0013__human_player03.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player03/bob_0014__human_player03.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player03/bob_0015__human_player03.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player03/bob_0016__human_player03.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player03/bob_0017__human_player03.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player03/bob_0018__human_player03.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 18,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player03/bob_0019__human_player03.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 19,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player03/bob_0020__human_player03.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 20,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player03/bob_0021__human_player03.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 21,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player04": [
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player04/bob_0011__human_player04.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player04/bob_0012__human_player04.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player04/bob_0013__human_player04.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player04/bob_0014__human_player04.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player04/bob_0015__human_player04.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player04/bob_0016__human_player04.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player04/bob_0017__human_player04.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player04/bob_0018__human_player04.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 18,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player04/bob_0019__human_player04.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 19,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player04/bob_0020__human_player04.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 20,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player04/bob_0021__human_player04.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 21,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player05": [
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player05/bob_0011__human_player05.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player05/bob_0012__human_player05.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player05/bob_0013__human_player05.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player05/bob_0014__human_player05.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player05/bob_0015__human_player05.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player05/bob_0016__human_player05.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player05/bob_0017__human_player05.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player05/bob_0018__human_player05.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 18,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player05/bob_0019__human_player05.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 19,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player05/bob_0020__human_player05.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 20,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player05/bob_0021__human_player05.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 21,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player06": [
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player06/bob_0011__human_player06.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player06/bob_0012__human_player06.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player06/bob_0013__human_player06.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player06/bob_0014__human_player06.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player06/bob_0015__human_player06.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player06/bob_0016__human_player06.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player06/bob_0017__human_player06.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player06/bob_0018__human_player06.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 18,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player06/bob_0019__human_player06.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 19,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player06/bob_0020__human_player06.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 20,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player06/bob_0021__human_player06.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 21,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player07": [
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player07/bob_0011__human_player07.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player07/bob_0012__human_player07.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player07/bob_0013__human_player07.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player07/bob_0014__human_player07.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player07/bob_0015__human_player07.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player07/bob_0016__human_player07.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player07/bob_0017__human_player07.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player07/bob_0018__human_player07.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 18,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player07/bob_0019__human_player07.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 19,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player07/bob_0020__human_player07.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 20,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player07/bob_0021__human_player07.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 21,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player08": [
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player08/bob_0011__human_player08.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player08/bob_0012__human_player08.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player08/bob_0013__human_player08.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player08/bob_0014__human_player08.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player08/bob_0015__human_player08.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player08/bob_0016__human_player08.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player08/bob_0017__human_player08.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player08/bob_0018__human_player08.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 18,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player08/bob_0019__human_player08.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 19,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player08/bob_0020__human_player08.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 20,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player08/bob_0021__human_player08.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 21,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player09": [
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player09/bob_0011__human_player09.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player09/bob_0012__human_player09.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player09/bob_0013__human_player09.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player09/bob_0014__human_player09.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player09/bob_0015__human_player09.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player09/bob_0016__human_player09.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player09/bob_0017__human_player09.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player09/bob_0018__human_player09.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 18,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player09/bob_0019__human_player09.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 19,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player09/bob_0020__human_player09.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 20,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player09/bob_0021__human_player09.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 21,
+    "status": "RENDERED"
+   }
+  ],
+  "human_player10": [
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player10/bob_0011__human_player10.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 11,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player10/bob_0012__human_player10.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 12,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player10/bob_0013__human_player10.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 13,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player10/bob_0014__human_player10.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 14,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player10/bob_0015__human_player10.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 15,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player10/bob_0016__human_player10.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 16,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player10/bob_0017__human_player10.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 17,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player10/bob_0018__human_player10.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 18,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player10/bob_0019__human_player10.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 19,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player10/bob_0020__human_player10.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 20,
+    "status": "RENDERED"
+   },
+   {
+    "path": "Shared/Effects/Markers/health_hearts/player10/bob_0021__human_player10.png",
+    "kind": 1,
+    "width": 17,
+    "height": 15,
+    "pivot": [
+     8,
+     14
+    ],
+    "bobId": 21,
+    "status": "RENDERED"
+   }
+  ]
+ },
+ "confidence": "SOURCE_COMPLETE (code evidence); PIXEL_CONFIRMED frames"
+}

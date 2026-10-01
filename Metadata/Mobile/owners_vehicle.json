@@ -1,0 +1,182 @@
+[
+ {
+  "CATEGORY": "vehicle",
+  "TRIBE_ID": 1,
+  "TRIBE": "viking",
+  "TYPE_ID": 1,
+  "ANIMATION_JOB_ID": 50,
+  "NATIVE_NAME": "handcart",
+  "ENGLISH": "Handcart",
+  "SEX_AGE": null,
+  "NATIVE_ALLOWED": true,
+  "PARENT_CHAIN": [
+   50
+  ],
+  "INITIAL_BINDING_SECTION": 0,
+  "JOBCHANGE_BINDING_SECTION": "",
+  "BODY_LIBRARIES": [
+   "Data\\Engine2D\\Bin\\Bobs\\CR_Veh_Body_00.bmd"
+  ],
+  "HEAD_LIBRARIES": [],
+  "PALETTES": [
+   "goods01"
+  ],
+  "RANDOM_PALETTES": [],
+  "ANIMATIONS": 2,
+  "RENDER_STATUS": {
+   "RENDERED": 2
+  },
+  "MAPPING": "SOURCE_COMPLETE",
+  "METADATA": "Vikings/Vehicles/type_1_handcart/metadata.json"
+ },
+ {
+  "CATEGORY": "vehicle",
+  "TRIBE_ID": 1,
+  "TRIBE": "viking",
+  "TYPE_ID": 2,
+  "ANIMATION_JOB_ID": 51,
+  "NATIVE_NAME": "oxcart",
+  "ENGLISH": "Ox Cart",
+  "SEX_AGE": null,
+  "NATIVE_ALLOWED": true,
+  "PARENT_CHAIN": [
+   51
+  ],
+  "INITIAL_BINDING_SECTION": 1,
+  "JOBCHANGE_BINDING_SECTION": "",
+  "BODY_LIBRARIES": [
+   "Data\\Engine2D\\Bin\\Bobs\\CR_Veh_Body_00.bmd"
+  ],
+  "HEAD_LIBRARIES": [],
+  "PALETTES": [
+   "oxcart"
+  ],
+  "RANDOM_PALETTES": [],
+  "ANIMATIONS": 2,
+  "RENDER_STATUS": {
+   "RENDERED": 2
+  },
+  "MAPPING": "SOURCE_COMPLETE",
+  "METADATA": "Vikings/Vehicles/type_2_oxcart/metadata.json"
+ },
+ {
+  "CATEGORY": "vehicle",
+  "TRIBE_ID": 1,
+  "TRIBE": "viking",
+  "TYPE_ID": 3,
+  "ANIMATION_JOB_ID": 52,
+  "NATIVE_NAME": "ship small",
+  "ENGLISH": "Ship",
+  "SEX_AGE": null,
+  "NATIVE_ALLOWED": true,
+  "PARENT_CHAIN": [
+   52
+  ],
+  "INITIAL_BINDING_SECTION": 3,
+  "JOBCHANGE_BINDING_SECTION": "",
+  "BODY_LIBRARIES": [
+   "Data\\Engine2D\\Bin\\Bobs\\LS_vehicles.bmd"
+  ],
+  "HEAD_LIBRARIES": [],
+  "PALETTES": [
+   "human_Ship01"
+  ],
+  "RANDOM_PALETTES": [],
+  "ANIMATIONS": 4,
+  "RENDER_STATUS": {
+   "RENDERED": 4
+  },
+  "MAPPING": "SOURCE_COMPLETE",
+  "METADATA": "Vikings/Vehicles/type_3_ship_small/metadata.json"
+ },
+ {
+  "CATEGORY": "vehicle",
+  "TRIBE_ID": 1,
+  "TRIBE": "viking",
+  "TYPE_ID": 5,
+  "ANIMATION_JOB_ID": 54,
+  "NATIVE_NAME": "catapult",
+  "ENGLISH": "Catapult",
+  "SEX_AGE": null,
+  "NATIVE_ALLOWED": true,
+  "PARENT_CHAIN": [
+   54
+  ],
+  "INITIAL_BINDING_SECTION": 5,
+  "JOBCHANGE_BINDING_SECTION": "",
+  "BODY_LIBRARIES": [
+   "Data\\Engine2D\\Bin\\Bobs\\CR_Veh_Body_00.bmd"
+  ],
+  "HEAD_LIBRARIES": [],
+  "PALETTES": [
+   "goods_bow"
+  ],
+  "RANDOM_PALETTES": [],
+  "ANIMATIONS": 3,
+  "RENDER_STATUS": {
+   "RENDERED": 3
+  },
+  "MAPPING": "SOURCE_COMPLETE",
+  "METADATA": "Vikings/Vehicles/type_5_catapult/metadata.json"
+ },
+ {
+  "CATEGORY": "vehicle",
+  "TRIBE_ID": 1,
+  "TRIBE": "viking",
+  "TYPE_ID": 6,
+  "ANIMATION_JOB_ID": 55,
+  "NATIVE_NAME": "oxcart",
+  "ENGLISH": "Ox Cart Framework",
+  "SEX_AGE": null,
+  "NATIVE_ALLOWED": true,
+  "PARENT_CHAIN": [
+   55
+  ],
+  "INITIAL_BINDING_SECTION": 2,
+  "JOBCHANGE_BINDING_SECTION": "",
+  "BODY_LIBRARIES": [
+   "Data\\Engine2D\\Bin\\Bobs\\CR_Veh_Body_00.bmd"
+  ],
+  "HEAD_LIBRARIES": [],
+  "PALETTES": [
+   "goods01"
+  ],
+  "RANDOM_PALETTES": [],
+  "ANIMATIONS": 2,
+  "RENDER_STATUS": {
+   "RENDERED": 2
+  },
+  "MAPPING": "SOURCE_COMPLETE",
+  "METADATA": "Vikings/Vehicles/type_6_oxcart/metadata.json"
+ },
+ {
+  "CATEGORY": "vehicle",
+  "TRIBE_ID": 4,
+  "TRIBE": "saracen",
+  "TYPE_ID": 3,
+  "ANIMATION_JOB_ID": 52,
+  "NATIVE_NAME": "ship small",
+  "ENGLISH": "Ship",
+  "SEX_AGE": null,
+  "NATIVE_ALLOWED": true,
+  "PARENT_CHAIN": [
+   52
+  ],
+  "INITIAL_BINDING_SECTION": 4,
+  "JOBCHANGE_BINDING_SECTION": "",
+  "BODY_LIBRARIES": [
+   "Data\\Engine2D\\Bin\\Bobs\\LS_vehicles.bmd"
+  ],
+  "HEAD_LIBRARIES": [],
+  "PALETTES": [
+   "human_Ship01"
+  ],
+  "RANDOM_PALETTES": [],
+  "ANIMATIONS": 4,
+  "RENDER_STATUS": {
+   "RENDERED": 4
+  },
+  "MAPPING": "SOURCE_COMPLETE",
+  "METADATA": "Arabs/Vehicles/type_3_ship_small/metadata.json"
+ }
+]
